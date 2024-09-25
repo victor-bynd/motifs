@@ -475,7 +475,7 @@
       "description": "--form-input-focus-shadow"
     },
     "form-input-padding": {
-      "value": "{Root.m} {Root.l}",
+      "value": "{Root.m} {Root.m}",
       "type": "spacing",
       "description": "--form-input-padding"
     }
