@@ -488,8 +488,13 @@
     }
   },
   "Footnote": {
+    "footnote-title-color": {
+      "value": "{Palette.Black.V200}",
+      "type": "color",
+      "description": "--footnote-title-color"
+    },
     "footnote-fg-color": {
-      "value": "{Palette.Gray.V300}",
+      "value": "{Neutral.V500}",
       "type": "color",
       "description": "--footnote-fg-color"
     },
@@ -497,6 +502,11 @@
       "value": "{Palette.Plain.WHITE}",
       "type": "color",
       "description": "--footnote-bg-color"
+    },
+    "footnote-hover-icon-bg-color": {
+      "value": "{Palette.Gray.V150}",
+      "type": "color",
+      "description": "--footnote-hover-icon-bg-color"
     }
   },
   "Dropdown": {
