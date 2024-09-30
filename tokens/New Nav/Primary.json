@@ -141,7 +141,7 @@
       "type": "color"
     },
     "header-menu-border-color": {
-      "value": "{Neutral.V400}",
+      "value": "{Neutral.V300}",
       "type": "color"
     },
     "header-menu-bg-color": {
