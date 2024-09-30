@@ -394,11 +394,15 @@
       "type": "color"
     },
     "header-menu-border-color": {
-      "value": "{Neutral.V300}",
+      "value": "{Neutral.V500}",
+      "type": "color"
+    },
+    "header-menu-divider-color": {
+      "value": "{Neutral.V600}",
       "type": "color"
     },
     "header-menu-bg-color": {
-      "value": "{Neutral.V625}",
+      "value": "{Neutral.V650}",
       "type": "color"
     },
     "header-menu-featured-bg-color": {

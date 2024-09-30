@@ -141,11 +141,15 @@
       "type": "color"
     },
     "header-menu-border-color": {
+      "value": "{Neutral.V150}",
+      "type": "color"
+    },
+    "header-menu-divider-color": {
       "value": "{Neutral.V300}",
       "type": "color"
     },
     "header-menu-bg-color": {
-      "value": "{Neutral.V100}",
+      "value": "{Neutral.V0}",
       "type": "color"
     },
     "header-menu-featured-bg-color": {
@@ -159,6 +163,17 @@
     "header-nav-link-text": {
       "value": "{Root.action-d}",
       "type": "typography"
+    },
+    "header-drop-shadow": {
+      "value": {
+        "x": "0",
+        "y": "2px",
+        "blur": "16px",
+        "spread": "0",
+        "color": "rgba(0,0,0,.05)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   },
   "Block": {
