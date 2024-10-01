@@ -394,7 +394,7 @@
       "type": "color"
     },
     "header-menu-border-color": {
-      "value": "{Neutral.V500}",
+      "value": "{Neutral.V625}",
       "type": "color"
     },
     "header-menu-divider-color": {
