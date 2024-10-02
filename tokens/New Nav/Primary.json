@@ -153,11 +153,11 @@
       "type": "color"
     },
     "header-menu-featured-bg-color": {
-      "value": "{Neutral.V200}",
+      "value": "{Neutral.V150}",
       "type": "color"
     },
     "header-menu-featured-bg-hover-color": {
-      "value": "{Neutral.V250}",
+      "value": "{Neutral.V200}",
       "type": "color"
     },
     "header-nav-link-text": {
