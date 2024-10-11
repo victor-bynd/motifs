@@ -88,18 +88,6 @@
       "description": "--button-flat-fg-color"
     }
   },
-  "Header": {
-    "global-header-nav-screen-bg-color": {
-      "value": "{Neutral.V0}",
-      "type": "color",
-      "description": "--global-header-nav-screen-bg-color"
-    },
-    "global-header-fg-color": {
-      "value": "{Neutral.V650}",
-      "type": "color",
-      "description": "--global-header-fg-color"
-    }
-  },
   "Block": {
     "block-eyebrow-color": {
       "value": "{Neutral.V700}",

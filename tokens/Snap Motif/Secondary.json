@@ -375,15 +375,15 @@
     }
   },
   "Header": {
-    "global-header-nav-screen-bg-color": {
+    "global-header-bg-color": {
       "value": "{Palette.Black.V200}",
       "type": "color",
-      "description": "--global-header-nav-screen-bg-color"
+      "description": "--global-header-bg-color"
     },
     "global-header-fg-color": {
       "value": "{Palette.Plain.WHITE}",
       "type": "color",
-      "description": "--global-header-nav-screen-fg-color"
+      "description": "--foreground-color"
     },
     "header-menu-item-icon-color": {
       "value": "{Primary.V150}",

@@ -375,7 +375,7 @@
     }
   },
   "Header": {
-    "global-header-nav-screen-bg-color": {
+    "global-header-bg-color": {
       "value": "{Palette.Black.V200}",
       "type": "color",
       "description": "--global-header-nav-screen-bg-color"

@@ -122,7 +122,7 @@
     }
   },
   "Header": {
-    "global-header-nav-screen-bg-color": {
+    "global-header-bg-color": {
       "value": "{Palette.Plain.WHITE}",
       "type": "color",
       "description": "--global-header-nav-screen-bg-color"
