@@ -763,8 +763,7 @@
     "selectedTokenSets": {
       "Snap Motif/Primary": "enabled",
       "Snap Motif/Quaternary": "enabled",
-      "Snap Motif/Global": "source",
-      "Testing/Quartenary": "enabled"
+      "Snap Motif/Global": "source"
     },
     "$figmaStyleReferences": {
       "Root.bg-color": "S:6377fb52345ea4aef4ba0afcc6b6c1a692c7a4d1,",
