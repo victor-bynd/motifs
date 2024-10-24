@@ -413,5 +413,22 @@
       "value": "{Neutral.V625}",
       "type": "color"
     }
+  },
+  "Summary-Card": {
+    "gallery-tile-title-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--summary-card-title-color"
+    },
+    "gallery-tile-description-color": {
+      "value": "{Neutral.V150}",
+      "type": "color",
+      "description": "--summary-card-description-color"
+    },
+    "gallery-tile-bg-color": {
+      "value": "{Neutral.V625}",
+      "type": "color",
+      "description": "--summary-card-bg-color"
+    }
   }
 }
