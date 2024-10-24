@@ -380,14 +380,24 @@
   },
   "Carousel": {
     "carousel-icon-default-color": {
-      "value": "{Neutral.V300}",
+      "value": "{Root.fg-action-default-color}",
       "type": "color",
       "description": "--carousel-icon-default-color"
     },
     "carousel-icon-hover-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-action-hover-color}",
       "type": "color",
       "description": "--tile-carousel-icon-color-default-color"
+    },
+    "carousel-card-fg-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--carousel-card-fg-color"
+    },
+    "carousel-card-bg-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--carousel-card-bg-color"
     }
   },
   "Summary-Card": {

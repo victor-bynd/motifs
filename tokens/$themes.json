@@ -243,7 +243,9 @@
       "Definition.definition-hover-border-color": "cf2c8a1572bc107e151e478f61295ae69279d8fa",
       "Definition.definition-overlay-fg-color": "eab6d8eb9cf559aa5c9f4a81ddb35ae92f7946e0",
       "Definition.definition-overlay-bg-color": "86d953d9f6276567dea1b512379954063fbda6d8",
-      "Definition.definition-overlay-border-color": "6e0ad1aeabbba314c158f3a64c108e57f77b5e1e"
+      "Definition.definition-overlay-border-color": "6e0ad1aeabbba314c158f3a64c108e57f77b5e1e",
+      "Carousel.carousel-card-fg-color": "5e2a78f520e4b33716ed2d941968867e4da9093f",
+      "Carousel.carousel-card-bg-color": "ca2fcb6dd2958ca3296c21b9bcf6dc1927255b4a"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:1",
@@ -502,7 +504,9 @@
       "Definition.definition-overlay-bg-color": "86d953d9f6276567dea1b512379954063fbda6d8",
       "Definition.definition-overlay-border-color": "6e0ad1aeabbba314c158f3a64c108e57f77b5e1e",
       "Tab.tabs-underline-hover-color": "441c252d9061f07600989827e00a481b22609812",
-      "Locale-Dropdown.locale-dropdown-bg-color": "c564f216cd19a1e3db765a3f859a1e716d81d4b0"
+      "Locale-Dropdown.locale-dropdown-bg-color": "c564f216cd19a1e3db765a3f859a1e716d81d4b0",
+      "Carousel.carousel-card-fg-color": "5e2a78f520e4b33716ed2d941968867e4da9093f",
+      "Carousel.carousel-card-bg-color": "ca2fcb6dd2958ca3296c21b9bcf6dc1927255b4a"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:2",
@@ -754,7 +758,9 @@
       "Definition.definition-overlay-bg-color": "86d953d9f6276567dea1b512379954063fbda6d8",
       "Definition.definition-overlay-border-color": "6e0ad1aeabbba314c158f3a64c108e57f77b5e1e",
       "Locale-Dropdown.locale-dropdown-bg-color": "c564f216cd19a1e3db765a3f859a1e716d81d4b0",
-      "Mosaic.mosaic-duration-fg-color": "045ff4c115efea744b486923d75a04a13c0188a7"
+      "Mosaic.mosaic-duration-fg-color": "045ff4c115efea744b486923d75a04a13c0188a7",
+      "Carousel.carousel-card-fg-color": "5e2a78f520e4b33716ed2d941968867e4da9093f",
+      "Carousel.carousel-card-bg-color": "ca2fcb6dd2958ca3296c21b9bcf6dc1927255b4a"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3",
@@ -1013,7 +1019,9 @@
       "Definition.definition-overlay-bg-color": "86d953d9f6276567dea1b512379954063fbda6d8",
       "Definition.definition-overlay-border-color": "6e0ad1aeabbba314c158f3a64c108e57f77b5e1e",
       "Locale-Dropdown.locale-dropdown-bg-color": "c564f216cd19a1e3db765a3f859a1e716d81d4b0",
-      "Mosaic.mosaic-duration-fg-color": "045ff4c115efea744b486923d75a04a13c0188a7"
+      "Mosaic.mosaic-duration-fg-color": "045ff4c115efea744b486923d75a04a13c0188a7",
+      "Carousel.carousel-card-fg-color": "5e2a78f520e4b33716ed2d941968867e4da9093f",
+      "Carousel.carousel-card-bg-color": "ca2fcb6dd2958ca3296c21b9bcf6dc1927255b4a"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4",
