@@ -385,31 +385,46 @@
       "type": "color",
       "description": "--foreground-color"
     },
-    "header-menu-item-icon-color": {
-      "value": "{Primary.V150}",
-      "type": "color"
-    },
-    "header-menu-item-bg-hover-color": {
-      "value": "{Neutral.V625}",
-      "type": "color"
-    },
-    "header-menu-border-color": {
-      "value": "{Neutral.V625}",
-      "type": "color"
-    },
-    "header-menu-divider-color": {
-      "value": "{Neutral.V600}",
-      "type": "color"
-    },
-    "header-menu-bg-color": {
+    "global-header-navigator-bg-color": {
       "value": "{Neutral.V650}",
       "type": "color"
     },
-    "header-menu-featured-bg-color": {
+    "global-header-navigator-border-color": {
+      "value": "{Neutral.V625}",
+      "type": "color"
+    },
+    "global-header-navigator-item-fg-color": {
+      "value": "{Root.fg-action-default-color}",
+      "type": "color",
+      "description": "--global-header-navigator-item-fg-color"
+    },
+    "global-header-navigator-item-icon-color": {
+      "value": "{Primary.V150}",
+      "type": "color"
+    },
+    "global-header-navigator-item-bg-hover-color": {
+      "value": "{Neutral.V625}",
+      "type": "color"
+    },
+    "global-header-navigator-col-label-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--global-header-navigator-col-label-color"
+    },
+    "global-header-navigator-col-divider-color": {
       "value": "{Neutral.V600}",
       "type": "color"
     },
-    "header-menu-featured-bg-hover-color": {
+    "global-header-navigator-featured-item-fg-color": {
+      "value": "{Root.fg-action-default-color}",
+      "type": "color",
+      "description": "--global-header-navigator-featured-item-fg-color"
+    },
+    "global-header-navigator-featured-item-bg-color": {
+      "value": "{Neutral.V600}",
+      "type": "color"
+    },
+    "global-header-navigator-featured-item-bg-hover-color": {
       "value": "{Neutral.V625}",
       "type": "color"
     }

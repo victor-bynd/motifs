@@ -385,31 +385,31 @@
       "type": "color",
       "description": "--global-header-nav-screen-fg-color"
     },
-    "header-menu-item-icon-color": {
+    "global-header-navigator-item-icon-color": {
       "value": "{Primary.V150}",
       "type": "color"
     },
-    "header-menu-item-bg-hover-color": {
+    "global-header-navigator-item-bg-hover-color": {
       "value": "{Neutral.V625}",
       "type": "color"
     },
-    "header-menu-border-color": {
+    "global-header-navigator-border-color": {
       "value": "{Neutral.V625}",
       "type": "color"
     },
-    "header-menu-divider-color": {
+    "global-header-navigator-col-divider-color": {
       "value": "{Neutral.V600}",
       "type": "color"
     },
-    "header-menu-bg-color": {
+    "global-header-navigator-bg-color": {
       "value": "{Neutral.V650}",
       "type": "color"
     },
-    "header-menu-featured-bg-color": {
+    "global-header-navigator-featured-item-bg-color": {
       "value": "{Neutral.V600}",
       "type": "color"
     },
-    "header-menu-featured-bg-hover-color": {
+    "global-header-navigator-featured-item-bg-hover-color": {
       "value": "{Neutral.V625}",
       "type": "color"
     }

@@ -132,37 +132,37 @@
       "type": "color",
       "description": "--global-header-nav-screen-fg-color"
     },
-    "header-menu-item-icon-color": {
+    "global-header-navigator-item-icon-color": {
       "value": "{Neutral.V500}",
       "type": "color",
       "description": "TBD --header-menu-item-icon-color"
     },
-    "header-menu-item-bg-hover-color": {
+    "global-header-navigator-item-bg-hover-color": {
       "value": "{Neutral.V200}",
       "type": "color",
       "description": "TBD --header-menu-item-bg-hover-color"
     },
-    "header-menu-border-color": {
+    "global-header-navigator-border-color": {
       "value": "{Neutral.V150}",
       "type": "color",
       "description": "TBD --header-menu-border-color"
     },
-    "header-menu-divider-color": {
+    "global-header-navigator-col-divider-color": {
       "value": "{Neutral.V300}",
       "type": "color",
       "description": "TBD --header-menu-divider-color"
     },
-    "header-menu-bg-color": {
+    "global-header-navigator-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "TBD --header-menu-bg-color"
     },
-    "header-menu-featured-bg-color": {
+    "global-header-navigator-featured-item-bg-color": {
       "value": "{Neutral.V150}",
       "type": "color",
       "description": "TBD --header-menu-featured-bg-color"
     },
-    "header-menu-featured-bg-hover-color": {
+    "global-header-navigator-featured-item-bg-hover-color": {
       "value": "{Neutral.V200}",
       "type": "color",
       "description": "TBD --header-menu-featured-bg-hover-color"
