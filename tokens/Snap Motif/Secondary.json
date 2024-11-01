@@ -376,7 +376,7 @@
   },
   "Header": {
     "global-header-bg-color": {
-      "value": "{Palette.Black.V200}",
+      "value": "{Palette.Plain.BLACK}",
       "type": "color",
       "description": "--global-header-bg-color"
     },
