@@ -427,6 +427,11 @@
     "global-header-navigator-featured-item-bg-hover-color": {
       "value": "{Neutral.V625}",
       "type": "color"
+    },
+    "global-header-nav-screen-global-links-bg-color": {
+      "value": "{Neutral.V650}",
+      "type": "color",
+      "description": "--global-header-nav-screen-global-links-bg-color"
     }
   },
   "Summary-Card": {

@@ -185,6 +185,11 @@
       "value": "{Neutral.V200}",
       "type": "color",
       "description": "--global-header-navigator-featured-item-bg-hover-color"
+    },
+    "global-header-nav-screen-global-links-bg-color": {
+      "value": "{Neutral.V100}",
+      "type": "color",
+      "description": "--global-header-nav-screen-global-links-bg-color"
     }
   },
   "Block": {
