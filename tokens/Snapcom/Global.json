@@ -327,8 +327,9 @@
       "description": "--p4-mobile-font-size, --p4-mobile-font-line-height, --p4-mobile-font-weight, --p4-mobile-font-stretch"
     },
     "font-family-primary": {
-      "value": "Graphik",
-      "type": "fontFamilies"
+      "value": "Ghost Sans",
+      "type": "fontFamilies",
+      "description": "Use this for snapcom redesign and near-future brand updates"
     },
     "border-width-none": {
       "value": "0px",
@@ -786,5 +787,15 @@
       "type": "color",
       "description": "Primary.V200"
     }
+  },
+  "font-family-secondary-main": {
+    "value": "Program Nar OT",
+    "type": "fontFamilies",
+    "description": "Use this for BIG TITLES only"
+  },
+  "font-family-secondary-sub": {
+    "value": "Program OT",
+    "type": "fontFamilies",
+    "description": "Use this for subtitles only"
   }
 }
