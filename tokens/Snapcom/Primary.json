@@ -410,6 +410,21 @@
       "value": "{Root.border-radius-l}",
       "type": "borderRadius",
       "description": "--summary-card-border-radius"
+    },
+    "gallery-tile-bg-hover-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--summary-card-bg-hover-color"
+    },
+    "gallery-tile-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--summary-card-border-color"
+    },
+    "gallery-tile-hover-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--summary-card-hover-border-color"
     }
   },
   "Input": {
@@ -857,6 +872,18 @@
       "value": "{Neutral.V300}",
       "type": "color",
       "description": "--side-overlay-border-color\n"
+    }
+  },
+  "summary-card": {
+    "summary-card-shadow": {
+      "value": "{Root.box-shadow-s}",
+      "type": "boxShadow",
+      "description": "--summary-card-shadow"
+    },
+    "summary-card-hover-shadow": {
+      "value": "{Root.box-shadow-m}",
+      "type": "boxShadow",
+      "description": "--summary-card-hover-shadow"
     }
   }
 }

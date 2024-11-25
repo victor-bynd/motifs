@@ -264,5 +264,12 @@
       "type": "color",
       "description": "--banner-fg-color"
     }
+  },
+  "Summary-Card": {
+    "gallery-tile-hover-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--summary-card-hover-border-color"
+    }
   }
 }
