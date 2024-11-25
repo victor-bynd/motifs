@@ -430,5 +430,29 @@
       "type": "color",
       "description": "--summary-card-hover-border-color"
     }
+  },
+  "Carousel": {
+    "carousel-card-bg-hover-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--carousel-card-bg-hover-color"
+    },
+    "carousel-card-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--carousel-card-border-color"
+    },
+    "carousel-card-hover-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--carousel-card-hover-border-color"
+    }
+  },
+  "carousel-card": {
+    "carousel-card-hover-shadow": {
+      "value": "{Root.box-shadow-m}",
+      "type": "boxShadow",
+      "description": "--carousel-card-hover-shadow"
+    }
   }
 }
