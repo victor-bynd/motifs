@@ -128,8 +128,8 @@
     },
     "h1-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
-        "fontSize": "56px",
+        "fontFamily": "{font-family-secondary-main}",
+        "fontSize": "88px",
         "lineHeight": "120%",
         "fontWeight": "{Root.600}"
       },
@@ -138,8 +138,8 @@
     },
     "h1-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
-        "fontSize": "46px",
+        "fontFamily": "{font-family-secondary-main}",
+        "fontSize": "64px",
         "lineHeight": "120%",
         "fontWeight": "{Root.600}"
       },

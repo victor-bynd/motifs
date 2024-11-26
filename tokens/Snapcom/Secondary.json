@@ -446,6 +446,16 @@
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--carousel-card-hover-border-color"
+    },
+    "carousel-active-dot-color": {
+      "value": "{Palette.Plain.BLACK}",
+      "type": "color",
+      "description": "--carousel-active-dot-color"
+    },
+    "carousel-inactive-dot-color": {
+      "value": "rgba({Neutral.V400}, .5)",
+      "type": "color",
+      "description": "--carousel-inactive-dot-color"
     }
   },
   "carousel-card": {
