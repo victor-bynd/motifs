@@ -131,7 +131,8 @@
         "fontFamily": "{font-family-secondary-main}",
         "fontSize": "88px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.500}"
+        "fontWeight": "{Root.500}",
+        "textCase": "uppercase"
       },
       "type": "typography",
       "description": "--h1-desktop-font-size, --h1-desktop-font-line-height, --h1-desktop-font-weight, --h1-desktop-font-stretch"
@@ -141,7 +142,8 @@
         "fontFamily": "{font-family-secondary-main}",
         "fontSize": "64px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.500}"
+        "fontWeight": "{Root.500}",
+        "textCase": "uppercase"
       },
       "type": "typography",
       "description": "--h1-mobile-font-size, --h1-mobile-font-line-height, --h1-mobile-font-weight, --h1-mobile-font-stretch"
