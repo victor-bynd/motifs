@@ -435,7 +435,7 @@
       "description": "--carousel-card-hover-border-color"
     },
     "carousel-active-dot-color": {
-      "value": "{Palette.Plain.BLACK}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--carousel-active-dot-color"
     },
