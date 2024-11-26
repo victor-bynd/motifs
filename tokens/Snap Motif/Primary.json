@@ -942,5 +942,17 @@
       "type": "boxShadow",
       "description": "--carousel-card-hover-shadow"
     }
+  },
+  "carousel": {
+    "carousel-card-desktop-grid-gap": {
+      "value": "{Root.xxxl}",
+      "type": "spacing",
+      "description": "--carousel-card-desktop-grid-gap"
+    },
+    "carousel-card-mobile-grid-gap": {
+      "value": "{Root.m}",
+      "type": "spacing",
+      "description": "--carousel-card-mobile-grid-gap"
+    }
   }
 }
