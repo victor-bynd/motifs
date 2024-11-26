@@ -131,7 +131,7 @@
         "fontFamily": "{font-family-secondary-main}",
         "fontSize": "88px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}"
       },
       "type": "typography",
       "description": "--h1-desktop-font-size, --h1-desktop-font-line-height, --h1-desktop-font-weight, --h1-desktop-font-stretch"
@@ -141,54 +141,54 @@
         "fontFamily": "{font-family-secondary-main}",
         "fontSize": "64px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}"
       },
       "type": "typography",
       "description": "--h1-mobile-font-size, --h1-mobile-font-line-height, --h1-mobile-font-weight, --h1-mobile-font-stretch"
     },
     "h2-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{font-family-secondary-sub}",
         "fontSize": "48px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}"
       },
       "type": "typography",
       "description": "--h2-desktop-font-size, --h2-desktop-font-line-height, --h2-desktop-font-weight, --h2-desktop-font-stretch"
     },
     "h2-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{font-family-secondary-sub}",
         "fontSize": "32px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}"
       },
       "type": "typography",
       "description": "--h2-mobile-font-size, --h2-mobile-font-line-height, --h2-mobile-font-weight, --h2-mobile-font-stretch"
     },
     "h3-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{font-family-secondary-sub}",
         "fontSize": "40px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}"
       },
       "type": "typography",
       "description": "--h3-desktop-font-size, --h3-desktop-font-line-height, --h3-desktop-font-weight, --h3-desktop-font-stretch"
     },
     "h3-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{font-family-secondary-sub}",
         "fontSize": "28px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}"
       },
       "type": "typography",
       "description": "--h3-mobile-font-size, --h3-mobile-font-line-height, --h3-mobile-font-weight, --h3-mobile-font-stretch"
     },
     "h4-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{font-family-secondary-sub}",
         "fontSize": "28px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -198,7 +198,7 @@
     },
     "h4-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{font-family-secondary-sub}",
         "fontSize": "24px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -208,7 +208,7 @@
     },
     "h5-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{font-family-secondary-sub}",
         "fontSize": "24px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -218,7 +218,7 @@
     },
     "h5-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{font-family-secondary-sub}",
         "fontSize": "20px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -228,7 +228,7 @@
     },
     "h6-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{font-family-secondary-sub}",
         "fontSize": "18px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -238,7 +238,7 @@
     },
     "h6-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{font-family-secondary-sub}",
         "fontSize": "18px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -354,7 +354,7 @@
     "annotation-d": {
       "value": {
         "fontFamily": "{Root.font-family-primary}",
-        "fontWeight": "{Root.500}",
+        "fontWeight": "{Root.600}",
         "lineHeight": "20px",
         "fontSize": "14px",
         "letterSpacing": "-0.14px"
@@ -365,7 +365,7 @@
     "annotation-m": {
       "value": {
         "fontFamily": "{Root.font-family-primary}",
-        "fontWeight": "{Root.500}",
+        "fontWeight": "{Root.600}",
         "lineHeight": "20px",
         "fontSize": "14px",
         "letterSpacing": "-0.14px"
