@@ -358,8 +358,7 @@
         "fontFamily": "{Root.font-family-primary}",
         "fontWeight": "{Root.600}",
         "lineHeight": "20px",
-        "fontSize": "14px",
-        "letterSpacing": "-0.14px"
+        "fontSize": "16px"
       },
       "type": "typography",
       "description": "--annotation-desktop-font-size, --annotation-desktop-font-weight, --annotation-desktop-font-line-height, --annotation-desktop-font-letter-spacing"
