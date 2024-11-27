@@ -4,7 +4,9 @@
     "name": "primary",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
-      "Snap Motif/Primary": "enabled"
+      "Snap Motif/Primary": "enabled",
+      "Snapcom/Global": "source",
+      "Snapcom/Primary": "enabled"
     },
     "$figmaStyleReferences": {
       "Button.button-hover-shadow": "S:5e775cead688fd2df52dd5289ceaf0790c6b4bf2,",
@@ -271,7 +273,9 @@
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Primary": "enabled",
-      "Snap Motif/Secondary": "enabled"
+      "Snap Motif/Secondary": "enabled",
+      "Snapcom/Primary": "enabled",
+      "Snapcom/Secondary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.bg-color": "S:195a7473c713460ca2512eb449164b37406005d4,",
@@ -1092,7 +1096,8 @@
     "id": "47928be6b894dfff9ad0f8717fe43403b373d4f1",
     "name": "global",
     "selectedTokenSets": {
-      "Snap Motif/Global": "enabled"
+      "Snap Motif/Global": "enabled",
+      "Snapcom/Global": "enabled"
     },
     "$figmaStyleReferences": {
       "Palette.Plain.BLACK": "S:bd0371d460d44ac916b71088fe98b71a2952f4b6,",
