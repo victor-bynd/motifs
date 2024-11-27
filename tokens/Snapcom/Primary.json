@@ -432,7 +432,7 @@
       "description": "--summary-card-bg-color"
     },
     "summary-card-border-radius": {
-      "value": "{Root.border-radius-l}",
+      "value": "{Root.border-radius-xl}",
       "type": "borderRadius",
       "description": "--summary-card-border-radius"
     },
@@ -920,7 +920,7 @@
   },
   "carousel": {
     "carousel-card-desktop-grid-gap": {
-      "value": "{Root.xxxl}",
+      "value": "{Root.xl}",
       "type": "spacing",
       "description": "--carousel-card-desktop-grid-gap"
     },

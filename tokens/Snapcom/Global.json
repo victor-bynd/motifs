@@ -130,7 +130,7 @@
       "value": {
         "fontFamily": "{font-family-secondary-main}",
         "fontSize": "88px",
-        "lineHeight": "120%",
+        "lineHeight": "88px",
         "fontWeight": "{Root.500}",
         "textCase": "uppercase"
       },
@@ -769,22 +769,22 @@
   },
   "Primary": {
     "V50": {
-      "value": "{Palette.Purple.V50}",
+      "value": "{Palette.Yellow.V50}",
       "type": "color",
       "description": "Primary.V50"
     },
     "V100": {
-      "value": "{Palette.Purple.V100}",
+      "value": "{Palette.Yellow.V100}",
       "type": "color",
       "description": "Primary.V100"
     },
     "V150": {
-      "value": "{Palette.Purple.V150}",
+      "value": "{Palette.Yellow.V150}",
       "type": "color",
       "description": "Primary.V150"
     },
     "V200": {
-      "value": "{Palette.Purple.V200}",
+      "value": "{Palette.Yellow.V200}",
       "type": "color",
       "description": "Primary.V200"
     }
