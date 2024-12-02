@@ -128,67 +128,69 @@
     },
     "h1-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
-        "fontSize": "56px",
-        "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontFamily": "{Root.font-family-secondary-main}",
+        "fontSize": "88px",
+        "lineHeight": "88px",
+        "fontWeight": "{Root.500}",
+        "textCase": "uppercase"
       },
       "type": "typography",
       "description": "--h1-desktop-font-size, --h1-desktop-font-line-height, --h1-desktop-font-weight, --h1-desktop-font-stretch"
     },
     "h1-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
-        "fontSize": "46px",
+        "fontFamily": "{Root.font-family-secondary-main}",
+        "fontSize": "64px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}",
+        "textCase": "uppercase"
       },
       "type": "typography",
       "description": "--h1-mobile-font-size, --h1-mobile-font-line-height, --h1-mobile-font-weight, --h1-mobile-font-stretch"
     },
     "h2-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "48px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}"
       },
       "type": "typography",
       "description": "--h2-desktop-font-size, --h2-desktop-font-line-height, --h2-desktop-font-weight, --h2-desktop-font-stretch"
     },
     "h2-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "32px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}"
       },
       "type": "typography",
       "description": "--h2-mobile-font-size, --h2-mobile-font-line-height, --h2-mobile-font-weight, --h2-mobile-font-stretch"
     },
     "h3-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "40px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}"
       },
       "type": "typography",
       "description": "--h3-desktop-font-size, --h3-desktop-font-line-height, --h3-desktop-font-weight, --h3-desktop-font-stretch"
     },
     "h3-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "28px",
         "lineHeight": "120%",
-        "fontWeight": "{Root.600}"
+        "fontWeight": "{Root.500}"
       },
       "type": "typography",
       "description": "--h3-mobile-font-size, --h3-mobile-font-line-height, --h3-mobile-font-weight, --h3-mobile-font-stretch"
     },
     "h4-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "28px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -198,7 +200,7 @@
     },
     "h4-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "24px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -208,7 +210,7 @@
     },
     "h5-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "24px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -218,7 +220,7 @@
     },
     "h5-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "20px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -228,7 +230,7 @@
     },
     "h6-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "18px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -238,7 +240,7 @@
     },
     "h6-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "18px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -327,8 +329,9 @@
       "description": "--p4-mobile-font-size, --p4-mobile-font-line-height, --p4-mobile-font-weight, --p4-mobile-font-stretch"
     },
     "font-family-primary": {
-      "value": "Graphik",
-      "type": "fontFamilies"
+      "value": "Ghost Sans",
+      "type": "fontFamilies",
+      "description": "Use this for snapcom redesign and near-future brand updates"
     },
     "border-width-none": {
       "value": "0px",
@@ -353,10 +356,9 @@
     "annotation-d": {
       "value": {
         "fontFamily": "{Root.font-family-primary}",
-        "fontWeight": "{Root.500}",
+        "fontWeight": "{Root.600}",
         "lineHeight": "20px",
-        "fontSize": "14px",
-        "letterSpacing": "-0.14px"
+        "fontSize": "16px"
       },
       "type": "typography",
       "description": "--annotation-desktop-font-size, --annotation-desktop-font-weight, --annotation-desktop-font-line-height, --annotation-desktop-font-letter-spacing"
@@ -364,7 +366,7 @@
     "annotation-m": {
       "value": {
         "fontFamily": "{Root.font-family-primary}",
-        "fontWeight": "{Root.500}",
+        "fontWeight": "{Root.600}",
         "lineHeight": "20px",
         "fontSize": "14px",
         "letterSpacing": "-0.14px"
@@ -456,6 +458,16 @@
       "value": "64px",
       "type": "spacing",
       "description": "--spacing-xxxxl"
+    },
+    "font-family-secondary-main": {
+      "value": "Program Nar OT",
+      "type": "fontFamilies",
+      "description": "--font-family-secondary-main"
+    },
+    "font-family-secondary-sub": {
+      "value": "Program OT",
+      "type": "fontFamilies",
+      "description": "--font-family-secondary-sub"
     }
   },
   "Palette": {
@@ -667,28 +679,6 @@
       }
     }
   },
-  "Primary": {
-    "V50": {
-      "value": "{Palette.Yellow.V50}",
-      "type": "color",
-      "description": "Primary.V50"
-    },
-    "V100": {
-      "value": "{Palette.Yellow.V100}",
-      "type": "color",
-      "description": "Primary.V100"
-    },
-    "V150": {
-      "value": "{Palette.Yellow.V150}",
-      "type": "color",
-      "description": "Primary.V150"
-    },
-    "V200": {
-      "value": "{Palette.Yellow.V200}",
-      "type": "color",
-      "description": "Primary.V200"
-    }
-  },
   "Neutral": {
     "V0": {
       "value": "#fff",
@@ -786,5 +776,27 @@
     "value": "{Root.500}",
     "type": "fontWeights",
     "description": "--hyperlink-desktop-font-weight"
+  },
+  "Primary": {
+    "V50": {
+      "value": "{Palette.Yellow.V50}",
+      "type": "color",
+      "description": "Primary.V50"
+    },
+    "V100": {
+      "value": "{Palette.Yellow.V100}",
+      "type": "color",
+      "description": "Primary.V100"
+    },
+    "V150": {
+      "value": "{Palette.Yellow.V150}",
+      "type": "color",
+      "description": "Primary.V150"
+    },
+    "V200": {
+      "value": "{Palette.Yellow.V200}",
+      "type": "color",
+      "description": "Primary.V200"
+    }
   }
 }

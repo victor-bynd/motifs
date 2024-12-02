@@ -2,11 +2,10 @@
   {
     "id": "eb422728c91715b09e9ef48f10707ce2462534c5",
     "name": "primary",
+    "group": "Color Themes",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
-      "Snap Motif/Primary": "enabled",
-      "Snapcom/Global": "source",
-      "Snapcom/Primary": "enabled"
+      "Snap Motif/Primary": "enabled"
     },
     "$figmaStyleReferences": {
       "Button.button-hover-shadow": "S:5e775cead688fd2df52dd5289ceaf0790c6b4bf2,",
@@ -264,18 +263,14 @@
       "carousel.carousel-card-mobile-grid-gap": "ad4b91b889c4cf49a6399eccfafe07930f3dee24"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
-    "$figmaModeId": "8391:1",
-    "group": "Color Themes"
+    "$figmaModeId": "8391:1"
   },
   {
     "id": "83a1cd4576f59368e17490a5ade9766fc17b6883",
     "name": "secondary",
+    "group": "Color Themes",
     "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Primary": "enabled",
-      "Snap Motif/Secondary": "enabled",
-      "Snapcom/Primary": "enabled",
-      "Snapcom/Secondary": "enabled"
+      "Snap Motif/Primary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.bg-color": "S:195a7473c713460ca2512eb449164b37406005d4,",
@@ -545,17 +540,13 @@
       "carousel.carousel-card-mobile-grid-gap": "ad4b91b889c4cf49a6399eccfafe07930f3dee24"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
-    "$figmaModeId": "8391:2",
-    "group": "Color Themes"
+    "$figmaModeId": "8391:2"
   },
   {
     "id": "b808cd6fc32143d9f4bfcff8ef8c5740efbc1eeb",
     "name": "tertiary",
-    "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Primary": "enabled",
-      "Snap Motif/Tertiary": "enabled"
-    },
+    "group": "Color Themes",
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {
       "Root.bg-color": "S:8d83dcdb9de754858a4f1435004bcbeaee525217,",
       "Root.fg-color": "S:c3764c9a15d04bece6b7b528da6f8611b9da69e0,",
@@ -813,17 +804,13 @@
       "Carousel.carousel-card-bg-color": "ca2fcb6dd2958ca3296c21b9bcf6dc1927255b4a"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
-    "$figmaModeId": "8391:3",
-    "group": "Color Themes"
+    "$figmaModeId": "8391:3"
   },
   {
     "id": "8e22e17849872db5c5f8561bbdb3afa723f035c6",
     "name": "quaternary",
-    "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Primary": "enabled",
-      "Snap Motif/Quaternary": "enabled"
-    },
+    "group": "Color Themes",
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {
       "Root.bg-color": "S:6377fb52345ea4aef4ba0afcc6b6c1a692c7a4d1,",
       "Root.fg-color": "S:d79011d0563f68bd8a0ef18b1f9d418abe96ba2b,",
@@ -1092,15 +1079,14 @@
       "Carousel.carousel-card-bg-color": "ca2fcb6dd2958ca3296c21b9bcf6dc1927255b4a"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
-    "$figmaModeId": "8391:4",
-    "group": "Color Themes"
+    "$figmaModeId": "8391:4"
   },
   {
     "id": "47928be6b894dfff9ad0f8717fe43403b373d4f1",
     "name": "global",
+    "group": "Global",
     "selectedTokenSets": {
-      "Snap Motif/Global": "enabled",
-      "Snapcom/Global": "enabled"
+      "Snap Motif/Global": "enabled"
     },
     "$figmaStyleReferences": {
       "Palette.Plain.BLACK": "S:bd0371d460d44ac916b71088fe98b71a2952f4b6,",
@@ -1313,11 +1299,10 @@
       "Semantic.transparent-neutral150": "38d91f5ab661dbeb82c9c2c4e17340a51c698ba2",
       "hyperlink-mobile-font-weight": "1442dc95fd959a61372d4ade3a73578b570a82b1",
       "hyperlink-desktop-font-weight": "95eef332f9afa54a9d6035c2745d17d0d34a6f0e",
-      "font-family-secondary-main": "d835a0b492b85b44591d65a3e22e1707a651df74",
-      "font-family-secondary-sub": "07f9f439e66fb9f76a2d1ea9874be704ff1ac4e6"
+      "Root.font-family-secondary-main": "d835a0b492b85b44591d65a3e22e1707a651df74",
+      "Root.font-family-secondary-sub": "07f9f439e66fb9f76a2d1ea9874be704ff1ac4e6"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:8942",
-    "$figmaModeId": "8391:0",
-    "group": "Global"
+    "$figmaModeId": "8391:0"
   }
 ]
