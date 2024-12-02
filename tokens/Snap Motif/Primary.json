@@ -727,6 +727,11 @@
       "value": "{Neutral.V700}",
       "type": "color",
       "description": "--side-navigation-active-link-color"
+    },
+    "side-navigation-desktop-bar-bg-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--side-navigation-desktop-bar-bg-color"
     }
   },
   "Spinner": {
