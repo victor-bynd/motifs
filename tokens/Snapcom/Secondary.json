@@ -415,17 +415,17 @@
     }
   },
   "Summary-Card": {
-    "gallery-tile-bg-hover-color": {
+    "summary-card-bg-hover-color": {
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--summary-card-bg-hover-color"
     },
-    "gallery-tile-border-color": {
+    "summary-card-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--summary-card-border-color"
     },
-    "gallery-tile-hover-border-color": {
+    "summary-card-hover-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--summary-card-hover-border-color"

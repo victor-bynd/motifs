@@ -402,17 +402,17 @@
     }
   },
   "Summary-Card": {
-    "gallery-tile-title-color": {
+    "summary-card-title-color": {
       "value": "{Neutral.V700}",
       "type": "color",
       "description": "--summary-card-title-color"
     },
-    "gallery-tile-description-color": {
+    "summary-card-description-color": {
       "value": "{Neutral.V600}",
       "type": "color",
       "description": "--summary-card-description-color"
     },
-    "gallery-tile-bg-color": {
+    "summary-card-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--summary-card-bg-color"

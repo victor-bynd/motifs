@@ -435,32 +435,32 @@
     }
   },
   "Summary-Card": {
-    "gallery-tile-title-color": {
+    "summary-card-title-color": {
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--summary-card-title-color"
     },
-    "gallery-tile-description-color": {
+    "summary-card-description-color": {
       "value": "{Neutral.V150}",
       "type": "color",
       "description": "--summary-card-description-color"
     },
-    "gallery-tile-bg-color": {
+    "summary-card-bg-color": {
       "value": "{Neutral.V625}",
       "type": "color",
       "description": "--summary-card-bg-color"
     },
-    "gallery-tile-bg-hover-color": {
+    "summary-card-bg-hover-color": {
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--summary-card-bg-hover-color"
     },
-    "gallery-tile-border-color": {
+    "summary-card-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--summary-card-border-color"
     },
-    "gallery-tile-hover-border-color": {
+    "summary-card-hover-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--summary-card-hover-border-color"
