@@ -389,8 +389,13 @@
       "type": "color",
       "description": "--tile-carousel-icon-color-default-color"
     },
+    "carousel-card-bg-color": {
+      "value": "{Primary.V100}",
+      "type": "color",
+      "description": "--carousel-card-bg-color"
+    },
     "carousel-card-bg-hover-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Primary.V50}",
       "type": "color",
       "description": "--carousel-card-bg-hover-color"
     },
@@ -427,17 +432,17 @@
       "description": "--summary-card-description-color"
     },
     "gallery-tile-bg-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Primary.V100}",
       "type": "color",
       "description": "--summary-card-bg-color"
     },
     "summary-card-border-radius": {
-      "value": "{Root.border-radius-l}",
+      "value": "{Root.border-radius-xl}",
       "type": "borderRadius",
       "description": "--summary-card-border-radius"
     },
     "gallery-tile-bg-hover-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Primary.V50}",
       "type": "color",
       "description": "--summary-card-bg-hover-color"
     },
@@ -727,6 +732,23 @@
       "value": "{Neutral.V700}",
       "type": "color",
       "description": "--side-navigation-active-link-color"
+    },
+    "side-navigation-desktop-box-shadow": {
+      "value": {
+        "x": "0px",
+        "y": "0px",
+        "blur": "0px",
+        "spread": "0",
+        "color": "rgba(0,0,0,0)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "--side-navigation-desktop-box-shadow"
+    },
+    "side-navigation-desktop-bar-bg-color": {
+      "value": "{Root.bg-color}",
+      "type": "color",
+      "description": "--side-navigation-desktop-bar-bg-color"
     }
   },
   "Spinner": {
@@ -920,7 +942,7 @@
   },
   "carousel": {
     "carousel-card-desktop-grid-gap": {
-      "value": "{Root.xxxl}",
+      "value": "{Root.xl}",
       "type": "spacing",
       "description": "--carousel-card-desktop-grid-gap"
     },

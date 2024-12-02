@@ -128,7 +128,7 @@
     },
     "h1-d": {
       "value": {
-        "fontFamily": "{font-family-secondary-main}",
+        "fontFamily": "{Root.font-family-secondary-main}",
         "fontSize": "88px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}",
@@ -139,7 +139,7 @@
     },
     "h1-m": {
       "value": {
-        "fontFamily": "{font-family-secondary-main}",
+        "fontFamily": "{Root.font-family-secondary-main}",
         "fontSize": "64px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}",
@@ -150,7 +150,7 @@
     },
     "h2-d": {
       "value": {
-        "fontFamily": "{font-family-secondary-sub}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "48px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -160,7 +160,7 @@
     },
     "h2-m": {
       "value": {
-        "fontFamily": "{font-family-secondary-sub}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "32px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -170,7 +170,7 @@
     },
     "h3-d": {
       "value": {
-        "fontFamily": "{font-family-secondary-sub}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "40px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -180,7 +180,7 @@
     },
     "h3-m": {
       "value": {
-        "fontFamily": "{font-family-secondary-sub}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "28px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -190,7 +190,7 @@
     },
     "h4-d": {
       "value": {
-        "fontFamily": "{font-family-secondary-sub}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "28px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -200,7 +200,7 @@
     },
     "h4-m": {
       "value": {
-        "fontFamily": "{font-family-secondary-sub}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "24px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -210,7 +210,7 @@
     },
     "h5-d": {
       "value": {
-        "fontFamily": "{font-family-secondary-sub}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "24px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -220,7 +220,7 @@
     },
     "h5-m": {
       "value": {
-        "fontFamily": "{font-family-secondary-sub}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "20px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -230,7 +230,7 @@
     },
     "h6-d": {
       "value": {
-        "fontFamily": "{font-family-secondary-sub}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "18px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -240,7 +240,7 @@
     },
     "h6-m": {
       "value": {
-        "fontFamily": "{font-family-secondary-sub}",
+        "fontFamily": "{Root.font-family-secondary-sub}",
         "fontSize": "18px",
         "lineHeight": "120%",
         "fontWeight": "{Root.500}"
@@ -331,7 +331,7 @@
     "font-family-primary": {
       "value": "Ghost Sans",
       "type": "fontFamilies",
-      "description": "Use this for snapcom redesign and near-future brand updates"
+      "description": "--font-family-primary"
     },
     "border-width-none": {
       "value": "0px",
@@ -458,6 +458,16 @@
       "value": "64px",
       "type": "spacing",
       "description": "--spacing-xxxxl"
+    },
+    "font-family-secondary-main": {
+      "value": "Program Nar OT",
+      "type": "fontFamilies",
+      "description": "--font-family-secondary-main"
+    },
+    "font-family-secondary-sub": {
+      "value": "Program OT",
+      "type": "fontFamilies",
+      "description": "--font-family-secondary-sub"
     }
   },
   "Palette": {
@@ -769,34 +779,24 @@
   },
   "Primary": {
     "V50": {
-      "value": "{Palette.Purple.V50}",
+      "value": "{Palette.Yellow.V50}",
       "type": "color",
       "description": "Primary.V50"
     },
     "V100": {
-      "value": "{Palette.Purple.V100}",
+      "value": "{Palette.Yellow.V100}",
       "type": "color",
       "description": "Primary.V100"
     },
     "V150": {
-      "value": "{Palette.Purple.V150}",
+      "value": "{Palette.Yellow.V150}",
       "type": "color",
       "description": "Primary.V150"
     },
     "V200": {
-      "value": "{Palette.Purple.V200}",
+      "value": "{Palette.Yellow.V200}",
       "type": "color",
       "description": "Primary.V200"
     }
-  },
-  "font-family-secondary-main": {
-    "value": "Program Nar OT",
-    "type": "fontFamilies",
-    "description": "Use this for BIG TITLES only"
-  },
-  "font-family-secondary-sub": {
-    "value": "Program OT",
-    "type": "fontFamilies",
-    "description": "Use this for subtitles only"
   }
 }

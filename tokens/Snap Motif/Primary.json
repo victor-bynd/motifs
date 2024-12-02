@@ -757,6 +757,16 @@
       "value": "{Neutral.V700}",
       "type": "color",
       "description": "--side-navigation-active-link-color"
+    },
+    "side-navigation-desktop-bar-bg-color": {
+      "value": "{Root.bg-color}",
+      "type": "color",
+      "description": "--side-navigation-desktop-bar-bg-color"
+    },
+    "side-navigation-desktop-box-shadow": {
+      "value": "{Root.box-shadow-s}",
+      "type": "boxShadow",
+      "description": "--side-navigation-desktop-box-shadow"
     }
   },
   "Spinner": {
