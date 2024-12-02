@@ -400,12 +400,12 @@
       "description": "--carousel-card-bg-hover-color"
     },
     "carousel-card-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+      "value": "{Palette.Black.V50}",
       "type": "color",
       "description": "--carousel-card-border-color"
     },
     "carousel-card-hover-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+      "value": "{Palette.Black.V200}",
       "type": "color",
       "description": "--carousel-card-hover-border-color"
     },
@@ -427,7 +427,7 @@
       "description": "--summary-card-title-color"
     },
     "summary-card-description-color": {
-      "value": "{Neutral.V600}",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--summary-card-description-color"
     },
@@ -447,12 +447,12 @@
       "description": "--summary-card-bg-hover-color"
     },
     "summary-card-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+      "value": "{Palette.Black.V50}",
       "type": "color",
       "description": "--summary-card-border-color"
     },
     "summary-card-hover-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+      "value": "{Palette.Black.V200}",
       "type": "color",
       "description": "--summary-card-hover-border-color"
     }

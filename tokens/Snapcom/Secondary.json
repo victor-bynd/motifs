@@ -1,7 +1,7 @@
 {
   "Root": {
     "bg-color": {
-      "value": "#3e1679",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--background-color"
     },
