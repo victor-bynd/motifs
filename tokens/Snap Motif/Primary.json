@@ -429,10 +429,10 @@
       "type": "color",
       "description": "--carousel-card-border-color"
     },
-    "carousel-card-hover-border-color": {
+    "carousel-card-border-hover-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
-      "description": "--carousel-card-hover-border-color"
+      "description": "--carousel-card-border-hover-color"
     },
     "carousel-active-dot-color": {
       "value": "{Root.fg-color}",
@@ -471,10 +471,10 @@
       "type": "color",
       "description": "--summary-card-border-color"
     },
-    "summary-card-hover-border-color": {
+    "summary-card-border-hover-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
-      "description": "--summary-card-hover-border-color"
+      "description": "--summary-card-border-hover-color"
     },
     "summary-card-border-radius": {
       "value": "{Root.border-radius-l}",

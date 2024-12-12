@@ -266,7 +266,7 @@
     }
   },
   "Summary-Card": {
-    "summary-card-hover-border-color": {
+    "summary-card-border-hover-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--summary-card-hover-border-color"

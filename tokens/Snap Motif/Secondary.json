@@ -460,7 +460,7 @@
       "type": "color",
       "description": "--summary-card-border-color"
     },
-    "summary-card-hover-border-color": {
+    "summary-card-border-hover-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--summary-card-hover-border-color"
@@ -497,7 +497,7 @@
       "type": "color",
       "description": "--carousel-card-border-color"
     },
-    "carousel-card-hover-border-color": {
+    "carousel-card-border-hover-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--carousel-card-hover-border-color"
