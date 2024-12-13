@@ -951,5 +951,19 @@
       "type": "spacing",
       "description": "--carousel-card-mobile-grid-gap"
     }
+  },
+  "Summary-card": {
+    "summary-card-border-width": {
+      "value": "{Root.border-width-none}",
+      "type": "borderWidth",
+      "description": "--summary-card-border-width"
+    }
+  },
+  "Carousel-card": {
+    "carousel-card-border-width": {
+      "value": "{Root.border-width-none}",
+      "type": "borderWidth",
+      "description": "--carousel-card-border-width"
+    }
   }
 }

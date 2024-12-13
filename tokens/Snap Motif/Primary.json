@@ -396,6 +396,11 @@
       "value": "{Root.border-radius-xl}",
       "type": "borderRadius",
       "description": "--carousel-card-border-radius"
+    },
+    "carousel-card-border-width": {
+      "value": "{Root.border-width-none}",
+      "type": "borderWidth",
+      "description": "--carousel-card-border-width"
     }
   },
   "Carousel": {
@@ -973,6 +978,13 @@
       "value": "{Root.m}",
       "type": "spacing",
       "description": "--carousel-card-mobile-grid-gap"
+    }
+  },
+  "Summary-card": {
+    "summary-card-border-width": {
+      "value": "{Root.border-width-none}",
+      "type": "borderWidth",
+      "description": "summary-card-border-width"
     }
   }
 }
