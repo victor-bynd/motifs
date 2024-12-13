@@ -391,11 +391,11 @@
       "description": "--footer-bar-fg-color"
     }
   },
-  "Tile-Carousel": {
-    "tile-carousel-border-radius": {
+  "Carousel-card": {
+    "carousel-card-border-radius": {
       "value": "{Root.border-radius-xl}",
       "type": "borderRadius",
-      "description": "--summary-card-title-color"
+      "description": "--carousel-card-border-radius"
     }
   },
   "Carousel": {
