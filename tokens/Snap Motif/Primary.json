@@ -280,7 +280,7 @@
       "description": "--hero-mobile-grid-gap"
     },
     "hero-boundary-d-padding": {
-      "value": "{Root.xl} {Root.xxxl}",
+      "value": "{Root.xl} {Root.xxxxl}",
       "type": "spacing",
       "description": "--hero-boundary-desktop-padding"
     },
@@ -686,7 +686,7 @@
       "description": "--mosaic-border-radius"
     },
     "mosaic-grid-gap": {
-      "value": "32px",
+      "value": "{Root.xl}",
       "type": "spacing",
       "description": "--mosaic-grid-gap"
     },
@@ -937,7 +937,7 @@
   },
   "carousel": {
     "carousel-card-desktop-grid-gap": {
-      "value": "{Root.xxxl}",
+      "value": "{Root.xxxxl}",
       "type": "spacing",
       "description": "--carousel-card-desktop-grid-gap"
     },

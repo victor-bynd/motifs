@@ -453,7 +453,7 @@
       "description": "--spacing-xxl"
     },
     "xxxl": {
-      "value": "64px",
+      "value": "48px",
       "type": "spacing",
       "description": "--spacing-xxxl"
     },
