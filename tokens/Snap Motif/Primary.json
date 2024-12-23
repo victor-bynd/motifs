@@ -11,12 +11,12 @@
       "description": "--foreground-color"
     },
     "fg-action-default-color": {
-      "value": "{Neutral.V650}",
+      "value": "{Neutral.V600}",
       "type": "color",
       "description": "--action-default-color"
     },
     "fg-action-hover-color": {
-      "value": "{Neutral.V600}",
+      "value": "{Neutral.V650}",
       "type": "color",
       "description": "--action-hover-color"
     },
@@ -391,7 +391,7 @@
       "description": "--footer-bar-fg-color"
     }
   },
-  "Carousel-card": {
+  "Carousel": {
     "carousel-card-border-radius": {
       "value": "{Root.border-radius-xl}",
       "type": "borderRadius",
@@ -401,9 +401,7 @@
       "value": "{Root.border-width-none}",
       "type": "borderWidth",
       "description": "--carousel-card-border-width"
-    }
-  },
-  "Carousel": {
+    },
     "carousel-icon-default-color": {
       "value": "{Root.fg-action-default-color}",
       "type": "color",
@@ -448,6 +446,26 @@
       "value": "rgba({Neutral.V400}, .5)",
       "type": "color",
       "description": "--carousel-inactive-dot-color"
+    },
+    "carousel-card-box-shadow": {
+      "value": "{Root.box-shadow-s}",
+      "type": "boxShadow",
+      "description": "--carousel-card-box-shadow"
+    },
+    "carousel-card-hover-box-shadow": {
+      "value": "{Root.box-shadow-m}",
+      "type": "boxShadow",
+      "description": "--carousel-card-hover-box-shadow"
+    },
+    "carousel-card-desktop-grid-gap": {
+      "value": "{Root.xxxxl}",
+      "type": "spacing",
+      "description": "--carousel-card-desktop-grid-gap"
+    },
+    "carousel-card-mobile-grid-gap": {
+      "value": "{Root.m}",
+      "type": "spacing",
+      "description": "--carousel-card-mobile-grid-gap"
     }
   },
   "Summary-Card": {
@@ -921,30 +939,6 @@
       "value": "{Root.box-shadow-s}",
       "type": "boxShadow",
       "description": "--summary-card-hover-shadow"
-    }
-  },
-  "carousel-card": {
-    "carousel-card-shadow": {
-      "value": "{Root.box-shadow-s}",
-      "type": "boxShadow",
-      "description": "--carousel-card-shadow"
-    },
-    "carousel-card-hover-shadow": {
-      "value": "{Root.box-shadow-m}",
-      "type": "boxShadow",
-      "description": "--carousel-card-hover-shadow"
-    }
-  },
-  "carousel": {
-    "carousel-card-desktop-grid-gap": {
-      "value": "{Root.xxxxl}",
-      "type": "spacing",
-      "description": "--carousel-card-desktop-grid-gap"
-    },
-    "carousel-card-mobile-grid-gap": {
-      "value": "{Root.m}",
-      "type": "spacing",
-      "description": "--carousel-card-mobile-grid-gap"
     }
   },
   "Summary-card": {
