@@ -280,36 +280,36 @@
       "type": "color"
     }
   },
-  "Input": {
-    "form-input-fg-placeholder-color": {
+  "Form": {
+    "form-input-placeholder-color": {
       "value": "{Neutral.V300}",
       "type": "color",
-      "description": "--form-input-fg-placeholder-color"
+      "description": "--form-input-placeholder-color"
     },
-    "form-input-fg-default-color": {
+    "form-input-fg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
-      "description": "--form-input-fg-default-color"
+      "description": "--form-input-fg-color"
     },
     "form-input-bg-color": {
       "value": "{Neutral.V625}",
       "type": "color",
       "description": "--form-input-bg-color"
     },
-    "form-input-border-default-color": {
+    "form-input-border-color": {
       "value": "{Neutral.V500}",
       "type": "color",
-      "description": "--form-input-border-default-color"
+      "description": "--form-input-border-color"
     },
-    "form-input-border-hover-color": {
+    "form-input-hover-border-color": {
       "value": "{Neutral.V400}",
       "type": "color",
-      "description": "--form-input-border-default-color"
+      "description": "--form-input-hover-border-color"
     },
-    "form-input-border-focus-color": {
+    "form-input-active-border-color": {
       "value": "{Semantic.semantic-focus-color}",
       "type": "color",
-      "description": "--form-input-border-focus-color"
+      "description": "--form-input-active-border-color"
     },
     "form-input-error-color": {
       "value": "{Palette.Red.V50}",

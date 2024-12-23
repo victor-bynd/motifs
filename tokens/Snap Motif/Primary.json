@@ -487,36 +487,36 @@
       "description": "--summary-card-border-radius"
     }
   },
-  "Input": {
-    "form-input-fg-placeholder-color": {
+  "Form": {
+    "form-input-placeholder-color": {
       "value": "{Neutral.V400}",
       "type": "color",
-      "description": "--form-input-fg-placeholder-color"
+      "description": "--form-input-placeholder-color"
     },
-    "form-input-fg-default-color": {
+    "form-input-fg-color": {
       "value": "{Neutral.V700}",
       "type": "color",
-      "description": "--form-input-fg-default-color"
+      "description": "--form-input-fg-color"
     },
     "form-input-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--form-input-bg-color"
     },
-    "form-input-border-default-color": {
+    "form-input-border-color": {
       "value": "{Neutral.V250}",
       "type": "color",
-      "description": "--form-input-border-default-color"
+      "description": "--form-input-border-color"
     },
-    "form-input-border-hover-color": {
+    "form-input-hover-border-color": {
       "value": "{Neutral.V400}",
       "type": "color",
-      "description": "--form-input-border-default-color"
+      "description": "--form-input-hover-border-color"
     },
-    "form-input-border-focus-color": {
+    "form-input-active-border-color": {
       "value": "{Semantic.semantic-focus-color}",
       "type": "color",
-      "description": "--form-input-border-focus-color"
+      "description": "--form-input-active-border-color"
     },
     "form-input-error-color": {
       "value": "{Semantic.semantic-error-color}",
@@ -543,56 +543,23 @@
       "type": "typography",
       "description": "--form-input-text"
     },
-    "form-input-default-shadow": {
-      "value": {
-        "x": "0px",
-        "y": "0",
-        "blur": "0",
-        "spread": "0",
-        "color": "rgba(255,255,255,0.12)",
-        "type": "dropShadow"
-      },
+    "form-input-hover-box-shadow": {
+      "value": "{Root.box-shadow-xs}",
       "type": "boxShadow",
-      "description": "--form-input-default-shadow"
+      "description": "--form-input-hover-box-shadow"
     },
-    "form-input-hover-shadow": {
-      "value": {
-        "x": "0px",
-        "y": "2px",
-        "blur": "4px",
-        "spread": "0",
-        "color": "rgba(0,0,0,0.12)",
-        "type": "dropShadow"
-      },
+    "form-input-active-box-shadow": {
+      "value": "{Root.box-shadow-s}",
       "type": "boxShadow",
-      "description": "--form-input-hover-shadow"
-    },
-    "form-input-active-shadow": {
-      "value": {
-        "x": "0px",
-        "y": "4px",
-        "blur": "8px",
-        "spread": "0",
-        "color": "rgba(0,0,0,0.12)",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow",
-      "description": "--form-input-active-shadow"
-    },
-    "form-input-focus-shadow": {
-      "value": "{Root.box-shadow-xl}",
-      "type": "boxShadow",
-      "description": "--form-input-focus-shadow"
+      "description": "--form-input-active-box-shadow"
     },
     "form-input-padding": {
       "value": "{Root.m} {Root.m}",
       "type": "spacing",
       "description": "--form-input-padding"
-    }
-  },
-  "Form": {
+    },
     "form-grid-gap": {
-      "value": "{Root.m}",
+      "value": "{Root.xs}",
       "type": "spacing",
       "description": "--form-grid-gap"
     }

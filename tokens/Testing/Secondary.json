@@ -281,12 +281,12 @@
     }
   },
   "Input": {
-    "form-input-fg-placeholder-color": {
+    "form-input-placeholder-color": {
       "value": "{Neutral.V300}",
       "type": "color",
       "description": "--form-input-fg-placeholder-color"
     },
-    "form-input-fg-default-color": {
+    "form-input-fg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--form-input-fg-default-color"
@@ -296,17 +296,17 @@
       "type": "color",
       "description": "--form-input-bg-color"
     },
-    "form-input-border-default-color": {
+    "form-input-border-color": {
       "value": "{Neutral.V500}",
       "type": "color",
       "description": "--form-input-border-default-color"
     },
-    "form-input-border-hover-color": {
+    "form-input-hover-border-color": {
       "value": "{Neutral.V400}",
       "type": "color",
       "description": "--form-input-border-default-color"
     },
-    "form-input-border-focus-color": {
+    "form-input-active-border-color": {
       "value": "{Semantic.semantic-focus-color}",
       "type": "color",
       "description": "--form-input-border-focus-color"

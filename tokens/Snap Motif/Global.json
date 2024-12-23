@@ -455,6 +455,11 @@
     "xxxl": {
       "value": "64px",
       "type": "spacing",
+      "description": "--spacing-xxxl"
+    },
+    "xxxxl": {
+      "value": "64px",
+      "type": "spacing",
       "description": "--spacing-xxxxl"
     }
   },
