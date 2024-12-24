@@ -105,11 +105,26 @@
       "description": "--block-subtitle-color"
     }
   },
-  "Tab": {
-    "tabs-underline-hover-color": {
+  "Tabs": {
+    "tabs-underline-color": {
       "value": "{Neutral.V250}",
       "type": "color",
-      "description": "--tab-underline-color"
+      "description": "--tabs-underline-color"
+    },
+    "tabs-item-color": {
+      "value": "{Root.fg-action-default-color}",
+      "type": "color",
+      "description": "--tabs-item-color"
+    },
+    "tabs-item-hover-color": {
+      "value": "{Root.fg-action-hover-color}",
+      "type": "color",
+      "description": "--tabs-item-hover-color"
+    },
+    "tabs-item-active-color": {
+      "value": "{Root.fg-action-active-color}",
+      "type": "color",
+      "description": "--tabs-item-active-color"
     }
   },
   "Accordion": {
