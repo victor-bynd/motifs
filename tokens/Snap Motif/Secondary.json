@@ -150,17 +150,22 @@
       "type": "color",
       "description": "--hero-subtitle-color"
     },
-    "hero-icon-bg-color": {
+    "hero-scroll-button-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color"
     },
-    "hero-icon-bg-hover-color": {
+    "hero-scroll-button-hover-bg-color": {
       "value": "{Neutral.V250}",
       "type": "color"
     },
-    "hero-icon-fg-color": {
+    "hero-scroll-button-fg-color": {
       "value": "{Neutral.V700}",
       "type": "color"
+    },
+    "hero-scroll-button-hover-fg-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--hero-scroll-button-hover-fg-color"
     }
   },
   "Footer": {
@@ -391,33 +396,65 @@
   },
   "Header": {
     "global-header-bg-color": {
-      "value": "{Palette.Plain.BLACK}",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--global-header-bg-color"
     },
     "global-header-fg-color": {
-      "value": "{Palette.Plain.WHITE}",
+      "value": "{Neutral.V300}",
       "type": "color",
-      "description": "--foreground-color"
+      "description": "--global-header-fg-color"
+    },
+    "global-header-nav-screen-bg-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--global-header-nav-screen-bg-color"
+    },
+    "global-header-nav-screen-fg-color": {
+      "value": "{Neutral.V300}",
+      "type": "color",
+      "description": "--global-header-nav-screen-fg-color"
+    },
+    "global-header-nav-screen-global-links-bg-color": {
+      "value": "{Neutral.V650}",
+      "type": "color",
+      "description": "--global-header-nav-screen-global-links-bg-color"
+    },
+    "global-header-item-color": {
+      "value": "{Root.fg-action-default-color}",
+      "type": "color",
+      "description": "--global-header-item-color"
+    },
+    "global-header-item-hover-color": {
+      "value": "{Root.fg-action-hover-color}",
+      "type": "color",
+      "description": "--global-header-item-hover-color"
+    },
+    "global-header-item-active-color": {
+      "value": "{Root.fg-action-active-color}",
+      "type": "color",
+      "description": "--global-header-item-active-color"
+    },
+    "global-header-navigator-item-color": {
+      "value": "{Neutral.V250}",
+      "type": "color",
+      "description": "--global-header-navigator-item-color"
+    },
+    "global-header-navigator-item-hover-color": {
+      "value": "{Neutral.V200}",
+      "type": "color",
+      "description": "--global-header-navigator-item-hover-color"
+    },
+    "global-header-navigator-item-active-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--global-header-navigator-item-active-color"
     },
     "global-header-menu-bg-color": {
       "value": "{Neutral.V650}",
       "type": "color"
     },
     "global-header-menu-border-color": {
-      "value": "{Neutral.V625}",
-      "type": "color"
-    },
-    "global-header-menu-item-fg-color": {
-      "value": "{Root.fg-action-default-color}",
-      "type": "color",
-      "description": "--global-header-navigator-item-fg-color"
-    },
-    "global-header-menu-item-icon-color": {
-      "value": "{Primary.V150}",
-      "type": "color"
-    },
-    "global-header-menu-item-bg-hover-color": {
       "value": "{Neutral.V625}",
       "type": "color"
     },
@@ -430,10 +467,18 @@
       "value": "{Neutral.V600}",
       "type": "color"
     },
-    "global-header-menu-featured-item-fg-color": {
-      "value": "{Root.fg-action-default-color}",
+    "global-header-menu-item-fg-color": {
+      "value": "{Neutral.V300}",
       "type": "color",
-      "description": "--global-header-navigator-featured-item-fg-color"
+      "description": "--global-header-navigator-item-fg-color"
+    },
+    "global-header-menu-item-icon-color": {
+      "value": "{Primary.V150}",
+      "type": "color"
+    },
+    "global-header-menu-item-bg-hover-color": {
+      "value": "{Neutral.V625}",
+      "type": "color"
     },
     "global-header-menu-featured-item-bg-color": {
       "value": "{Neutral.V600}",
@@ -443,10 +488,15 @@
       "value": "{Neutral.V625}",
       "type": "color"
     },
-    "global-header-nav-screen-global-links-bg-color": {
-      "value": "{Neutral.V650}",
+    "global-header-menu-featured-item-fg-color": {
+      "value": "{Neutral.V300}",
       "type": "color",
-      "description": "--global-header-nav-screen-global-links-bg-color"
+      "description": "--global-header-navigator-featured-item-fg-color"
+    },
+    "global-header-menu-featured-item-icon-color": {
+      "value": "{Primary.V150}",
+      "type": "color",
+      "description": "--global-header-menu-featured-item-icon-color"
     }
   },
   "Summary-Card": {

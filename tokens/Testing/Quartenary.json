@@ -290,15 +290,15 @@
       "type": "spacing",
       "description": "--hero-text-mobile-padding"
     },
-    "hero-icon-bg-color": {
+    "hero-scroll-button-bg-color": {
       "value": "{Neutral.V700}",
       "type": "color"
     },
-    "hero-icon-bg-hover-color": {
+    "hero-scroll-button-hover-bg-color": {
       "value": "{Neutral.V600}",
       "type": "color"
     },
-    "hero-icon-fg-color": {
+    "hero-scroll-button-fg-color": {
       "value": "{Neutral.V0}",
       "type": "color"
     }
