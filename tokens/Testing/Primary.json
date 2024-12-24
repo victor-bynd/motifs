@@ -92,11 +92,11 @@
       "type": "borderRadius",
       "description": "--button-border-radius"
     },
-    "button-text-d": {
+    "button-d": {
       "value": "{Root.action-d}",
       "type": "typography"
     },
-    "button-text-m": {
+    "button-m": {
       "value": "{Root.action-m}",
       "type": "typography"
     },
@@ -314,7 +314,7 @@
       "type": "color",
       "description": "--accordion-divider-border-color"
     },
-    "accordion-header-text": {
+    "accordion-header-d": {
       "value": "{Root.h6-d}",
       "type": "typography"
     },

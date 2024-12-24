@@ -121,11 +121,6 @@
       "type": "borderRadius",
       "description": "--border-radius-xl"
     },
-    "border-radius-xxl": {
-      "value": "24px",
-      "type": "borderRadius",
-      "description": "--border-radius-xxl"
-    },
     "text-d": {
       "value": {
         "fontFamily": "{Root.font-family-primary}",
