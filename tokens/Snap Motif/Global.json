@@ -112,12 +112,12 @@
       "description": "--border-radius-m"
     },
     "border-radius-l": {
-      "value": "12px",
+      "value": "16px",
       "type": "borderRadius",
       "description": "--border-radius-l"
     },
     "border-radius-xl": {
-      "value": "16px",
+      "value": "24px",
       "type": "borderRadius",
       "description": "--border-radius-xl"
     },

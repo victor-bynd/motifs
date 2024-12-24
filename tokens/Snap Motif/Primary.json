@@ -88,7 +88,7 @@
       "description": "--button-flat-fg-color"
     },
     "button-border-radius": {
-      "value": "{Root.border-radius-xxl}",
+      "value": "64px",
       "type": "borderRadius",
       "description": "--button-border-radius"
     },
@@ -393,7 +393,7 @@
   },
   "Carousel": {
     "carousel-card-border-radius": {
-      "value": "{Root.border-radius-xl}",
+      "value": "{Root.border-radius-l}",
       "type": "borderRadius",
       "description": "--carousel-card-border-radius"
     },
@@ -500,7 +500,7 @@
       "description": "--summary-card-border-hover-color"
     },
     "summary-card-border-radius": {
-      "value": "{Root.border-radius-l}",
+      "value": "{Root.border-radius-s}",
       "type": "borderRadius",
       "description": "--summary-card-border-radius"
     }
@@ -547,7 +547,7 @@
       "description": "--form-input-border-width"
     },
     "form-input-border-radius": {
-      "value": "{Root.border-radius-xl}",
+      "value": "{Root.border-radius-l}",
       "type": "borderRadius",
       "description": "--form-input-border-radius"
     },
