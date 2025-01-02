@@ -193,17 +193,17 @@
       "type": "spacing",
       "description": "--block-header-desktop-padding"
     },
-    "block-header-mobile-padding": {
+    "block-header-m-padding": {
       "value": "{Root.m}",
       "type": "spacing",
       "description": "--block-header-mobile-padding"
     },
-    "block-boundary-desktop-padding": {
+    "block-boundary-d-padding": {
       "value": "{Root.xl}",
       "type": "spacing",
       "description": "--block-boundary-desktop-padding"
     },
-    "block-boundary-mobile-padding": {
+    "block-boundary-m-padding": {
       "value": "{Root.m}",
       "type": "spacing",
       "description": "--block-boundary-mobile-padding"
@@ -653,22 +653,22 @@
     }
   },
   "Content": {
-    "content-desktop-grid-gap": {
+    "content-d-grid-gap": {
       "value": "{Root.l}",
       "type": "spacing",
       "description": "--content-desktop-grid-gap"
     },
-    "content-mobile-grid-gap": {
+    "content-m-grid-gap": {
       "value": "{Root.l}",
       "type": "spacing",
       "description": "--content-mobile-grid-gap"
     },
-    "content-desktop-margin": {
+    "content-d-margin": {
       "value": "{Root.xl}",
       "type": "spacing",
       "description": "--content-desktop-margin"
     },
-    "content-mobile-margin": {
+    "content-m-margin": {
       "value": "{Root.m}",
       "type": "spacing",
       "description": "--content-mobile-margin"
@@ -733,7 +733,7 @@
       "type": "color",
       "description": "--side-navigation-active-link-color"
     },
-    "side-navigation-desktop-box-shadow": {
+    "side-navigation-d-box-shadow": {
       "value": {
         "x": "0px",
         "y": "0px",

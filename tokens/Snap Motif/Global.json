@@ -46,7 +46,7 @@
         "type": "dropShadow"
       },
       "type": "boxShadow",
-      "description": "--box-shadow-s"
+      "description": "--box-shadow-xs"
     },
     "box-shadow-s": {
       "value": {
