@@ -119,7 +119,7 @@
       "description": "--accordion-header-color"
     },
     "accordion-divider-border-color": {
-      "value": "{Neutral.V400}",
+      "value": "{Neutral.V250}",
       "type": "color",
       "description": "--accordion-divider-color"
     }

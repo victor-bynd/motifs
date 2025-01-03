@@ -500,7 +500,7 @@
       "description": "--accordion-header-color"
     },
     "accordion-divider-border-color": {
-      "value": "{Root.fg-color}",
+      "value": "{Neutral.V500}",
       "type": "color",
       "description": "--accordion-divider-border-color"
     },

@@ -311,6 +311,7 @@
       "Form.form-input-d-font-line-height": "d044fce1e1f2df627273c9d40608ed1bdd7e51f3",
       "Form.form-input-d-font-size": "ffbd8ddb4f2550832c940eaa05381900faabb0dd",
       "Form.form-input-m-font-size": "2218ffb00870faaf548825a1aebdf043d12c2c4f",
+      "Dropdown Menu.dropdown-menu-padding": "eae2187a2f4405924dca5aae042b8855f5761c58",
       "Hyperlink.hyperlink-d-font-weight": "4b46cf72008ce3538cbbd39e17e7de3873ad6f52",
       "Hyperlink.hyperlink-m-font-weight": "ce86e4601c45c287a21e0a354d7c85bd72f8c312",
       "Hyperlink.hyperlink-d-font-line-height": "ba73c90658a0de3992ff63de93827d97223db313",
@@ -324,8 +325,7 @@
       "Primitive Table.table-d-row-gap": "133a588a7b0539cc5661eaa53bb1a9b13c90785c",
       "Primitive Table.table-m-row-gap": "e8737b86a6b6264c8d47f5ab7ae793c21ee35fe5",
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
-      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
-      "Dropdown Menu.dropdown-menu-padding": "eae2187a2f4405924dca5aae042b8855f5761c58"
+      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:1",
@@ -653,6 +653,7 @@
       "Dropdown Menu.dropdown-item-fg-color": "172e2a9754f255181677677fc0ef32adc780b01c",
       "Dropdown Menu.dropdown-item-fg-hover-color": "b10da02d68a33c6049824c90b8bffa6b2630dcef",
       "Dropdown Menu.dropdown-item-fg-active-color": "8aaa34f6d62b4cee0330f98deeaff85d384b135f",
+      "Dropdown Menu.dropdown-menu-padding": "eae2187a2f4405924dca5aae042b8855f5761c58",
       "Hyperlink.hyperlink-d-font-weight": "4b46cf72008ce3538cbbd39e17e7de3873ad6f52",
       "Hyperlink.hyperlink-m-font-weight": "ce86e4601c45c287a21e0a354d7c85bd72f8c312",
       "Hyperlink.hyperlink-d-font-line-height": "ba73c90658a0de3992ff63de93827d97223db313",
@@ -666,8 +667,7 @@
       "Primitive Table.table-d-row-gap": "133a588a7b0539cc5661eaa53bb1a9b13c90785c",
       "Primitive Table.table-m-row-gap": "e8737b86a6b6264c8d47f5ab7ae793c21ee35fe5",
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
-      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
-      "Dropdown Menu.dropdown-menu-padding": "eae2187a2f4405924dca5aae042b8855f5761c58"
+      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:2",
@@ -987,6 +987,7 @@
       "Form.form-input-d-font-line-height": "d044fce1e1f2df627273c9d40608ed1bdd7e51f3",
       "Form.form-input-d-font-size": "ffbd8ddb4f2550832c940eaa05381900faabb0dd",
       "Form.form-input-m-font-size": "2218ffb00870faaf548825a1aebdf043d12c2c4f",
+      "Dropdown Menu.dropdown-menu-padding": "eae2187a2f4405924dca5aae042b8855f5761c58",
       "Hyperlink.hyperlink-d-font-weight": "4b46cf72008ce3538cbbd39e17e7de3873ad6f52",
       "Hyperlink.hyperlink-m-font-weight": "ce86e4601c45c287a21e0a354d7c85bd72f8c312",
       "Hyperlink.hyperlink-d-font-line-height": "ba73c90658a0de3992ff63de93827d97223db313",
@@ -1000,8 +1001,7 @@
       "Primitive Table.table-d-row-gap": "133a588a7b0539cc5661eaa53bb1a9b13c90785c",
       "Primitive Table.table-m-row-gap": "e8737b86a6b6264c8d47f5ab7ae793c21ee35fe5",
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
-      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
-      "Dropdown Menu.dropdown-menu-padding": "eae2187a2f4405924dca5aae042b8855f5761c58"
+      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3",
@@ -1341,6 +1341,7 @@
       "Form.form-input-d-font-line-height": "d044fce1e1f2df627273c9d40608ed1bdd7e51f3",
       "Form.form-input-d-font-size": "ffbd8ddb4f2550832c940eaa05381900faabb0dd",
       "Form.form-input-m-font-size": "2218ffb00870faaf548825a1aebdf043d12c2c4f",
+      "Dropdown Menu.dropdown-menu-padding": "eae2187a2f4405924dca5aae042b8855f5761c58",
       "Hyperlink.hyperlink-d-font-weight": "4b46cf72008ce3538cbbd39e17e7de3873ad6f52",
       "Hyperlink.hyperlink-m-font-weight": "ce86e4601c45c287a21e0a354d7c85bd72f8c312",
       "Hyperlink.hyperlink-d-font-line-height": "ba73c90658a0de3992ff63de93827d97223db313",
@@ -1354,8 +1355,7 @@
       "Primitive Table.table-d-row-gap": "133a588a7b0539cc5661eaa53bb1a9b13c90785c",
       "Primitive Table.table-m-row-gap": "e8737b86a6b6264c8d47f5ab7ae793c21ee35fe5",
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
-      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
-      "Dropdown Menu.dropdown-menu-padding": "eae2187a2f4405924dca5aae042b8855f5761c58"
+      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4",
