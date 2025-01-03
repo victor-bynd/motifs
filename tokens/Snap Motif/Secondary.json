@@ -212,26 +212,51 @@
       "description": "--locale-dropdown-bg-color"
     }
   },
-  "Dropdown": {
+  "Dropdown Menu": {
     "dropdown-menu-bg-color": {
-      "value": "{Neutral.V625}",
+      "value": "{Neutral.V650}",
       "type": "color",
       "description": "--dropdown-menu-bg-color"
+    },
+    "dropdown-item-bg-hover-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--dropdown-item-bg-hover-color"
+    },
+    "dropdown-item-bg-active-color": {
+      "value": "{Neutral.V600}",
+      "type": "color",
+      "description": "--dropdown-item-bg-active-color"
+    },
+    "dropdown-menu-border-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--dropdown-menu-border-color"
+    },
+    "dropdown-skeleton-animation-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--dropdown-skeleton-animation-color"
+    },
+    "dropdown-skeleton-animation-default-color": {
+      "value": "{Neutral.V400}",
+      "type": "color",
+      "description": "--dropdown-skeleton-animation-default-color"
     },
     "dropdown-item-fg-color": {
       "value": "{Root.fg-action-default-color}",
       "type": "color",
       "description": "--dropdown-item-fg-color"
     },
+    "dropdown-item-fg-hover-color": {
+      "value": "{Root.fg-action-hover-color}",
+      "type": "color",
+      "description": "--dropdown-item-fg-hover-color"
+    },
     "dropdown-item-fg-active-color": {
       "value": "{Root.fg-action-active-color}",
       "type": "color",
       "description": "--dropdown-item-fg-active-color"
-    },
-    "dropdown-item-bg-hover-color": {
-      "value": "{Neutral.V600}",
-      "type": "color",
-      "description": "--dropdown-item-bg-hover-color"
     }
   },
   "Hyperlink": {

@@ -931,26 +931,56 @@
       "description": "--footnote-hover-icon-bg-color"
     }
   },
-  "Dropdown": {
+  "Dropdown Menu": {
     "dropdown-menu-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--dropdown-menu-bg-color"
+    },
+    "dropdown-item-bg-hover-color": {
+      "value": "{Neutral.V150}",
+      "type": "color",
+      "description": "--dropdown-item-bg-hover-color"
+    },
+    "dropdown-item-bg-active-color": {
+      "value": "{Neutral.V100}",
+      "type": "color",
+      "description": "--dropdown-item-bg-active-color"
+    },
+    "dropdown-menu-border-color": {
+      "value": "{Neutral.V200}",
+      "type": "color",
+      "description": "--dropdown-menu-border-color"
+    },
+    "dropdown-skeleton-animation-color": {
+      "value": "{Neutral.V200}",
+      "type": "color",
+      "description": "--dropdown-skeleton-animation-color"
+    },
+    "dropdown-skeleton-animation-default-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--dropdown-skeleton-animation-default-color"
     },
     "dropdown-item-fg-color": {
       "value": "{Root.fg-action-default-color}",
       "type": "color",
       "description": "--dropdown-item-fg-color"
     },
+    "dropdown-item-fg-hover-color": {
+      "value": "{Root.fg-action-hover-color}",
+      "type": "color",
+      "description": "--dropdown-item-fg-hover-color"
+    },
     "dropdown-item-fg-active-color": {
       "value": "{Root.fg-action-active-color}",
       "type": "color",
       "description": "--dropdown-item-fg-active-color"
     },
-    "dropdown-item-bg-hover-color": {
-      "value": "{Neutral.V150}",
-      "type": "color",
-      "description": "--dropdown-item-bg-hover-color"
+    "dropdown-menu-padding": {
+      "value": "{Root.m}",
+      "type": "spacing",
+      "description": "--dropdown-menu-padding"
     }
   },
   "Banner": {
