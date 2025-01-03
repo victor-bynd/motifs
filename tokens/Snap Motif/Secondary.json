@@ -90,17 +90,17 @@
   },
   "Block": {
     "block-eyebrow-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--block-eyebrow-color"
     },
     "block-title-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--block-title-color"
     },
     "block-subtitle-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--block-subtitle-color"
     }
@@ -174,8 +174,18 @@
       "type": "color",
       "description": "--footer-bg-color"
     },
-    "footer-divider-border-color": {
+    "footer-fg-color": {
       "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--footer-fg-color"
+    },
+    "footer-border-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--footer-border-color"
+    },
+    "footer-divider-border-color": {
+      "value": "{Neutral.V500}",
       "type": "color",
       "description": "--footer-divider-border-color"
     },
@@ -188,6 +198,11 @@
       "value": "{Root.fg-color}",
       "type": "color",
       "description": "--footer-bar-fg-color"
+    },
+    "footer-bar-divider-border-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--footer-bar-divider-border-color"
     }
   },
   "Locale-Dropdown": {

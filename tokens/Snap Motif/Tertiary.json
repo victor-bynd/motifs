@@ -90,17 +90,17 @@
   },
   "Block": {
     "block-eyebrow-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--block-eyebrow-color"
     },
     "block-title-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--block-title-color"
     },
     "block-subtitle-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--block-subtitle-color"
     }
@@ -143,7 +143,7 @@
       "description": "--footer-bg-color"
     },
     "footer-divider-border-color": {
-      "value": "{Neutral.V300}",
+      "value": "{Neutral.V500}",
       "type": "color",
       "description": "--footer-divider-border-color"
     },
