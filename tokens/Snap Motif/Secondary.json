@@ -572,16 +572,6 @@
     }
   },
   "Carousel": {
-    "carousel-icon-default-color": {
-      "value": "{Root.fg-action-default-color}",
-      "type": "color",
-      "description": "--carousel-icon-default-color"
-    },
-    "carousel-icon-hover-color": {
-      "value": "{Root.fg-action-hover-color}",
-      "type": "color",
-      "description": "--tile-carousel-icon-color-default-color"
-    },
     "carousel-card-fg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
@@ -593,7 +583,7 @@
       "description": "--carousel-card-bg-color"
     },
     "carousel-card-bg-hover-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Neutral.V625}",
       "type": "color",
       "description": "--carousel-card-bg-hover-color"
     },
