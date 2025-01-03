@@ -1074,6 +1074,16 @@
       },
       "type": "typography",
       "description": "--hyperlink-mobile-font-size, --hyperlink-mobile-font-line-height, --hyperlink-mobile-font-weight, --hyperlink-mobile-font-text-decoration, --hyperlink-mobile-font-letter-spacing"
+    },
+    "hyperlink-d-font-text-decoration": {
+      "value": "{hyperlink-desktop-font-text-decoration}",
+      "type": "textDecoration",
+      "description": "--hyperlink-desktop-font-text-decoration"
+    },
+    "hyperlink-m-font-text-decoration": {
+      "value": "{hyperlink-mobile-font-text-decoration}",
+      "type": "textDecoration",
+      "description": "--hyperlink-m-font-text-decoration"
     }
   },
   "Toogle": {

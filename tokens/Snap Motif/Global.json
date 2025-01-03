@@ -1215,7 +1215,7 @@
     "description": "--hyperlink-desktop-font-text-decoration"
   },
   "hyperlink-mobile-font-text-decoration": {
-    "value": "underline",
+    "value": "none",
     "type": "textDecoration",
     "description": "--hyperlink-mobile-font-text-decoration"
   },
