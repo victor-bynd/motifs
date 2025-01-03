@@ -323,7 +323,8 @@
       "Primitive Table.table-d-row-gap": "133a588a7b0539cc5661eaa53bb1a9b13c90785c",
       "Primitive Table.table-m-row-gap": "e8737b86a6b6264c8d47f5ab7ae793c21ee35fe5",
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
-      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f"
+      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
+      "Media.media-border-color": "e682d0bde9d75fd6646dca052b3d6266e779956d"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:1",
@@ -662,7 +663,8 @@
       "Primitive Table.table-d-row-gap": "133a588a7b0539cc5661eaa53bb1a9b13c90785c",
       "Primitive Table.table-m-row-gap": "e8737b86a6b6264c8d47f5ab7ae793c21ee35fe5",
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
-      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f"
+      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
+      "Media.media-border-color": "e682d0bde9d75fd6646dca052b3d6266e779956d"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:2",
@@ -994,7 +996,8 @@
       "Primitive Table.table-d-row-gap": "133a588a7b0539cc5661eaa53bb1a9b13c90785c",
       "Primitive Table.table-m-row-gap": "e8737b86a6b6264c8d47f5ab7ae793c21ee35fe5",
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
-      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f"
+      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
+      "Media.media-border-color": "e682d0bde9d75fd6646dca052b3d6266e779956d"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3",
@@ -1346,7 +1349,8 @@
       "Primitive Table.table-d-row-gap": "133a588a7b0539cc5661eaa53bb1a9b13c90785c",
       "Primitive Table.table-m-row-gap": "e8737b86a6b6264c8d47f5ab7ae793c21ee35fe5",
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
-      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f"
+      "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
+      "Media.media-border-color": "e682d0bde9d75fd6646dca052b3d6266e779956d"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4",

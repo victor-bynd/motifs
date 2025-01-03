@@ -1161,6 +1161,11 @@
       "value": "{Root.border-width-none}",
       "type": "borderWidth",
       "description": "--media-border-width"
+    },
+    "media-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--media-border-color"
     }
   },
   "Search": {
