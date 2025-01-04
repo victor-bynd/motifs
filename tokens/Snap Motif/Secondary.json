@@ -576,6 +576,23 @@
       "description": "--summary-card-hover-border-color"
     }
   },
+  "Pagination": {
+    "pagination-text-active-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--pagination-text-active-color"
+    },
+    "pagination-text-color": {
+      "value": "{Neutral.V300}",
+      "type": "color",
+      "description": "--pagination-text-color"
+    },
+    "pagination-text-hover-color": {
+      "value": "{Neutral.V200}",
+      "type": "color",
+      "description": "--pagination-text-hover-color"
+    }
+  },
   "Carousel": {
     "carousel-card-fg-color": {
       "value": "{Neutral.V0}",

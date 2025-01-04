@@ -789,6 +789,23 @@
       "description": "--summary-card-border-radius"
     }
   },
+  "Pagination": {
+    "pagination-text-active-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--pagination-text-active-color"
+    },
+    "pagination-text-color": {
+      "value": "{Neutral.V600}",
+      "type": "color",
+      "description": "--pagination-text-color"
+    },
+    "pagination-text-hover-color": {
+      "value": "{Neutral.V300}",
+      "type": "color",
+      "description": "--pagination-text-hover-color"
+    }
+  },
   "Form": {
     "form-input-placeholder-color": {
       "value": "{Neutral.V400}",
