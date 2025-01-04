@@ -539,7 +539,22 @@
       "description": "--global-header-menu-featured-item-icon-color"
     }
   },
-  "Summary-Card": {
+  "Summary Card": {
+    "summary-card-bg-color": {
+      "value": "{Neutral.V625}",
+      "type": "color",
+      "description": "--summary-card-bg-color"
+    },
+    "summary-card-bg-hover-color": {
+      "value": "{Neutral.V625}",
+      "type": "color",
+      "description": "--summary-card-bg-hover-color"
+    },
+    "summary-card-fg-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--summary-card-fg-color"
+    },
     "summary-card-title-color": {
       "value": "{Neutral.V0}",
       "type": "color",
@@ -549,16 +564,6 @@
       "value": "{Neutral.V150}",
       "type": "color",
       "description": "--summary-card-description-color"
-    },
-    "summary-card-bg-color": {
-      "value": "{Neutral.V625}",
-      "type": "color",
-      "description": "--summary-card-bg-color"
-    },
-    "summary-card-bg-hover-color": {
-      "value": "{Neutral.V0}",
-      "type": "color",
-      "description": "--summary-card-bg-hover-color"
     },
     "summary-card-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",

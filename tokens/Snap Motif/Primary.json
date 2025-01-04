@@ -745,17 +745,7 @@
       "description": "--carousel-card-portrait-mobile-width"
     }
   },
-  "Summary-Card": {
-    "summary-card-title-color": {
-      "value": "{Neutral.V700}",
-      "type": "color",
-      "description": "--summary-card-title-color"
-    },
-    "summary-card-description-color": {
-      "value": "{Neutral.V600}",
-      "type": "color",
-      "description": "--summary-card-description-color"
-    },
+  "Summary Card": {
     "summary-card-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
@@ -766,6 +756,21 @@
       "type": "color",
       "description": "--summary-card-bg-hover-color"
     },
+    "summary-card-fg-color": {
+      "value": "{Neutral.V600}",
+      "type": "color",
+      "description": "--summary-card-fg-color"
+    },
+    "summary-card-title-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--summary-card-title-color"
+    },
+    "summary-card-description-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--summary-card-description-color"
+    },
     "summary-card-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
@@ -775,7 +780,9 @@
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--summary-card-border-hover-color"
-    },
+    }
+  },
+  "Summary-Card": {
     "summary-card-border-radius": {
       "value": "{Root.border-radius-s}",
       "type": "borderRadius",
@@ -1198,6 +1205,11 @@
       "value": "36px",
       "type": "spacing",
       "description": "--search-results-list-gap"
+    },
+    "search-subtitle-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--search-subtitle-color"
     }
   },
   "Side-Navigation": {
