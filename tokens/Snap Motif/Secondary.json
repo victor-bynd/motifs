@@ -683,5 +683,22 @@
       "type": "color",
       "description": "--content-border-color"
     }
+  },
+  "Toogle Slider": {
+    "toggle-slider-active-bg-color": {
+      "value": "{Primary.V100}",
+      "type": "color",
+      "description": "--toggle-slider-active-background-color"
+    },
+    "toggle-slider-bg-color": {
+      "value": "{Neutral.V150}",
+      "type": "color",
+      "description": "--toggle-slider-background-color"
+    },
+    "toggle-slider-switch-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--toggle-slider-switch-color"
+    }
   }
 }
