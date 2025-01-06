@@ -1229,11 +1229,36 @@
       "description": "--search-subtitle-color"
     }
   },
-  "Side-Navigation": {
-    "side-navigation-active-link-color": {
+  "Side Navigation": {
+    "side-navigation-m-bar-bg-color": {
+      "value": "{Neutral.V200}",
+      "type": "color",
+      "description": "--side-navigation-mobile-bar-bg-color"
+    },
+    "side-navigation-m-bar-fg-color": {
       "value": "{Neutral.V700}",
       "type": "color",
-      "description": "--side-navigation-active-link-color"
+      "description": "--side-navigation-mobile-bar-fg-color"
+    },
+    "side-navigation-m-bg-color": {
+      "value": "{Neutral.V150}",
+      "type": "color",
+      "description": "--side-navigation-mobile-bg-color"
+    },
+    "side-navigation-m-fg-active-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": "--side-navigation-mobile-fg-active-color"
+    },
+    "side-navigation-m-fg-color": {
+      "value": "{Neutral.V600}",
+      "type": "color",
+      "description": "--side-navigation-mobile-fg-color"
+    },
+    "side-navigation-m-toggler-icon-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--side-navigation-mobile-toggler-icon-color"
     },
     "side-navigation-desktop-bar-bg-color": {
       "value": "{Root.bg-color}",

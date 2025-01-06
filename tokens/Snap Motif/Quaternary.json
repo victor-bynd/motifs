@@ -177,13 +177,6 @@
       "description": "--hyperlink-color"
     }
   },
-  "Side-Navigation": {
-    "side-navigation-active-link-color": {
-      "value": "{Neutral.V700}",
-      "type": "color",
-      "description": "--side-navigation-active-link-color"
-    }
-  },
   "Spinner": {
     "spinner-fg-color": {
       "value": "{Button.button-primary-fg-color}",
