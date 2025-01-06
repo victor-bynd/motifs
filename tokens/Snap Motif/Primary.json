@@ -1192,26 +1192,31 @@
       "description": "--side-navigation-desktop-box-shadow"
     }
   },
-  "Icon-Button": {
+  "Icon Button": {
     "icon-button-bg-color": {
-      "value": "{Palette.Plain.BLACK}",
+      "value": "{Neutral.V650}",
       "type": "color",
-      "description": "--icon-button-bg-color"
+      "description": "--icon-button-background-color"
     },
     "icon-button-hover-bg-color": {
-      "value": "{Palette.Black.V100}",
+      "value": "{Neutral.V650}",
       "type": "color",
-      "description": "--icon-button-hover-bg-color"
+      "description": "--icon-button-hover-background-color"
     },
     "icon-button-disabled-bg-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+      "value": "{Neutral.V150}",
       "type": "color",
-      "description": "--icon-button-disabled-bg-color"
+      "description": "--icon-button-disabled-background-color"
     },
     "icon-button-border-color": {
       "value": "{Palette.Plain.WHITE}",
       "type": "color",
       "description": "--icon-button-border-color"
+    },
+    "icon-button-hover-border-color": {
+      "value": "{Primary.V150}",
+      "type": "color",
+      "description": "--icon-button-hover-border-color"
     },
     "icon-button-disabled-border": {
       "value": "{Palette.Plain.TRANSPARENT}",
@@ -1221,13 +1226,15 @@
     "icon-button-fg-color": {
       "value": "{Palette.Plain.WHITE}",
       "type": "color",
-      "description": "--icon-button-fg-color"
+      "description": "--icon-button-foreground-color"
     },
     "icon-button-disabled-fg-color": {
       "value": "{Palette.Gray.V300}",
       "type": "color",
-      "description": "--icon-button-disabled-fg-color"
-    },
+      "description": "--icon-button-disabled-foreground-color"
+    }
+  },
+  "Icon-Button": {
     "icon-button-border-width": {
       "value": "2px",
       "type": "borderWidth",
