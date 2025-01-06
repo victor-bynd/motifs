@@ -1382,29 +1382,32 @@
       "description": "--icon-button-border-width"
     }
   },
-  "Table": {
+  "Primitive Table": {
     "table-cell-fg-color": {
-      "value": "{Root.fg-color}",
-      "type": "color"
+      "value": "{Neutral.V600}",
+      "type": "color",
+      "description": "--table-cell-foreground-color"
     },
     "table-cell-header-bg-color": {
-      "value": "{Neutral.V300}",
-      "type": "color"
+      "value": "{Neutral.V200}",
+      "type": "color",
+      "description": "--table-cell-header-background-color"
     },
     "table-cell-body-bg-color": {
       "value": "{Neutral.V0}",
-      "type": "color"
+      "type": "color",
+      "description": "--table-cell-body-background-color"
     },
-    "table-cell-border-color": {
+    "table-border-color": {
       "value": "{Neutral.V300}",
-      "type": "color"
+      "type": "color",
+      "description": "--table-border-color"
     },
     "table-background-color": {
       "value": "rgba(0,0,0,0)",
-      "type": "color"
-    }
-  },
-  "Primitive Table": {
+      "type": "color",
+      "description": "--table-background-color"
+    },
     "table-cell-d-padding": {
       "value": "{Root.m} {Root.m}",
       "type": "spacing",
@@ -1434,6 +1437,11 @@
       "value": "max-content",
       "type": "sizing",
       "description": "--table-first-column-max-width"
+    },
+    "table-header-foreground-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--table-header-foreground-color"
     }
   },
   "Icon-List": {

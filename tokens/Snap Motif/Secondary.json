@@ -430,7 +430,7 @@
       "description": "--icon-button-disabled-fg-color"
     }
   },
-  "Table": {
+  "Primitive Table": {
     "table-cell-fg-color": {
       "value": "{Root.fg-color}",
       "type": "color"
@@ -443,9 +443,20 @@
       "value": "{Neutral.V650}",
       "type": "color"
     },
-    "table-cell-border-color": {
+    "table-border-color": {
       "value": "{Neutral.V600}",
-      "type": "color"
+      "type": "color",
+      "description": "--table-border-color"
+    },
+    "table-background-color": {
+      "value": "rgba(0,0,0,0)",
+      "type": "color",
+      "description": "--table-background-color"
+    },
+    "table-header-foreground-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--table-header-foreground-color"
     }
   },
   "Form": {
