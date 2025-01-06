@@ -491,6 +491,11 @@
       "value": "{Neutral.V700}",
       "type": "color",
       "description": "--hero-scroll-button-curtain-active-hover-fg-color"
+    },
+    "hero-text-color-curtain-active": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--hero-text-color-curtain-active"
     }
   },
   "Content": {

@@ -346,7 +346,8 @@
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
       "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
       "Icon List.icon-list-color": "4552be092d85312a04e3370bd85ec27e89c21306",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
+      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:1",
@@ -708,7 +709,8 @@
       "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
       "Primitive Table.table-header-foreground-color": "eade81ea81a667bf7228765a922d122957cdb5d9",
       "Icon List.icon-list-color": "4552be092d85312a04e3370bd85ec27e89c21306",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
+      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:2",
@@ -1075,7 +1077,8 @@
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
       "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
       "Icon List.icon-list-color": "4552be092d85312a04e3370bd85ec27e89c21306",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
+      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3",
@@ -1462,7 +1465,8 @@
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
       "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
       "Icon List.icon-list-color": "4552be092d85312a04e3370bd85ec27e89c21306",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
+      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4",
