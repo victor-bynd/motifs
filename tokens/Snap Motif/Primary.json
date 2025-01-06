@@ -618,7 +618,7 @@
   },
   "Footer": {
     "footer-bg-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Root.bg-color}",
       "type": "color",
       "description": "--footer-bg-color"
     },
@@ -638,7 +638,7 @@
       "description": "--footer-divider-border-color"
     },
     "footer-bar-bg-color": {
-      "value": "{Neutral.V150}",
+      "value": "{Root.bg-color}",
       "type": "color",
       "description": "--footer-bar-bg-color"
     },
