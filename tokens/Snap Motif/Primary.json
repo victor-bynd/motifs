@@ -1002,6 +1002,23 @@
       "description": "--dropdown-menu-padding"
     }
   },
+  "Toogle Slider": {
+    "toggle-slider-active-bg-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--toggle-slider-active-background-color"
+    },
+    "toggle-slider-bg-color": {
+      "value": "{Neutral.V250}",
+      "type": "color",
+      "description": "--toggle-slider-background-color"
+    },
+    "toggle-slider-switch-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--toggle-slider-switch-color"
+    }
+  },
   "Banner": {
     "banner-bg-color": {
       "value": "{Root.bg-color}",
@@ -1108,23 +1125,6 @@
       "value": "{hyperlink-mobile-font-text-decoration}",
       "type": "textDecoration",
       "description": "--hyperlink-m-font-text-decoration"
-    }
-  },
-  "Toogle Slider": {
-    "toggle-slider-active-bg-color": {
-      "value": "{Neutral.V700}",
-      "type": "color",
-      "description": "--toggle-slider-active-background-color"
-    },
-    "toggle-slider-bg-color": {
-      "value": "{Neutral.V250}",
-      "type": "color",
-      "description": "--toggle-slider-background-color"
-    },
-    "toggle-slider-switch-color": {
-      "value": "{Neutral.V0}",
-      "type": "color",
-      "description": "--toggle-slider-switch-color"
     }
   },
   "Content": {
