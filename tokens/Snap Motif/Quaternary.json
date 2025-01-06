@@ -112,18 +112,6 @@
       "description": "--tab-underline-color"
     }
   },
-  "Accordion": {
-    "accordion-header-color": {
-      "value": "{Root.fg-color}",
-      "type": "color",
-      "description": "--accordion-header-color"
-    },
-    "accordion-divider-border-color": {
-      "value": "{Neutral.V400}",
-      "type": "color",
-      "description": "--accordion-divider-color"
-    }
-  },
   "Hero": {
     "hero-title-color": {
       "value": "{Root.fg-color}",
@@ -175,11 +163,35 @@
       "description": "--toggle-slider-switch-color"
     }
   },
+  "Accordion": {
+    "accordion-header-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--accordion-header-color"
+    },
+    "accordion-divider-border-color": {
+      "value": "{Neutral.V400}",
+      "type": "color",
+      "description": "--accordion-divider-color"
+    }
+  },
   "Locale-Dropdown": {
     "locale-dropdown-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--locale-dropdown-bg-color"
+    }
+  },
+  "Progress Bar": {
+    "progress-bar-background-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--progress-bar-background-color"
+    },
+    "progress-bar-progress-color": {
+      "value": "{Primary.V100}",
+      "type": "color",
+      "description": "--progress-bar-progress-color"
     }
   },
   "Hyperlink": {

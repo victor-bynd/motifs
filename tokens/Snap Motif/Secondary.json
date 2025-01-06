@@ -127,18 +127,6 @@
       "description": "--tabs-item-active-color"
     }
   },
-  "Accordion": {
-    "accordion-header-color": {
-      "value": "{Root.fg-color}",
-      "type": "color",
-      "description": "--accordion-header-color"
-    },
-    "accordion-divider-border-color": {
-      "value": "{Root.fg-color}",
-      "type": "color",
-      "description": "--accordion-divider-color"
-    }
-  },
   "Hero": {
     "hero-title-color": {
       "value": "{Root.fg-color}",
@@ -166,6 +154,23 @@
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--hero-scroll-button-hover-fg-color"
+    }
+  },
+  "Content": {
+    "content-title-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--content-title-color"
+    },
+    "content-subtitle-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--content-subtitle-color"
+    },
+    "content-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--content-border-color"
     }
   },
   "Footer": {
@@ -276,6 +281,62 @@
       "description": "--toggle-slider-switch-color"
     }
   },
+  "Accordion": {
+    "accordion-header-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--accordion-header-color"
+    },
+    "accordion-divider-border-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--accordion-divider-color"
+    }
+  },
+  "Carousel": {
+    "carousel-card-fg-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--carousel-card-fg-color"
+    },
+    "carousel-card-bg-color": {
+      "value": "{Neutral.V625}",
+      "type": "color",
+      "description": "--carousel-card-bg-color"
+    },
+    "carousel-card-bg-hover-color": {
+      "value": "{Neutral.V625}",
+      "type": "color",
+      "description": "--carousel-card-bg-hover-color"
+    },
+    "carousel-card-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--carousel-card-border-color"
+    },
+    "carousel-card-border-hover-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--carousel-card-hover-border-color"
+    },
+    "carousel-active-dot-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--carousel-active-dot-color"
+    },
+    "carousel-inactive-dot-color": {
+      "value": "rgba({Neutral.V400}, .5)",
+      "type": "color",
+      "description": "--carousel-inactive-dot-color"
+    }
+  },
+  "carousel-card": {
+    "carousel-card-hover-shadow": {
+      "value": "{Root.box-shadow-m}",
+      "type": "boxShadow",
+      "description": "--carousel-card-hover-shadow"
+    }
+  },
   "Hyperlink": {
     "hyperlink-color": {
       "value": "{Root.fg-action-default-color}",
@@ -293,6 +354,43 @@
       "value": "{Button.button-primary-fg-color}",
       "type": "color",
       "description": "--spinner-fg-color"
+    }
+  },
+  "Summary Card": {
+    "summary-card-bg-color": {
+      "value": "{Neutral.V625}",
+      "type": "color",
+      "description": "--summary-card-bg-color"
+    },
+    "summary-card-bg-hover-color": {
+      "value": "{Neutral.V625}",
+      "type": "color",
+      "description": "--summary-card-bg-hover-color"
+    },
+    "summary-card-fg-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--summary-card-fg-color"
+    },
+    "summary-card-title-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--summary-card-title-color"
+    },
+    "summary-card-description-color": {
+      "value": "{Neutral.V150}",
+      "type": "color",
+      "description": "--summary-card-description-color"
+    },
+    "summary-card-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--summary-card-border-color"
+    },
+    "summary-card-border-hover-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--summary-card-hover-border-color"
     }
   },
   "Icon-Button": {
@@ -385,6 +483,18 @@
       "value": "{Palette.Red.V50}",
       "type": "color",
       "description": "--form-input-error-color"
+    }
+  },
+  "Progress Bar": {
+    "progress-bar-background-color": {
+      "value": "{Neutral.V250}",
+      "type": "color",
+      "description": "--progress-bar-background-color"
+    },
+    "progress-bar-progress-color": {
+      "value": "{Primary.V100}",
+      "type": "color",
+      "description": "--progress-bar-progress-color"
     }
   },
   "Banner": {
@@ -549,43 +659,6 @@
       "description": "--global-header-menu-featured-item-icon-color"
     }
   },
-  "Summary Card": {
-    "summary-card-bg-color": {
-      "value": "{Neutral.V625}",
-      "type": "color",
-      "description": "--summary-card-bg-color"
-    },
-    "summary-card-bg-hover-color": {
-      "value": "{Neutral.V625}",
-      "type": "color",
-      "description": "--summary-card-bg-hover-color"
-    },
-    "summary-card-fg-color": {
-      "value": "{Neutral.V0}",
-      "type": "color",
-      "description": "--summary-card-fg-color"
-    },
-    "summary-card-title-color": {
-      "value": "{Neutral.V0}",
-      "type": "color",
-      "description": "--summary-card-title-color"
-    },
-    "summary-card-description-color": {
-      "value": "{Neutral.V150}",
-      "type": "color",
-      "description": "--summary-card-description-color"
-    },
-    "summary-card-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
-      "type": "color",
-      "description": "--summary-card-border-color"
-    },
-    "summary-card-border-hover-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
-      "type": "color",
-      "description": "--summary-card-hover-border-color"
-    }
-  },
   "Pagination": {
     "pagination-text-active-color": {
       "value": "{Neutral.V0}",
@@ -601,50 +674,6 @@
       "value": "{Neutral.V200}",
       "type": "color",
       "description": "--pagination-text-hover-color"
-    }
-  },
-  "Carousel": {
-    "carousel-card-fg-color": {
-      "value": "{Neutral.V0}",
-      "type": "color",
-      "description": "--carousel-card-fg-color"
-    },
-    "carousel-card-bg-color": {
-      "value": "{Neutral.V625}",
-      "type": "color",
-      "description": "--carousel-card-bg-color"
-    },
-    "carousel-card-bg-hover-color": {
-      "value": "{Neutral.V625}",
-      "type": "color",
-      "description": "--carousel-card-bg-hover-color"
-    },
-    "carousel-card-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
-      "type": "color",
-      "description": "--carousel-card-border-color"
-    },
-    "carousel-card-border-hover-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
-      "type": "color",
-      "description": "--carousel-card-hover-border-color"
-    },
-    "carousel-active-dot-color": {
-      "value": "{Root.fg-color}",
-      "type": "color",
-      "description": "--carousel-active-dot-color"
-    },
-    "carousel-inactive-dot-color": {
-      "value": "rgba({Neutral.V400}, .5)",
-      "type": "color",
-      "description": "--carousel-inactive-dot-color"
-    }
-  },
-  "carousel-card": {
-    "carousel-card-hover-shadow": {
-      "value": "{Root.box-shadow-m}",
-      "type": "boxShadow",
-      "description": "--carousel-card-hover-shadow"
     }
   },
   "Side Navigation": {
@@ -682,23 +711,6 @@
       "value": "{Neutral.V625}",
       "type": "color",
       "description": "--side-navigation-desktop-bar-bg-color"
-    }
-  },
-  "Content": {
-    "content-title-color": {
-      "value": "{Root.fg-color}",
-      "type": "color",
-      "description": "--content-title-color"
-    },
-    "content-subtitle-color": {
-      "value": "{Root.fg-color}",
-      "type": "color",
-      "description": "--content-subtitle-color"
-    },
-    "content-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
-      "type": "color",
-      "description": "--content-border-color"
     }
   }
 }
