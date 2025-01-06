@@ -393,72 +393,6 @@
       "description": "--summary-card-hover-border-color"
     }
   },
-  "Icon-Button": {
-    "icon-button-bg-color": {
-      "value": "{Palette.Plain.WHITE}",
-      "type": "color",
-      "description": "--icon-button-bg-color"
-    },
-    "icon-button-hover-bg-color": {
-      "value": "{Palette.Gray.V150}",
-      "type": "color",
-      "description": "--icon-button-hover-bg-color"
-    },
-    "icon-button-disabled-bg-color": {
-      "value": "{Palette.Black.V50}",
-      "type": "color",
-      "description": "--icon-button-disabled-bg-color"
-    },
-    "icon-button-border-color": {
-      "value": "{Palette.Plain.WHITE}",
-      "type": "color",
-      "description": "--icon-button-border-color"
-    },
-    "icon-button-disabled-border": {
-      "value": "{Palette.Plain.TRANSPARENT}",
-      "type": "color",
-      "description": "--icon-button-disabled-border"
-    },
-    "icon-button-fg-color": {
-      "value": "{Palette.Plain.BLACK}",
-      "type": "color",
-      "description": "--icon-button-fg-color"
-    },
-    "icon-button-disabled-fg-color": {
-      "value": "{Palette.Gray.V300}",
-      "type": "color",
-      "description": "--icon-button-disabled-fg-color"
-    }
-  },
-  "Primitive Table": {
-    "table-cell-fg-color": {
-      "value": "{Root.fg-color}",
-      "type": "color"
-    },
-    "table-cell-header-bg-color": {
-      "value": "{Neutral.V600}",
-      "type": "color"
-    },
-    "table-cell-body-bg-color": {
-      "value": "{Neutral.V650}",
-      "type": "color"
-    },
-    "table-border-color": {
-      "value": "{Neutral.V600}",
-      "type": "color",
-      "description": "--table-border-color"
-    },
-    "table-background-color": {
-      "value": "rgba(0,0,0,0)",
-      "type": "color",
-      "description": "--table-background-color"
-    },
-    "table-header-foreground-color": {
-      "value": "{Neutral.V0}",
-      "type": "color",
-      "description": "--table-header-foreground-color"
-    }
-  },
   "Form": {
     "form-input-placeholder-color": {
       "value": "{Neutral.V300}",
@@ -518,6 +452,35 @@
       "value": "{Root.fg-color}",
       "type": "color",
       "description": "--banner-fg-color"
+    }
+  },
+  "Primitive Table": {
+    "table-cell-fg-color": {
+      "value": "{Root.fg-color}",
+      "type": "color"
+    },
+    "table-cell-header-bg-color": {
+      "value": "{Neutral.V600}",
+      "type": "color"
+    },
+    "table-cell-body-bg-color": {
+      "value": "{Neutral.V650}",
+      "type": "color"
+    },
+    "table-border-color": {
+      "value": "{Neutral.V600}",
+      "type": "color",
+      "description": "--table-border-color"
+    },
+    "table-background-color": {
+      "value": "rgba(0,0,0,0)",
+      "type": "color",
+      "description": "--table-background-color"
+    },
+    "table-header-foreground-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--table-header-foreground-color"
     }
   },
   "Definition": {
@@ -687,6 +650,33 @@
       "description": "--pagination-text-hover-color"
     }
   },
+  "Sub Navigation": {
+    "sub-navigation-item-color": {
+      "value": "{Root.fg-action-default-color}",
+      "type": "color",
+      "description": "--sub-navigation-item-color"
+    },
+    "sub-navigation-item-hover-color": {
+      "value": "{Root.fg-action-hover-color}",
+      "type": "color",
+      "description": "--sub-navigation-item-hover-color"
+    },
+    "sub-navigation-item-active-color": {
+      "value": "{Root.fg-action-active-color}",
+      "type": "color",
+      "description": "--sub-navigation-item-active-color"
+    },
+    "sub-navigation-item-hover-decoration-color": {
+      "value": "{Neutral.V300}",
+      "type": "color",
+      "description": "--sub-navigation-item-hover-decoration-color"
+    },
+    "sub-navigation-item-active-decoration-color": {
+      "value": "{Primary.V100}",
+      "type": "color",
+      "description": "--sub-navigation-item-active-decoration-color"
+    }
+  },
   "Side Navigation": {
     "side-navigation-m-bar-bg-color": {
       "value": "{Neutral.V650}",
@@ -722,6 +712,43 @@
       "value": "{Neutral.V625}",
       "type": "color",
       "description": "--side-navigation-desktop-bar-bg-color"
+    }
+  },
+  "Icon-Button": {
+    "icon-button-bg-color": {
+      "value": "{Palette.Plain.WHITE}",
+      "type": "color",
+      "description": "--icon-button-bg-color"
+    },
+    "icon-button-hover-bg-color": {
+      "value": "{Palette.Gray.V150}",
+      "type": "color",
+      "description": "--icon-button-hover-bg-color"
+    },
+    "icon-button-disabled-bg-color": {
+      "value": "{Palette.Black.V50}",
+      "type": "color",
+      "description": "--icon-button-disabled-bg-color"
+    },
+    "icon-button-border-color": {
+      "value": "{Palette.Plain.WHITE}",
+      "type": "color",
+      "description": "--icon-button-border-color"
+    },
+    "icon-button-disabled-border": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--icon-button-disabled-border"
+    },
+    "icon-button-fg-color": {
+      "value": "{Palette.Plain.BLACK}",
+      "type": "color",
+      "description": "--icon-button-fg-color"
+    },
+    "icon-button-disabled-fg-color": {
+      "value": "{Palette.Gray.V300}",
+      "type": "color",
+      "description": "--icon-button-disabled-fg-color"
     }
   }
 }
