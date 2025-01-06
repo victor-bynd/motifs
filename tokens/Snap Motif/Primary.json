@@ -1285,6 +1285,11 @@
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--mosaic-title-color"
+    },
+    "mosaic-duration-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--mosaic-duration-color"
     }
   },
   "Form": {
