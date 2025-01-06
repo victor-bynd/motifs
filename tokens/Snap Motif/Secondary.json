@@ -666,5 +666,22 @@
       "type": "color",
       "description": "--side-navigation-desktop-bar-bg-color"
     }
+  },
+  "Content": {
+    "content-title-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--content-title-color"
+    },
+    "content-subtitle-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--content-subtitle-color"
+    },
+    "content-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--content-border-color"
+    }
   }
 }

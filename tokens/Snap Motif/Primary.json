@@ -1143,9 +1143,25 @@
       "type": "spacing",
       "description": "--content-mobile-margin"
     },
-    "content-bg-color": {
-      "value": "{Root.bg-color}",
-      "type": "color"
+    "content-backdrop-filter": {
+      "value": "none",
+      "type": "backgroundFilter",
+      "description": "--content-backdrop-filter"
+    },
+    "content-title-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--content-title-color"
+    },
+    "content-subtitle-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--content-subtitle-color"
+    },
+    "content-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--content-border-color"
     },
     "content-border-width": {
       "value": "{Root.border-width-none}",
