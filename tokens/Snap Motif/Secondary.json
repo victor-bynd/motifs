@@ -511,18 +511,20 @@
       "value": "{Primary.V200}",
       "type": "color",
       "description": "--definition-hover-border-color"
-    },
-    "definition-overlay-fg-color": {
+    }
+  },
+  "Side Overlay": {
+    "side-overlay-fg-color": {
       "value": "{Root.fg-color}",
       "type": "color",
       "description": "--side-overlay-fg-color"
     },
-    "definition-overlay-bg-color": {
+    "side-overlay-bg-color": {
       "value": "{Neutral.V625}",
       "type": "color",
       "description": "--side-overlay-bg-color"
     },
-    "definition-overlay-border-color": {
+    "side-overlay-border-color": {
       "value": "{Neutral.V600}",
       "type": "color",
       "description": "--side-overlay-border-color\n"
