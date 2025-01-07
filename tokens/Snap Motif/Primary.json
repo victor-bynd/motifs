@@ -1484,7 +1484,7 @@
   },
   "Icon List": {
     "icon-list-color": {
-      "value": "{Root.bg-color}",
+      "value": "{Root.fg-color}",
       "type": "color"
     }
   },
