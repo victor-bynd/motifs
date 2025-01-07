@@ -490,7 +490,7 @@
       "description": "--definition-bg-color"
     },
     "definition-border-color": {
-      "value": "{Palette.Yellow.V200}",
+      "value": "{Primary.V200}",
       "type": "color"
     },
     "definition-active-bg-color": {
@@ -498,7 +498,7 @@
       "type": "color"
     },
     "definition-active-border-color": {
-      "value": "{Palette.Yellow.V100}",
+      "value": "{Primary.V200}",
       "type": "color",
       "description": "--definition-active-border-color"
     },
@@ -508,7 +508,7 @@
       "description": "--definition-hover-bg-color"
     },
     "definition-hover-border-color": {
-      "value": "{Palette.Yellow.V200}",
+      "value": "{Primary.V200}",
       "type": "color",
       "description": "--definition-hover-border-color"
     },

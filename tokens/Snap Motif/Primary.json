@@ -1522,17 +1522,17 @@
     "definition-overlay-fg-color": {
       "value": "{Root.fg-color}",
       "type": "color",
-      "description": "--side-overlay-fg-color"
+      "description": "--definition-overlay-fg-color"
     },
     "definition-overlay-bg-color": {
       "value": "{Neutral.V100}",
       "type": "color",
-      "description": "--side-overlay-bg-color"
+      "description": "--definition-overlay-bg-color"
     },
     "definition-overlay-border-color": {
       "value": "{Neutral.V300}",
       "type": "color",
-      "description": "--side-overlay-border-color\n"
+      "description": "--definition-overlay-border-color\n"
     }
   },
   "Summary card": {

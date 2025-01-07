@@ -296,6 +296,7 @@
       "Hero.hero-scroll-button-curtain-active-hover-bg-color": "5bc1aceeee791557e213ca933d23ab9f0b429e37",
       "Hero.hero-scroll-button-curtain-active-fg-color": "289cb193745f7e206924d579e0da566e2cc9783e",
       "Hero.hero-scroll-button-curtain-active-hover-fg-color": "a205aa9397c502776d23704ed9db16a4facc3ba2",
+      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e",
       "Content.content-m-no-bg-padding": "5ba6b1125143441d5868d91bb2f7fe50aafccb24",
       "Quote.quote-author-d-font-weight": "0a0c3922675a61722d64c2f2fe9f8592996939ea",
       "Quote.quote-author-m-font-weight": "65bee0af26a8326d3629e263c907b3035be10340",
@@ -346,8 +347,7 @@
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
       "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
       "Icon List.icon-list-color": "4552be092d85312a04e3370bd85ec27e89c21306",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
-      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:1",
@@ -601,6 +601,7 @@
       "Hero.hero-scroll-button-curtain-active-hover-bg-color": "5bc1aceeee791557e213ca933d23ab9f0b429e37",
       "Hero.hero-scroll-button-curtain-active-fg-color": "289cb193745f7e206924d579e0da566e2cc9783e",
       "Hero.hero-scroll-button-curtain-active-hover-fg-color": "a205aa9397c502776d23704ed9db16a4facc3ba2",
+      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e",
       "Content.content-title-color": "10ea4a9fa5a6e98e71c37efd2b3dd36c8f351fd2",
       "Content.content-subtitle-color": "ad9beeb43752364db7f319fa608ce4a49c645763",
       "Content.content-border-color": "160142b7fc0ee53cd6cab528c2758a2a9959cf41",
@@ -709,8 +710,7 @@
       "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
       "Primitive Table.table-header-foreground-color": "eade81ea81a667bf7228765a922d122957cdb5d9",
       "Icon List.icon-list-color": "4552be092d85312a04e3370bd85ec27e89c21306",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
-      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:2",
@@ -1027,6 +1027,7 @@
       "Hero.hero-scroll-button-curtain-active-hover-bg-color": "5bc1aceeee791557e213ca933d23ab9f0b429e37",
       "Hero.hero-scroll-button-curtain-active-fg-color": "289cb193745f7e206924d579e0da566e2cc9783e",
       "Hero.hero-scroll-button-curtain-active-hover-fg-color": "a205aa9397c502776d23704ed9db16a4facc3ba2",
+      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e",
       "Content.content-m-no-bg-padding": "5ba6b1125143441d5868d91bb2f7fe50aafccb24",
       "Quote.quote-author-d-font-weight": "0a0c3922675a61722d64c2f2fe9f8592996939ea",
       "Quote.quote-author-m-font-weight": "65bee0af26a8326d3629e263c907b3035be10340",
@@ -1077,8 +1078,7 @@
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
       "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
       "Icon List.icon-list-color": "4552be092d85312a04e3370bd85ec27e89c21306",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
-      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3",
@@ -1415,6 +1415,7 @@
       "Hero.hero-scroll-button-curtain-active-hover-bg-color": "5bc1aceeee791557e213ca933d23ab9f0b429e37",
       "Hero.hero-scroll-button-curtain-active-fg-color": "289cb193745f7e206924d579e0da566e2cc9783e",
       "Hero.hero-scroll-button-curtain-active-hover-fg-color": "a205aa9397c502776d23704ed9db16a4facc3ba2",
+      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e",
       "Content.content-m-no-bg-padding": "5ba6b1125143441d5868d91bb2f7fe50aafccb24",
       "Quote.quote-author-d-font-weight": "0a0c3922675a61722d64c2f2fe9f8592996939ea",
       "Quote.quote-author-m-font-weight": "65bee0af26a8326d3629e263c907b3035be10340",
@@ -1465,8 +1466,7 @@
       "Primitive Table.table-cell-min-width": "1cba68a52051f3369a914f9b899744fa4d97bb8c",
       "Primitive Table.first-column-max-width": "a360faecc898d87420901c7e01c09ba60a138a0f",
       "Icon List.icon-list-color": "4552be092d85312a04e3370bd85ec27e89c21306",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
-      "Hero.hero-text-color-curtain-active": "daa86f7d6c278c317d692feb20503d6c09cedb4e"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4",
