@@ -711,6 +711,23 @@
       "description": "--toggle-slider-switch-color"
     }
   },
+  "Toggle Button": {
+    "toggle-button-active-color": {
+      "value": "{Neutral.V600}",
+      "type": "color",
+      "description": "--toggle-button-active-color"
+    },
+    "toggle-button-color": {
+      "value": "{Neutral.V200}",
+      "type": "color",
+      "description": "--toggle-button-color"
+    },
+    "toggle-button-hover-color": {
+      "value": "{Neutral.V300}",
+      "type": "color",
+      "description": "--toggle-button-hover-color"
+    }
+  },
   "Accordion": {
     "accordion-header-color": {
       "value": "{Root.fg-color}",
@@ -1036,7 +1053,7 @@
   },
   "Spinner": {
     "spinner-fg-color": {
-      "value": "{Button.button-primary-fg-color}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--spinner-fg-color"
     }
@@ -1291,6 +1308,13 @@
       "description": "--modal-close-foreground-color"
     }
   },
+  "Icon": {
+    "icon-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--icon-color"
+    }
+  },
   "Form": {
     "form-input-placeholder-color": {
       "value": "{Neutral.V400}",
@@ -1420,6 +1444,94 @@
       "description": "--progress-bar-progress-color"
     }
   },
+  "Chart Toggle": {
+    "chart-toggle-buttons-bg-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--chart-toggle-buttons-bg-color"
+    },
+    "chart-toggle-buttons-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--chart-toggle-buttons-color"
+    },
+    "chart-toggle-buttons-border-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--chart-toggle-buttons-border-color"
+    },
+    "chart-toggle-buttons-active-bg-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--chart-toggle-buttons-active-bg-color"
+    },
+    "chart-toggle-buttons-active-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--chart-toggle-buttons-active-color"
+    },
+    "chart-toggle-buttons-active-border-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--chart-toggle-buttons-active-border-color"
+    }
+  },
+  "Block Navigation": {
+    "block-navigation-buttons-bg-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--block-navigation-buttons-bg-color"
+    },
+    "block-navigation-buttons-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--block-navigation-buttons-color"
+    },
+    "block-navigation-buttons-border-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--block-navigation-buttons-border-color"
+    },
+    "block-navigation-buttons-active-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--block-navigation-buttons-active-color"
+    },
+    "block-navigation-buttons-active-border-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": "--block-navigation-buttons-active-border-color"
+    },
+    "block-navigation-buttons-active-bg-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": "--block-navigation-buttons-active-bg-color"
+    }
+  },
+  "Logo": {
+    "logo-stroke-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--logo-stroke-color"
+    },
+    "logo-fill-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--logo-fill-color"
+    }
+  },
+  "Toggle Panel": {
+    "toggle-panel-background-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--toggle-panel-background-color"
+    },
+    "toggle-panel-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": "--toggle-panel-color"
+    }
+  },
   "Primitive Table": {
     "table-cell-fg-color": {
       "value": "{Neutral.V600}",
@@ -1482,10 +1594,38 @@
       "description": "--table-header-foreground-color"
     }
   },
-  "Icon List": {
-    "icon-list-color": {
-      "value": "{Root.fg-color}",
-      "type": "color"
+  "Loading Bar": {
+    "loading-bar-left-color": {
+      "value": "#0EADFF",
+      "type": "color",
+      "description": "--loading-bar-left-color"
+    },
+    "loading-bar-right-color": {
+      "value": "#0EADFF",
+      "type": "color",
+      "description": "--loading-bar-right-color"
+    }
+  },
+  "Chart Skeleton": {
+    "chart-skeleton-bg-color": {
+      "value": "{Neutral.V100}",
+      "type": "color",
+      "description": "--chart-skeleton-bg-color"
+    },
+    "chart-skeleton-mask-color": {
+      "value": "{Neutral.V200}",
+      "type": "color",
+      "description": "--chart-skeleton-mask-color"
+    },
+    "chart-skeleton-dark-animation-color": {
+      "value": "{Neutral.V200}",
+      "type": "color",
+      "description": "--chart-skeleton-dark-animation-color"
+    },
+    "chart-skeleton-light-animation-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--chart-skeleton-light-animation-color"
     }
   },
   "Definition": {

@@ -206,13 +206,6 @@
       "description": "--hyperlink-color"
     }
   },
-  "Spinner": {
-    "spinner-fg-color": {
-      "value": "{Button.button-primary-fg-color}",
-      "type": "color",
-      "description": "--spinner-fg-color"
-    }
-  },
   "Mosaic": {
     "mosaic-duration-fg-color": {
       "value": "{Neutral.V700}",

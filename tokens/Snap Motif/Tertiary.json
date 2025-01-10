@@ -194,6 +194,40 @@
       "description": "--progress-bar-progress-color"
     }
   },
+  "Chart Toggle": {
+    "chart-toggle-buttons-active-bg-color": {
+      "value": "{Primary.V100}",
+      "type": "color",
+      "description": "--chart-toggle-buttons-active-bg-color"
+    },
+    "chart-toggle-buttons-active-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": "--chart-toggle-buttons-active-color"
+    },
+    "chart-toggle-buttons-active-border-color": {
+      "value": "{Primary.V100}",
+      "type": "color",
+      "description": "--chart-toggle-buttons-active-border-color"
+    }
+  },
+  "Block Navigation": {
+    "block-navigation-buttons-active-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": "--block-navigation-buttons-active-color"
+    },
+    "block-navigation-buttons-active-border-color": {
+      "value": "{Primary.V100}",
+      "type": "color",
+      "description": "--block-navigation-buttons-active-border-color"
+    },
+    "block-navigation-buttons-active-bg-color": {
+      "value": "{Primary.V100}",
+      "type": "color",
+      "description": "--block-navigation-buttons-active-bg-color"
+    }
+  },
   "Hyperlink": {
     "hyperlink-color": {
       "value": "{Root.fg-action-default-color}",
@@ -204,13 +238,6 @@
       "value": "{Root.fg-action-hover-color}",
       "type": "color",
       "description": "--hyperlink-color"
-    }
-  },
-  "Spinner": {
-    "spinner-fg-color": {
-      "value": "{Button.button-primary-fg-color}",
-      "type": "color",
-      "description": "--spinner-fg-color"
     }
   },
   "Mosaic": {
