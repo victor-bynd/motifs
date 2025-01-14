@@ -656,6 +656,38 @@
       "description": "--table-header-foreground-color"
     }
   },
+  "Autocomplete": {
+    "autocomplete-button-fg-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--autocomplete-button-fg-color"
+    },
+    "autocomplete-button-fg-hover-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--autocomplete-button-fg-hover-color"
+    },
+    "autocomplete-bg-color": {
+      "value": "{Neutral.V625}",
+      "type": "color",
+      "description": "--autocomplete-bg-color"
+    },
+    "autocomplete-border-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--autocomplete-border-color"
+    },
+    "autocomplete-fg-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--autocomplete-fg-color"
+    },
+    "autocomplete-placeholder-color": {
+      "value": "{Neutral.V300}",
+      "type": "color",
+      "description": "--autocomplete-placeholder-color"
+    }
+  },
   "Chart Skeleton": {
     "chart-skeleton-bg-color": {
       "value": "{Neutral.V625}",

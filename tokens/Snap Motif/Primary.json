@@ -1626,6 +1626,101 @@
       "description": "--loading-bar-right-color"
     }
   },
+  "Autocomplete": {
+    "autocomplete-active-border-color": {
+      "value": "{Semantic.semantic-focus-color}",
+      "type": "color",
+      "description": "--autocomplete-active-border-color"
+    },
+    "autocomplete-active-box-shadow": {
+      "value": "{Root.box-shadow-s}",
+      "type": "boxShadow",
+      "description": "--autocomplete-active-box-shadow"
+    },
+    "autocomplete-button-fg-color": {
+      "value": "{Semantic.semantic-focus-color}",
+      "type": "color",
+      "description": "--autocomplete-button-fg-color"
+    },
+    "autocomplete-button-fg-hover-color": {
+      "value": "{Neutral.V650}",
+      "type": "color",
+      "description": "--autocomplete-button-fg-hover-color"
+    },
+    "autocomplete-bg-color": {
+      "value": "{Neutral.V0}",
+      "type": "color",
+      "description": "--autocomplete-bg-color"
+    },
+    "autocomplete-border-color": {
+      "value": "{Neutral.V250}",
+      "type": "color",
+      "description": "--autocomplete-border-color"
+    },
+    "autocomplete-border-width": {
+      "value": "2px",
+      "type": "sizing",
+      "description": "--autocomplete-border-width"
+    },
+    "autocomplete-d": {
+      "value": {
+        "fontFamily": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
+        "fontSize": "{Autocomplete.autocomplete-d-font-size}",
+        "fontWeight": "{Autocomplete.autocomplete-d-font-weight}"
+      },
+      "type": "typography",
+      "description": "--autocomplete-desktop-font-size, --autocomplete-desktop-font-weight"
+    },
+    "autocomplete-d-font-size": {
+      "value": "{Root.text-d-font-size}",
+      "type": "fontSizes",
+      "description": "--autocomplete-desktop-font-size"
+    },
+    "autocomplete-d-font-weight": {
+      "value": "{Root.text-d-font-weight}",
+      "type": "fontWeights",
+      "description": "--autocomplete-desktop-font-weight"
+    },
+    "autocomplete-fg-color": {
+      "value": "#000000",
+      "type": "color",
+      "description": "--autocomplete-fg-color"
+    },
+    "autocomplete-hover-border-color": {
+      "value": "{Neutral.V400}",
+      "type": "color",
+      "description": "--autocomplete-hover-border-color"
+    },
+    "autocomplete-hover-box-shadow": {
+      "value": "{Root.box-shadow-xs}",
+      "type": "boxShadow",
+      "description": "--autocomplete-hover-box-shadow"
+    },
+    "autocomplete-m": {
+      "value": {
+        "fontFamily": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
+        "fontSize": "{Autocomplete.autocomplete-m-font-size}",
+        "fontWeight": "{Autocomplete.autocomplete-m-font-weight}"
+      },
+      "type": "typography",
+      "description": "--autocomplete-mobile-font-size, --autocomplete-mobile-font-weight"
+    },
+    "autocomplete-m-font-size": {
+      "value": "{Root.text-m-font-size}",
+      "type": "fontSizes",
+      "description": "--autocomplete-mobile-font-size"
+    },
+    "autocomplete-m-font-weight": {
+      "value": "{Root.text-m-font-weight}",
+      "type": "fontWeights",
+      "description": "--autocomplete-mobile-font-weight"
+    },
+    "autocomplete-placeholder-color": {
+      "value": "{Neutral.V400}",
+      "type": "color",
+      "description": "--autocomplete-placeholder-color"
+    }
+  },
   "Chart Skeleton": {
     "chart-skeleton-bg-color": {
       "value": "{Neutral.V100}",
