@@ -367,6 +367,16 @@
       "value": "{Root.fg-action-active-color}",
       "type": "color",
       "description": "--dropdown-item-fg-active-color"
+    },
+    "dropdown-button-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--dropdown-button-border-color"
+    },
+    "dropdown-button-hover-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--dropdown-button-hover-border-color"
     }
   },
   "Toogle Slider": {

@@ -692,6 +692,26 @@
       "value": "{Root.m}",
       "type": "spacing",
       "description": "--dropdown-menu-padding"
+    },
+    "dropdown-button-border-radius": {
+      "value": "{Root.border-radius-m}",
+      "type": "borderRadius",
+      "description": "--dropdown-button-border-radius"
+    },
+    "dropdown-button-border-width": {
+      "value": "{Root.border-width-none}",
+      "type": "borderWidth",
+      "description": "--dropdown-button-border-width"
+    },
+    "dropdown-button-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--dropdown-button-border-color"
+    },
+    "dropdown-button-hover-border-color": {
+      "value": "{Palette.Plain.TRANSPARENT}",
+      "type": "color",
+      "description": "--dropdown-button-hover-border-color"
     }
   },
   "Toogle Slider": {
