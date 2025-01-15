@@ -1165,10 +1165,6 @@
     }
   },
   "Sub Navigation": {
-    "subnav-nav-link-text": {
-      "value": "{Root.action-m}",
-      "type": "typography"
-    },
     "sub-navigation-item-color": {
       "value": "{Root.fg-action-default-color}",
       "type": "color",
