@@ -10,10 +10,6 @@
       "Button.button-hover-shadow": "S:5e775cead688fd2df52dd5289ceaf0790c6b4bf2,",
       "Root.bg-color": "S:8b275713cda17a2161b1a4e1c379f791d3d42622,",
       "Root.fg-color": "S:01be676126f67b5e3f2797f3f479edffe0e83c15,",
-      "Root.fg-action-default-color": "S:df42e6b19852635a420ea22a43ae8cb90dc5e851,",
-      "Root.fg-action-hover-color": "S:bddf489d52faa7a95c18bd8752530c76190f6333,",
-      "Root.fg-action-active-color": "S:c9f21c2c6534e2239c89839fa60b40a2dd2b958c,",
-      "Root.root-overflow-bg-color": "S:1b1e6a20f75ebe5967d79e0ca60e5b98378de1ab,",
       "Button.button-primary-bg-color": "S:50f34bae1fb317a60c866a1953d8d925dc51fd1c,",
       "Button.button-primary-hover-bg-color": "S:3656f063ae3e7bcb98fb8aa6d9f02da1b802e5fa,",
       "Button.button-primary-border-color": "S:97e7c191404742fdd7b1851aabe890d1614fa026,",
@@ -103,14 +99,15 @@
       "Icon Button.icon-button-border-color": "S:e25b09bfb2a7bee36aeeb470f91244406ca1cf77,",
       "Icon Button.icon-button-fg-color": "S:3cfdc0e3ba34b522d17d928fb98e08ea3e8d1e7f,",
       "Icon Button.icon-button-disabled-fg-color": "S:c64caf3091d46f5a0475536d52493a2d57ccad68,",
-      "Sub Navigation.subnav-nav-link-text": "S:9b1ce884a6f5a54b57a5212551658ce473ae4ac7,"
+      "Sub Navigation.subnav-nav-link-text": "S:9b1ce884a6f5a54b57a5212551658ce473ae4ac7,",
+      "Root.action-default-color": "S:df42e6b19852635a420ea22a43ae8cb90dc5e851,",
+      "Root.action-hover-color": "S:bddf489d52faa7a95c18bd8752530c76190f6333,",
+      "Root.action-active-color": "S:c9f21c2c6534e2239c89839fa60b40a2dd2b958c,",
+      "Root.overflow-bg-color": "S:1b1e6a20f75ebe5967d79e0ca60e5b98378de1ab,"
     },
     "$figmaVariableReferences": {
       "Root.bg-color": "ff641bfcc17763c65a396bad0adb3afaa3f1e3e6",
       "Root.fg-color": "e441dc568bd182c4d6c7d892f6490fcd6a5f975d",
-      "Root.fg-action-default-color": "8dfd285b880f4831d3073320bdc6b25586077bc1",
-      "Root.fg-action-hover-color": "24604de5fda7ed2759d825aa4bb96474b54f9beb",
-      "Root.fg-action-active-color": "1c51b396bfd7518f191be0afa13162f9b02742fa",
       "Button.button-primary-bg-color": "6051b6663031158f1504444a4b93bdbc684c90e2",
       "Button.button-primary-hover-bg-color": "d5905ad27dbc3fedc7f6dd2f5a35668da354b526",
       "Button.button-primary-border-color": "1a8f7f1f5840d5f142f2498b41a0c0ebbe0fd686",
@@ -389,7 +386,10 @@
       "Autocomplete.autocomplete-hover-border-color": "653a18fdd3a73bbd0c2b6f567f4418dfda973154",
       "Autocomplete.autocomplete-m-font-size": "11c31cface10c82e0e76f3c378e68df41e7c029b",
       "Autocomplete.autocomplete-m-font-weight": "669db3e32c814b87a5e745300f0f67d792d830fc",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
+      "Root.action-default-color": "8dfd285b880f4831d3073320bdc6b25586077bc1",
+      "Root.action-hover-color": "24604de5fda7ed2759d825aa4bb96474b54f9beb",
+      "Root.action-active-color": "1c51b396bfd7518f191be0afa13162f9b02742fa"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:1",
@@ -406,10 +406,6 @@
     "$figmaStyleReferences": {
       "Root.bg-color": "S:195a7473c713460ca2512eb449164b37406005d4,",
       "Root.fg-color": "S:c27e6295257eac79b309145915334c23b329c558,",
-      "Root.fg-action-default-color": "S:bb47c08786adcb9c3d5855719bfded154a0d0bc4,",
-      "Root.fg-action-hover-color": "S:32342bfd3525488639bb316f79500bd9ccb11837,",
-      "Root.fg-action-active-color": "S:da261b787cedf1e6ea525169126fc97625e5c283,",
-      "Root.root-overflow-bg-color": "S:305db5c97e02db4f0a8cfe36e0efc2217d77e8dc,",
       "Button.button-primary-bg-color": "S:756ea00240d7931bcb030f6c7b9ee24fc765328c,",
       "Button.button-primary-hover-bg-color": "S:e9e08fcb94d7031e6c5444e6e935abbc86b93051,",
       "Button.button-primary-border-color": "S:b13d1dd58059323bc16ba478e9e931baf079f513,",
@@ -507,14 +503,15 @@
       "Icon Button.icon-button-disabled-bg-color": "S:82cf7e12290ed13b813e21a19bb6e0bcb76311c1,",
       "Icon Button.icon-button-border-color": "S:d620436d9b1176f3b4f214cd508e2b20982b2062,",
       "Icon Button.icon-button-fg-color": "S:b7406f272cba6f388846eaed172f059f572581aa,",
-      "Icon Button.icon-button-disabled-fg-color": "S:d8715174d077e17fd7a49bbaec6c4f55da6691a4,"
+      "Icon Button.icon-button-disabled-fg-color": "S:d8715174d077e17fd7a49bbaec6c4f55da6691a4,",
+      "Root.action-default-color": "S:bb47c08786adcb9c3d5855719bfded154a0d0bc4,",
+      "Root.action-hover-color": "S:32342bfd3525488639bb316f79500bd9ccb11837,",
+      "Root.action-active-color": "S:da261b787cedf1e6ea525169126fc97625e5c283,",
+      "Root.overflow-bg-color": "S:305db5c97e02db4f0a8cfe36e0efc2217d77e8dc,"
     },
     "$figmaVariableReferences": {
       "Root.bg-color": "ff641bfcc17763c65a396bad0adb3afaa3f1e3e6",
       "Root.fg-color": "e441dc568bd182c4d6c7d892f6490fcd6a5f975d",
-      "Root.fg-action-default-color": "8dfd285b880f4831d3073320bdc6b25586077bc1",
-      "Root.fg-action-hover-color": "24604de5fda7ed2759d825aa4bb96474b54f9beb",
-      "Root.fg-action-active-color": "1c51b396bfd7518f191be0afa13162f9b02742fa",
       "Button.button-primary-bg-color": "6051b6663031158f1504444a4b93bdbc684c90e2",
       "Button.button-primary-hover-bg-color": "d5905ad27dbc3fedc7f6dd2f5a35668da354b526",
       "Button.button-primary-border-color": "1a8f7f1f5840d5f142f2498b41a0c0ebbe0fd686",
@@ -797,7 +794,10 @@
       "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
       "Modal.modal-background-color": "d9dd944469036e507a31022dbf33f372da5dc0b0",
       "Modal.modal-close-background-color": "97113bd424808f74d32686e20dc0280de374f5c4",
-      "Modal.modal-close-foreground-color": "9463350b566dbe316bc6ef8bc73feec423d264e8"
+      "Modal.modal-close-foreground-color": "9463350b566dbe316bc6ef8bc73feec423d264e8",
+      "Root.action-default-color": "8dfd285b880f4831d3073320bdc6b25586077bc1",
+      "Root.action-hover-color": "24604de5fda7ed2759d825aa4bb96474b54f9beb",
+      "Root.action-active-color": "1c51b396bfd7518f191be0afa13162f9b02742fa"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:2",
@@ -814,10 +814,6 @@
     "$figmaStyleReferences": {
       "Root.bg-color": "S:8d83dcdb9de754858a4f1435004bcbeaee525217,",
       "Root.fg-color": "S:c3764c9a15d04bece6b7b528da6f8611b9da69e0,",
-      "Root.fg-action-default-color": "S:e2a57c65d45ed560c29f532db692b6630f39d241,",
-      "Root.fg-action-hover-color": "S:5bc8d522022f2ce7c2dc653ca87028cd7e0b04a3,",
-      "Root.fg-action-active-color": "S:00454e1d7bc3ae6e0e1cfd520cab1d8987d9f55e,",
-      "Root.root-overflow-bg-color": "S:02251d8db2592a05bc02b3271f878608a9cf3a00,",
       "Button.button-primary-bg-color": "S:533cebe528bbf2532bf537f2fb3cb94c480626df,",
       "Button.button-primary-hover-bg-color": "S:f4441602ac2c1ee46aec433f0b4a0f62c2ce7278,",
       "Button.button-primary-border-color": "S:0c8447eedf78c4e086c06437c84bae1f88ad76a3,",
@@ -908,14 +904,15 @@
       "Icon Button.icon-button-disabled-bg-color": "S:4e6a284fca988d94a827d815ab2d60d0e2b9e198,",
       "Icon Button.icon-button-border-color": "S:8d5005b91be699905e6cedc1b843bf435210f555,",
       "Icon Button.icon-button-fg-color": "S:2696f0dadbe43966b3d1027d5a3d98eb5f3c3697,",
-      "Icon Button.icon-button-disabled-fg-color": "S:6611b305255ecaa5c140fe3d7ebb0e9477d60e93,"
+      "Icon Button.icon-button-disabled-fg-color": "S:6611b305255ecaa5c140fe3d7ebb0e9477d60e93,",
+      "Root.action-default-color": "S:e2a57c65d45ed560c29f532db692b6630f39d241,",
+      "Root.action-hover-color": "S:5bc8d522022f2ce7c2dc653ca87028cd7e0b04a3,",
+      "Root.action-active-color": "S:00454e1d7bc3ae6e0e1cfd520cab1d8987d9f55e,",
+      "Root.overflow-bg-color": "S:02251d8db2592a05bc02b3271f878608a9cf3a00,"
     },
     "$figmaVariableReferences": {
       "Root.bg-color": "ff641bfcc17763c65a396bad0adb3afaa3f1e3e6",
       "Root.fg-color": "e441dc568bd182c4d6c7d892f6490fcd6a5f975d",
-      "Root.fg-action-default-color": "8dfd285b880f4831d3073320bdc6b25586077bc1",
-      "Root.fg-action-hover-color": "24604de5fda7ed2759d825aa4bb96474b54f9beb",
-      "Root.fg-action-active-color": "1c51b396bfd7518f191be0afa13162f9b02742fa",
       "Button.button-primary-bg-color": "6051b6663031158f1504444a4b93bdbc684c90e2",
       "Button.button-primary-hover-bg-color": "d5905ad27dbc3fedc7f6dd2f5a35668da354b526",
       "Button.button-primary-border-color": "1a8f7f1f5840d5f142f2498b41a0c0ebbe0fd686",
@@ -1207,7 +1204,10 @@
       "Autocomplete.autocomplete-hover-border-color": "653a18fdd3a73bbd0c2b6f567f4418dfda973154",
       "Autocomplete.autocomplete-m-font-size": "11c31cface10c82e0e76f3c378e68df41e7c029b",
       "Autocomplete.autocomplete-m-font-weight": "669db3e32c814b87a5e745300f0f67d792d830fc",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
+      "Root.action-default-color": "8dfd285b880f4831d3073320bdc6b25586077bc1",
+      "Root.action-hover-color": "24604de5fda7ed2759d825aa4bb96474b54f9beb",
+      "Root.action-active-color": "1c51b396bfd7518f191be0afa13162f9b02742fa"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3",
@@ -1224,9 +1224,6 @@
     "$figmaStyleReferences": {
       "Root.bg-color": "S:6377fb52345ea4aef4ba0afcc6b6c1a692c7a4d1,",
       "Root.fg-color": "S:d79011d0563f68bd8a0ef18b1f9d418abe96ba2b,",
-      "Root.fg-action-default-color": "S:deb9edaa6c9f81858309c04a6e43055bcf2c5a30,",
-      "Root.fg-action-hover-color": "S:bc9528ce3063e791838bf8b9686a0203fb4e44b0,",
-      "Root.fg-action-active-color": "S:a18ac6bfdc8f099c849d98845adc48d3b9519bf2,",
       "Button.button-primary-bg-color": "S:d2422fdf15c942823c67e1ba2aac3c42d5b06876,",
       "Button.button-primary-hover-bg-color": "S:6bde3746f94238d761a59167f095d2e685abf887,",
       "Button.button-primary-border-color": "S:afe0605d20ebd93be322f9aaa138ab1ed4d9c2e7,",
@@ -1255,7 +1252,6 @@
       "Footer.footer-bg-color": "S:b75bd57ed493201165744d1cf113f78294be8b76,",
       "Footer.footer-bar-bg-color": "S:d95609cb642b7898c7428f5eb5a936046b7a81f0,",
       "Locale-Dropdown.locale-dropdown-bg-color": "S:47d56061c17fb11437c4ecd8660262a81dac5dd8,",
-      "Root.root-overflow-bg-color": "S:fa6315b6f05bafab2cc50c30441ca71f6ffe6142,",
       "Footer.footer-bar-fg-color": "S:bb18629732412c253efe251f6ebfb635be4532d6,",
       "Hyperlink.hyperlink-color": "S:8eb21d3e694b1551fa72c8294ad088a6b6a0402e,",
       "Hyperlink.hyperlink-hover-color": "S:4cd5caef06391d52f7c387b7ce23275980425be2,",
@@ -1342,14 +1338,15 @@
       "Autocomplete.autocomplete-d": "S:9c94ae7ca6040520729d438fba03174db053366b,",
       "Autocomplete.autocomplete-m": "S:76d8c60605dbdb7930656591e20cffa1fb101efe,",
       "Autocomplete.autocomplete-active-box-shadow": "S:11601659f9cb718fb64ba788651a93e6eda43e3d,",
-      "Autocomplete.autocomplete-hover-box-shadow": "S:799e314e704afae2963b0f630d21382437484319,"
+      "Autocomplete.autocomplete-hover-box-shadow": "S:799e314e704afae2963b0f630d21382437484319,",
+      "Root.action-default-color": "S:deb9edaa6c9f81858309c04a6e43055bcf2c5a30,",
+      "Root.action-hover-color": "S:bc9528ce3063e791838bf8b9686a0203fb4e44b0,",
+      "Root.action-active-color": "S:a18ac6bfdc8f099c849d98845adc48d3b9519bf2,",
+      "Root.overflow-bg-color": "S:fa6315b6f05bafab2cc50c30441ca71f6ffe6142,"
     },
     "$figmaVariableReferences": {
       "Root.bg-color": "ff641bfcc17763c65a396bad0adb3afaa3f1e3e6",
       "Root.fg-color": "e441dc568bd182c4d6c7d892f6490fcd6a5f975d",
-      "Root.fg-action-default-color": "8dfd285b880f4831d3073320bdc6b25586077bc1",
-      "Root.fg-action-hover-color": "24604de5fda7ed2759d825aa4bb96474b54f9beb",
-      "Root.fg-action-active-color": "1c51b396bfd7518f191be0afa13162f9b02742fa",
       "Button.button-primary-bg-color": "6051b6663031158f1504444a4b93bdbc684c90e2",
       "Button.button-primary-hover-bg-color": "d5905ad27dbc3fedc7f6dd2f5a35668da354b526",
       "Button.button-primary-border-color": "1a8f7f1f5840d5f142f2498b41a0c0ebbe0fd686",
@@ -1641,7 +1638,10 @@
       "Autocomplete.autocomplete-hover-border-color": "653a18fdd3a73bbd0c2b6f567f4418dfda973154",
       "Autocomplete.autocomplete-m-font-size": "11c31cface10c82e0e76f3c378e68df41e7c029b",
       "Autocomplete.autocomplete-m-font-weight": "669db3e32c814b87a5e745300f0f67d792d830fc",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
+      "Root.action-default-color": "8dfd285b880f4831d3073320bdc6b25586077bc1",
+      "Root.action-hover-color": "24604de5fda7ed2759d825aa4bb96474b54f9beb",
+      "Root.action-active-color": "1c51b396bfd7518f191be0afa13162f9b02742fa"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4",

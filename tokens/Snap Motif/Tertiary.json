@@ -10,22 +10,22 @@
       "type": "color",
       "description": "--foreground-color"
     },
-    "fg-action-default-color": {
+    "action-default-color": {
       "value": "{Neutral.V650}",
       "type": "color",
       "description": "--fg-action-default-color"
     },
-    "fg-action-hover-color": {
+    "action-hover-color": {
       "value": "{Neutral.V700}",
       "type": "color",
       "description": "--hover-color"
     },
-    "fg-action-active-color": {
+    "action-active-color": {
       "value": "{Neutral.V700}",
       "type": "color",
       "description": "--active-color"
     },
-    "root-overflow-bg-color": {
+    "overflow-bg-color": {
       "value": "linear-gradient(90deg, {Palette.Plain.TRANSPARENT} , rgba( {Root.bg-color} , 1) 100%)",
       "type": "color",
       "description": "--overflow-bg-color"
@@ -237,12 +237,12 @@
   },
   "Hyperlink": {
     "hyperlink-color": {
-      "value": "{Root.fg-action-default-color}",
+      "value": "{Root.action-default-color}",
       "type": "color",
       "description": "--hyperlink-color"
     },
     "hyperlink-hover-color": {
-      "value": "{Root.fg-action-hover-color}",
+      "value": "{Root.action-hover-color}",
       "type": "color",
       "description": "--hyperlink-color"
     }

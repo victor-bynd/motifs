@@ -10,22 +10,22 @@
       "type": "color",
       "description": "--foreground-color"
     },
-    "fg-action-default-color": {
+    "action-default-color": {
       "value": "{Neutral.V300}",
       "type": "color",
       "description": "--fg-action-default-color"
     },
-    "fg-action-hover-color": {
+    "action-hover-color": {
       "value": "{Neutral.V250}",
       "type": "color",
       "description": "--hover-color"
     },
-    "fg-action-active-color": {
+    "action-active-color": {
       "value": "{Neutral.V0}",
       "type": "color",
       "description": "--active-color"
     },
-    "root-overflow-bg-color": {
+    "overflow-bg-color": {
       "value": "linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 100%)",
       "type": "color",
       "description": "--overflow-bg-color"
@@ -115,17 +115,17 @@
       "description": "--global-header-nav-screen-global-links-bg-color"
     },
     "global-header-item-color": {
-      "value": "{Root.fg-action-default-color}",
+      "value": "{Root.action-default-color}",
       "type": "color",
       "description": "--global-header-item-color"
     },
     "global-header-item-hover-color": {
-      "value": "{Root.fg-action-hover-color}",
+      "value": "{Root.action-hover-color}",
       "type": "color",
       "description": "--global-header-item-hover-color"
     },
     "global-header-item-active-color": {
-      "value": "{Root.fg-action-active-color}",
+      "value": "{Root.action-active-color}",
       "type": "color",
       "description": "--global-header-item-active-color"
     },
@@ -217,17 +217,17 @@
       "description": "--tabs-underline-color"
     },
     "tabs-item-color": {
-      "value": "{Root.fg-action-default-color}",
+      "value": "{Root.action-default-color}",
       "type": "color",
       "description": "--tabs-item-color"
     },
     "tabs-item-hover-color": {
-      "value": "{Root.fg-action-hover-color}",
+      "value": "{Root.action-hover-color}",
       "type": "color",
       "description": "--tabs-item-hover-color"
     },
     "tabs-item-active-color": {
-      "value": "{Root.fg-action-active-color}",
+      "value": "{Root.action-active-color}",
       "type": "color",
       "description": "--tabs-item-active-color"
     }
@@ -322,13 +322,6 @@
       "description": "--footer-bar-divider-border-color"
     }
   },
-  "Locale-Dropdown": {
-    "locale-dropdown-bg-color": {
-      "value": "{Neutral.V600}",
-      "type": "color",
-      "description": "--locale-dropdown-bg-color"
-    }
-  },
   "Dropdown Menu": {
     "dropdown-menu-bg-color": {
       "value": "{Neutral.V650}",
@@ -361,17 +354,17 @@
       "description": "--dropdown-skeleton-animation-default-color"
     },
     "dropdown-item-fg-color": {
-      "value": "{Root.fg-action-default-color}",
+      "value": "{Root.action-default-color}",
       "type": "color",
       "description": "--dropdown-item-fg-color"
     },
     "dropdown-item-fg-hover-color": {
-      "value": "{Root.fg-action-hover-color}",
+      "value": "{Root.action-hover-color}",
       "type": "color",
       "description": "--dropdown-item-fg-hover-color"
     },
     "dropdown-item-fg-active-color": {
-      "value": "{Root.fg-action-active-color}",
+      "value": "{Root.action-active-color}",
       "type": "color",
       "description": "--dropdown-item-fg-active-color"
     },
@@ -473,12 +466,12 @@
   },
   "Hyperlink": {
     "hyperlink-color": {
-      "value": "{Root.fg-action-default-color}",
+      "value": "{Root.action-default-color}",
       "type": "color",
       "description": "--hyperlink-color"
     },
     "hyperlink-hover-color": {
-      "value": "{Root.fg-action-hover-color}",
+      "value": "{Root.action-hover-color}",
       "type": "color",
       "description": "--hyperlink-color"
     }
@@ -718,15 +711,6 @@
     }
   },
   "Definition": {
-    "definition-bg-color": {
-      "value": "{Neutral.V625}",
-      "type": "color",
-      "description": "--definition-bg-color"
-    },
-    "definition-border-color": {
-      "value": "{Primary.V200}",
-      "type": "color"
-    },
     "definition-active-bg-color": {
       "value": "{Neutral.V500}",
       "type": "color"
@@ -735,6 +719,15 @@
       "value": "{Primary.V200}",
       "type": "color",
       "description": "--definition-active-border-color"
+    },
+    "definition-bg-color": {
+      "value": "{Neutral.V625}",
+      "type": "color",
+      "description": "--definition-bg-color"
+    },
+    "definition-border-color": {
+      "value": "{Primary.V200}",
+      "type": "color"
     },
     "definition-hover-bg-color": {
       "value": "{Neutral.V600}",
@@ -783,17 +776,17 @@
   },
   "Sub Navigation": {
     "sub-navigation-item-color": {
-      "value": "{Root.fg-action-default-color}",
+      "value": "{Root.action-default-color}",
       "type": "color",
       "description": "--sub-navigation-item-color"
     },
     "sub-navigation-item-hover-color": {
-      "value": "{Root.fg-action-hover-color}",
+      "value": "{Root.action-hover-color}",
       "type": "color",
       "description": "--sub-navigation-item-hover-color"
     },
     "sub-navigation-item-active-color": {
-      "value": "{Root.fg-action-active-color}",
+      "value": "{Root.action-active-color}",
       "type": "color",
       "description": "--sub-navigation-item-active-color"
     },
