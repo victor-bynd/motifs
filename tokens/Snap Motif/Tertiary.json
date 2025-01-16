@@ -124,6 +124,13 @@
       "description": "--hero-subtitle-color"
     }
   },
+  "Quote": {
+    "quote-bg-color": {
+      "value": "{Neutral.V150}",
+      "type": "color",
+      "description": "--quote-bg-color"
+    }
+  },
   "Footer": {
     "footer-bg-color": {
       "value": "{Root.bg-color}",

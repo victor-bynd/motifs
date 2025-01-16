@@ -637,7 +637,7 @@
       "description": "--footer-bar-fg-color"
     },
     "footer-bar-divider-border-color": {
-      "value": "{Neutral.V150}",
+      "value": "{Neutral.V500}",
       "type": "color",
       "description": "--footer-bar-divider-border-color"
     }
