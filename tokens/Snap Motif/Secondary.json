@@ -452,7 +452,7 @@
       "description": "--carousel-active-dot-color"
     },
     "carousel-inactive-dot-color": {
-      "value": "rgba({Neutral.V400}, .5)",
+      "value": "rgba(133, 141, 148, 0.5)",
       "type": "color",
       "description": "--carousel-inactive-dot-color"
     }
@@ -489,7 +489,7 @@
       "type": "color",
       "description": "--summary-card-bg-color"
     },
-    "summary-card-bg-hover-color": {
+    "summary-card-hover-bg-color": {
       "value": "{Neutral.V625}",
       "type": "color",
       "description": "--summary-card-bg-hover-color"
@@ -514,7 +514,7 @@
       "type": "color",
       "description": "--summary-card-border-color"
     },
-    "summary-card-border-hover-color": {
+    "summary-card-hover-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--summary-card-hover-border-color"
