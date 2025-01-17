@@ -385,7 +385,7 @@
         "letterSpacing": "{Root.action-m-font-letter-spacing}"
       },
       "type": "typography",
-      "description": "--action-mobile-font-size, --action-mobile-font-line-height, --action-mobile-font-weight"
+      "description": "--action-mobile-font-size, --action-mobile-font-line-height, --action-mobile-font-weight, --action-mobile-font-letter-spacing, --action-mobile-font-text-decoration"
     },
     "annotation-d": {
       "value": {
