@@ -480,112 +480,112 @@
       "description": "--spacing-xxxxl"
     },
     "text-d-font-weight": {
-      "value": "{Root.400}",
+      "value": "400",
       "type": "fontWeights",
       "description": "--text-desktop-font-weight"
     },
     "text-m-font-weight": {
-      "value": "{Root.400}",
+      "value": "400",
       "type": "fontWeights",
       "description": "--text-mobile-font-weight"
     },
     "h1-d-font-weight": {
-      "value": "{Root.600}",
+      "value": "600",
       "type": "fontWeights",
       "description": "--h1-desktop-font-weight"
     },
     "h1-m-font-weight": {
-      "value": "{Root.600}",
+      "value": "600",
       "type": "fontWeights",
       "description": "--h1-mobile-font-weight"
     },
     "h2-d-font-weight": {
-      "value": "{Root.600}",
+      "value": "600",
       "type": "fontWeights",
       "description": "--h2-desktop-font-weight"
     },
     "h2-m-font-weight": {
-      "value": "{Root.600}",
+      "value": "600",
       "type": "fontWeights",
       "description": "--h2-mobile-font-weight"
     },
     "h3-d-font-weight": {
-      "value": "{Root.600}",
+      "value": "600",
       "type": "fontWeights",
       "description": "--h3-desktop-font-weight"
     },
     "h3-m-font-weight": {
-      "value": "{Root.600}",
+      "value": "600",
       "type": "fontWeights",
       "description": "--h3-mobile-font-weight"
     },
     "h4-d-font-weight": {
-      "value": "{Root.500}",
+      "value": "500",
       "type": "fontWeights",
       "description": "--h4-desktop-font-weight"
     },
     "h4-m-font-weight": {
-      "value": "{Root.500}",
+      "value": "500",
       "type": "fontWeights",
       "description": "--h4-mobile-font-weight"
     },
     "h5-d-font-weight": {
-      "value": "{Root.500}",
+      "value": "500",
       "type": "fontWeights",
       "description": "--h5-desktop-font-weight"
     },
     "h5-m-font-weight": {
-      "value": "{Root.500}",
+      "value": "500",
       "type": "fontWeights",
       "description": "--h5-mobile-font-weight"
     },
     "h6-d-font-weight": {
-      "value": "{Root.500}",
+      "value": "500",
       "type": "fontWeights",
       "description": "--h6-desktop-font-weight"
     },
     "h6-m-font-weight": {
-      "value": "{Root.500}",
+      "value": "500",
       "type": "fontWeights",
       "description": "--h6-mobile-font-weight"
     },
     "p1-d-font-weight": {
-      "value": "{Root.400}",
+      "value": "400",
       "type": "fontWeights",
       "description": "--p1-desktop-font-weight"
     },
     "p1-m-font-weight": {
-      "value": "{Root.400}",
+      "value": "400",
       "type": "fontWeights",
       "description": "--p1-mobile-font-weight"
     },
     "p2-d-font-weight": {
-      "value": "{Root.400}",
+      "value": "400",
       "type": "fontWeights",
       "description": "--p2-desktop-font-weight"
     },
     "p2-m-font-weight": {
-      "value": "{Root.400}",
+      "value": "400",
       "type": "fontWeights",
       "description": "--p2-mobile-font-weight"
     },
     "p3-d-font-weight": {
-      "value": "{Root.400}",
+      "value": "400",
       "type": "fontWeights",
       "description": "--p3-desktop-font-weight"
     },
     "p3-m-font-weight": {
-      "value": "{Root.400}",
+      "value": "400",
       "type": "fontWeights",
       "description": "--p3-mobile-font-weight"
     },
     "p4-d-font-weight": {
-      "value": "{Root.400}",
+      "value": "400",
       "type": "fontWeights",
       "description": "--p4-desktop-font-weight"
     },
     "p4-m-font-weight": {
-      "value": "{Root.400}",
+      "value": "400",
       "type": "fontWeights",
       "description": "--p4-mobile-font-weight"
     },
@@ -880,22 +880,22 @@
       "description": "--annotation-mobile-font-letter-spacing"
     },
     "action-d-font-weight": {
-      "value": "{Root.500}",
+      "value": "500",
       "type": "fontWeights",
       "description": "--action-desktop-font-weight"
     },
     "action-m-font-weight": {
-      "value": "{Root.500}",
+      "value": "500",
       "type": "fontWeights",
       "description": "--action-mobile-font-weight"
     },
     "annotation-d-font-weight": {
-      "value": "{Root.500}",
+      "value": "500",
       "type": "fontWeights",
       "description": "--annotation-desktop-font-weight"
     },
     "annotation-m-font-weight": {
-      "value": "{Root.500}",
+      "value": "500",
       "type": "fontWeights",
       "description": "--annotation-mobile-font-weight"
     }
@@ -1220,12 +1220,12 @@
     "description": "--hyperlink-mobile-font-text-decoration"
   },
   "hyperlink-mobile-font-weight": {
-    "value": "{Root.500}",
+    "value": "500",
     "type": "fontWeights",
     "description": "--hyperlink-mobile-font-weight"
   },
   "hyperlink-desktop-font-weight": {
-    "value": "{Root.500}",
+    "value": "500",
     "type": "fontWeights",
     "description": "--hyperlink-desktop-font-weight"
   }
