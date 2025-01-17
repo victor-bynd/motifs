@@ -1,0 +1,9 @@
+{
+  "Summary Card": {
+    "summary-card-border-radius": {
+      "value": "{Root.border-radius-l}",
+      "type": "borderRadius",
+      "description": "--summary-card-border-radius"
+    }
+  }
+}

@@ -4,6 +4,8 @@
     "Snap Motif/Primary",
     "Snap Motif/Secondary",
     "Snap Motif/Tertiary",
-    "Snap Motif/Quaternary"
+    "Snap Motif/Quaternary",
+    "Snapcom/Global",
+    "Snapcom/Primary"
   ]
 }

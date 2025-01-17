@@ -1,0 +1,31 @@
+{
+  "Root": {
+    "font-family-primary": {
+      "value": "Program Nar OT",
+      "type": "fontFamilies",
+      "description": "--font-family-primary"
+    }
+  },
+  "Primary": {
+    "V50": {
+      "value": "{Palette.Blue.V50}",
+      "type": "color",
+      "description": "Primary.V50"
+    },
+    "V100": {
+      "value": "{Palette.Blue.V100}",
+      "type": "color",
+      "description": "Primary.V100"
+    },
+    "V150": {
+      "value": "{Palette.Blue.V150}",
+      "type": "color",
+      "description": "Primary.V150"
+    },
+    "V200": {
+      "value": "{Palette.Blue.V200}",
+      "type": "color",
+      "description": "Primary.V200"
+    }
+  }
+}
