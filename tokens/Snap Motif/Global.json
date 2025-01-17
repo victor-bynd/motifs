@@ -343,27 +343,33 @@
     },
     "font-family-primary": {
       "value": "Graphik",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "--font-family-primary"
     },
     "border-width-none": {
       "value": "0px",
-      "type": "borderWidth"
+      "type": "borderWidth",
+      "description": "--border-width-none"
     },
     "border-width-xs": {
       "value": "1px",
-      "type": "borderWidth"
+      "type": "borderWidth",
+      "description": "--border-width-xs"
     },
     "border-width-s": {
       "value": "2px",
-      "type": "borderWidth"
+      "type": "borderWidth",
+      "description": "--border-width-s"
     },
     "border-width-m": {
       "value": "5px",
-      "type": "borderWidth"
+      "type": "borderWidth",
+      "description": "--border-width-m"
     },
     "border-width-l": {
       "value": "9px",
-      "type": "borderWidth"
+      "type": "borderWidth",
+      "description": "--border-width-l"
     },
     "action-d": {
       "value": {
