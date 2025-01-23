@@ -38,7 +38,7 @@
       "description": "--button-primary-bg-color"
     },
     "button-primary-hover-bg-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Neutral.V625}",
       "type": "color",
       "description": "--button-primary-hover-bg-color"
     },
@@ -58,22 +58,22 @@
       "description": "--button-primary-fg-color"
     },
     "button-secondary-bg-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Primary.V100}",
       "type": "color",
       "description": "--button-secondary-bg-color"
     },
     "button-secondary-hover-bg-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Primary.V50}",
       "type": "color",
       "description": "--button-secondary-hover-bg-color"
     },
     "button-secondary-border-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Neutral.V500}",
       "type": "color",
       "description": "--button-secondary-border-color"
     },
     "button-secondary-hover-border-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--button-secondary-hover-border-color"
     },
@@ -694,22 +694,22 @@
       "description": "--dropdown-menu-padding"
     },
     "dropdown-button-border-radius": {
-      "value": "{Root.border-radius-m}",
+      "value": "{Root.border-radius-l}",
       "type": "borderRadius",
       "description": "--dropdown-button-border-radius"
     },
     "dropdown-button-border-width": {
-      "value": "{Root.border-width-none}",
+      "value": "{Root.border-width-s}",
       "type": "borderWidth",
       "description": "--dropdown-button-border-width"
     },
     "dropdown-button-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+      "value": "{Neutral.V500}",
       "type": "color",
       "description": "--dropdown-button-border-color"
     },
     "dropdown-button-hover-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--dropdown-button-hover-border-color"
     }
@@ -1107,17 +1107,17 @@
   },
   "Summary Card": {
     "summary-card-bg-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Root.bg-color}",
       "type": "color",
       "description": "--summary-card-bg-color"
     },
     "summary-card-hover-bg-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Primary.V50}",
       "type": "color",
       "description": "--summary-card-hover-bg-color"
     },
     "summary-card-fg-color": {
-      "value": "{Neutral.V600}",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--summary-card-fg-color"
     },
@@ -1132,17 +1132,17 @@
       "description": "--summary-card-description-color"
     },
     "summary-card-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+      "value": "{Neutral.V500}",
       "type": "color",
       "description": "--summary-card-border-color"
     },
     "summary-card-hover-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--summary-card-hover-border-color"
     },
     "summary-card-border-radius": {
-      "value": "{Root.border-radius-s}",
+      "value": "{Root.border-radius-l}",
       "type": "borderRadius",
       "description": "--summary-card-border-radius"
     }
@@ -1800,7 +1800,7 @@
       "description": "--summary-card-hover-box-shadow"
     },
     "summary-card-border-width": {
-      "value": "{Root.border-width-none}",
+      "value": "{Root.border-width-s}",
       "type": "borderWidth",
       "description": "--summary-card-border-width"
     }

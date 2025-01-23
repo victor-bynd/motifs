@@ -43,12 +43,12 @@
       "description": "--button-primary-hover-bg-color"
     },
     "button-primary-border-color": {
-      "value": "{Primary.V100}",
+      "value": "{Neutral.V500}",
       "type": "color",
       "description": "--button-primary-border-color"
     },
     "button-primary-hover-border-color": {
-      "value": "{Primary.V100}",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--button-primary-hover-border-color"
     },
@@ -319,6 +319,80 @@
       "value": "{Root.fg-color}",
       "type": "color",
       "description": "--banner-fg-color"
+    }
+  },
+  "Carousel": {
+    "carousel-card-fg-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--carousel-card-fg-color"
+    },
+    "carousel-card-bg-color": {
+      "value": "{Root.bg-color}",
+      "type": "color",
+      "description": "--carousel-card-bg-color"
+    },
+    "carousel-card-hover-bg-color": {
+      "value": "{Neutral.V100}",
+      "type": "color",
+      "description": "--carousel-card-hover-bg-color"
+    },
+    "carousel-card-border-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--carousel-card-border-color"
+    },
+    "carousel-card-hover-border-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--carousel-card-hover-border-color"
+    },
+    "carousel-active-dot-color": {
+      "value": "{Root.fg-color}",
+      "type": "color",
+      "description": "--carousel-active-dot-color"
+    },
+    "carousel-inactive-dot-color": {
+      "value": "rgba(133, 141, 148, 0.5)",
+      "type": "color",
+      "description": "--carousel-inactive-dot-color"
+    }
+  },
+  "Summary Card": {
+    "summary-card-bg-color": {
+      "value": "{Root.bg-color}",
+      "type": "color",
+      "description": "--summary-card-bg-color"
+    },
+    "summary-card-hover-bg-color": {
+      "value": "{Neutral.V100}",
+      "type": "color",
+      "description": "--summary-card-hover-bg-color"
+    },
+    "summary-card-fg-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--summary-card-fg-color"
+    },
+    "summary-card-title-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--summary-card-title-color"
+    },
+    "summary-card-description-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--summary-card-description-color"
+    },
+    "summary-card-border-color": {
+      "value": "{Neutral.V500}",
+      "type": "color",
+      "description": "--summary-card-border-color"
+    },
+    "summary-card-hover-border-color": {
+      "value": "{Neutral.V700}",
+      "type": "color",
+      "description": "--summary-card-hover-border-color"
     }
   }
 }
