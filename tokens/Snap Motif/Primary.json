@@ -822,7 +822,7 @@
       "description": "--carousel-card-border-radius"
     },
     "carousel-card-border-width": {
-      "value": "{Root.border-width-none}",
+      "value": "{Root.border-width-s}",
       "type": "borderWidth",
       "description": "--carousel-card-border-width"
     },
@@ -832,24 +832,24 @@
       "description": "--carousel-card-fg-color"
     },
     "carousel-card-bg-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Root.bg-color}",
       "type": "color",
       "description": "--carousel-card-bg-color"
     },
-    "carousel-card-bg-hover-color": {
-      "value": "{Neutral.V0}",
+    "carousel-card-hover-bg-color": {
+      "value": "{Primary.V50}",
       "type": "color",
-      "description": "--carousel-card-bg-hover-color"
+      "description": "--carousel-card-hover-bg-color"
     },
     "carousel-card-border-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+      "value": "{Neutral.V500}",
       "type": "color",
       "description": "--carousel-card-border-color"
     },
-    "carousel-card-border-hover-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
+    "carousel-card-hover-border-color": {
+      "value": "{Neutral.V700}",
       "type": "color",
-      "description": "--carousel-card-border-hover-color"
+      "description": "--carousel-card-hover-border-color"
     },
     "carousel-active-dot-color": {
       "value": "{Root.fg-color}",
@@ -872,7 +872,7 @@
       "description": "--carousel-card-hover-box-shadow"
     },
     "carousel-card-d-grid-gap": {
-      "value": "{Root.xxxl}",
+      "value": "{Root.xl}",
       "type": "spacing",
       "description": "--carousel-card-desktop-grid-gap"
     },

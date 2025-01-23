@@ -13,17 +13,17 @@
     "action-default-color": {
       "value": "{Neutral.V650}",
       "type": "color",
-      "description": "--fg-action-default-color"
+      "description": "--action-default-color"
     },
     "action-hover-color": {
       "value": "{Neutral.V700}",
       "type": "color",
-      "description": "--hover-color"
+      "description": "--action-hover-color"
     },
     "action-active-color": {
       "value": "{Neutral.V700}",
       "type": "color",
-      "description": "--active-color"
+      "description": "--action-active-color"
     },
     "overflow-bg-color": {
       "value": "linear-gradient(90deg, {Palette.Plain.TRANSPARENT} , rgba( {Root.bg-color} , 1) 100%)",
