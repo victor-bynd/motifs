@@ -13,17 +13,17 @@
     "action-default-color": {
       "value": "{Neutral.V300}",
       "type": "color",
-      "description": "--fg-action-default-color"
+      "description": "--action-default-color"
     },
     "action-hover-color": {
       "value": "{Neutral.V250}",
       "type": "color",
-      "description": "--hover-color"
+      "description": "--action-hover-color"
     },
     "action-active-color": {
       "value": "{Neutral.V0}",
       "type": "color",
-      "description": "--active-color"
+      "description": "--action-active-color"
     },
     "overflow-bg-color": {
       "value": "linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 100%)",
@@ -431,17 +431,17 @@
       "type": "color",
       "description": "--carousel-card-bg-color"
     },
-    "carousel-card-bg-hover-color": {
+    "carousel-card-hover-bg-color": {
       "value": "{Neutral.V625}",
       "type": "color",
-      "description": "--carousel-card-bg-hover-color"
+      "description": "--carousel-card-hover-bg-color"
     },
     "carousel-card-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--carousel-card-border-color"
     },
-    "carousel-card-border-hover-color": {
+    "carousel-card-hover-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--carousel-card-hover-border-color"

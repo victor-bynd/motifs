@@ -188,9 +188,7 @@
       "Accordion.accordion-divider-border-color": "cc045151da3faf46ef5119f327123d152cd9bd8a",
       "Carousel.carousel-card-fg-color": "5e2a78f520e4b33716ed2d941968867e4da9093f",
       "Carousel.carousel-card-bg-color": "ca2fcb6dd2958ca3296c21b9bcf6dc1927255b4a",
-      "Carousel.carousel-card-bg-hover-color": "8ce79622ecf93125d1d83aee99a76d9c56742e12",
       "Carousel.carousel-card-border-color": "0816bb735f81ab54e7c128871096437634d62d6e",
-      "Carousel.carousel-card-border-hover-color": "a2f13c3f01be4ebca006202eef26c1cc94cda7b6",
       "Carousel.carousel-active-dot-color": "cff0c423eaf87f3f07b61f5283512b931c18ad92",
       "Carousel.carousel-inactive-dot-color": "03470a14e6c692b1e78f60ef3858da028c5c7e84",
       "Hyperlink.hyperlink-color": "2cdc07ef8ad3c83a9c7459464e1dff46ae99dfc9",
@@ -389,7 +387,9 @@
       "Autocomplete.autocomplete-hover-border-color": "653a18fdd3a73bbd0c2b6f567f4418dfda973154",
       "Autocomplete.autocomplete-m-font-size": "11c31cface10c82e0e76f3c378e68df41e7c029b",
       "Autocomplete.autocomplete-m-font-weight": "669db3e32c814b87a5e745300f0f67d792d830fc",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
+      "Carousel.carousel-card-hover-bg-color": "8ce79622ecf93125d1d83aee99a76d9c56742e12",
+      "Carousel.carousel-card-hover-border-color": "a2f13c3f01be4ebca006202eef26c1cc94cda7b6"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:1",
@@ -653,9 +653,7 @@
       "Carousel.carousel-card-border-width": "5ec4eb39190dac6df15e77901ec0561d90cfd1e0",
       "Carousel.carousel-card-fg-color": "5e2a78f520e4b33716ed2d941968867e4da9093f",
       "Carousel.carousel-card-bg-color": "ca2fcb6dd2958ca3296c21b9bcf6dc1927255b4a",
-      "Carousel.carousel-card-bg-hover-color": "8ce79622ecf93125d1d83aee99a76d9c56742e12",
       "Carousel.carousel-card-border-color": "0816bb735f81ab54e7c128871096437634d62d6e",
-      "Carousel.carousel-card-border-hover-color": "a2f13c3f01be4ebca006202eef26c1cc94cda7b6",
       "Carousel.carousel-active-dot-color": "cff0c423eaf87f3f07b61f5283512b931c18ad92",
       "Carousel.carousel-inactive-dot-color": "03470a14e6c692b1e78f60ef3858da028c5c7e84",
       "Carousel.carousel-card-d-grid-gap": "1214d1ea15de227799403b26d594f6b91a1c8e0f",
@@ -796,7 +794,9 @@
       "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
       "Modal.modal-background-color": "d9dd944469036e507a31022dbf33f372da5dc0b0",
       "Modal.modal-close-background-color": "97113bd424808f74d32686e20dc0280de374f5c4",
-      "Modal.modal-close-foreground-color": "9463350b566dbe316bc6ef8bc73feec423d264e8"
+      "Modal.modal-close-foreground-color": "9463350b566dbe316bc6ef8bc73feec423d264e8",
+      "Carousel.carousel-card-hover-bg-color": "8ce79622ecf93125d1d83aee99a76d9c56742e12",
+      "Carousel.carousel-card-hover-border-color": "a2f13c3f01be4ebca006202eef26c1cc94cda7b6"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:2",
@@ -992,9 +992,7 @@
       "Accordion.accordion-divider-border-color": "cc045151da3faf46ef5119f327123d152cd9bd8a",
       "Carousel.carousel-card-fg-color": "5e2a78f520e4b33716ed2d941968867e4da9093f",
       "Carousel.carousel-card-bg-color": "ca2fcb6dd2958ca3296c21b9bcf6dc1927255b4a",
-      "Carousel.carousel-card-bg-hover-color": "8ce79622ecf93125d1d83aee99a76d9c56742e12",
       "Carousel.carousel-card-border-color": "0816bb735f81ab54e7c128871096437634d62d6e",
-      "Carousel.carousel-card-border-hover-color": "a2f13c3f01be4ebca006202eef26c1cc94cda7b6",
       "Carousel.carousel-active-dot-color": "cff0c423eaf87f3f07b61f5283512b931c18ad92",
       "Carousel.carousel-inactive-dot-color": "03470a14e6c692b1e78f60ef3858da028c5c7e84",
       "Hyperlink.hyperlink-color": "2cdc07ef8ad3c83a9c7459464e1dff46ae99dfc9",
@@ -1206,7 +1204,9 @@
       "Autocomplete.autocomplete-hover-border-color": "653a18fdd3a73bbd0c2b6f567f4418dfda973154",
       "Autocomplete.autocomplete-m-font-size": "11c31cface10c82e0e76f3c378e68df41e7c029b",
       "Autocomplete.autocomplete-m-font-weight": "669db3e32c814b87a5e745300f0f67d792d830fc",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
+      "Carousel.carousel-card-hover-bg-color": "8ce79622ecf93125d1d83aee99a76d9c56742e12",
+      "Carousel.carousel-card-hover-border-color": "a2f13c3f01be4ebca006202eef26c1cc94cda7b6"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3",
@@ -1426,9 +1426,7 @@
       "Accordion.accordion-divider-border-color": "cc045151da3faf46ef5119f327123d152cd9bd8a",
       "Carousel.carousel-card-fg-color": "5e2a78f520e4b33716ed2d941968867e4da9093f",
       "Carousel.carousel-card-bg-color": "ca2fcb6dd2958ca3296c21b9bcf6dc1927255b4a",
-      "Carousel.carousel-card-bg-hover-color": "8ce79622ecf93125d1d83aee99a76d9c56742e12",
       "Carousel.carousel-card-border-color": "0816bb735f81ab54e7c128871096437634d62d6e",
-      "Carousel.carousel-card-border-hover-color": "a2f13c3f01be4ebca006202eef26c1cc94cda7b6",
       "Carousel.carousel-active-dot-color": "cff0c423eaf87f3f07b61f5283512b931c18ad92",
       "Carousel.carousel-inactive-dot-color": "03470a14e6c692b1e78f60ef3858da028c5c7e84",
       "Hyperlink.hyperlink-color": "2cdc07ef8ad3c83a9c7459464e1dff46ae99dfc9",
@@ -1640,7 +1638,9 @@
       "Autocomplete.autocomplete-hover-border-color": "653a18fdd3a73bbd0c2b6f567f4418dfda973154",
       "Autocomplete.autocomplete-m-font-size": "11c31cface10c82e0e76f3c378e68df41e7c029b",
       "Autocomplete.autocomplete-m-font-weight": "669db3e32c814b87a5e745300f0f67d792d830fc",
-      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598"
+      "Summary card.summary-card-border-width": "8c114bbca44587dfd1098edb9d1303d6c0d92598",
+      "Carousel.carousel-card-hover-bg-color": "8ce79622ecf93125d1d83aee99a76d9c56742e12",
+      "Carousel.carousel-card-hover-border-color": "a2f13c3f01be4ebca006202eef26c1cc94cda7b6"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4",

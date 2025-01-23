@@ -836,20 +836,20 @@
       "type": "color",
       "description": "--carousel-card-bg-color"
     },
-    "carousel-card-bg-hover-color": {
+    "carousel-card-hover-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
-      "description": "--carousel-card-bg-hover-color"
+      "description": "--carousel-card-hover-bg-color"
     },
     "carousel-card-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
       "description": "--carousel-card-border-color"
     },
-    "carousel-card-border-hover-color": {
+    "carousel-card-hover-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
-      "description": "--carousel-card-border-hover-color"
+      "description": "--carousel-card-hover-border-color"
     },
     "carousel-active-dot-color": {
       "value": "{Root.fg-color}",
