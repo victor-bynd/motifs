@@ -27,8 +27,7 @@
     },
     "overflow-bg-color": {
       "value": "linear-gradient(90deg, {Palette.Plain.TRANSPARENT} , rgba( {Root.bg-color} , 1) 100%)",
-      "type": "color",
-      "description": "Internal token used only in Figma for overflow transparency on some components like tabs"
+      "type": "color"
     }
   },
   "Button": {
@@ -240,7 +239,7 @@
       "description": "--hyperlink-color"
     }
   },
-  "Table": {
+  "Primitive Table": {
     "table-cell-fg-color": {
       "value": "{Neutral.V500}",
       "type": "color",

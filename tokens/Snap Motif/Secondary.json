@@ -27,8 +27,7 @@
     },
     "overflow-bg-color": {
       "value": "linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 100%)",
-      "type": "color",
-      "description": "Internal token used only in Figma for overflow transparency on some components like tabs"
+      "type": "color"
     }
   },
   "Button": {
@@ -726,7 +725,8 @@
   "Definition": {
     "definition-active-bg-color": {
       "value": "{Neutral.V500}",
-      "type": "color"
+      "type": "color",
+      "description": "--definition-active-bg-color"
     },
     "definition-active-border-color": {
       "value": "{Primary.V200}",
@@ -740,7 +740,8 @@
     },
     "definition-border-color": {
       "value": "{Primary.V200}",
-      "type": "color"
+      "type": "color",
+      "description": "-definition-border-color"
     },
     "definition-hover-bg-color": {
       "value": "{Neutral.V600}",
