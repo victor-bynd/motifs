@@ -123,7 +123,7 @@
     },
     "text-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Root.text-d-font-weight}",
         "fontSize": "{Root.text-d-font-size}",
         "lineHeight": "{Root.text-d-font-line-height}"
@@ -133,7 +133,7 @@
     },
     "text-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Root.text-m-font-weight}",
         "fontSize": "{Root.text-m-font-size}",
         "lineHeight": "{Root.text-m-font-line-height}"
@@ -143,7 +143,7 @@
     },
     "h1-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h1-d-font-size}",
         "lineHeight": "{Root.h1-d-font-line-height}",
         "fontWeight": "{Root.h1-d-font-weight}"
@@ -153,7 +153,7 @@
     },
     "h1-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h1-m-font-size}",
         "lineHeight": "{Root.h1-m-font-line-height}",
         "fontWeight": "{Root.h1-m-font-weight}"
@@ -163,7 +163,7 @@
     },
     "h2-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h2-d-font-size}",
         "lineHeight": "{Root.h2-d-font-line-height}",
         "fontWeight": "{Root.h2-d-font-weight}"
@@ -173,7 +173,7 @@
     },
     "h2-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h2-m-font-size}",
         "lineHeight": "{Root.h2-m-font-line-height}",
         "fontWeight": "{Root.h2-m-font-weight}"
@@ -183,7 +183,7 @@
     },
     "h3-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h3-d-font-size}",
         "lineHeight": "{Root.h3-d-font-line-height}",
         "fontWeight": "{Root.h3-d-font-weight}"
@@ -193,7 +193,7 @@
     },
     "h3-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h3-m-font-size}",
         "lineHeight": "{Root.h3-m-font-line-height}",
         "fontWeight": "{Root.h3-m-font-weight}"
@@ -203,7 +203,7 @@
     },
     "h4-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h4-d-font-size}",
         "lineHeight": "{Root.h4-d-font-line-height}",
         "fontWeight": "{Root.h4-d-font-weight}"
@@ -213,7 +213,7 @@
     },
     "h4-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h4-m-font-size}",
         "lineHeight": "{Root.h4-m-font-line-height}",
         "fontWeight": "{Root.h4-m-font-weight}"
@@ -223,7 +223,7 @@
     },
     "h5-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h5-d-font-size}",
         "lineHeight": "{Root.h5-d-font-line-height}",
         "fontWeight": "{Root.h5-d-font-weight}"
@@ -233,7 +233,7 @@
     },
     "h5-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h5-m-font-size}",
         "lineHeight": "{Root.h5-m-font-line-height}",
         "fontWeight": "{Root.h5-m-font-weight}"
@@ -243,7 +243,7 @@
     },
     "h6-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h6-d-font-size}",
         "lineHeight": "{Root.h6-d-font-line-height}",
         "fontWeight": "{Root.h6-d-font-weight}"
@@ -253,7 +253,7 @@
     },
     "h6-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.h6-m-font-size}",
         "lineHeight": "{Root.h6-m-font-line-height}",
         "fontWeight": "{Root.h6-m-font-weight}"
@@ -263,7 +263,7 @@
     },
     "p1-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.p1-d-font-size}",
         "lineHeight": "{Root.p1-d-font-line-height}",
         "fontWeight": "{Root.p1-d-font-weight}"
@@ -273,7 +273,7 @@
     },
     "p1-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.p1-m-font-size}",
         "lineHeight": "{Root.p1-m-font-line-height}",
         "fontWeight": "{Root.p1-m-font-weight}"
@@ -283,7 +283,7 @@
     },
     "p2-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.p2-d-font-size}",
         "lineHeight": "{Root.p2-d-font-line-height}",
         "fontWeight": "{Root.p2-d-font-weight}"
@@ -293,7 +293,7 @@
     },
     "p2-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.p2-m-font-size}",
         "lineHeight": "{Root.p2-m-font-line-height}",
         "fontWeight": "{Root.p2-m-font-weight}"
@@ -303,7 +303,7 @@
     },
     "p3-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.p3-d-font-size}",
         "lineHeight": "{Root.p3-d-font-line-height}",
         "fontWeight": "{Root.p3-d-font-weight}"
@@ -313,7 +313,7 @@
     },
     "p3-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.p3-m-font-size}",
         "lineHeight": "{Root.p3-m-font-line-height}",
         "fontWeight": "{Root.p3-m-font-weight}"
@@ -323,7 +323,7 @@
     },
     "p4-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.p4-d-font-size}",
         "lineHeight": "{Root.p4-d-font-line-height}",
         "fontWeight": "{Root.p4-d-font-weight}"
@@ -333,7 +333,7 @@
     },
     "p4-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Root.p4-m-font-size}",
         "lineHeight": "{Root.p4-m-font-line-height}",
         "fontWeight": "{Root.p4-m-font-weight}"
@@ -341,10 +341,10 @@
       "type": "typography",
       "description": "--p4-mobile-font-size, --p4-mobile-font-line-height, --p4-mobile-font-weight, --p4-mobile-font-stretch"
     },
-    "font-family-primary": {
+    "font-family": {
       "value": "Graphik",
       "type": "fontFamilies",
-      "description": "--font-family-primary"
+      "description": "--font-family"
     },
     "border-width-none": {
       "value": "0px",
@@ -373,7 +373,7 @@
     },
     "action-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Root.action-d-font-weight}",
         "lineHeight": "{Root.action-d-font-line-height}",
         "fontSize": "{Root.action-d-font-size}",
@@ -384,7 +384,7 @@
     },
     "action-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Root.action-m-font-weight}",
         "lineHeight": "{Root.action-m-font-line-height}",
         "fontSize": "{Root.action-m-font-size}",
@@ -395,7 +395,7 @@
     },
     "annotation-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Root.annotation-d-font-weight}",
         "lineHeight": "{Root.annotation-d-font-line-height}",
         "fontSize": "{Root.annotation-d-font-size}",
@@ -406,7 +406,7 @@
     },
     "annotation-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Root.annotation-m-font-weight}",
         "lineHeight": "{Root.annotation-m-font-line-height}",
         "fontSize": "{Root.annotation-m-font-size}",
@@ -417,7 +417,7 @@
     },
     "action-d-regular": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Root.400}",
         "lineHeight": "{Root.action-d-font-line-height}",
         "fontSize": "{Root.action-d-font-size}"
@@ -427,7 +427,7 @@
     },
     "action-m-regular": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Root.400}",
         "lineHeight": "{Root.action-m-font-line-height}",
         "fontSize": "{Root.action-m-font-size}"

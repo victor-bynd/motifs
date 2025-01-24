@@ -1773,7 +1773,6 @@
       "Root.border-radius-m": "d363c072a99d84dba4382369289f0279c03b8479",
       "Root.border-radius-l": "afa5c1003b4c0796e0691378212502964a180e84",
       "Root.border-radius-xl": "e840805c48acc4d5f85de35a29e0ede9584418e4",
-      "Root.font-family-primary": "c8ae7d57bdbeef90657008848bc4952c75c2778a",
       "Root.border-width-none": "91f5ae87ba4dc64447a29ffa952ab4fb1a3bfae2",
       "Root.border-width-xs": "088af58376816ae6982ea2e830301f4feb7f487f",
       "Root.border-width-s": "407762d7dfd66ad8d47fadc8083fd908d9c50abf",
@@ -1907,7 +1906,8 @@
       "Semantic.semantic-focus-color": "f6159a7cebb381efae4022d5814e108ba8febb2d",
       "Semantic.transparent-neutral150": "56533ef02074dd8a1d04c270448a0963d48a3093",
       "hyperlink-mobile-font-weight": "7d2bc31f1381fb18bcc4c997a39e67d40c1316c4",
-      "hyperlink-desktop-font-weight": "41df7cda53317c13761e69c17d4c7ed5d92f91c2"
+      "hyperlink-desktop-font-weight": "41df7cda53317c13761e69c17d4c7ed5d92f91c2",
+      "Root.font-family": "c8ae7d57bdbeef90657008848bc4952c75c2778a"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:8942",
     "$figmaModeId": "8391:0",

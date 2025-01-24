@@ -93,7 +93,7 @@
     },
     "button-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Button.button-d-font-weight}",
         "lineHeight": "{Button.button-d-font-line-height}",
         "fontSize": "{Button.button-d-font-size}",
@@ -104,7 +104,7 @@
     },
     "button-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Button.button-m-font-weight}",
         "lineHeight": "{Button.button-m-font-line-height}",
         "fontSize": "{Button.button-m-font-size}",
@@ -349,7 +349,7 @@
     },
     "block-title-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Block.block-title-d-font-size}",
         "lineHeight": "{Block.block-title-d-font-line-height}"
       },
@@ -358,7 +358,7 @@
     },
     "block-title-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Block.block-title-m-font-size}",
         "lineHeight": "{Block.block-title-m-font-line-height}"
       },
@@ -557,7 +557,7 @@
     },
     "quote-author-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Quote.quote-author-d-font-size}",
         "fontWeight": "{Quote.quote-author-d-font-weight}"
       },
@@ -566,7 +566,7 @@
     },
     "quote-author-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Quote.quote-author-m-font-size}",
         "fontWeight": "{Quote.quote-author-m-font-weight}"
       },
@@ -750,7 +750,7 @@
     },
     "accordion-header-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontSize": "{Accordion.accordion-header-d-font-size}",
         "lineHeight": "{Accordion.accordion-header-d-font-line-height}",
         "fontWeight": "{Accordion.accordion-header-d-font-weight}"
@@ -795,7 +795,7 @@
     },
     "accordion-header-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Accordion.accordion-header-m-font-weight}",
         "fontSize": "{Accordion.accordion-header-m-font-size}",
         "lineHeight": "{Accordion.accordion-header-m-font-line-height}"
@@ -936,7 +936,7 @@
     },
     "banner-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Root.400}",
         "fontSize": "{Root.action-d-font-size}",
         "lineHeight": "{Root.action-d-font-line-height}"
@@ -1027,7 +1027,7 @@
     },
     "hyperlink-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Hyperlink.hyperlink-d-font-weight}",
         "fontSize": "{Hyperlink.hyperlink-d-font-size}",
         "lineHeight": "{Hyperlink.hyperlink-d-font-line-height}",
@@ -1039,7 +1039,7 @@
     },
     "hyperlink-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Hyperlink.hyperlink-m-font-weight}",
         "fontSize": "{Hyperlink.hyperlink-m-font-size}",
         "lineHeight": "{Hyperlink.hyperlink-m-font-line-height}",
@@ -1368,7 +1368,7 @@
     },
     "form-input-d": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "lineHeight": "{Form.form-input-d-font-line-height}",
         "fontWeight": "{Form.form-input-d-font-weight}",
         "fontSize": "{Form.form-input-d-font-size}"
@@ -1428,7 +1428,7 @@
     },
     "form-input-m": {
       "value": {
-        "fontFamily": "{Root.font-family-primary}",
+        "fontFamily": "{Root.font-family}",
         "fontWeight": "{Form.form-input-m-font-weight}",
         "fontSize": "{Form.form-input-m-font-size}",
         "lineHeight": "{Form.form-input-m-font-line-height}"
