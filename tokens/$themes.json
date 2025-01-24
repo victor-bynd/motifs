@@ -1020,7 +1020,7 @@
       "Primitive Table.table-cell-fg-color": "59f96b980aaab2fc60d33c093caf86d753da37e3",
       "Primitive Table.table-cell-header-bg-color": "aa0c7d146ea6d9b5eae58b062eb7c500c6b2a6ab",
       "Primitive Table.table-cell-body-bg-color": "038ee6496e886725511721c1dfbbc682d5fb62d3",
-      "Primitive Table.table-border-color": "24abb86ad33acb7a49d55bd3608dacd3b05da078",
+      "Primitive Table.table-border-color": "ec46611141cdd2a5b752921d0dba474931834e8e",
       "Primitive Table.table-background-color": "bcdbd0b1a4dd01eb3c94deb6098060ff2c92cc58",
       "Primitive Table.table-header-foreground-color": "eade81ea81a667bf7228765a922d122957cdb5d9",
       "Autocomplete.autocomplete-button-fg-color": "d4176c8c99de27ec7e9f864a9049fb55256f334c",
@@ -1195,8 +1195,7 @@
       "Carousel.carousel-card-hover-bg-color": "8ce79622ecf93125d1d83aee99a76d9c56742e12",
       "Carousel.carousel-card-hover-border-color": "a2f13c3f01be4ebca006202eef26c1cc94cda7b6",
       "Toogle Slider.toggle-slider-active-color": "4f7e965af88ac439d4ca02f44049af686407b2c7",
-      "Toogle Slider.toggle-slider-background-color": "d050dc2d17a5775115063ff39e95db1b6f761c73",
-      "Primitive Table.table-cell-border-color": "ec46611141cdd2a5b752921d0dba474931834e8e"
+      "Toogle Slider.toggle-slider-background-color": "d050dc2d17a5775115063ff39e95db1b6f761c73"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3",
@@ -1449,7 +1448,7 @@
       "Primitive Table.table-cell-fg-color": "59f96b980aaab2fc60d33c093caf86d753da37e3",
       "Primitive Table.table-cell-header-bg-color": "aa0c7d146ea6d9b5eae58b062eb7c500c6b2a6ab",
       "Primitive Table.table-cell-body-bg-color": "038ee6496e886725511721c1dfbbc682d5fb62d3",
-      "Primitive Table.table-border-color": "24abb86ad33acb7a49d55bd3608dacd3b05da078",
+      "Primitive Table.table-border-color": "ec46611141cdd2a5b752921d0dba474931834e8e",
       "Primitive Table.table-background-color": "bcdbd0b1a4dd01eb3c94deb6098060ff2c92cc58",
       "Primitive Table.table-header-foreground-color": "eade81ea81a667bf7228765a922d122957cdb5d9",
       "Autocomplete.autocomplete-button-fg-color": "d4176c8c99de27ec7e9f864a9049fb55256f334c",
@@ -1624,8 +1623,7 @@
       "Carousel.carousel-card-hover-bg-color": "8ce79622ecf93125d1d83aee99a76d9c56742e12",
       "Carousel.carousel-card-hover-border-color": "a2f13c3f01be4ebca006202eef26c1cc94cda7b6",
       "Toogle Slider.toggle-slider-active-color": "4f7e965af88ac439d4ca02f44049af686407b2c7",
-      "Toogle Slider.toggle-slider-background-color": "d050dc2d17a5775115063ff39e95db1b6f761c73",
-      "Primitive Table.table-cell-border-color": "ec46611141cdd2a5b752921d0dba474931834e8e"
+      "Toogle Slider.toggle-slider-background-color": "d050dc2d17a5775115063ff39e95db1b6f761c73"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4",

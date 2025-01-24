@@ -221,10 +221,10 @@
       "type": "color",
       "description": "--table-cell-body-bg-color"
     },
-    "table-cell-border-color": {
+    "table-border-color": {
       "value": "{Neutral.V250}",
       "type": "color",
-      "description": "--table-cell-border-color"
+      "description": "--table-border-color"
     }
   },
   "Banner": {

@@ -741,7 +741,7 @@
     "definition-border-color": {
       "value": "{Primary.V200}",
       "type": "color",
-      "description": "-definition-border-color"
+      "description": "--definition-border-color"
     },
     "definition-hover-bg-color": {
       "value": "{Neutral.V600}",
