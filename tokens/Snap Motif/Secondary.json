@@ -251,15 +251,18 @@
     },
     "hero-scroll-button-bg-color": {
       "value": "{Neutral.V0}",
-      "type": "color"
+      "type": "color",
+      "description": "--hero-scroll-button-bg-color"
     },
     "hero-scroll-button-hover-bg-color": {
       "value": "{Neutral.V250}",
-      "type": "color"
+      "type": "color",
+      "description": "--hero-scroll-button-hover-bg-color"
     },
     "hero-scroll-button-fg-color": {
       "value": "{Neutral.V700}",
-      "type": "color"
+      "type": "color",
+      "description": "--hero-scroll-button-fg-color"
     },
     "hero-scroll-button-hover-fg-color": {
       "value": "{Neutral.V0}",
