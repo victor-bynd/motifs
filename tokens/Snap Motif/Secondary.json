@@ -28,7 +28,7 @@
     "overflow-bg-color": {
       "value": "linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 100%)",
       "type": "color",
-      "description": "--overflow-bg-color"
+      "description": "Internal token used only in Figma for overflow transparency on some components like tabs"
     }
   },
   "Button": {
@@ -146,46 +146,53 @@
     },
     "global-header-menu-bg-color": {
       "value": "{Neutral.V650}",
-      "type": "color"
+      "type": "color",
+      "description": "--global-header-menu-bg-color"
     },
     "global-header-menu-border-color": {
       "value": "{Neutral.V625}",
-      "type": "color"
+      "type": "color",
+      "description": "--global-header-menu-border-color"
     },
     "global-header-menu-col-label-color": {
       "value": "{Root.fg-color}",
       "type": "color",
-      "description": "--global-header-navigator-col-label-color"
+      "description": "--global-header-menu-col-label-color"
     },
     "global-header-menu-col-divider-color": {
       "value": "{Neutral.V600}",
-      "type": "color"
+      "type": "color",
+      "description": "--global-header-menu-col-divider-color"
     },
     "global-header-menu-item-fg-color": {
       "value": "{Neutral.V300}",
       "type": "color",
-      "description": "--global-header-navigator-item-fg-color"
+      "description": "--global-header-menu-item-fg-color"
     },
     "global-header-menu-item-icon-color": {
       "value": "{Primary.V150}",
-      "type": "color"
+      "type": "color",
+      "description": "--global-header-menu-item-icon-color"
     },
     "global-header-menu-item-bg-hover-color": {
       "value": "{Neutral.V625}",
-      "type": "color"
+      "type": "color",
+      "description": "--global-header-menu-item-bg-hover-color"
     },
     "global-header-menu-featured-item-bg-color": {
       "value": "{Neutral.V600}",
-      "type": "color"
+      "type": "color",
+      "description": "--global-header-menu-featured-item-bg-color"
     },
     "global-header-menu-featured-item-bg-hover-color": {
       "value": "{Neutral.V625}",
-      "type": "color"
+      "type": "color",
+      "description": "--global-header-menu-featured-item-bg-hover-color"
     },
     "global-header-menu-featured-item-fg-color": {
       "value": "{Neutral.V300}",
       "type": "color",
-      "description": "--global-header-navigator-featured-item-fg-color"
+      "description": "--global-header-menu-featured-item-fg-color"
     },
     "global-header-menu-featured-item-icon-color": {
       "value": "{Primary.V150}",
@@ -380,12 +387,12 @@
     }
   },
   "Toogle Slider": {
-    "toggle-slider-active-bg-color": {
+    "toggle-slider-active-color": {
       "value": "{Primary.V100}",
       "type": "color",
-      "description": "--toggle-slider-active-background-color"
+      "description": "--toggle-slider-active-color"
     },
-    "toggle-slider-bg-color": {
+    "toggle-slider-background-color": {
       "value": "{Neutral.V150}",
       "type": "color",
       "description": "--toggle-slider-background-color"
@@ -417,7 +424,7 @@
     "accordion-divider-border-color": {
       "value": "{Root.fg-color}",
       "type": "color",
-      "description": "--accordion-divider-color"
+      "description": "--accordion-divider-border-color"
     }
   },
   "Carousel": {
@@ -455,13 +462,16 @@
       "value": "rgba(133, 141, 148, 0.5)",
       "type": "color",
       "description": "--carousel-inactive-dot-color"
-    }
-  },
-  "carousel-card": {
-    "carousel-card-hover-shadow": {
+    },
+    "carousel-card-box-shadow": {
+      "value": "{Root.box-shadow-s}",
+      "type": "boxShadow",
+      "description": "--carousel-card-box-shadow"
+    },
+    "carousel-card-hover-box-shadow": {
       "value": "{Root.box-shadow-m}",
       "type": "boxShadow",
-      "description": "--carousel-card-hover-shadow"
+      "description": "--carousel-card-hover-box-shadow"
     }
   },
   "Hyperlink": {
@@ -492,7 +502,7 @@
     "summary-card-hover-bg-color": {
       "value": "{Neutral.V625}",
       "type": "color",
-      "description": "--summary-card-bg-hover-color"
+      "description": "--summary-card-hover-bg-color"
     },
     "summary-card-fg-color": {
       "value": "{Neutral.V0}",
@@ -630,15 +640,18 @@
   "Primitive Table": {
     "table-cell-fg-color": {
       "value": "{Root.fg-color}",
-      "type": "color"
+      "type": "color",
+      "description": "--table-cell-fg-color"
     },
     "table-cell-header-bg-color": {
       "value": "{Neutral.V600}",
-      "type": "color"
+      "type": "color",
+      "description": "--table-cell-header-bg-color"
     },
     "table-cell-body-bg-color": {
       "value": "{Neutral.V650}",
-      "type": "color"
+      "type": "color",
+      "description": "--table-cell-body-bg-color"
     },
     "table-border-color": {
       "value": "{Neutral.V600}",
@@ -754,7 +767,7 @@
     "side-overlay-border-color": {
       "value": "{Neutral.V600}",
       "type": "color",
-      "description": "--side-overlay-border-color\n"
+      "description": "--side-overlay-border-color"
     }
   },
   "Pagination": {

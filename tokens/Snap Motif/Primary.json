@@ -28,7 +28,7 @@
     "overflow-bg-color": {
       "value": "linear-gradient(90deg, rgba(255,252,0,0) 0%, #FFFC00 100%)",
       "type": "color",
-      "description": "--overflow-bg-color"
+      "description": "Internal token used only in Figma for overflow transparency on some components like tabs"
     }
   },
   "Button": {
@@ -509,16 +509,6 @@
       "type": "spacing",
       "description": "--content-mobile-grid-gap"
     },
-    "content-d-margin": {
-      "value": "{Root.xl}",
-      "type": "spacing",
-      "description": "--content-desktop-margin"
-    },
-    "content-m-margin": {
-      "value": "{Root.m}",
-      "type": "spacing",
-      "description": "--content-mobile-margin"
-    },
     "content-backdrop-filter": {
       "value": "none",
       "type": "backgroundFilter",
@@ -597,7 +587,7 @@
     "quote-author-d-font-size": {
       "value": "16px",
       "type": "fontSizes",
-      "description": "--quote-author-desktoo-font-size"
+      "description": "--quote-author-desktop-font-size"
     },
     "quote-author-m-font-size": {
       "value": "16px",
@@ -715,12 +705,12 @@
     }
   },
   "Toogle Slider": {
-    "toggle-slider-active-bg-color": {
+    "toggle-slider-active-color": {
       "value": "{Neutral.V700}",
       "type": "color",
-      "description": "--toggle-slider-active-background-color"
+      "description": "--toggle-slider-active-color"
     },
-    "toggle-slider-bg-color": {
+    "toggle-slider-background-color": {
       "value": "{Neutral.V250}",
       "type": "color",
       "description": "--toggle-slider-background-color"
@@ -1014,7 +1004,7 @@
     "hyperlink-m-font-line-height": {
       "value": "{Root.action-m-font-line-height}",
       "type": "lineHeights",
-      "description": "--hyperlink-m-font-line-height"
+      "description": "--hyperlink-mobile-font-line-height"
     },
     "hyperlink-d-font-size": {
       "value": "{Root.action-d-font-size}",
@@ -1068,7 +1058,7 @@
     "hyperlink-m-font-text-decoration": {
       "value": "{hyperlink-mobile-font-text-decoration}",
       "type": "textDecoration",
-      "description": "--hyperlink-m-font-text-decoration"
+      "description": "--hyperlink-mobile-font-text-decoration"
     }
   },
   "Spinner": {
@@ -1282,7 +1272,7 @@
   },
   "Mosaic": {
     "mosaic-border-radius": {
-      "value": "{Root.border-radius-xxl}",
+      "value": "{Root.border-radius-m}",
       "type": "borderRadius",
       "description": "--mosaic-border-radius"
     },
@@ -1768,7 +1758,7 @@
     "definition-hover-border-color": {
       "value": "{Palette.Yellow.V200}",
       "type": "color",
-      "description": "--definition-hover-border-color\n"
+      "description": "--definition-hover-border-color"
     }
   },
   "Side Overlay": {

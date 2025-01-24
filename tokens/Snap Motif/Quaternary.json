@@ -28,7 +28,7 @@
     "overflow-bg-color": {
       "value": "linear-gradient(90deg, {Palette.Plain.TRANSPARENT} , rgba( {Root.bg-color} , 1) 100%)",
       "type": "color",
-      "description": "--overflow-bg-color"
+      "description": "Internal token used only in Figma for overflow transparency on some components like tabs"
     }
   },
   "Button": {
@@ -109,7 +109,7 @@
     "tabs-underline-color": {
       "value": "{Neutral.V600}",
       "type": "color",
-      "description": "--tab-underline-color"
+      "description": "--tabs-underline-color"
     }
   },
   "Hero": {
@@ -154,12 +154,12 @@
     }
   },
   "Toogle Slider": {
-    "toggle-slider-active-bg-color": {
+    "toggle-slider-active-color": {
       "value": "{Primary.V100}",
       "type": "color",
-      "description": "--toggle-slider-active-background-color"
+      "description": "--toggle-slider-active-color"
     },
-    "toggle-slider-bg-color": {
+    "toggle-slider-background-color": {
       "value": "{Neutral.V700}",
       "type": "color",
       "description": "--toggle-slider-background-color"
@@ -179,14 +179,7 @@
     "accordion-divider-border-color": {
       "value": "{Neutral.V400}",
       "type": "color",
-      "description": "--accordion-divider-color"
-    }
-  },
-  "Locale-Dropdown": {
-    "locale-dropdown-bg-color": {
-      "value": "{Neutral.V0}",
-      "type": "color",
-      "description": "--locale-dropdown-bg-color"
+      "description": "--accordion-divider-border-color"
     }
   },
   "Progress Bar": {
@@ -213,66 +206,26 @@
       "description": "--hyperlink-color"
     }
   },
-  "Mosaic": {
-    "mosaic-duration-fg-color": {
-      "value": "{Neutral.V700}",
-      "type": "color",
-      "description": "--mosaic-duration-fg-color"
-    }
-  },
-  "Icon-Button": {
-    "icon-button-bg-color": {
-      "value": "{Palette.Plain.BLACK}",
-      "type": "color",
-      "description": "--icon-button-bg-color"
-    },
-    "icon-button-hover-bg-color": {
-      "value": "{Palette.Black.V100}",
-      "type": "color",
-      "description": "--icon-button-hover-bg-color"
-    },
-    "icon-button-disabled-bg-color": {
-      "value": "{Palette.Plain.TRANSPARENT}",
-      "type": "color",
-      "description": "--icon-button-disabled-bg-color"
-    },
-    "icon-button-border-color": {
-      "value": "{Palette.Plain.WHITE}",
-      "type": "color",
-      "description": "--icon-button-border-color"
-    },
-    "icon-button-disabled-border": {
-      "value": "{Palette.Plain.TRANSPARENT}",
-      "type": "color",
-      "description": "--icon-button-disabled-border"
-    },
-    "icon-button-fg-color": {
-      "value": "{Palette.Plain.WHITE}",
-      "type": "color",
-      "description": "--icon-button-fg-color"
-    },
-    "icon-button-disabled-fg-color": {
-      "value": "{Palette.Gray.V300}",
-      "type": "color",
-      "description": "--icon-button-disabled-fg-color"
-    }
-  },
   "Table": {
     "table-cell-fg-color": {
       "value": "{Neutral.V500}",
-      "type": "color"
+      "type": "color",
+      "description": "--table-cell-fg-color"
     },
     "table-cell-header-bg-color": {
       "value": "{Neutral.V250}",
-      "type": "color"
+      "type": "color",
+      "description": "--table-cell-header-bg-color"
     },
     "table-cell-body-bg-color": {
       "value": "{Root.bg-color}",
-      "type": "color"
+      "type": "color",
+      "description": "--table-cell-body-bg-color"
     },
     "table-cell-border-color": {
       "value": "{Neutral.V250}",
-      "type": "color"
+      "type": "color",
+      "description": "--table-cell-border-color"
     }
   },
   "Banner": {
