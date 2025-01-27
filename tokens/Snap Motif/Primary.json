@@ -3,12 +3,12 @@
     "bg-color": {
       "value": "{Primary.V100}",
       "type": "color",
-      "description": "--background-color"
+      "description": "--bg-color"
     },
     "fg-color": {
       "value": "{Neutral.V700}",
       "type": "color",
-      "description": "--foreground-color"
+      "description": "--fg-color"
     },
     "action-default-color": {
       "value": "{Neutral.V600}",
@@ -703,16 +703,16 @@
       "description": "--dropdown-button-hover-border-color"
     }
   },
-  "Toogle Slider": {
+  "Toggle Slider": {
     "toggle-slider-active-color": {
       "value": "{Neutral.V700}",
       "type": "color",
       "description": "--toggle-slider-active-color"
     },
-    "toggle-slider-background-color": {
+    "toggle-slider-bg-color": {
       "value": "{Neutral.V250}",
       "type": "color",
-      "description": "--toggle-slider-background-color"
+      "description": "--toggle-slider-bg-color"
     },
     "toggle-slider-switch-color": {
       "value": "{Neutral.V0}",
@@ -1226,17 +1226,17 @@
     "icon-button-bg-color": {
       "value": "{Neutral.V650}",
       "type": "color",
-      "description": "--icon-button-background-color"
+      "description": "--icon-button-bg-color"
     },
     "icon-button-hover-bg-color": {
       "value": "{Neutral.V650}",
       "type": "color",
-      "description": "--icon-button-hover-background-color"
+      "description": "--icon-button-hover-bg-color"
     },
     "icon-button-disabled-bg-color": {
       "value": "{Neutral.V150}",
       "type": "color",
-      "description": "--icon-button-disabled-background-color"
+      "description": "--icon-button-disabled-bg-color"
     },
     "icon-button-border-color": {
       "value": "{Palette.Plain.WHITE}",
@@ -1256,12 +1256,12 @@
     "icon-button-fg-color": {
       "value": "{Palette.Plain.WHITE}",
       "type": "color",
-      "description": "--icon-button-foreground-color"
+      "description": "--icon-button-fg-color"
     },
     "icon-button-disabled-fg-color": {
       "value": "{Palette.Gray.V300}",
       "type": "color",
-      "description": "--icon-button-disabled-foreground-color"
+      "description": "--icon-button-disabled-fg-color"
     },
     "icon-button-border-width": {
       "value": "2px",
@@ -1300,17 +1300,17 @@
     "modal-bg-color": {
       "value": "rgba(255,255,255,0.7)",
       "type": "color",
-      "description": "--modal-background-color"
+      "description": "--modal-bg-color"
     },
     "modal-close-bg-color": {
       "value": "{Neutral.V700}",
       "type": "color",
-      "description": "--modal-close-background-color"
+      "description": "--modal-close-bg-color"
     },
     "modal-close-fg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
-      "description": "--modal-close-foreground-color"
+      "description": "--modal-close-fg-color"
     }
   },
   "Icon": {
@@ -1526,10 +1526,10 @@
     }
   },
   "Toggle Panel": {
-    "toggle-panel-background-color": {
+    "toggle-panel-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
-      "description": "--toggle-panel-background-color"
+      "description": "--toggle-panel-bg-color"
     },
     "toggle-panel-color": {
       "value": "#000000",
@@ -1541,27 +1541,27 @@
     "table-cell-fg-color": {
       "value": "{Neutral.V600}",
       "type": "color",
-      "description": "--table-cell-foreground-color"
+      "description": "--table-cell-fg-color"
     },
     "table-cell-header-bg-color": {
       "value": "{Neutral.V200}",
       "type": "color",
-      "description": "--table-cell-header-background-color"
+      "description": "--table-cell-header-bg-color"
     },
     "table-cell-body-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
-      "description": "--table-cell-body-background-color"
+      "description": "--table-cell-body-bg-color"
     },
     "table-border-color": {
       "value": "{Neutral.V300}",
       "type": "color",
       "description": "--table-border-color"
     },
-    "table-background-color": {
+    "table-bg-color": {
       "value": "rgba(0,0,0,0)",
       "type": "color",
-      "description": "--table-background-color"
+      "description": "--table-bg-color"
     },
     "table-cell-d-padding": {
       "value": "{Root.m} {Root.m}",
@@ -1593,10 +1593,10 @@
       "type": "sizing",
       "description": "--table-first-column-max-width"
     },
-    "table-header-foreground-color": {
+    "table-header-fg-color": {
       "value": "{Neutral.V700}",
       "type": "color",
-      "description": "--table-header-foreground-color"
+      "description": "--table-header-fg-color"
     }
   },
   "Loading Bar": {
