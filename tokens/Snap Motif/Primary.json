@@ -1730,32 +1730,32 @@
   },
   "Definition": {
     "definition-active-bg-color": {
-      "value": "{Palette.Yellow.V150}",
+      "value": "{Neutral.V0}",
       "type": "color",
       "description": "--definition-active-bg-color"
     },
     "definition-active-border-color": {
-      "value": "{Palette.Yellow.V200}",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--definition-active-border-color"
     },
     "definition-bg-color": {
-      "value": "{Neutral.V100}",
+      "value": "{Primary.V150}",
       "type": "color",
       "description": "--definition-bg-color"
     },
     "definition-border-color": {
-      "value": "{Palette.Yellow.V200}",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--definition-border-color"
     },
     "definition-hover-bg-color": {
-      "value": "{Neutral.V250}",
+      "value": "{Primary.V200}",
       "type": "color",
       "description": "--definition-hover-bg-color"
     },
     "definition-hover-border-color": {
-      "value": "{Palette.Yellow.V200}",
+      "value": "{Neutral.V700}",
       "type": "color",
       "description": "--definition-hover-border-color"
     }
