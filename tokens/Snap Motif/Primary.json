@@ -851,7 +851,14 @@
       "description": "--carousel-inactive-dot-color"
     },
     "carousel-card-box-shadow": {
-      "value": "0px",
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "#000000",
+        "type": "dropShadow"
+      },
       "type": "boxShadow",
       "description": "--carousel-card-box-shadow"
     },
@@ -1779,7 +1786,14 @@
   },
   "Summary card": {
     "summary-card-box-shadow": {
-      "value": "0px",
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "#000000",
+        "type": "dropShadow"
+      },
       "type": "boxShadow",
       "description": "--summary-card-box-shadow"
     },
