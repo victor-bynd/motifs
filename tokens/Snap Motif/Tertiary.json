@@ -268,7 +268,7 @@
       "description": "--definition-active-bg-color"
     },
     "definition-active-border-color": {
-      "value": "{Primary.V150}",
+      "value": "{Primary.V200}",
       "type": "color",
       "description": "--definition-active-border-color"
     },
