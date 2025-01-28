@@ -851,7 +851,7 @@
       "description": "--carousel-inactive-dot-color"
     },
     "carousel-card-box-shadow": {
-      "value": "none",
+      "value": "0px",
       "type": "boxShadow",
       "description": "--carousel-card-box-shadow"
     },
@@ -1779,7 +1779,7 @@
   },
   "Summary card": {
     "summary-card-box-shadow": {
-      "value": "none",
+      "value": "0px",
       "type": "boxShadow",
       "description": "--summary-card-box-shadow"
     },

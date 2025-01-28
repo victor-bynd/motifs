@@ -466,7 +466,7 @@
       "description": "--carousel-inactive-dot-color"
     },
     "carousel-card-box-shadow": {
-      "value": "{Root.box-shadow-s}",
+      "value": "0px",
       "type": "boxShadow",
       "description": "--carousel-card-box-shadow"
     },
