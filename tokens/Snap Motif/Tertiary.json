@@ -275,7 +275,7 @@
   },
   "Carousel": {
     "carousel-card-fg-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--carousel-card-fg-color"
     },
@@ -312,7 +312,7 @@
   },
   "Summary Card": {
     "summary-card-bg-color": {
-      "value": "{Neutral.V0}",
+      "value": "{Root.bg-color}",
       "type": "color",
       "description": "--summary-card-bg-color"
     },
@@ -322,17 +322,17 @@
       "description": "--summary-card-hover-bg-color"
     },
     "summary-card-fg-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--summary-card-fg-color"
     },
     "summary-card-title-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--summary-card-title-color"
     },
     "summary-card-description-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--summary-card-description-color"
     },

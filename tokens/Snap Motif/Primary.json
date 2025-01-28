@@ -816,12 +816,12 @@
       "description": "--carousel-card-border-width"
     },
     "carousel-card-fg-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--carousel-card-fg-color"
     },
     "carousel-card-bg-color": {
-      "value": "{Primary.V100}",
+      "value": "{Root.bg-color}",
       "type": "color",
       "description": "--carousel-card-bg-color"
     },
@@ -1106,17 +1106,17 @@
       "description": "--summary-card-hover-bg-color"
     },
     "summary-card-fg-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--summary-card-fg-color"
     },
     "summary-card-title-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--summary-card-title-color"
     },
     "summary-card-description-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Root.fg-color}",
       "type": "color",
       "description": "--summary-card-description-color"
     },
