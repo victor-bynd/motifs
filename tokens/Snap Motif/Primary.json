@@ -683,7 +683,7 @@
       "description": "--dropdown-menu-padding"
     },
     "dropdown-button-border-radius": {
-      "value": "{Root.border-radius-m}",
+      "value": "{Root.border-radius-l}",
       "type": "borderRadius",
       "description": "--dropdown-button-border-radius"
     },
