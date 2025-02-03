@@ -421,36 +421,6 @@
       "type": "color",
       "description": "--hero-subtitle-color"
     },
-    "hero-d-grid-gap": {
-      "value": "{Root.xl}",
-      "type": "spacing",
-      "description": "--hero-desktop-grid-gap"
-    },
-    "hero-m-grid-gap": {
-      "value": "{Root.xl}",
-      "type": "spacing",
-      "description": "--hero-mobile-grid-gap"
-    },
-    "hero-boundary-d-padding": {
-      "value": "{Root.xl} {Root.xxxl}",
-      "type": "spacing",
-      "description": "--hero-boundary-desktop-padding"
-    },
-    "hero-boundary-m-padding": {
-      "value": "{Root.xxl} {Root.xl}",
-      "type": "spacing",
-      "description": "--hero-boundary-mobile-padding"
-    },
-    "hero-text-d-padding": {
-      "value": "{Root.xxl}",
-      "type": "spacing",
-      "description": "--hero-text-desktop-padding"
-    },
-    "hero-text-m-padding": {
-      "value": "{Root.m}",
-      "type": "spacing",
-      "description": "--hero-text-mobile-padding"
-    },
     "hero-scroll-button-bg-color": {
       "value": "{Neutral.V700}",
       "type": "color",
