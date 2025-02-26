@@ -570,10 +570,10 @@
     }
   },
   "Progress Bar": {
-    "progress-bar-background-color": {
+    "progress-bar-bg-color": {
       "value": "{Neutral.V250}",
       "type": "color",
-      "description": "--progress-bar-background-color"
+      "description": "--progress-bar-bg-color"
     },
     "progress-bar-progress-color": {
       "value": "{Primary.V100}",
@@ -876,10 +876,10 @@
       "type": "color",
       "description": "--icon-button-border-color"
     },
-    "icon-button-disabled-border": {
+    "icon-button-disabled-border-color": {
       "value": "{Neutral.V650}",
       "type": "color",
-      "description": "--icon-button-disabled-border"
+      "description": "--icon-button-disabled-border-color"
     },
     "icon-button-fg-color": {
       "value": "{Neutral.V600}",

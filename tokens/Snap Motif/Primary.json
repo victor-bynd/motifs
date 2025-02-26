@@ -916,15 +916,15 @@
     }
   },
   "Tile": {
-    "tile-background-color": {
+    "tile-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
-      "description": "--tile-background-color"
+      "description": "--tile-bg-color"
     },
-    "tile-foreground-color": {
+    "tile-fg-color": {
       "value": "{Neutral.V700}",
       "type": "color",
-      "description": "--tile-foreground-color"
+      "description": "--tile-fg-color"
     }
   },
   "Media": {
@@ -1218,10 +1218,10 @@
       "type": "color",
       "description": "--icon-button-hover-border-color"
     },
-    "icon-button-disabled-border": {
+    "icon-button-disabled-border-color": {
       "value": "{Palette.Plain.TRANSPARENT}",
       "type": "color",
-      "description": "--icon-button-disabled-border"
+      "description": "--icon-button-disabled-border-color"
     },
     "icon-button-fg-color": {
       "value": "{Palette.Plain.WHITE}",
@@ -1408,10 +1408,10 @@
     }
   },
   "Progress Bar": {
-    "progress-bar-background-color": {
+    "progress-bar-bg-color": {
       "value": "{Neutral.V0}",
       "type": "color",
-      "description": "--progress-bar-background-color"
+      "description": "--progress-bar-bg-color"
     },
     "progress-bar-progress-color": {
       "value": "{Neutral.V300}",

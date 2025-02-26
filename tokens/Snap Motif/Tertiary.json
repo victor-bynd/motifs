@@ -182,10 +182,10 @@
     }
   },
   "Progress Bar": {
-    "progress-bar-background-color": {
+    "progress-bar-bg-color": {
       "value": "{Neutral.V250}",
       "type": "color",
-      "description": "--progress-bar-background-color"
+      "description": "--progress-bar-bg-color"
     },
     "progress-bar-progress-color": {
       "value": "{Primary.V100}",
