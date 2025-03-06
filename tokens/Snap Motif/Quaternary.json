@@ -11,12 +11,12 @@
       "description": "--fg-color"
     },
     "action-default-color": {
-      "value": "{Neutral.V650}",
+      "value": "{Neutral.V600}",
       "type": "color",
       "description": "--action-default-color"
     },
     "action-hover-color": {
-      "value": "{Neutral.V700}",
+      "value": "{Neutral.V650}",
       "type": "color",
       "description": "--action-hover-color"
     },
