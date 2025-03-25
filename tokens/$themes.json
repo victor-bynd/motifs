@@ -297,7 +297,16 @@
   {
     "id": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
     "name": "secondary",
-    "$figmaStyleReferences": {},
+    "$figmaStyleReferences": {
+      "Root.--box-shadow-xs": "S:ac0f8383d09f2c2b636d35fed5615c996188ede0,",
+      "Root.--box-shadow-s": "S:abfa5881cab65546d6fe503843f4d7b69e72305e,",
+      "Root.--box-shadow-m": "S:171c6bd4a29842067e2270195678ac78a33ab90b,",
+      "Root.--box-shadow-l": "S:c881c61434dacf765b33d34a7a663c72124396cc,",
+      "Root.--box-shadow-xl": "S:5b93b0cbff13bcaabfb74786991fefa749222da6,",
+      "Carousel.--carousel-card-box-shadow": "S:220bce6ac9d92c845d2bf483973f80bdb7c69131,",
+      "Carousel.--carousel-card-hover-box-shadow": "S:d70050713e7522e645c413ce59e74c589e8ed454,",
+      "Side Navigation.--side-navigation-desktop-box-shadow": "S:06d9a4b142f9e9c9daeec3fd64a130d40f2561a7,"
+    },
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Primary": "enabled",
@@ -889,7 +898,24 @@
   {
     "id": "a22eb9664fb445a46a938d1277005067ebccc20a",
     "name": "quaternary",
-    "$figmaStyleReferences": {},
+    "$figmaStyleReferences": {
+      "Root.--box-shadow-xs": "S:ac0f8383d09f2c2b636d35fed5615c996188ede0,",
+      "Root.--box-shadow-s": "S:abfa5881cab65546d6fe503843f4d7b69e72305e,",
+      "Root.--box-shadow-m": "S:171c6bd4a29842067e2270195678ac78a33ab90b,",
+      "Root.--box-shadow-l": "S:c881c61434dacf765b33d34a7a663c72124396cc,",
+      "Root.--box-shadow-xl": "S:5b93b0cbff13bcaabfb74786991fefa749222da6,",
+      "Carousel.--carousel-card-box-shadow": "S:220bce6ac9d92c845d2bf483973f80bdb7c69131,",
+      "Carousel.--carousel-card-hover-box-shadow": "S:d70050713e7522e645c413ce59e74c589e8ed454,",
+      "Side Navigation.--side-navigation-desktop-box-shadow": "S:06d9a4b142f9e9c9daeec3fd64a130d40f2561a7,",
+      "Button.--button-hover-shadow": "S:9d48a79c97c1540c4fd1d350c164f7d0fc037a8e,",
+      "Button.--button-active-shadow": "S:e280e8aab9bccccbdbc6c01d24bcc565003ae563,",
+      "Summary Card.--summary-card-box-shadow": "S:b1f9ce26eec525ab828ad077e28b51776ae9bffc,",
+      "Summary Card.--summary-card-hover-box-shadow": "S:ac3f586a2b02d3ac626f26ca3b7f765cee475493,",
+      "Form.--form-input-hover-box-shadow": "S:e3bf2bd7133c6042823a7c350fc3d412a3589adb,",
+      "Form.--form-input-active-box-shadow": "S:363c234991dc3c4637b39f842cb1c1c4870c12e8,",
+      "Autocomplete.--autocomplete-active-box-shadow": "S:994f2f3807218f297b37883ecbd8e8dd95f3262c,",
+      "Autocomplete.--autocomplete-hover-box-shadow": "S:1a236899a40ad54d016d6294dc19179c76bbc0d9,"
+    },
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Primary": "enabled",
