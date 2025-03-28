@@ -1,41 +1,5 @@
 {
   "Root": {
-    "100": {
-      "value": "Thin",
-      "type": "fontWeights"
-    },
-    "200": {
-      "value": "Extralight",
-      "type": "fontWeights"
-    },
-    "300": {
-      "value": "Light",
-      "type": "fontWeights"
-    },
-    "400": {
-      "value": "Regular",
-      "type": "fontWeights"
-    },
-    "500": {
-      "value": "Medium",
-      "type": "fontWeights"
-    },
-    "600": {
-      "value": "Semibold",
-      "type": "fontWeights"
-    },
-    "700": {
-      "value": "Bold",
-      "type": "fontWeights"
-    },
-    "800": {
-      "value": "Black",
-      "type": "fontWeights"
-    },
-    "900": {
-      "value": "Super",
-      "type": "fontWeights"
-    },
     "box-shadow-xs": {
       "value": {
         "x": "0px",
@@ -123,223 +87,201 @@
     },
     "text-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontWeight": "{Root.text-d-font-weight}",
-        "fontSize": "{Root.text-d-font-size}",
-        "lineHeight": "{Root.text-d-font-line-height}"
+        "fontFamily": "{Root.--font-family}",
+        "fontWeight": "{Root.--text-desktop-font-weight}",
+        "fontSize": "{Root.--text-desktop-font-size}",
+        "lineHeight": "{Root.--text-desktop-font-line-height}"
       },
-      "type": "typography",
-      "description": "--text-desktop-font-size, --text-desktop-font-line-height, --text-desktop-font-weight"
+      "type": "typography"
     },
     "text-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontWeight": "{Root.text-m-font-weight}",
-        "fontSize": "{Root.text-m-font-size}",
-        "lineHeight": "{Root.text-m-font-line-height}"
+        "fontFamily": "{Root.--font-family}",
+        "fontWeight": "{Root.--text-mobile-font-weight}",
+        "fontSize": "{Root.--text-mobile-font-size}",
+        "lineHeight": "{Root.--text-mobile-font-line-height}"
       },
-      "type": "typography",
-      "description": "--text-mobile-font-size, --text-mobile-font-line-height, --text-mobile-font-weight"
+      "type": "typography"
     },
     "h1-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h1-d-font-size}",
-        "lineHeight": "{Root.h1-d-font-line-height}",
-        "fontWeight": "{Root.h1-d-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h1-desktop-font-size}",
+        "lineHeight": "{Root.--h1-desktop-font-line-height}",
+        "fontWeight": "{Root.--h1-desktop-font-weight}"
       },
-      "type": "typography",
-      "description": "--h1-desktop-font-size, --h1-desktop-font-line-height, --h1-desktop-font-weight, --h1-desktop-font-stretch"
+      "type": "typography"
     },
     "h1-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h1-m-font-size}",
-        "lineHeight": "{Root.h1-m-font-line-height}",
-        "fontWeight": "{Root.h1-m-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h1-mobile-font-size}",
+        "lineHeight": "{Root.--h1-mobile-font-line-height}",
+        "fontWeight": "{Root.--h1-mobile-font-weight}"
       },
-      "type": "typography",
-      "description": "--h1-mobile-font-size, --h1-mobile-font-line-height, --h1-mobile-font-weight, --h1-mobile-font-stretch"
+      "type": "typography"
     },
     "h2-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h2-d-font-size}",
-        "lineHeight": "{Root.h2-d-font-line-height}",
-        "fontWeight": "{Root.h2-d-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h2-desktop-font-size}",
+        "lineHeight": "{Root.--h2-desktop-font-line-height}",
+        "fontWeight": "{Root.--h2-desktop-font-weight}"
       },
-      "type": "typography",
-      "description": "--h2-desktop-font-size, --h2-desktop-font-line-height, --h2-desktop-font-weight, --h2-desktop-font-stretch"
+      "type": "typography"
     },
     "h2-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h2-m-font-size}",
-        "lineHeight": "{Root.h2-m-font-line-height}",
-        "fontWeight": "{Root.h2-m-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h2-mobile-font-size}",
+        "lineHeight": "{Root.--h2-mobile-font-line-height}",
+        "fontWeight": "{Root.--h2-mobile-font-weight}"
       },
-      "type": "typography",
-      "description": "--h2-mobile-font-size, --h2-mobile-font-line-height, --h2-mobile-font-weight, --h2-mobile-font-stretch"
+      "type": "typography"
     },
     "h3-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h3-d-font-size}",
-        "lineHeight": "{Root.h3-d-font-line-height}",
-        "fontWeight": "{Root.h3-d-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h3-desktop-font-size}",
+        "lineHeight": "{Root.--h3-desktop-font-line-height}",
+        "fontWeight": "{Root.--h3-desktop-font-weight}"
       },
-      "type": "typography",
-      "description": "--h3-desktop-font-size, --h3-desktop-font-line-height, --h3-desktop-font-weight, --h3-desktop-font-stretch"
+      "type": "typography"
     },
     "h3-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h3-m-font-size}",
-        "lineHeight": "{Root.h3-m-font-line-height}",
-        "fontWeight": "{Root.h3-m-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h3-mobile-font-size}",
+        "lineHeight": "{Root.--h3-mobile-font-line-height}",
+        "fontWeight": "{Root.--h3-mobile-font-weight}"
       },
-      "type": "typography",
-      "description": "--h3-mobile-font-size, --h3-mobile-font-line-height, --h3-mobile-font-weight, --h3-mobile-font-stretch"
+      "type": "typography"
     },
     "h4-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h4-d-font-size}",
-        "lineHeight": "{Root.h4-d-font-line-height}",
-        "fontWeight": "{Root.h4-d-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h4-desktop-font-size}",
+        "lineHeight": "{Root.--h4-desktop-font-line-height}",
+        "fontWeight": "{Root.--h4-desktop-font-weight}"
       },
-      "type": "typography",
-      "description": "--h4-desktop-font-size, --h4-desktop-font-line-height, --h4-desktop-font-weight, --h4-desktop-font-stretch"
+      "type": "typography"
     },
     "h4-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h4-m-font-size}",
-        "lineHeight": "{Root.h4-m-font-line-height}",
-        "fontWeight": "{Root.h4-m-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h4-mobile-font-size}",
+        "lineHeight": "{Root.--h4-mobile-font-line-height}",
+        "fontWeight": "{Root.--h4-mobile-font-weight}"
       },
-      "type": "typography",
-      "description": "--h4-mobile-font-size, --h4-mobile-font-line-height, --h4-mobile-font-weight, --h4-mobile-font-stretch"
+      "type": "typography"
     },
     "h5-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h5-d-font-size}",
-        "lineHeight": "{Root.h5-d-font-line-height}",
-        "fontWeight": "{Root.h5-d-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h5-desktop-font-size}",
+        "lineHeight": "{Root.--h5-desktop-font-line-height}",
+        "fontWeight": "{Root.--h5-desktop-font-weight}"
       },
-      "type": "typography",
-      "description": "--h5-desktop-font-size, --h5-desktop-font-line-height, --h5-desktop-font-weight, --h5-desktop-font-stretch"
+      "type": "typography"
     },
     "h5-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h5-m-font-size}",
-        "lineHeight": "{Root.h5-m-font-line-height}",
-        "fontWeight": "{Root.h5-m-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h5-mobile-font-size}",
+        "lineHeight": "{Root.--h5-mobile-font-line-height}",
+        "fontWeight": "{Root.--h5-mobile-font-weight}"
       },
-      "type": "typography",
-      "description": "--h5-mobile-font-size, --h5-mobile-font-line-height, --h5-mobile-font-weight, --h5-mobile-font-stretch"
+      "type": "typography"
     },
     "h6-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h6-d-font-size}",
-        "lineHeight": "{Root.h6-d-font-line-height}",
-        "fontWeight": "{Root.h6-d-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h6-desktop-font-size}",
+        "lineHeight": "{Root.--h6-desktop-font-line-height}",
+        "fontWeight": "{Root.--h6-desktop-font-weight}"
       },
-      "type": "typography",
-      "description": "--h6-desktop-font-size, --h6-desktop-font-line-height, --h6-desktop-font-weight, --h6-desktop-font-stretch"
+      "type": "typography"
     },
     "h6-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.h6-m-font-size}",
-        "lineHeight": "{Root.h6-m-font-line-height}",
-        "fontWeight": "{Root.h6-m-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--h6-mobile-font-size}",
+        "lineHeight": "{Root.--h6-mobile-font-line-height}",
+        "fontWeight": "{Root.--h6-mobile-font-weight}"
       },
-      "type": "typography",
-      "description": "--h6-mobile-font-size, --h6-mobile-font-line-height, --h6-mobile-font-weight, --h6-mobile-font-stretch"
+      "type": "typography"
     },
     "p1-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.p1-d-font-size}",
-        "lineHeight": "{Root.p1-d-font-line-height}",
-        "fontWeight": "{Root.p1-d-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--p1-desktop-font-size}",
+        "lineHeight": "{Root.--p1-desktop-font-line-height}",
+        "fontWeight": "{Root.--p1-desktop-font-weight}"
       },
-      "type": "typography",
-      "description": "--p1-desktop-font-size, --p1-desktop-font-line-height, --p1-desktop-font-weight, --p1-desktop-font-stretch"
+      "type": "typography"
     },
     "p1-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.p1-m-font-size}",
-        "lineHeight": "{Root.p1-m-font-line-height}",
-        "fontWeight": "{Root.p1-m-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--p1-mobile-font-size}",
+        "lineHeight": "{Root.--p1-mobile-font-line-height}",
+        "fontWeight": "{Root.--p1-mobile-font-weight}"
       },
-      "type": "typography",
-      "description": "--p1-mobile-font-size, --p1-mobile-font-line-height, --p1-mobile-font-weight, --p1-mobile-font-stretch"
+      "type": "typography"
     },
     "p2-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.p2-d-font-size}",
-        "lineHeight": "{Root.p2-d-font-line-height}",
-        "fontWeight": "{Root.p2-d-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--p2-desktop-font-size}",
+        "lineHeight": "{Root.--p2-desktop-font-line-height}",
+        "fontWeight": "{Root.--p2-desktop-font-weight}"
       },
-      "type": "typography",
-      "description": "--p2-desktop-font-size, --p2-desktop-font-line-height, --p2-desktop-font-weight, --p2-desktop-font-stretch"
+      "type": "typography"
     },
     "p2-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.p2-m-font-size}",
-        "lineHeight": "{Root.p2-m-font-line-height}",
-        "fontWeight": "{Root.p2-m-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--p2-mobile-font-size}",
+        "lineHeight": "{Root.--p2-mobile-font-line-height}",
+        "fontWeight": "{Root.--p2-mobile-font-weight}"
       },
-      "type": "typography",
-      "description": "--p2-mobile-font-size, --p2-mobile-font-line-height, --p2-mobile-font-weight, --p2-mobile-font-stretch"
+      "type": "typography"
     },
     "p3-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.p3-d-font-size}",
-        "lineHeight": "{Root.p3-d-font-line-height}",
-        "fontWeight": "{Root.p3-d-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--p3-desktop-font-size}",
+        "lineHeight": "{Root.--p3-desktop-font-line-height}",
+        "fontWeight": "{Root.--p3-desktop-font-weight}"
       },
-      "type": "typography",
-      "description": "--p3-desktop-font-size, --p3-desktop-font-line-height, --p3-desktop-font-weight, --p3-desktop-font-stretch"
+      "type": "typography"
     },
     "p3-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.p3-m-font-size}",
-        "lineHeight": "{Root.p3-m-font-line-height}",
-        "fontWeight": "{Root.p3-m-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--p3-mobile-font-size}",
+        "lineHeight": "{Root.--p3-mobile-font-line-height}",
+        "fontWeight": "{Root.--p3-mobile-font-weight}"
       },
-      "type": "typography",
-      "description": "--p3-mobile-font-size, --p3-mobile-font-line-height, --p3-mobile-font-weight, --p3-mobile-font-stretch"
+      "type": "typography"
     },
     "p4-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.p4-d-font-size}",
-        "lineHeight": "{Root.p4-d-font-line-height}",
-        "fontWeight": "{Root.p4-d-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--p4-desktop-font-size}",
+        "lineHeight": "{Root.--p4-desktop-font-line-height}",
+        "fontWeight": "{Root.--p4-desktop-font-weight}"
       },
-      "type": "typography",
-      "description": "--p4-desktop-font-size, --p4-desktop-font-line-height, --p4-desktop-font-weight, --p4-desktop-font-stretch"
+      "type": "typography"
     },
     "p4-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontSize": "{Root.p4-m-font-size}",
-        "lineHeight": "{Root.p4-m-font-line-height}",
-        "fontWeight": "{Root.p4-m-font-weight}"
+        "fontFamily": "{Root.--font-family}",
+        "fontSize": "{Root.--p4-mobile-font-size}",
+        "lineHeight": "{Root.--p4-mobile-font-line-height}",
+        "fontWeight": "{Root.--p4-mobile-font-weight}"
       },
-      "type": "typography",
-      "description": "--p4-mobile-font-size, --p4-mobile-font-line-height, --p4-mobile-font-weight, --p4-mobile-font-stretch"
+      "type": "typography"
     },
     "--font-family": {
       "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
@@ -373,67 +315,61 @@
     },
     "action-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontWeight": "{Root.action-d-font-weight}",
-        "lineHeight": "{Root.action-d-font-line-height}",
-        "fontSize": "{Root.action-d-font-size}",
-        "letterSpacing": "{Root.action-d-font-letter-spacing}"
+        "fontFamily": "{Root.--font-family}",
+        "fontWeight": "{Root.--action-desktop-font-weight}",
+        "lineHeight": "{Root.--action-desktop-font-line-height}",
+        "fontSize": "{Root.--action-desktop-font-size}",
+        "letterSpacing": "{Root.--action-desktop-font-letter-spacing}"
       },
-      "type": "typography",
-      "description": "--action-desktop-font-size, --action-desktop-font-line-height, --action-desktop-font-weight"
+      "type": "typography"
     },
     "action-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontWeight": "{Root.action-m-font-weight}",
-        "lineHeight": "{Root.action-m-font-line-height}",
-        "fontSize": "{Root.action-m-font-size}",
-        "letterSpacing": "{Root.action-m-font-letter-spacing}"
+        "fontFamily": "{Root.--font-family}",
+        "fontWeight": "{Root.--action-mobile-font-weight}",
+        "lineHeight": "{Root.--action-mobile-font-line-height}",
+        "fontSize": "{Root.--action-mobile-font-size}",
+        "letterSpacing": "{Root.--action-mobile-font-letter-spacing}"
       },
-      "type": "typography",
-      "description": "--action-mobile-font-size, --action-mobile-font-line-height, --action-mobile-font-weight, --action-mobile-font-letter-spacing, --action-mobile-font-text-decoration"
+      "type": "typography"
     },
     "annotation-d": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontWeight": "{Root.annotation-d-font-weight}",
-        "lineHeight": "{Root.annotation-d-font-line-height}",
-        "fontSize": "{Root.annotation-d-font-size}",
-        "letterSpacing": "{Root.annotation-d-font-letter-spacing}"
+        "fontFamily": "{Root.--font-family}",
+        "fontWeight": "{Root.--annotation-desktop-font-weight}",
+        "lineHeight": "{Root.--annotation-desktop-font-line-height}",
+        "fontSize": "{Root.--annotation-desktop-font-size}",
+        "letterSpacing": "{Root.--annotation-desktop-font-letter-spacing}"
       },
-      "type": "typography",
-      "description": "--annotation-desktop-font-size, --annotation-desktop-font-weight, --annotation-desktop-font-line-height, --annotation-desktop-font-letter-spacing"
+      "type": "typography"
     },
     "annotation-m": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontWeight": "{Root.annotation-m-font-weight}",
-        "lineHeight": "{Root.annotation-m-font-line-height}",
-        "fontSize": "{Root.annotation-m-font-size}",
-        "letterSpacing": "{Root.annotation-m-font-letter-spacing}"
+        "fontFamily": "{Root.--font-family}",
+        "fontWeight": "{Root.--annotation-mobile-font-weight}",
+        "lineHeight": "{Root.--annotation-mobile-font-line-height}",
+        "fontSize": "{Root.--annotation-mobile-font-size}",
+        "letterSpacing": "{Root.--annotation-mobile-font-letter-spacing}"
       },
-      "type": "typography",
-      "description": "--annotation-mobile-font-size, --annotation-mobile-font-weight, --annotation-mobile-font-line-height, --annotation-mobile-font-letter-spacing"
+      "type": "typography"
     },
     "action-d-regular": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontWeight": "{Root.400}",
-        "lineHeight": "{Root.action-d-font-line-height}",
-        "fontSize": "{Root.action-d-font-size}"
+        "fontFamily": "{Root.--font-family}",
+        "fontWeight": "{Root.--action-desktop-font-weight}",
+        "lineHeight": "{Root.--action-desktop-font-line-height}",
+        "fontSize": "{Root.--action-desktop-font-size}"
       },
-      "type": "typography",
-      "description": "--action-desktop-regular-font-size, --action-desktop-regular-font-line-height, --action-desktop-regular-font-weight"
+      "type": "typography"
     },
     "action-m-regular": {
       "value": {
-        "fontFamily": "{Root.font-family}",
-        "fontWeight": "{Root.400}",
-        "lineHeight": "{Root.action-m-font-line-height}",
-        "fontSize": "{Root.action-m-font-size}"
+        "fontFamily": "{Root.--font-family}",
+        "fontWeight": "{Root.--action-mobile-font-weight}",
+        "lineHeight": "{Root.--action-mobile-font-line-height}",
+        "fontSize": "{Root.--action-mobile-font-size}"
       },
-      "type": "typography",
-      "description": "--action-mobile-regular-font-size, --action-mobile-regular-font-line-height, --action-mobile-regular-font-weight"
+      "type": "typography"
     },
     "--spacing-xxxs": {
       "value": "2px",
@@ -916,311 +852,294 @@
   },
   "Palette": {
     "Plain": {
-      "BLACK": {
+      "--palette-plain-black": {
         "value": "#000",
         "type": "color",
-        "description": "--palette-plain-black"
+        "description": ""
       },
-      "TRANSPARENT": {
+      "--palette-plain-transparent": {
         "value": "rgba(0,0,0,0)",
         "type": "color",
-        "description": "--palette-plain-transparent"
+        "description": ""
       },
-      "WHITE": {
+      "--palette-plain-white": {
         "value": "#FFF",
         "type": "color",
-        "description": "--palette-plain-white"
+        "description": ""
       }
     },
     "Black": {
-      "V50": {
+      "--palette-black-v50": {
         "value": "#53575B",
         "type": "color",
-        "description": "--palette-black-v50"
+        "description": ""
       },
-      "V100": {
+      "--palette-black-v100": {
         "value": "#3A3E41",
         "type": "color",
-        "description": "--palette-black-v100"
+        "description": ""
       },
-      "V125": {
+      "--palette-black-v125": {
         "value": "#222425",
         "type": "color",
-        "description": "--palette-black-v125"
+        "description": ""
       },
-      "V150": {
+      "--palette-black-v150": {
         "value": "#121314",
         "type": "color",
-        "description": "--palette-black-v150"
+        "description": ""
       },
-      "V200": {
+      "--palette-black-v200": {
         "value": "#000000",
         "type": "color",
-        "description": "--palette-black-v200"
+        "description": ""
       }
     },
     "Yellow": {
-      "V50": {
+      "--palette-yellow-v50": {
         "value": "#FEFF85",
         "type": "color",
-        "description": "--palette-yellow-v50"
+        "description": ""
       },
-      "V100": {
+      "--palette-yellow-v100": {
         "value": "#FFFC00",
         "type": "color",
-        "description": "--palette-yellow-v100"
+        "description": ""
       },
-      "V150": {
+      "--palette-yellow-v150": {
         "value": "#FCF000",
         "type": "color",
-        "description": "--palette-yellow-v150"
+        "description": ""
       },
-      "V200": {
+      "--palette-yellow-v200": {
         "value": "#FFD301",
         "type": "color",
-        "description": "--palette-yellow-v200"
+        "description": ""
       }
     },
     "Gray": {
-      "V50": {
+      "--palette-gray-v50": {
         "value": "#F7F8F9",
         "type": "color",
-        "description": "--palette-gray-v50"
+        "description": ""
       },
-      "V100": {
+      "--palette-gray-v100": {
         "value": "#F0F1F2",
         "type": "color",
-        "description": "--palette-gray-v100"
+        "description": ""
       },
-      "V150": {
+      "--palette-gray-v150": {
         "value": "#E9EAEB",
         "type": "color",
-        "description": "--palette-gray-v150"
+        "description": ""
       },
-      "V200": {
+      "--palette-gray-v200": {
         "value": "#D4D5D6",
         "type": "color",
-        "description": "--palette-gray-v200"
+        "description": ""
       },
-      "V250": {
+      "--palette-gray-v250": {
         "value": "#C7C7CC",
         "type": "color",
-        "description": "--palette-gray-v250"
+        "description": ""
       },
-      "V300": {
+      "--palette-gray-v300": {
         "value": "#858D94",
         "type": "color",
-        "description": "--palette-gray-v300"
+        "description": ""
       }
     },
     "Orange": {
-      "V50": {
+      "--palette-orange-v50": {
         "value": "#FFB257",
         "type": "color",
-        "description": "--palette-orange-v50"
+        "description": ""
       },
-      "V100": {
+      "--palette-orange-v100": {
         "value": "#FF8A00",
         "type": "color",
-        "description": "--palette-orange-v100"
+        "description": ""
       },
-      "V150": {
+      "--palette-orange-v150": {
         "value": "#EE7A00",
         "type": "color",
-        "description": "--palette-orange-v150"
+        "description": ""
       },
-      "V200": {
+      "--palette-orange-v200": {
         "value": "#E57200",
         "type": "color",
-        "description": "--palette-orange-v200"
+        "description": ""
       }
     },
     "Red": {
-      "V50": {
+      "--palette-red-v50": {
         "value": "#F77F91",
         "type": "color",
-        "description": "--palette-red-v50"
+        "description": ""
       },
-      "V100": {
+      "--palette-red-v100": {
         "value": "#F23C57",
         "type": "color",
-        "description": "--palette-red-v100"
+        "description": ""
       },
-      "V150": {
+      "--palette-red-v150": {
         "value": "#E1143D",
         "type": "color",
-        "description": "--palette-red-v150"
+        "description": ""
       },
-      "V200": {
+      "--palette-red-v200": {
         "value": "#C50A33",
         "type": "color",
-        "description": "--palette-red-v200"
+        "description": ""
       }
     },
     "Green": {
-      "V50": {
+      "--palette-green-v50": {
         "value": "#59D0B6",
         "type": "color",
-        "description": "--palette-green-v50"
+        "description": ""
       },
-      "V100": {
+      "--palette-green-v100": {
         "value": "#02B790",
         "type": "color",
-        "description": "--palette-green-v100"
+        "description": ""
       },
-      "V150": {
+      "--palette-green-v150": {
         "value": "#00A881",
         "type": "color",
-        "description": "--palette-green-v150"
+        "description": ""
       },
-      "V200": {
+      "--palette-green-v200": {
         "value": "#00A179",
         "type": "color",
-        "description": "--palette-green-v200"
+        "description": ""
       }
     },
     "Purple": {
-      "V50": {
+      "--palette-purple-v50": {
         "value": "#C195DE",
         "type": "color",
-        "description": "--palette-purple-v50"
+        "description": ""
       },
-      "V100": {
+      "--palette-purple-v100": {
         "value": "#A05DCD",
         "type": "color",
-        "description": "--palette-purple-v100"
+        "description": ""
       },
-      "V150": {
+      "--palette-purple-v150": {
         "value": "#9043BE",
         "type": "color",
-        "description": "--palette-purple-v150"
+        "description": ""
       },
-      "V200": {
+      "--palette-purple-v200": {
         "value": "#8936B6",
         "type": "color",
-        "description": "--palette-purple-v200"
+        "description": ""
       }
     },
     "Blue": {
-      "V50": {
+      "--palette-blue-v50": {
         "value": "#61C9FF",
         "type": "color",
-        "description": "--palette-blue-v50"
+        "description": ""
       },
-      "V100": {
+      "--palette-blue-v100": {
         "value": "#0EADFF",
         "type": "color",
-        "description": "--palette-blue-v100"
+        "description": ""
       },
-      "V150": {
+      "--palette-blue-v150": {
         "value": "#049EEE",
         "type": "color",
-        "description": "--palette-blue-v150"
+        "description": ""
       },
-      "V200": {
+      "--palette-blue-v200": {
         "value": "#0096E5",
         "type": "color",
-        "description": "--palette-blue-v200"
+        "description": ""
       }
     }
   },
   "Primary": {
-    "V50": {
-      "value": "{Palette.Yellow.V50}",
-      "type": "color",
-      "description": "--primary-v50"
+    "--primary-v50": {
+      "value": "{Palette.Yellow.--palette-yellow-v50}",
+      "type": "color"
     },
-    "V100": {
-      "value": "{Palette.Yellow.V100}",
-      "type": "color",
-      "description": "--primary-v100"
+    "--primary-v100": {
+      "value": "{Palette.Yellow.--palette-yellow-v100}",
+      "type": "color"
     },
-    "V150": {
-      "value": "{Palette.Yellow.V150}",
-      "type": "color",
-      "description": "--primary-v150"
+    "--primary-v150": {
+      "value": "{Palette.Yellow.--palette-yellow-v150}",
+      "type": "color"
     },
-    "V200": {
-      "value": "{Palette.Yellow.V200}",
-      "type": "color",
-      "description": "--primary-v200"
+    "--primary-v200": {
+      "value": "{Palette.Yellow.--palette-yellow-v200}",
+      "type": "color"
     }
   },
   "Neutral": {
-    "V0": {
-      "value": "{Palette.Plain.WHITE}",
-      "type": "color",
-      "description": "--neutral-v0"
+    "--neutral-v0": {
+      "value": "{Palette.Plain.--palette-plain-white}",
+      "type": "color"
     },
-    "V100": {
-      "value": "{Palette.Gray.V50}",
-      "type": "color",
-      "description": "--neutral-v100"
+    "--neutral-v100": {
+      "value": "{Palette.Gray.--palette-gray-v50}",
+      "type": "color"
     },
-    "V150": {
-      "value": "{Palette.Gray.V100}",
-      "type": "color",
-      "description": "--neutral-v150"
+    "--neutral-v150": {
+      "value": "{Palette.Gray.--palette-gray-v100}",
+      "type": "color"
     },
-    "V200": {
-      "value": "{Palette.Gray.V150}",
-      "type": "color",
-      "description": "--neutral-v200"
+    "--neutral-v200": {
+      "value": "{Palette.Gray.--palette-gray-v150}",
+      "type": "color"
     },
-    "V250": {
-      "value": "{Palette.Gray.V200}",
-      "type": "color",
-      "description": "--neutral-v250"
+    "--neutral-v250": {
+      "value": "{Palette.Gray.--palette-gray-v200}",
+      "type": "color"
     },
-    "V300": {
-      "value": "{Palette.Gray.V250}",
-      "type": "color",
-      "description": "--neutral-v300"
+    "--neutral-v300": {
+      "value": "{Palette.Gray.--palette-gray-v250}",
+      "type": "color"
     },
-    "V400": {
-      "value": "{Palette.Gray.V300}",
-      "type": "color",
-      "description": "--neutral-v400"
+    "--neutral-v400": {
+      "value": "{Palette.Gray.--palette-gray-v300}",
+      "type": "color"
     },
-    "V500": {
-      "value": "{Palette.Black.V50}",
-      "type": "color",
-      "description": "--neutral-v500"
+    "--neutral-v500": {
+      "value": "{Palette.Black.--palette-black-v50}",
+      "type": "color"
     },
-    "V600": {
-      "value": "{Palette.Black.V100}",
-      "type": "color",
-      "description": "--neutral-v600"
+    "--neutral-v600": {
+      "value": "{Palette.Black.--palette-black-v100}",
+      "type": "color"
     },
-    "V625": {
-      "value": "{Palette.Black.V125}",
-      "type": "color",
-      "description": "--neutral-v625"
+    "--neutral-v625": {
+      "value": "{Palette.Black.--palette-black-v125}",
+      "type": "color"
     },
-    "V650": {
-      "value": "{Palette.Black.V150}",
-      "type": "color",
-      "description": "--neutral-v650"
+    "--neutral-v650": {
+      "value": "{Palette.Black.--palette-black-v150}",
+      "type": "color"
     },
-    "V700": {
-      "value": "{Palette.Black.V200}",
-      "type": "color",
-      "description": "--neutral-v700"
+    "--neutral-v700": {
+      "value": "{Palette.Black.--palette-black-v200}",
+      "type": "color"
     }
   },
   "Semantic": {
-    "semantic-error-color": {
-      "value": "{Palette.Red.V200}",
-      "type": "color",
-      "description": "--semantic-error-color"
+    "--semantic-error-color": {
+      "value": "{Palette.Red.--palette-red-v200}",
+      "type": "color"
     },
-    "semantic-focus-color": {
+    "--semantic-focus-color": {
       "value": "#275Dc5",
       "type": "color",
-      "description": "--semantic-focus-color"
+      "description": ""
     },
     "transparent-neutral150": {
-      "value": "rgba({Neutral.V150}, .5)",
+      "value": "rgba( {Neutral.--neutral-v150}, .5)",
       "type": "color",
       "description": "Not used anymore. To deprecate"
     }
