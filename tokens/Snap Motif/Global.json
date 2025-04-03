@@ -744,8 +744,7 @@
     },
     "--primary-v100": {
       "value": "{Palette.Yellow.--palette-yellow-v100}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     },
     "--primary-v150": {
       "value": "{Palette.Yellow.--palette-yellow-v150}",
