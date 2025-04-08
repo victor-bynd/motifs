@@ -317,8 +317,7 @@
     },
     "--p1-desktop-font-size": {
       "value": "20px",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--p1-desktop-font-line-height": {
       "value": "160%",
@@ -739,8 +738,7 @@
   "Primary": {
     "--primary-v50": {
       "value": "{Palette.Yellow.--palette-yellow-v50}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     },
     "--primary-v100": {
       "value": "{Palette.Yellow.--palette-yellow-v100}",
@@ -748,13 +746,11 @@
     },
     "--primary-v150": {
       "value": "{Palette.Yellow.--palette-yellow-v150}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     },
     "--primary-v200": {
       "value": "{Palette.Yellow.--palette-yellow-v200}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     }
   },
   "Neutral": {
