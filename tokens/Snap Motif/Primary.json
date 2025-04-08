@@ -70,15 +70,15 @@
       "type": "color"
     },
     "--action-default-color": {
-      "value": "{Palette.Blue.--palette-blue-v50}",
+      "value": "{Neutral.--neutral-v600}",
       "type": "color"
     },
     "--action-hover-color": {
-      "value": "{Palette.Blue.--palette-blue-v100}",
+      "value": "{Neutral.--neutral-v650}",
       "type": "color"
     },
     "--action-active-color": {
-      "value": "{Palette.Blue.--palette-blue-v200}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     }
   },

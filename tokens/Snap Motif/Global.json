@@ -751,8 +751,7 @@
   "Neutral": {
     "--neutral-v0": {
       "value": "{Palette.Plain.--palette-plain-white}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     },
     "--neutral-v100": {
       "value": "{Palette.Gray.--palette-gray-v50}",
