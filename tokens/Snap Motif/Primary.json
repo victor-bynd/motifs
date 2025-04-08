@@ -66,24 +66,20 @@
       "description": ""
     },
     "--fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Palette.Purple.--palette-purple-v200}",
+      "type": "color"
     },
     "--action-default-color": {
-      "value": "{Neutral.--neutral-v600}",
-      "type": "color",
-      "description": ""
+      "value": "{Palette.Blue.--palette-blue-v50}",
+      "type": "color"
     },
     "--action-hover-color": {
-      "value": "{Neutral.--neutral-v650}",
-      "type": "color",
-      "description": ""
+      "value": "{Palette.Blue.--palette-blue-v100}",
+      "type": "color"
     },
     "--action-active-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Palette.Blue.--palette-blue-v200}",
+      "type": "color"
     }
   },
   "Button": {
@@ -198,9 +194,8 @@
       "description": ""
     },
     "--button-border-radius": {
-      "value": "64px",
-      "type": "borderRadius",
-      "description": ""
+      "value": "{Root.--border-radius-s}",
+      "type": "borderRadius"
     },
     "--button-hover-shadow": {
       "value": "{Root.--box-shadow-l}",
@@ -651,9 +646,8 @@
       "description": ""
     },
     "--dropdown-button-border-radius": {
-      "value": "{Root.--border-radius-m}",
-      "type": "borderRadius",
-      "description": ""
+      "value": "{Root.--border-radius-s}",
+      "type": "borderRadius"
     },
     "--dropdown-button-border-width": {
       "value": "0",
@@ -1311,9 +1305,8 @@
       "description": ""
     },
     "--form-input-border-radius": {
-      "value": "{Root.--border-radius-l}",
-      "type": "borderRadius",
-      "description": ""
+      "value": "{Root.--border-radius-s}",
+      "type": "borderRadius"
     },
     "--form-input-desktop-font-size": {
       "value": "{Root.--text-desktop-font-size}",
