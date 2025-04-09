@@ -1,9 +1,8 @@
 {
   "Root": {
     "--bg-color": {
-      "value": "{Neutral.--neutral-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Palette.Plain.--palette-plain-transparent}",
+      "type": "color"
     }
   },
   "Button": {

@@ -113,29 +113,24 @@
       "description": ""
     },
     "--button-secondary-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--button-secondary-hover-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--button-secondary-border-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Primary.--primary-v100}",
+      "type": "color"
     },
     "--button-secondary-hover-border-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Primary.--primary-v100}",
+      "type": "color"
     },
     "--button-secondary-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--button-flat-fg-color": {
       "value": "{Neutral.--neutral-v700}",
@@ -504,19 +499,16 @@
       "description": ""
     },
     "--content-backdrop-filter": {
-      "value": "none",
-      "type": "backgroundFilter",
-      "description": ""
+      "value": "blur(8px)",
+      "type": "backgroundFilter"
     },
     "--content-border-width": {
-      "value": "0",
-      "type": "borderWidth",
-      "description": ""
+      "value": "1px",
+      "type": "borderWidth"
     },
     "--content-border-color": {
-      "value": "unset",
-      "type": "color",
-      "description": ""
+      "value": "rgba(255, 255, 255, 0.2)",
+      "type": "color"
     },
     "--content-mobile-no-bg-padding": {
       "value": "0",
