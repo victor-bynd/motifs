@@ -219,10 +219,6 @@
       "value": "{Neutral.--neutral-v250}",
       "type": "color",
       "description": ""
-    },
-    "--tabs-item-active-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color"
     }
   },
   "Hero": {
