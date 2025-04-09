@@ -155,9 +155,8 @@
       "description": ""
     },
     "--global-header-navigator-item-active-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Primary.--primary-v100}",
+      "type": "color"
     },
     "--global-header-menu-bg-color": {
       "value": "{Neutral.--neutral-v650}",
@@ -220,6 +219,10 @@
       "value": "{Neutral.--neutral-v250}",
       "type": "color",
       "description": ""
+    },
+    "--tabs-item-active-color": {
+      "value": "{Primary.--primary-v100}",
+      "type": "color"
     }
   },
   "Hero": {

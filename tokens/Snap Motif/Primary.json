@@ -400,8 +400,7 @@
     },
     "--tabs-item-active-color": {
       "value": "{Root.--action-active-color}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     }
   },
   "Hero": {
