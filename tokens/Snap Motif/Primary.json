@@ -342,19 +342,16 @@
       "description": ""
     },
     "--block-title-desktop-font-size": {
-      "value": "{Root.--h2-desktop-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "value": "42px",
+      "type": "fontSizes"
     },
     "--block-title-desktop-font-line-height": {
-      "value": "{Root.--h2-desktop-font-line-height}",
-      "type": "lineHeights",
-      "description": ""
+      "value": "56px",
+      "type": "lineHeights"
     },
     "--block-title-mobile-font-size": {
-      "value": "{Root.--h2-mobile-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "value": "32px",
+      "type": "fontSizes"
     },
     "--block-title-mobile-font-line-height": {
       "value": "{Root.--h2-mobile-font-line-height}",
@@ -1325,9 +1322,8 @@
       "description": ""
     },
     "--form-input-desktop-font-weight": {
-      "value": "{Root.--text-desktop-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "value": "400",
+      "type": "fontWeights"
     },
     "--form-input-mobile-font-size": {
       "value": "{Root.--text-mobile-font-size}",
@@ -1340,9 +1336,8 @@
       "description": ""
     },
     "--form-input-mobile-font-weight": {
-      "value": "{Root.--text-mobile-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "value": "400",
+      "type": "fontWeights"
     },
     "--form-input-hover-box-shadow": {
       "value": "{Root.--box-shadow-xs}",

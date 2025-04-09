@@ -1,9 +1,8 @@
 {
   "Root": {
     "--bg-color": {
-      "value": "{Neutral.--neutral-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Palette.ArcadiaGray.--arcadia-gray-v300}",
+      "type": "color"
     }
   },
   "Button": {

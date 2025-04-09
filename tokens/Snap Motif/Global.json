@@ -256,9 +256,8 @@
       "description": ""
     },
     "--h5-desktop-font-size": {
-      "value": "24px",
-      "type": "fontSizes",
-      "description": ""
+      "value": "28px",
+      "type": "fontSizes"
     },
     "--h5-desktop-font-line-height": {
       "value": "120%",
@@ -266,14 +265,12 @@
       "description": ""
     },
     "--h5-desktop-font-weight": {
-      "value": "500",
-      "type": "fontWeights",
-      "description": ""
+      "value": "300",
+      "type": "fontWeights"
     },
     "--h5-mobile-font-size": {
-      "value": "20px",
-      "type": "fontSizes",
-      "description": ""
+      "value": "24px",
+      "type": "fontSizes"
     },
     "--h5-mobile-font-line-height": {
       "value": "120%",
@@ -281,14 +278,12 @@
       "description": ""
     },
     "--h5-mobile-font-weight": {
-      "value": "500",
-      "type": "fontWeights",
-      "description": ""
+      "value": "300",
+      "type": "fontWeights"
     },
     "--h6-desktop-font-size": {
-      "value": "18px",
-      "type": "fontSizes",
-      "description": ""
+      "value": "20px",
+      "type": "fontSizes"
     },
     "--h6-desktop-font-line-height": {
       "value": "120%",
@@ -316,18 +311,16 @@
       "description": ""
     },
     "--p1-desktop-font-size": {
-      "value": "20px",
+      "value": "24px",
       "type": "fontSizes"
     },
     "--p1-desktop-font-line-height": {
-      "value": "160%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "140%",
+      "type": "lineHeights"
     },
     "--p1-desktop-font-weight": {
-      "value": "400",
-      "type": "fontWeights",
-      "description": ""
+      "value": "300",
+      "type": "fontWeights"
     },
     "--p1-mobile-font-size": {
       "value": "18px",
@@ -345,9 +338,8 @@
       "description": ""
     },
     "--p2-desktop-font-size": {
-      "value": "16px",
-      "type": "fontSizes",
-      "description": ""
+      "value": "18px",
+      "type": "fontSizes"
     },
     "--p2-desktop-font-line-height": {
       "value": "160%",
@@ -732,6 +724,18 @@
         "value": "#0096E5",
         "type": "color",
         "description": ""
+      }
+    },
+    "ArcadiaBlack": {
+      "--arcadia-black-v200": {
+        "value": "#111",
+        "type": "color"
+      }
+    },
+    "ArcadiaGray": {
+      "--arcadia-gray-v300": {
+        "value": "#8D8C87",
+        "type": "color"
       }
     }
   },

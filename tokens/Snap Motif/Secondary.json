@@ -61,9 +61,8 @@
       "description": ""
     },
     "--bg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Palette.ArcadiaBlack.--arcadia-black-v200}",
+      "type": "color"
     },
     "--fg-color": {
       "value": "{Neutral.--neutral-v0}",
@@ -120,9 +119,8 @@
   },
   "Header": {
     "--global-header-bg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Palette.ArcadiaBlack.--arcadia-black-v200}",
+      "type": "color"
     },
     "--global-header-fg-color": {
       "value": "{Neutral.--neutral-v300}",
