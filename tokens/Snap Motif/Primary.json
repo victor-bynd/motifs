@@ -1506,14 +1506,14 @@
       "type": "spacing",
       "description": ""
     },
-    "--table-first-column-max-width": {
-      "value": "max-content",
-      "type": "sizing",
-      "description": ""
-    },
     "--table-header-fg-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color",
+      "description": ""
+    },
+    "--table-first-column-max-width": {
+      "value": "max-content",
+      "type": "sizing",
       "description": ""
     },
     "--table-mobile-row-gap": {
