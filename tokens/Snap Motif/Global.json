@@ -135,6 +135,11 @@
       "type": "fontWeights",
       "description": ""
     },
+    "--h1-font-family": {
+      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies",
+      "description": ""
+    },
     "--h1-desktop-font-size": {
       "value": "56px",
       "type": "fontSizes",
@@ -163,6 +168,11 @@
     "--h1-mobile-font-weight": {
       "value": "600",
       "type": "fontWeights",
+      "description": ""
+    },
+    "--h2-font-family": {
+      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies",
       "description": ""
     },
     "--h2-desktop-font-size": {
@@ -195,6 +205,11 @@
       "type": "fontWeights",
       "description": ""
     },
+    "--h3-font-family": {
+      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies",
+      "description": ""
+    },
     "--h3-desktop-font-size": {
       "value": "40px",
       "type": "fontSizes",
@@ -223,6 +238,11 @@
     "--h3-mobile-font-weight": {
       "value": "600",
       "type": "fontWeights",
+      "description": ""
+    },
+    "--h4-font-family": {
+      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies",
       "description": ""
     },
     "--h4-desktop-font-size": {
@@ -255,6 +275,11 @@
       "type": "fontWeights",
       "description": ""
     },
+    "--h5-font-family": {
+      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies",
+      "description": ""
+    },
     "--h5-desktop-font-size": {
       "value": "24px",
       "type": "fontSizes",
@@ -283,6 +308,11 @@
     "--h5-mobile-font-weight": {
       "value": "500",
       "type": "fontWeights",
+      "description": ""
+    },
+    "--h6-font-family": {
+      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies",
       "description": ""
     },
     "--h6-desktop-font-size": {
