@@ -101,9 +101,8 @@
       "description": ""
     },
     "--font-family": {
-      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies",
-      "description": ""
+      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies"
     },
     "--text-desktop-font-size": {
       "value": "18px",
@@ -136,9 +135,8 @@
       "description": ""
     },
     "--h1-font-family": {
-      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies",
-      "description": ""
+      "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies"
     },
     "--h1-desktop-font-size": {
       "value": "56px",
@@ -171,9 +169,8 @@
       "description": ""
     },
     "--h2-font-family": {
-      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies",
-      "description": ""
+      "value": "Program OT, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies"
     },
     "--h2-desktop-font-size": {
       "value": "48px",
@@ -206,9 +203,8 @@
       "description": ""
     },
     "--h3-font-family": {
-      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies",
-      "description": ""
+      "value": "Program OT, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies"
     },
     "--h3-desktop-font-size": {
       "value": "40px",
@@ -241,9 +237,8 @@
       "description": ""
     },
     "--h4-font-family": {
-      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies",
-      "description": ""
+      "value": "Program OT, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies"
     },
     "--h4-desktop-font-size": {
       "value": "28px",
@@ -276,9 +271,8 @@
       "description": ""
     },
     "--h5-font-family": {
-      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies",
-      "description": ""
+      "value": "Program OT, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies"
     },
     "--h5-desktop-font-size": {
       "value": "24px",
@@ -311,9 +305,8 @@
       "description": ""
     },
     "--h6-font-family": {
-      "value": "Program, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies",
-      "description": ""
+      "value": "Program OT, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies"
     },
     "--h6-desktop-font-size": {
       "value": "18px",
