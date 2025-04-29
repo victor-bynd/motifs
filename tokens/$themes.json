@@ -1247,6 +1247,7 @@
       "Root.--text-mobile-font-weight": "3d5809ed0846068af0088b6ed026472a878db21c",
       "Root.--h1-font-family": "ad8a0d742ac7e5bf3bb06ce8d03b1227691a65f1",
       "Root.--h1-desktop-font-size": "47ec5ed526567de43a05748f89c63ba2df226a22",
+      "Root.--h1-desktop-font-size-compact": "5731a6a132530086cab7085a02fabd024a52454c",
       "Root.--h1-desktop-font-weight": "a18475ee67b1a0d7dbc3f0073e080b3eb584c028",
       "Root.--h1-mobile-font-size": "1a99131b80e82b0e8e59fae5e650745245657022",
       "Root.--h1-mobile-font-weight": "ec9c94a19c3e7a75eb7a297fa254984814785040",

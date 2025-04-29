@@ -139,14 +139,16 @@
       "type": "fontFamilies"
     },
     "--h1-desktop-font-size": {
-      "value": "56px",
-      "type": "fontSizes",
-      "description": ""
+      "value": "104px",
+      "type": "fontSizes"
+    },
+    "--h1-desktop-font-size-compact": {
+      "value": "88px",
+      "type": "fontSizes"
     },
     "--h1-desktop-font-line-height": {
-      "value": "120%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "108%",
+      "type": "lineHeights"
     },
     "--h1-desktop-font-weight": {
       "value": "600",
@@ -154,14 +156,12 @@
       "description": ""
     },
     "--h1-mobile-font-size": {
-      "value": "40px",
-      "type": "fontSizes",
-      "description": ""
+      "value": "56px",
+      "type": "fontSizes"
     },
     "--h1-mobile-font-line-height": {
-      "value": "120%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "108%",
+      "type": "lineHeights"
     },
     "--h1-mobile-font-weight": {
       "value": "600",
