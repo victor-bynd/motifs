@@ -1029,9 +1029,8 @@
       "description": ""
     },
     "--summary-card-border-radius": {
-      "value": "{Root.--border-radius-s}",
-      "type": "borderRadius",
-      "description": ""
+      "value": "{Root.--border-radius-l}",
+      "type": "borderRadius"
     },
     "--summary-card-description-color": {
       "value": "{Neutral.--neutral-v700}",
