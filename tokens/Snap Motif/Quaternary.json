@@ -40,6 +40,13 @@
       "description": ""
     }
   },
+  "Block": {
+    "--block-title-de-emphasized-color": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
+    }
+  },
   "Footer": {
     "--footer-bg-color": {
       "value": "{Neutral.--neutral-v150}",

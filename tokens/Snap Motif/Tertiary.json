@@ -65,6 +65,13 @@
       "description": ""
     }
   },
+  "Block": {
+    "--block-title-de-emphasized-color": {
+      "value": "{Neutral.--neutral-v400}",
+      "type": "color",
+      "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
+    }
+  },
   "Quote": {
     "--quote-bg-color": {
       "value": "{Neutral.--neutral-v150}",

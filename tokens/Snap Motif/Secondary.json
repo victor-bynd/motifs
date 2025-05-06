@@ -214,6 +214,13 @@
       "description": ""
     }
   },
+  "Block": {
+    "--block-title-de-emphasized-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color",
+      "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
+    }
+  },
   "Tabs": {
     "--tabs-underline-color": {
       "value": "{Neutral.--neutral-v250}",

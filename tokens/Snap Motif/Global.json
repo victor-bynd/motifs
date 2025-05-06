@@ -203,9 +203,8 @@
       "type": "fontFamilies"
     },
     "--h3-desktop-font-size": {
-      "value": "40px",
-      "type": "fontSizes",
-      "description": ""
+      "value": "32px",
+      "type": "fontSizes"
     },
     "--h3-desktop-font-line-height": {
       "value": "120%",
@@ -540,6 +539,10 @@
       "value": "none",
       "type": "textDecoration",
       "description": ""
+    },
+    "--h1-desktop-font-text-transform": {
+      "value": "uppercase",
+      "type": "textCase"
     }
   },
   "Palette": {
@@ -851,9 +854,5 @@
       "type": "color",
       "description": ""
     }
-  },
-  "--h1-desktop-font-text-transform": {
-    "value": "uppercase",
-    "type": "textCase"
   }
 }
