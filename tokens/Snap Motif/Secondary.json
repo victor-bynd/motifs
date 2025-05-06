@@ -229,6 +229,10 @@
     }
   },
   "Hero": {
+    "--hero-title-de-emphasized-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color"
+    },
     "--hero-scroll-button-bg-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color",

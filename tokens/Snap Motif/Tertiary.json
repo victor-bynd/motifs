@@ -72,6 +72,12 @@
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
     }
   },
+  "Hero": {
+    "--hero-title-de-emphasized-color": {
+      "value": "{Neutral.--neutral-v400}",
+      "type": "color"
+    }
+  },
   "Quote": {
     "--quote-bg-color": {
       "value": "{Neutral.--neutral-v150}",
