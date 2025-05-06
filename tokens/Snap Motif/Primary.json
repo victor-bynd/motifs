@@ -331,6 +331,11 @@
       "type": "color",
       "description": ""
     },
+    "--block-title-de-emphasized-color": {
+      "value": "{Primary.--primary-v250}",
+      "type": "color",
+      "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
+    },
     "--block-subtitle-color": {
       "value": "{Root.--fg-color}",
       "type": "color",
@@ -438,6 +443,10 @@
       "value": "{Neutral.--neutral-v700}",
       "type": "color",
       "description": ""
+    },
+    "--hero-title-de-emphasized-color": {
+      "value": "{Primary.--primary-v250}",
+      "type": "color"
     },
     "--hero-scroll-button-bg-color": {
       "value": "{Neutral.--neutral-v700}",

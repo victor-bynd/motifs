@@ -607,6 +607,10 @@
         "value": "#FFD301",
         "type": "color",
         "description": ""
+      },
+      "--palette-yellow-v250": {
+        "value": "#817C00",
+        "type": "color"
       }
     },
     "Gray": {
@@ -767,6 +771,10 @@
     },
     "--primary-v200": {
       "value": "{Palette.Yellow.--palette-yellow-v200}",
+      "type": "color"
+    },
+    "--primary-v250": {
+      "value": "{Palette.Yellow.--palette-yellow-v250}",
       "type": "color"
     }
   },
