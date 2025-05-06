@@ -765,5 +765,11 @@
       "type": "color",
       "description": ""
     }
+  },
+  "Emphasized Text": {
+    "--emphasized-text-color": {
+      "value": "{Primary.--primary-v100}",
+      "type": "color"
+    }
   }
 }
