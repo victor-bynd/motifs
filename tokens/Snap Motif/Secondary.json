@@ -223,9 +223,24 @@
   },
   "Tabs": {
     "--tabs-underline-color": {
-      "value": "{Neutral.--neutral-v250}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
+    },
+    "--tabs-item-color": {
+      "value": "{Root.--action-default-color}",
+      "type": "color"
+    },
+    "--tabs-item-hover-color": {
+      "value": "{Root.--action-hover-color}",
+      "type": "color"
+    },
+    "--tabs-item-active-color": {
+      "value": "{Primary.--primary-v100}",
+      "type": "color"
+    },
+    "--tabs-item-active-underline-color": {
+      "value": "{Root.--action-active-color}",
+      "type": "color"
     }
   },
   "Hero": {
@@ -435,9 +450,8 @@
   },
   "Pagination": {
     "--pagination-text-active-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Primary.--primary-v100}",
+      "type": "color"
     },
     "--pagination-text-color": {
       "value": "{Neutral.--neutral-v300}",
@@ -448,13 +462,20 @@
       "value": "{Neutral.--neutral-v200}",
       "type": "color",
       "description": ""
+    },
+    "--pagination-text-active-underline-color": {
+      "value": "{Root.--action-active-color}",
+      "type": "color"
     }
   },
   "Sub Navigation": {
     "--sub-navigation-item-active-decoration-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--sub-navigation-item-active-color": {
       "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     }
   },
   "Side Navigation": {
@@ -489,6 +510,10 @@
       "value": "#222425",
       "type": "color",
       "description": ""
+    },
+    "--side-navigation-desktop-fg-active-color": {
+      "value": "{Primary.--primary-v100}",
+      "type": "color"
     }
   },
   "Icon Button": {

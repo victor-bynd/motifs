@@ -406,6 +406,10 @@
     "--tabs-item-active-color": {
       "value": "{Root.--action-active-color}",
       "type": "color"
+    },
+    "--tabs-item-active-underline-color": {
+      "value": "{Root.--action-active-color}",
+      "type": "color"
     }
   },
   "Hero": {
@@ -1097,6 +1101,10 @@
       "value": "{Neutral.--neutral-v300}",
       "type": "color",
       "description": ""
+    },
+    "--pagination-text-active-underline-color": {
+      "value": "{Root.--action-active-color}",
+      "type": "color"
     }
   },
   "Sub Navigation": {
@@ -1166,6 +1174,10 @@
       "value": "{Primary.--primary-v100}",
       "type": "color",
       "description": ""
+    },
+    "--side-navigation-desktop-fg-active-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color"
     }
   },
   "Icon Button": {
