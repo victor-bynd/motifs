@@ -532,7 +532,7 @@
       "type": "textCase"
     },
     "--h2-font-letter-spacing": {
-      "value": "1%",
+      "value": "1",
       "type": "letterSpacing"
     }
   },

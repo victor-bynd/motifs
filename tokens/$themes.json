@@ -1388,7 +1388,8 @@
       "Neutral.--neutral-v650": "178b53c3bc8a1ecd6dca1a9aef39ed4a8669459d",
       "Neutral.--neutral-v700": "3894ca975309641986dce4784b52329c3968cd5a",
       "Semantic.--semantic-focus-color": "4f7fba1800d0d1df308d4387b4006ba5dfe5d59a",
-      "Semantic.--semantic-error-color": "5bf83add4fa5b35815cddaedee12eb36931f2a26"
+      "Semantic.--semantic-error-color": "5bf83add4fa5b35815cddaedee12eb36931f2a26",
+      "Root.--h2-font-letter-spacing": "3f53481101b8ceda2e2152fb35138bee7e185d1c"
     }
   }
 ]
