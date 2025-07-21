@@ -206,5 +206,11 @@
       "type": "color",
       "description": ""
     }
+  },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Neutral.--neutral-v250}",
+      "type": "color"
+    }
   }
 }

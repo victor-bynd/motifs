@@ -1707,5 +1707,11 @@
       "value": "{Root.--fg-color}",
       "type": "color"
     }
+  },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Primary.--primary-v150}",
+      "type": "color"
+    }
   }
 }

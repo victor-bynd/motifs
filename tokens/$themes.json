@@ -142,6 +142,7 @@
       "Side Overlay.--side-overlay-border-color": "2dd20ac4a5f6ef678807e997be90967760bc0190",
       "Side Overlay.--side-overlay-fg-color": "5924cb2b6f811b29c02cbebca66dc3b8a5766259",
       "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d",
+      "Topic.--topic-hover-bg-color": "784b2db329050f7c62f0ac21defa7a4f08971a43",
       "Button.--button-secondary-bg-color": "314d0d5c9fc2b45fa012006ed0a5d28b690d1df5",
       "Button.--button-secondary-hover-bg-color": "5f33ce032e7c0005000787da77335d02dadbcc35",
       "Button.--button-secondary-border-color": "75383e0f9be099e917be48ce9446f64d993e561f",
@@ -368,6 +369,7 @@
       "Definition.--definition-hover-bg-color": "4ba2cc4be05aad19eff46877c7997037d355ab4b",
       "Definition.--definition-hover-border-color": "fc61fb76f4ea6ee2f3053291d918b529d019dec1",
       "Side Overlay.--side-overlay-border-color": "2dd20ac4a5f6ef678807e997be90967760bc0190",
+      "Topic.--topic-hover-bg-color": "784b2db329050f7c62f0ac21defa7a4f08971a43",
       "Toggle Button.--toggle-button-color": "bf71f7556f8c33fd2e13029f37553a4353328680",
       "Primitive Table.--table-cell-body-bg-color": "4b9b632f7f6e570e53f6e31942f01e06d739af7f",
       "Autocomplete.--autocomplete-border-color": "cab40d6e78d2c441116219f72001c4adc5ad5ffc",
@@ -755,6 +757,7 @@
       "Side Overlay.--side-overlay-border-color": "2dd20ac4a5f6ef678807e997be90967760bc0190",
       "Side Overlay.--side-overlay-fg-color": "5924cb2b6f811b29c02cbebca66dc3b8a5766259",
       "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d",
+      "Topic.--topic-hover-bg-color": "784b2db329050f7c62f0ac21defa7a4f08971a43",
       "Footer.--footer-border-color": "071744e0ff0ebbfc65f20784a396cdf2725c3ead",
       "Footer.--footer-divider-border-color": "34a80c7eaae36806d413cd8d8af37166ae494fb8",
       "Footer.--footer-bar-divider-border-color": "a5d321b73ed64ff8005fc730273c9b587d065a77",
@@ -1074,6 +1077,7 @@
       "Side Overlay.--side-overlay-border-color": "2dd20ac4a5f6ef678807e997be90967760bc0190",
       "Side Overlay.--side-overlay-fg-color": "5924cb2b6f811b29c02cbebca66dc3b8a5766259",
       "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d",
+      "Topic.--topic-hover-bg-color": "784b2db329050f7c62f0ac21defa7a4f08971a43",
       "Button.--button-secondary-bg-color": "314d0d5c9fc2b45fa012006ed0a5d28b690d1df5",
       "Button.--button-secondary-hover-bg-color": "5f33ce032e7c0005000787da77335d02dadbcc35",
       "Button.--button-secondary-border-color": "75383e0f9be099e917be48ce9446f64d993e561f",
@@ -1331,6 +1335,7 @@
       "Root.--annotation-mobile-font-weight": "2cf26cd0592e1cb8e19a9a3d3a558d0e0c7d5780",
       "Root.--annotation-mobile-font-line-height": "26f154d3cf53dbfb8e59ad34ba0bad07cdbbe057",
       "Root.--annotation-mobile-font-letter-spacing": "fd70da391bee16fd983bec73ba04a107f8ecab1f",
+      "Root.--h2-font-letter-spacing": "3f53481101b8ceda2e2152fb35138bee7e185d1c",
       "Palette.Plain.--palette-plain-black": "823851216a1172a325c40330549495739e24d9cd",
       "Palette.Plain.--palette-plain-transparent": "7671d8606fc301beb53c1e6b0d50f138e71be95d",
       "Palette.Plain.--palette-plain-white": "1486754ff56e896bd18c8653e54250002e60dfe6",
@@ -1388,8 +1393,7 @@
       "Neutral.--neutral-v650": "178b53c3bc8a1ecd6dca1a9aef39ed4a8669459d",
       "Neutral.--neutral-v700": "3894ca975309641986dce4784b52329c3968cd5a",
       "Semantic.--semantic-focus-color": "4f7fba1800d0d1df308d4387b4006ba5dfe5d59a",
-      "Semantic.--semantic-error-color": "5bf83add4fa5b35815cddaedee12eb36931f2a26",
-      "Root.--h2-font-letter-spacing": "3f53481101b8ceda2e2152fb35138bee7e185d1c"
+      "Semantic.--semantic-error-color": "5bf83add4fa5b35815cddaedee12eb36931f2a26"
     }
   }
 ]

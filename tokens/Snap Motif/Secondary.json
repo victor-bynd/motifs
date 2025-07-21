@@ -800,5 +800,11 @@
       "value": "{Primary.--primary-v100}",
       "type": "color"
     }
+  },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
+    }
   }
 }
