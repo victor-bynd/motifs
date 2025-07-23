@@ -102,7 +102,8 @@
     },
     "--font-family": {
       "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "Paragraphs and smaller text"
     },
     "--text-desktop-font-size": {
       "value": "18px",
@@ -136,15 +137,18 @@
     },
     "--h1-font-family": {
       "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "H1 titles"
     },
     "--h1-desktop-font-size": {
       "value": "104px",
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "description": "Hero Title without foreground media"
     },
     "--h1-desktop-font-size-compact": {
       "value": "88px",
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "description": "Hero Title with foreground media"
     },
     "--h1-desktop-font-line-height": {
       "value": "108%",
@@ -156,7 +160,8 @@
     },
     "--h1-mobile-font-size": {
       "value": "56px",
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "description": "Hero Title on mobile"
     },
     "--h1-mobile-font-line-height": {
       "value": "108%",
@@ -168,11 +173,13 @@
     },
     "--h2-font-family": {
       "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "H2 titles"
     },
     "--h2-desktop-font-size": {
       "value": "64px",
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "description": "Block Title"
     },
     "--h2-desktop-font-line-height": {
       "value": "108%",
@@ -184,7 +191,8 @@
     },
     "--h2-mobile-font-size": {
       "value": "48px",
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "description": "Block Title"
     },
     "--h2-mobile-font-line-height": {
       "value": "108%",
@@ -196,7 +204,8 @@
     },
     "--h3-font-family": {
       "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "H3 titles"
     },
     "--h3-desktop-font-size": {
       "value": "32px",
@@ -226,12 +235,13 @@
     },
     "--h4-font-family": {
       "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "H4 titles"
     },
     "--h4-desktop-font-size": {
       "value": "28px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Content Title"
     },
     "--h4-desktop-font-line-height": {
       "value": "120%",
@@ -244,7 +254,8 @@
     },
     "--h4-mobile-font-size": {
       "value": "22px",
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "description": "Content Title"
     },
     "--h4-mobile-font-line-height": {
       "value": "120%",
@@ -257,11 +268,13 @@
     },
     "--h5-font-family": {
       "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "H5 titles"
     },
     "--h5-desktop-font-size": {
       "value": "22px",
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "description": "Carousel Title"
     },
     "--h5-desktop-font-line-height": {
       "value": "120%",
@@ -275,7 +288,7 @@
     "--h5-mobile-font-size": {
       "value": "20px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Carousel Title"
     },
     "--h5-mobile-font-line-height": {
       "value": "120%",
@@ -288,12 +301,13 @@
     },
     "--h6-font-family": {
       "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "H6 titles"
     },
     "--h6-desktop-font-size": {
       "value": "18px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Carousel Subtitle"
     },
     "--h6-desktop-font-line-height": {
       "value": "120%",
@@ -307,7 +321,7 @@
     "--h6-mobile-font-size": {
       "value": "18px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Carousel Subtitle"
     },
     "--h6-mobile-font-line-height": {
       "value": "120%",
@@ -320,7 +334,8 @@
     },
     "--p1-desktop-font-size": {
       "value": "20px",
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "description": "Block Subtitles"
     },
     "--p1-desktop-font-line-height": {
       "value": "160%",
@@ -335,7 +350,7 @@
     "--p1-mobile-font-size": {
       "value": "18px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Block Subtitles"
     },
     "--p1-mobile-font-line-height": {
       "value": "160%",
@@ -350,7 +365,7 @@
     "--p2-desktop-font-size": {
       "value": "16px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Content Paragraphs (body)"
     },
     "--p2-desktop-font-line-height": {
       "value": "160%",
@@ -365,7 +380,7 @@
     "--p2-mobile-font-size": {
       "value": "16px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Content Paragraphs (body)"
     },
     "--p2-mobile-font-line-height": {
       "value": "160%",
@@ -380,7 +395,7 @@
     "--p3-desktop-font-size": {
       "value": "14px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Footnotes (References)"
     },
     "--p3-desktop-font-line-height": {
       "value": "160%",
@@ -395,7 +410,7 @@
     "--p3-mobile-font-size": {
       "value": "14px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Footnotes (References)"
     },
     "--p3-mobile-font-line-height": {
       "value": "160%",
@@ -410,7 +425,7 @@
     "--p4-desktop-font-size": {
       "value": "12px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Subtopic body text within Multi-Value Prop component"
     },
     "--p4-desktop-font-line-height": {
       "value": "160%",
@@ -423,9 +438,9 @@
       "description": ""
     },
     "--p4-mobile-font-size": {
-      "value": "12x",
+      "value": "12px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Subtopic body text within Multi-Value Prop component"
     },
     "--p4-mobile-font-line-height": {
       "value": "160%",
@@ -440,7 +455,7 @@
     "--action-desktop-font-size": {
       "value": "16px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Button text, interactive text like: Header navigation items, subnav items, sidenav items"
     },
     "--action-desktop-font-line-height": {
       "value": "24px",
@@ -460,7 +475,7 @@
     "--action-mobile-font-size": {
       "value": "16px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Button text, interactive text like: Header navigation items, subnav items, sidenav items"
     },
     "--action-mobile-font-line-height": {
       "value": "120%",
@@ -480,7 +495,7 @@
     "--annotation-desktop-font-size": {
       "value": "14px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Eyebrow in Block headers and Hero component"
     },
     "--annotation-desktop-font-weight": {
       "value": "500",
@@ -500,7 +515,7 @@
     "--annotation-mobile-font-size": {
       "value": "14px",
       "type": "fontSizes",
-      "description": ""
+      "description": "Eyebrow in Block headers and Hero component"
     },
     "--annotation-mobile-font-weight": {
       "value": "500",
@@ -528,6 +543,10 @@
       "description": ""
     },
     "--h1-desktop-font-text-transform": {
+      "value": "uppercase",
+      "type": "textCase"
+    },
+    "--h2-desktop-font-text-transform": {
       "value": "uppercase",
       "type": "textCase"
     },
