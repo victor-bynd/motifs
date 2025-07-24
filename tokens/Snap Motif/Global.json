@@ -776,7 +776,8 @@
     },
     "--primary-v100": {
       "value": "{Palette.Yellow.--palette-yellow-v100}",
-      "type": "color"
+      "type": "color",
+      "description": "main brand color"
     },
     "--primary-v150": {
       "value": "{Palette.Yellow.--palette-yellow-v150}",
@@ -857,12 +858,12 @@
     "--semantic-focus-color": {
       "value": "#275Dc5",
       "type": "color",
-      "description": ""
+      "description": "Focus ring color"
     },
     "--semantic-error-color": {
       "value": "{Palette.Red.--palette-red-v200}",
       "type": "color",
-      "description": ""
+      "description": "Error color"
     }
   }
 }
