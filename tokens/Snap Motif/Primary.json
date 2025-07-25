@@ -264,20 +264,33 @@
       "type": "color",
       "description": ""
     },
+    "--global-header-indicator-hover-color": {
+      "value": "{Root.--action-indicator-hover-color}",
+      "type": "color"
+    },
+    "--global-header-indicator-active-color": {
+      "value": "{Root.--action-indicator-active-color}",
+      "type": "color"
+    },
     "--global-header-navigator-item-color": {
-      "value": "{Neutral.--neutral-v600}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--action-text-default-color}",
+      "type": "color"
     },
     "--global-header-navigator-item-hover-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--action-text-hover-color}",
+      "type": "color"
     },
     "--global-header-navigator-item-active-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--action-text-active-color}",
+      "type": "color"
+    },
+    "--global-header-navigator-indicator-hover-color": {
+      "value": "{Root.--action-indicator-hover-color}",
+      "type": "color"
+    },
+    "--global-header-navigator-indicator-active-color": {
+      "value": "{Root.--action-indicator-active-color}",
+      "type": "color"
     },
     "--global-header-menu-bg-color": {
       "value": "{Neutral.--neutral-v0}",
@@ -300,9 +313,16 @@
       "description": ""
     },
     "--global-header-menu-item-fg-color": {
-      "value": "{Neutral.--neutral-v650}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--action-text-default-color}",
+      "type": "color"
+    },
+    "--global-header-menu-item-hover-color": {
+      "value": "{Root.--action-text-hover-color}",
+      "type": "color"
+    },
+    "--global-header-menu-item-active-color": {
+      "value": "{Root.--action-text-active-color}",
+      "type": "color"
     },
     "--global-header-menu-item-icon-color": {
       "value": "{Neutral.--neutral-v500}",
@@ -329,10 +349,26 @@
       "type": "color",
       "description": ""
     },
+    "--global-header-menu-featured-item-hover-color": {
+      "value": "{Root.--action-text-hover-color}",
+      "type": "color"
+    },
+    "--global-header-menu-featured-item-active-color": {
+      "value": "{Root.--action-text-active-color}",
+      "type": "color"
+    },
     "--global-header-menu-featured-item-icon-color": {
       "value": "{Neutral.--neutral-v500}",
       "type": "color",
       "description": ""
+    },
+    "--global-header-site-name-font-family": {
+      "value": "{Root.--h1-font-family}",
+      "type": "fontFamilies"
+    },
+    "--global-header-site-name-font-size": {
+      "value": "20px",
+      "type": "fontSizes"
     }
   },
   "Block": {
