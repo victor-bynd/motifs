@@ -453,8 +453,12 @@
       "value": "{Root.--action-text-active-color}",
       "type": "color"
     },
-    "--tabs-item-active-underline-color": {
-      "value": "{Root.--action-text-active-color}",
+    "--tabs-indicator-hover-color": {
+      "value": "{Root.--action-indicator-hover-color}",
+      "type": "color"
+    },
+    "--tabs-indicator-active-color": {
+      "value": "{Root.--action-indicator-active-color}",
       "type": "color"
     }
   },
@@ -1133,23 +1137,24 @@
     }
   },
   "Pagination": {
-    "--pagination-text-active-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+    "--pagination-item-color": {
+      "value": "{Root.--action-text-default-color}",
+      "type": "color"
     },
-    "--pagination-text-color": {
-      "value": "{Neutral.--neutral-v600}",
-      "type": "color",
-      "description": ""
+    "--pagination-item-hover-color": {
+      "value": "{Root.--action-text-hover-color}",
+      "type": "color"
     },
-    "--pagination-text-hover-color": {
-      "value": "{Neutral.--neutral-v300}",
-      "type": "color",
-      "description": ""
-    },
-    "--pagination-text-active-underline-color": {
+    "--pagination-item-active-color": {
       "value": "{Root.--action-text-active-color}",
+      "type": "color"
+    },
+    "--pagination-indicator-hover-color": {
+      "value": "{Root.--action-indicator-hover-color}",
+      "type": "color"
+    },
+    "--pagination-indicator-active-color": {
+      "value": "{Root.--action-indicator-active-color}",
       "type": "color"
     }
   },
@@ -1169,15 +1174,13 @@
       "type": "color",
       "description": ""
     },
-    "--sub-navigation-item-hover-decoration-color": {
-      "value": "{Neutral.--neutral-v300}",
-      "type": "color",
-      "description": ""
+    "--sub-navigation-indicator-hover-color": {
+      "value": "{Root.--action-indicator-hover-color}",
+      "type": "color"
     },
-    "--sub-navigation-item-active-decoration-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+    "--sub-navigation-indicator-active-color": {
+      "value": "{Root.--action-indicator-active-color}",
+      "type": "color"
     }
   },
   "Side Navigation": {
