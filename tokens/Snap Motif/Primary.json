@@ -70,20 +70,30 @@
       "type": "color",
       "description": ""
     },
-    "--action-default-color": {
+    "--action-text-default-color": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "default color for interactive text elements like nav items"
+    },
+    "--action-text-hover-color": {
       "value": "{Neutral.--neutral-v600}",
       "type": "color",
-      "description": ""
+      "description": "hover color for interactive text elements like nav items"
     },
-    "--action-hover-color": {
-      "value": "{Neutral.--neutral-v650}",
-      "type": "color",
-      "description": ""
-    },
-    "--action-active-color": {
+    "--action-text-active-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color",
-      "description": ""
+      "description": "active color for interactive text elements like nav items"
+    },
+    "--action-indicator-hover-color": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "hover color for interactive indicator elements like nav items"
+    },
+    "--action-indicator-active-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "active color for interactive indicator elements like nav items"
     }
   },
   "Button": {
@@ -240,17 +250,17 @@
       "description": ""
     },
     "--global-header-item-color": {
-      "value": "{Root.--action-default-color}",
+      "value": "{Root.--action-text-default-color}",
       "type": "color",
       "description": ""
     },
     "--global-header-item-hover-color": {
-      "value": "{Root.--action-hover-color}",
+      "value": "{Root.--action-text-hover-color}",
       "type": "color",
       "description": ""
     },
     "--global-header-item-active-color": {
-      "value": "{Root.--action-active-color}",
+      "value": "{Root.--action-text-active-color}",
       "type": "color",
       "description": ""
     },
@@ -394,21 +404,21 @@
       "description": ""
     },
     "--tabs-item-color": {
-      "value": "{Root.--action-default-color}",
+      "value": "{Root.--action-text-default-color}",
       "type": "color",
       "description": ""
     },
     "--tabs-item-hover-color": {
-      "value": "{Root.--action-hover-color}",
+      "value": "{Root.--action-text-hover-color}",
       "type": "color",
       "description": ""
     },
     "--tabs-item-active-color": {
-      "value": "{Root.--action-active-color}",
+      "value": "{Root.--action-text-active-color}",
       "type": "color"
     },
     "--tabs-item-active-underline-color": {
-      "value": "{Root.--action-active-color}",
+      "value": "{Root.--action-text-active-color}",
       "type": "color"
     }
   },
@@ -648,17 +658,17 @@
       "description": ""
     },
     "--dropdown-item-fg-color": {
-      "value": "{Root.--action-default-color}",
+      "value": "{Root.--action-text-default-color}",
       "type": "color",
       "description": ""
     },
     "--dropdown-item-fg-hover-color": {
-      "value": "{Root.--action-hover-color}",
+      "value": "{Root.--action-text-hover-color}",
       "type": "color",
       "description": ""
     },
     "--dropdown-item-fg-active-color": {
-      "value": "{Root.--action-active-color}",
+      "value": "{Root.--action-text-active-color}",
       "type": "color",
       "description": ""
     },
@@ -936,12 +946,12 @@
   },
   "Hyperlink": {
     "--hyperlink-color": {
-      "value": "{Root.--action-default-color}",
+      "value": "{Root.--action-text-default-color}",
       "type": "color",
       "description": ""
     },
     "--hyperlink-hover-color": {
-      "value": "{Root.--action-hover-color}",
+      "value": "{Root.--action-text-hover-color}",
       "type": "color",
       "description": ""
     },
@@ -1103,23 +1113,23 @@
       "description": ""
     },
     "--pagination-text-active-underline-color": {
-      "value": "{Root.--action-active-color}",
+      "value": "{Root.--action-text-active-color}",
       "type": "color"
     }
   },
   "Sub Navigation": {
     "--sub-navigation-item-color": {
-      "value": "{Root.--action-default-color}",
+      "value": "{Root.--action-text-default-color}",
       "type": "color",
       "description": ""
     },
     "--sub-navigation-item-hover-color": {
-      "value": "{Root.--action-hover-color}",
+      "value": "{Root.--action-text-hover-color}",
       "type": "color",
       "description": ""
     },
     "--sub-navigation-item-active-color": {
-      "value": "{Root.--action-active-color}",
+      "value": "{Root.--action-text-active-color}",
       "type": "color",
       "description": ""
     },
@@ -1135,10 +1145,29 @@
     }
   },
   "Side Navigation": {
-    "--side-navigation-desktop-box-shadow": {
-      "value": "{Root.--box-shadow-s}",
-      "type": "boxShadow",
-      "description": ""
+    "--side-navigation-indicator-hover-color": {
+      "value": "{Root.--action-indicator-hover-color}",
+      "type": "color"
+    },
+    "--side-navigation-indicator-active-color": {
+      "value": "{Root.--action-indicator-active-color}",
+      "type": "color"
+    },
+    "--side-navigation-desktop-item-color": {
+      "value": "{Root.--action-text-default-color}",
+      "type": "color"
+    },
+    "--side-navigation-desktop-item-hover-color": {
+      "value": "{Root.--action-text-hover-color}",
+      "type": "color"
+    },
+    "--side-navigation-desktop-item-active-color": {
+      "value": "{Root.--action-text-active-color}",
+      "type": "color"
+    },
+    "--side-navigation-desktop-bar-bg-color": {
+      "value": "{Root.--bg-color}",
+      "type": "color"
     },
     "--side-navigation-mobile-bar-bg-color": {
       "value": "{Neutral.--neutral-v200}",
@@ -1146,38 +1175,33 @@
       "description": ""
     },
     "--side-navigation-mobile-bar-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--action-text-active-color}",
+      "type": "color"
     },
     "--side-navigation-mobile-bg-color": {
-      "value": "{Neutral.--neutral-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
-    "--side-navigation-mobile-fg-active-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+    "--side-navigation-mobile-item-color": {
+      "value": "{Root.--action-text-default-color}",
+      "type": "color"
     },
-    "--side-navigation-mobile-fg-color": {
-      "value": "{Neutral.--neutral-v600}",
-      "type": "color",
-      "description": ""
+    "--side-navigation-mobile-item-active-color": {
+      "value": "{Root.--action-text-active-color}",
+      "type": "color"
     },
     "--side-navigation-mobile-toggler-icon-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color",
       "description": ""
     },
-    "--side-navigation-desktop-bar-bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
-    },
-    "--side-navigation-desktop-fg-active-color": {
-      "value": "{Root.--fg-color}",
+    "--side-navigation-desktop-border-color": {
+      "value": "{Neutral.--neutral-v400}",
       "type": "color"
+    },
+    "--side-navigation-desktop-border-width": {
+      "value": "2px",
+      "type": "borderWidth"
     }
   },
   "Icon Button": {

@@ -114,10 +114,9 @@
     }
   },
   "Side Navigation": {
-    "--side-navigation-desktop-bar-bg-color": {
-      "value": "{Neutral.--neutral-v150}",
-      "type": "color",
-      "description": ""
+    "--side-navigation-mobile-bg-color": {
+      "value": "{Neutral.--neutral-v200}",
+      "type": "color"
     }
   },
   "Form": {
