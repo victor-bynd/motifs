@@ -435,9 +435,8 @@
   },
   "Tabs": {
     "--tabs-underline-color": {
-      "value": "{Neutral.--neutral-v600}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v400}",
+      "type": "color"
     },
     "--tabs-item-color": {
       "value": "{Root.--action-text-default-color}",
@@ -543,6 +542,16 @@
       "value": "16px",
       "type": "sizing",
       "description": ""
+    },
+    "--break-shadow-light-color": {
+      "value": "{Primary.--primary-v100}",
+      "type": "color",
+      "description": "break shadow color when the bottom block is secondary (black)"
+    },
+    "--break-shadow-dark-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "break shadow color when the bottom block is primary(yellow), tertiary (white) or quaternary (gray)"
     }
   },
   "Content": {
@@ -575,6 +584,11 @@
       "value": "0",
       "type": "borderWidth",
       "description": ""
+    },
+    "--content-decoration-border-width": {
+      "value": "{Root.--border-width-xs}",
+      "type": "borderWidth",
+      "description": "Use this for showing the border of the content"
     },
     "--content-border-color": {
       "value": "unset",

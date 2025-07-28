@@ -193,6 +193,7 @@
       "Content.--content-subtitle-color": "ae5dbe66229e72adb3ac63aeb954440febfa7360",
       "Content.--content-title-color": "327312371366767534890400d53bd0d564997471",
       "Content.--content-border-width": "bbe2da0c2ff23321616fd6a0be15cc81bf750ccd",
+      "Content.--content-decoration-border-width": "e395074de5278ab7169eee1777b4de689083318a",
       "Content.--content-border-color": "909a0941d7087e13b01be572b25bdf0b53564ea2",
       "Content.--content-mobile-no-bg-padding": "81a1bdf2935228f21be8c10b9d3607b999167570",
       "Quote.--quote-fg-color": "3c09fdda63602600e93eb8693f3b8e64c85ebe2f",
@@ -318,7 +319,9 @@
       "Autocomplete.--autocomplete-mobile-font-weight": "935a40c63b2c516b60b215dfe06ce44d73f69e01",
       "Side Navigation.--side-navigation-desktop-border-width": "e7356856b305f36813f2281ba7d082474fd9091d",
       "Header.--global-header-site-name-font-family": "f34e8a02e44e2e8f5d57955c31b8d3f2a71a4569",
-      "Header.--global-header-site-name-font-size": "158f23ebeb9baa2bc563c90ae3d34c015e8e1a49"
+      "Header.--global-header-site-name-font-size": "158f23ebeb9baa2bc563c90ae3d34c015e8e1a49",
+      "Break.--break-shadow-light-color": "a33a62326181015838b2109c85a46b7aff4187c7",
+      "Break.--break-shadow-dark-color": "f97e846867ea3908e71fc02b5f717905299f77d4"
     }
   },
   {
@@ -470,6 +473,7 @@
       "Content.--content-subtitle-color": "ae5dbe66229e72adb3ac63aeb954440febfa7360",
       "Content.--content-title-color": "327312371366767534890400d53bd0d564997471",
       "Content.--content-border-width": "bbe2da0c2ff23321616fd6a0be15cc81bf750ccd",
+      "Content.--content-decoration-border-width": "e395074de5278ab7169eee1777b4de689083318a",
       "Content.--content-border-color": "909a0941d7087e13b01be572b25bdf0b53564ea2",
       "Content.--content-mobile-no-bg-padding": "81a1bdf2935228f21be8c10b9d3607b999167570",
       "Quote.--quote-fg-color": "3c09fdda63602600e93eb8693f3b8e64c85ebe2f",
@@ -650,7 +654,9 @@
       "Root.--action-indicator-active-color": "41e12912de6be0b684b38d6a381758d6c71e19db",
       "Side Navigation.--side-navigation-desktop-border-width": "e7356856b305f36813f2281ba7d082474fd9091d",
       "Header.--global-header-site-name-font-family": "f34e8a02e44e2e8f5d57955c31b8d3f2a71a4569",
-      "Header.--global-header-site-name-font-size": "158f23ebeb9baa2bc563c90ae3d34c015e8e1a49"
+      "Header.--global-header-site-name-font-size": "158f23ebeb9baa2bc563c90ae3d34c015e8e1a49",
+      "Break.--break-shadow-light-color": "a33a62326181015838b2109c85a46b7aff4187c7",
+      "Break.--break-shadow-dark-color": "f97e846867ea3908e71fc02b5f717905299f77d4"
     }
   },
   {
@@ -848,6 +854,7 @@
       "Content.--content-subtitle-color": "ae5dbe66229e72adb3ac63aeb954440febfa7360",
       "Content.--content-title-color": "327312371366767534890400d53bd0d564997471",
       "Content.--content-border-width": "bbe2da0c2ff23321616fd6a0be15cc81bf750ccd",
+      "Content.--content-decoration-border-width": "e395074de5278ab7169eee1777b4de689083318a",
       "Content.--content-border-color": "909a0941d7087e13b01be572b25bdf0b53564ea2",
       "Content.--content-mobile-no-bg-padding": "81a1bdf2935228f21be8c10b9d3607b999167570",
       "Quote.--quote-fg-color": "3c09fdda63602600e93eb8693f3b8e64c85ebe2f",
@@ -973,7 +980,9 @@
       "Autocomplete.--autocomplete-mobile-font-weight": "935a40c63b2c516b60b215dfe06ce44d73f69e01",
       "Side Navigation.--side-navigation-desktop-border-width": "e7356856b305f36813f2281ba7d082474fd9091d",
       "Header.--global-header-site-name-font-family": "f34e8a02e44e2e8f5d57955c31b8d3f2a71a4569",
-      "Header.--global-header-site-name-font-size": "158f23ebeb9baa2bc563c90ae3d34c015e8e1a49"
+      "Header.--global-header-site-name-font-size": "158f23ebeb9baa2bc563c90ae3d34c015e8e1a49",
+      "Break.--break-shadow-light-color": "a33a62326181015838b2109c85a46b7aff4187c7",
+      "Break.--break-shadow-dark-color": "f97e846867ea3908e71fc02b5f717905299f77d4"
     }
   },
   {
@@ -1188,6 +1197,7 @@
       "Content.--content-subtitle-color": "ae5dbe66229e72adb3ac63aeb954440febfa7360",
       "Content.--content-title-color": "327312371366767534890400d53bd0d564997471",
       "Content.--content-border-width": "bbe2da0c2ff23321616fd6a0be15cc81bf750ccd",
+      "Content.--content-decoration-border-width": "e395074de5278ab7169eee1777b4de689083318a",
       "Content.--content-border-color": "909a0941d7087e13b01be572b25bdf0b53564ea2",
       "Content.--content-mobile-no-bg-padding": "81a1bdf2935228f21be8c10b9d3607b999167570",
       "Quote.--quote-fg-color": "3c09fdda63602600e93eb8693f3b8e64c85ebe2f",
@@ -1313,7 +1323,9 @@
       "Autocomplete.--autocomplete-mobile-font-weight": "935a40c63b2c516b60b215dfe06ce44d73f69e01",
       "Side Navigation.--side-navigation-desktop-border-width": "e7356856b305f36813f2281ba7d082474fd9091d",
       "Header.--global-header-site-name-font-family": "f34e8a02e44e2e8f5d57955c31b8d3f2a71a4569",
-      "Header.--global-header-site-name-font-size": "158f23ebeb9baa2bc563c90ae3d34c015e8e1a49"
+      "Header.--global-header-site-name-font-size": "158f23ebeb9baa2bc563c90ae3d34c015e8e1a49",
+      "Break.--break-shadow-light-color": "a33a62326181015838b2109c85a46b7aff4187c7",
+      "Break.--break-shadow-dark-color": "f97e846867ea3908e71fc02b5f717905299f77d4"
     }
   },
   {
