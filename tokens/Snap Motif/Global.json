@@ -1062,19 +1062,19 @@
   },
   "Primary": {
     "--primary-v50": {
-      "value": "{Palette.Yellow.--palette-yellow-v50}",
+      "value": "{Palette.Blue.--palette-blue-v50}",
       "type": "color"
     },
     "--primary-v100": {
-      "value": "{Palette.Yellow.--palette-yellow-v100}",
+      "value": "{Palette.Blue.--palette-blue-v50}",
       "type": "color"
     },
     "--primary-v150": {
-      "value": "{Palette.Yellow.--palette-yellow-v150}",
+      "value": "{Palette.Blue.--palette-blue-v150}",
       "type": "color"
     },
     "--primary-v200": {
-      "value": "{Palette.Yellow.--palette-yellow-v200}",
+      "value": "{Palette.Blue.--palette-blue-v200}",
       "type": "color"
     }
   },
