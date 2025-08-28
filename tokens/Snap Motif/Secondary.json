@@ -419,18 +419,6 @@
     }
   },
   "Side Navigation": {
-    "--side-navigation-desktop-box-shadow": {
-      "value": {
-        "type": "dropShadow",
-        "x": "0px",
-        "y": "0px",
-        "blur": "0px",
-        "spread": "0",
-        "color": "rgba(0, 0, 0, 0)"
-      },
-      "type": "boxShadow",
-      "description": ""
-    },
     "--side-navigation-mobile-bar-bg-color": {
       "value": "{Neutral.--neutral-v650}",
       "type": "color",
