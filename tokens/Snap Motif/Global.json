@@ -531,15 +531,14 @@
       "type": "fontWeights",
       "description": ""
     },
-    "line-height-headings": {
+    "--h3-desktop-font-line-height": {
       "value": "120%",
       "type": "lineHeights",
-      "description": "--line-height-headings"
+      "description": ""
     },
-    "line-height-paragraphs": {
-      "value": "160%",
-      "type": "lineHeights",
-      "description": "--line-height-paragraphs"
+    "--h3-desktop-font-weight": {
+      "value": "600",
+      "type": "fontWeights"
     },
     "--text-desktop-font-line-height": {
       "value": "24px",
@@ -667,6 +666,11 @@
     },
     "--annotation-mobile-font-line-height": {
       "value": "20px",
+      "type": "fontSizes",
+      "description": "Block Subtitles"
+    },
+    "--p1-desktop-font-line-height": {
+      "value": "160%",
       "type": "lineHeights",
       "description": ""
     },
@@ -1141,27 +1145,7 @@
     "transparent-neutral150": {
       "value": "rgba( {Neutral.--neutral-v150}, .5)",
       "type": "color",
-      "description": "Not used anymore. To deprecate"
+      "description": "Error color"
     }
-  },
-  "hyperlink-desktop-font-text-decoration": {
-    "value": "underline",
-    "type": "textDecoration",
-    "description": "--hyperlink-desktop-font-text-decoration"
-  },
-  "hyperlink-mobile-font-text-decoration": {
-    "value": "none",
-    "type": "textDecoration",
-    "description": "--hyperlink-mobile-font-text-decoration"
-  },
-  "hyperlink-mobile-font-weight": {
-    "value": "500",
-    "type": "fontWeights",
-    "description": "--hyperlink-mobile-font-weight"
-  },
-  "hyperlink-desktop-font-weight": {
-    "value": "500",
-    "type": "fontWeights",
-    "description": "--hyperlink-desktop-font-weight"
   }
 }
