@@ -154,8 +154,7 @@
     },
     "--button-desktop-font-size": {
       "value": "{Root.--action-desktop-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--button-desktop-font-letter-spacing": {
       "value": "{Root.--action-desktop-font-letter-spacing}",
@@ -163,24 +162,20 @@
       "description": ""
     },
     "--button-desktop-font-line-height": {
-      "value": "{Root.--action-desktop-font-line-height}",
-      "type": "lineHeights",
-      "description": ""
+      "value": "{Accordion.--accordion-header-desktop-font-line-height}",
+      "type": "lineHeights"
     },
     "--button-desktop-font-weight": {
       "value": "{Root.--action-desktop-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--button-mobile-font-size": {
       "value": "{Root.--action-mobile-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--button-mobile-font-letter-spacing": {
       "value": "{Root.--action-mobile-font-letter-spacing}",
-      "type": "letterSpacing",
-      "description": ""
+      "type": "letterSpacing"
     },
     "--button-mobile-font-line-height": {
       "value": "{Root.--action-mobile-font-line-height}",
@@ -189,8 +184,7 @@
     },
     "--button-mobile-font-weight": {
       "value": "{Root.--action-mobile-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--button-regular-padding": {
       "value": "11px 31px",
@@ -203,9 +197,8 @@
       "description": ""
     },
     "--button-border-width": {
-      "value": "2px",
-      "type": "borderWidth",
-      "description": ""
+      "value": "{Root.--border-width-s}",
+      "type": "borderWidth"
     },
     "--button-border-radius": {
       "value": "64px",
