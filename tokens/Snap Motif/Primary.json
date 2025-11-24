@@ -575,9 +575,9 @@
       "description": "Use this for showing the border of the content"
     },
     "--content-border-color": {
-      "value": "unset",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color",
-      "description": ""
+      "description": "Change to any of the 4 colors: yellow/primary-v100, black/neutral-v700, white/neutral-v0 or gray/neutral-v150. "
     },
     "--content-mobile-no-bg-padding": {
       "value": "0",
