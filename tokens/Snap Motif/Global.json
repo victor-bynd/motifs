@@ -159,7 +159,7 @@
       "type": "fontWeights"
     },
     "--h1-mobile-font-size": {
-      "value": "46px",
+      "value": "40px",
       "type": "fontSizes",
       "description": "Hero Title on mobile"
     },
