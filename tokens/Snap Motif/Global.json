@@ -101,7 +101,7 @@
       "description": ""
     },
     "--font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "Paragraphs and smaller text"
     },
@@ -136,79 +136,79 @@
       "description": ""
     },
     "--h1-font-family": {
-      "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H1 titles"
     },
     "--h1-desktop-font-size": {
-      "value": "104px",
+      "value": "56px",
       "type": "fontSizes",
       "description": "Hero Title without foreground media"
     },
     "--h1-desktop-font-size-compact": {
-      "value": "88px",
+      "value": "56px",
       "type": "fontSizes",
       "description": "Hero Title with foreground media"
     },
     "--h1-desktop-font-line-height": {
-      "value": "108%",
+      "value": "120%",
       "type": "lineHeights"
     },
     "--h1-desktop-font-weight": {
-      "value": "500",
+      "value": "600",
       "type": "fontWeights"
     },
     "--h1-mobile-font-size": {
-      "value": "56px",
+      "value": "46px",
       "type": "fontSizes",
       "description": "Hero Title on mobile"
     },
     "--h1-mobile-font-line-height": {
-      "value": "108%",
+      "value": "120%",
       "type": "lineHeights"
     },
     "--h1-mobile-font-weight": {
-      "value": "500",
+      "value": "600",
       "type": "fontWeights"
     },
     "--h2-font-family": {
-      "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H2 titles"
     },
     "--h2-desktop-font-size": {
-      "value": "64px",
-      "type": "fontSizes",
-      "description": "Block Title"
-    },
-    "--h2-desktop-font-line-height": {
-      "value": "108%",
-      "type": "lineHeights"
-    },
-    "--h2-desktop-font-weight": {
-      "value": "500",
-      "type": "fontWeights"
-    },
-    "--h2-mobile-font-size": {
       "value": "48px",
       "type": "fontSizes",
       "description": "Block Title"
     },
+    "--h2-desktop-font-line-height": {
+      "value": "120%",
+      "type": "lineHeights"
+    },
+    "--h2-desktop-font-weight": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "--h2-mobile-font-size": {
+      "value": "32px",
+      "type": "fontSizes",
+      "description": "Block Title"
+    },
     "--h2-mobile-font-line-height": {
-      "value": "108%",
+      "value": "120%",
       "type": "lineHeights"
     },
     "--h2-mobile-font-weight": {
-      "value": "500",
+      "value": "600",
       "type": "fontWeights"
     },
     "--h3-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H3 titles"
     },
     "--h3-desktop-font-size": {
-      "value": "32px",
+      "value": "40px",
       "type": "fontSizes"
     },
     "--h3-desktop-font-line-height": {
@@ -221,7 +221,7 @@
       "type": "fontWeights"
     },
     "--h3-mobile-font-size": {
-      "value": "24px",
+      "value": "28px",
       "type": "fontSizes"
     },
     "--h3-mobile-font-line-height": {
@@ -234,7 +234,7 @@
       "type": "fontWeights"
     },
     "--h4-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H4 titles"
     },
@@ -249,11 +249,11 @@
       "description": ""
     },
     "--h4-desktop-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h4-mobile-font-size": {
-      "value": "22px",
+      "value": "24px",
       "type": "fontSizes",
       "description": "Content Title"
     },
@@ -263,16 +263,16 @@
       "description": ""
     },
     "--h4-mobile-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h5-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H5 titles"
     },
     "--h5-desktop-font-size": {
-      "value": "22px",
+      "value": "24px",
       "type": "fontSizes",
       "description": "Carousel Title"
     },
@@ -282,7 +282,7 @@
       "description": ""
     },
     "--h5-desktop-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h5-mobile-font-size": {
@@ -296,11 +296,11 @@
       "description": ""
     },
     "--h5-mobile-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h6-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H6 titles"
     },
@@ -315,7 +315,7 @@
       "description": ""
     },
     "--h6-desktop-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h6-mobile-font-size": {
@@ -329,7 +329,7 @@
       "description": ""
     },
     "--h6-mobile-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--p1-desktop-font-size": {
@@ -478,7 +478,7 @@
       "description": "Button text, interactive text like: Header navigation items, subnav items, sidenav items"
     },
     "--action-mobile-font-line-height": {
-      "value": "120%",
+      "value": "24px",
       "type": "lineHeights",
       "description": ""
     },
@@ -543,11 +543,11 @@
       "description": ""
     },
     "--h1-desktop-font-text-transform": {
-      "value": "uppercase",
+      "value": "none",
       "type": "textCase"
     },
     "--h2-desktop-font-text-transform": {
-      "value": "uppercase",
+      "value": "none",
       "type": "textCase"
     },
     "--h2-font-letter-spacing": {
@@ -775,7 +775,7 @@
       "type": "color"
     },
     "--primary-v100": {
-      "value": "{Palette.Yellow.--palette-yellow-v100}",
+      "value": "{Palette.Green.--palette-green-v100}",
       "type": "color",
       "description": "main brand color"
     },
