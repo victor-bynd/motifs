@@ -775,7 +775,7 @@
       "type": "color"
     },
     "--primary-v100": {
-      "value": "{Palette.Green.--palette-green-v100}",
+      "value": "{Palette.Yellow.--palette-yellow-v100}",
       "type": "color",
       "description": "main brand color"
     },
