@@ -155,7 +155,7 @@
       "type": "lineHeights"
     },
     "--h1-desktop-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h1-mobile-font-size": {
@@ -168,7 +168,7 @@
       "type": "lineHeights"
     },
     "--h1-mobile-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h2-font-family": {
@@ -186,7 +186,7 @@
       "type": "lineHeights"
     },
     "--h2-desktop-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h2-mobile-font-size": {
@@ -199,7 +199,7 @@
       "type": "lineHeights"
     },
     "--h2-mobile-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h3-font-family": {
@@ -217,7 +217,7 @@
       "description": ""
     },
     "--h3-desktop-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h3-mobile-font-size": {
@@ -230,7 +230,7 @@
       "description": ""
     },
     "--h3-mobile-font-weight": {
-      "value": "600",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h4-font-family": {
