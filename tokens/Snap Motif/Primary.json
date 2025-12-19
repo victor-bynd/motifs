@@ -1726,16 +1726,50 @@
       "description": ""
     }
   },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Primary.--primary-v150}",
+      "type": "color"
+    }
+  },
   "Emphasized Text": {
     "--emphasized-text-color": {
       "value": "{Root.--fg-color}",
       "type": "color"
     }
   },
-  "Topic": {
-    "--topic-hover-bg-color": {
-      "value": "{Primary.--primary-v150}",
-      "type": "color"
+  "Ai Localization Banner": {
+    "--banner-ai-bg-color": {
+      "value": "{Neutral.--neutral-v100}",
+      "type": "color",
+      "description": ""
+    },
+    "--banner-ai-fg-color": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Stats": {
+    "--stats-stat-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color",
+      "description": ""
+    },
+    "--stats-stat-font-weight": {
+      "value": "{Root.--stats-font-weight}",
+      "type": "fontWeights",
+      "description": ""
+    },
+    "--stats-stat-font-size": {
+      "value": "{Root.--stats-font-size}",
+      "type": "fontSizes",
+      "description": ""
+    },
+    "--stats-stat-font-line-height": {
+      "value": "{Root.--stats-font-line-height}",
+      "type": "lineHeights",
+      "description": ""
     }
   }
 }

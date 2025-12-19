@@ -722,16 +722,35 @@
       "description": ""
     }
   },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
+    }
+  },
   "Emphasized Text": {
     "--emphasized-text-color": {
       "value": "{Primary.--primary-v100}",
       "type": "color"
     }
   },
-  "Topic": {
-    "--topic-hover-bg-color": {
-      "value": "{Neutral.--neutral-v600}",
-      "type": "color"
+  "Ai Localization Banner": {
+    "--banner-ai-bg-color": {
+      "value": "{Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--banner-ai-fg-color": {
+      "value": "{Neutral.--neutral-v100}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Stats": {
+    "--stats-stat-color": {
+      "value": "{Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
     }
   }
 }

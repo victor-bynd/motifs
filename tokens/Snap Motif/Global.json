@@ -532,6 +532,21 @@
       "type": "letterSpacing",
       "description": ""
     },
+    "--stats-font-weight": {
+      "value": "500",
+      "type": "fontWeights",
+      "description": ""
+    },
+    "--stats-font-size": {
+      "value": "140px",
+      "type": "fontSizes",
+      "description": ""
+    },
+    "--stats-font-line-height": {
+      "value": "70%",
+      "type": "lineHeights",
+      "description": ""
+    },
     "--action-desktop-font-text-decoration": {
       "value": "none",
       "type": "textDecoration",
