@@ -892,6 +892,16 @@
       "value": "16px",
       "type": "spacing",
       "description": ""
+    },
+    "--carousel-card-desktop-text-align": {
+      "value": "start",
+      "type": "textAlign",
+      "description": ""
+    },
+    "--carousel-card-mobile-text-align": {
+      "value": "start",
+      "type": "textAlign",
+      "description": ""
     }
   },
   "Footnote": {

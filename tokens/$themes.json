@@ -128,8 +128,11 @@
       "Side Overlay.--side-overlay-bg-color": "4ac63a68a964ffdc831716c22b62bd87d8c9ff0d",
       "Side Overlay.--side-overlay-border-color": "2dd20ac4a5f6ef678807e997be90967760bc0190",
       "Side Overlay.--side-overlay-fg-color": "5924cb2b6f811b29c02cbebca66dc3b8a5766259",
-      "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d",
       "Topic.--topic-hover-bg-color": "784b2db329050f7c62f0ac21defa7a4f08971a43",
+      "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d",
+      "Ai Localization Banner.--banner-ai-bg-color": "f8d849090a7e21a77739905eb4d858267463a484",
+      "Ai Localization Banner.--banner-ai-fg-color": "e02b10f3fdb4346b80fd7e123367bb06fec3a711",
+      "Stats.--stats-stat-color": "563ef17ff0b7de3a0b1074f1524efb0a2950e3d2",
       "Button.--button-secondary-bg-color": "314d0d5c9fc2b45fa012006ed0a5d28b690d1df5",
       "Button.--button-secondary-hover-bg-color": "5f33ce032e7c0005000787da77335d02dadbcc35",
       "Button.--button-secondary-border-color": "75383e0f9be099e917be48ce9446f64d993e561f",
@@ -320,7 +323,9 @@
       "Autocomplete.--autocomplete-desktop-font-weight": "481ac29681675900aa0d909a9622c70c274a27c1",
       "Autocomplete.--autocomplete-hover-border-color": "fa075835532d854402440ee8cb4071629a912d9e",
       "Autocomplete.--autocomplete-mobile-font-size": "01106cf7060b6d3c004472e653a56d0861325c91",
-      "Autocomplete.--autocomplete-mobile-font-weight": "34583e19ae658bf1bf53e98f676c059054b16f24"
+      "Autocomplete.--autocomplete-mobile-font-weight": "34583e19ae658bf1bf53e98f676c059054b16f24",
+      "Stats.--stats-stat-font-weight": "5d7e1809e80fb277e975221acf521ebcac6f35a7",
+      "Stats.--stats-stat-font-size": "2c2a21518c3388b29026c2de5e64c38b1a060bfa"
     },
     "group": "Color Themes"
   },
@@ -656,7 +661,12 @@
       "Chart Skeleton.--chart-skeleton-light-animation-color": "3150b0bb51680abefd9e8f56dc92849cdf530ba0",
       "Side Overlay.--side-overlay-bg-color": "4ac63a68a964ffdc831716c22b62bd87d8c9ff0d",
       "Side Overlay.--side-overlay-fg-color": "5924cb2b6f811b29c02cbebca66dc3b8a5766259",
-      "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d"
+      "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d",
+      "Ai Localization Banner.--banner-ai-bg-color": "f8d849090a7e21a77739905eb4d858267463a484",
+      "Ai Localization Banner.--banner-ai-fg-color": "e02b10f3fdb4346b80fd7e123367bb06fec3a711",
+      "Stats.--stats-stat-color": "563ef17ff0b7de3a0b1074f1524efb0a2950e3d2",
+      "Stats.--stats-stat-font-weight": "5d7e1809e80fb277e975221acf521ebcac6f35a7",
+      "Stats.--stats-stat-font-size": "2c2a21518c3388b29026c2de5e64c38b1a060bfa"
     }
   },
   {
@@ -790,8 +800,11 @@
       "Side Overlay.--side-overlay-bg-color": "4ac63a68a964ffdc831716c22b62bd87d8c9ff0d",
       "Side Overlay.--side-overlay-border-color": "2dd20ac4a5f6ef678807e997be90967760bc0190",
       "Side Overlay.--side-overlay-fg-color": "5924cb2b6f811b29c02cbebca66dc3b8a5766259",
-      "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d",
       "Topic.--topic-hover-bg-color": "784b2db329050f7c62f0ac21defa7a4f08971a43",
+      "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d",
+      "Ai Localization Banner.--banner-ai-bg-color": "f8d849090a7e21a77739905eb4d858267463a484",
+      "Ai Localization Banner.--banner-ai-fg-color": "e02b10f3fdb4346b80fd7e123367bb06fec3a711",
+      "Stats.--stats-stat-color": "563ef17ff0b7de3a0b1074f1524efb0a2950e3d2",
       "Footer.--footer-border-color": "071744e0ff0ebbfc65f20784a396cdf2725c3ead",
       "Footer.--footer-divider-border-color": "34a80c7eaae36806d413cd8d8af37166ae494fb8",
       "Footer.--footer-bar-divider-border-color": "a5d321b73ed64ff8005fc730273c9b587d065a77",
@@ -982,7 +995,9 @@
       "Autocomplete.--autocomplete-desktop-font-weight": "481ac29681675900aa0d909a9622c70c274a27c1",
       "Autocomplete.--autocomplete-hover-border-color": "fa075835532d854402440ee8cb4071629a912d9e",
       "Autocomplete.--autocomplete-mobile-font-size": "01106cf7060b6d3c004472e653a56d0861325c91",
-      "Autocomplete.--autocomplete-mobile-font-weight": "34583e19ae658bf1bf53e98f676c059054b16f24"
+      "Autocomplete.--autocomplete-mobile-font-weight": "34583e19ae658bf1bf53e98f676c059054b16f24",
+      "Stats.--stats-stat-font-weight": "5d7e1809e80fb277e975221acf521ebcac6f35a7",
+      "Stats.--stats-stat-font-size": "2c2a21518c3388b29026c2de5e64c38b1a060bfa"
     }
   },
   {
@@ -1133,8 +1148,11 @@
       "Side Overlay.--side-overlay-bg-color": "4ac63a68a964ffdc831716c22b62bd87d8c9ff0d",
       "Side Overlay.--side-overlay-border-color": "2dd20ac4a5f6ef678807e997be90967760bc0190",
       "Side Overlay.--side-overlay-fg-color": "5924cb2b6f811b29c02cbebca66dc3b8a5766259",
-      "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d",
       "Topic.--topic-hover-bg-color": "784b2db329050f7c62f0ac21defa7a4f08971a43",
+      "Emphasized Text.--emphasized-text-color": "d14b861a9f6c230bb63e9899c3185adab370705d",
+      "Ai Localization Banner.--banner-ai-bg-color": "f8d849090a7e21a77739905eb4d858267463a484",
+      "Ai Localization Banner.--banner-ai-fg-color": "e02b10f3fdb4346b80fd7e123367bb06fec3a711",
+      "Stats.--stats-stat-color": "563ef17ff0b7de3a0b1074f1524efb0a2950e3d2",
       "Button.--button-secondary-bg-color": "314d0d5c9fc2b45fa012006ed0a5d28b690d1df5",
       "Button.--button-secondary-hover-bg-color": "5f33ce032e7c0005000787da77335d02dadbcc35",
       "Button.--button-secondary-border-color": "75383e0f9be099e917be48ce9446f64d993e561f",
@@ -1325,7 +1343,9 @@
       "Autocomplete.--autocomplete-desktop-font-weight": "481ac29681675900aa0d909a9622c70c274a27c1",
       "Autocomplete.--autocomplete-hover-border-color": "fa075835532d854402440ee8cb4071629a912d9e",
       "Autocomplete.--autocomplete-mobile-font-size": "01106cf7060b6d3c004472e653a56d0861325c91",
-      "Autocomplete.--autocomplete-mobile-font-weight": "34583e19ae658bf1bf53e98f676c059054b16f24"
+      "Autocomplete.--autocomplete-mobile-font-weight": "34583e19ae658bf1bf53e98f676c059054b16f24",
+      "Stats.--stats-stat-font-weight": "5d7e1809e80fb277e975221acf521ebcac6f35a7",
+      "Stats.--stats-stat-font-size": "2c2a21518c3388b29026c2de5e64c38b1a060bfa"
     }
   },
   {
@@ -1427,6 +1447,8 @@
       "Root.--annotation-mobile-font-weight": "6e1b9645e3991f906dfb8090b851b6cc12a7a139",
       "Root.--annotation-mobile-font-line-height": "7c6a1f9aa186184b1adbebbc998d125a4cd11181",
       "Root.--annotation-mobile-font-letter-spacing": "cd8e8bacde718559065aa865a0ce723f677d6e5c",
+      "Root.--stats-font-weight": "6e33ea91cc87d902287b11502a78c785b65eed05",
+      "Root.--stats-font-size": "b68331e29875e5f40be8cfabe16da816def5f14e",
       "Root.--h2-font-letter-spacing": "acbb25da880ca1c74f6273c9cb3410bc5d14c71c",
       "Palette.Plain.--palette-plain-black": "823851216a1172a325c40330549495739e24d9cd",
       "Palette.Plain.--palette-plain-transparent": "7671d8606fc301beb53c1e6b0d50f138e71be95d",
