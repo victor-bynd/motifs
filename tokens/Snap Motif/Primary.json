@@ -601,6 +601,11 @@
       "type": "color",
       "description": ""
     },
+    "--quote-icon-color": {
+      "value": "{Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    },
     "--quote-author-desktop-font-size": {
       "value": "16px",
       "type": "fontSizes",
@@ -891,16 +896,6 @@
     "--carousel-card-mobile-grid-gap": {
       "value": "16px",
       "type": "spacing",
-      "description": ""
-    },
-    "--carousel-card-desktop-text-align": {
-      "value": "start",
-      "type": "textAlign",
-      "description": ""
-    },
-    "--carousel-card-mobile-text-align": {
-      "value": "start",
-      "type": "textAlign",
       "description": ""
     }
   },
