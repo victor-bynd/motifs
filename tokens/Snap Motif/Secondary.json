@@ -241,7 +241,11 @@
   },
   "Quote": {
     "--quote-bg-color": {
-      "value": "{Neutral.--neutral-v150}",
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
+    },
+    "--quote-fg-color": {
+      "value": "{Neutral.--neutral-v0}",
       "type": "color",
       "description": ""
     }
