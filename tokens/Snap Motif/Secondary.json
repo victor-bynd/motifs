@@ -117,14 +117,14 @@
       "type": "color",
       "description": ""
     },
+    "--button-primary-hover-fg-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
     "--button-flat-fg-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color",
       "description": ""
-    },
-    "--button-primary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color"
     }
   },
   "Header": {
