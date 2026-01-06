@@ -102,14 +102,12 @@
       "description": ""
     },
     "--footer-bar-bg-color": {
-      "value": "{Neutral.--neutral-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--footer-bar-divider-border-color": {
-      "value": "{Neutral.--neutral-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Toggle Slider": {

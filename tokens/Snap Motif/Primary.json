@@ -676,9 +676,8 @@
       "description": ""
     },
     "--dropdown-menu-border-color": {
-      "value": "{Neutral.--neutral-v200}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--dropdown-skeleton-animation-color": {
       "value": "{Neutral.--neutral-v200}",
@@ -710,13 +709,12 @@
       "description": ""
     },
     "--dropdown-button-border-radius": {
-      "value": "{Root.--border-radius-m}",
+      "value": "{Root.--border-radius-xl}",
       "type": "borderRadius"
     },
     "--dropdown-button-border-width": {
-      "value": "0",
-      "type": "borderWidth",
-      "description": ""
+      "value": "{Root.--border-width-s}",
+      "type": "borderWidth"
     },
     "--dropdown-button-border-color": {
       "value": "transparent",
