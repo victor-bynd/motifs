@@ -92,14 +92,12 @@
       "description": ""
     },
     "--footer-border-color": {
-      "value": "{Neutral.--neutral-v300}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--footer-divider-border-color": {
-      "value": "{Neutral.--neutral-v300}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--footer-bar-bg-color": {
       "value": "{Neutral.--neutral-v0}",
