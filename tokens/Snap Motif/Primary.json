@@ -98,14 +98,12 @@
   },
   "Button": {
     "--button-primary-bg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--button-primary-hover-bg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--button-primary-border-color": {
       "value": "{Neutral.--neutral-v700}",
@@ -118,9 +116,8 @@
       "description": ""
     },
     "--button-primary-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--button-secondary-bg-color": {
       "value": "{Neutral.--neutral-v0}",
@@ -214,6 +211,10 @@
       "value": "{Root.--box-shadow-m}",
       "type": "boxShadow",
       "description": ""
+    },
+    "--button-primary-hover-fg-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     }
   },
   "Header": {
