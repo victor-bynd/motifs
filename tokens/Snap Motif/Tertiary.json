@@ -110,14 +110,12 @@
   },
   "Toggle Slider": {
     "--toggle-slider-bg-color": {
-      "value": "{Neutral.--neutral-v500}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v400}",
+      "type": "color"
     },
     "--toggle-slider-active-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Accordion": {
