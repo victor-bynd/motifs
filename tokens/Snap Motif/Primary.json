@@ -1209,7 +1209,7 @@
       "description": ""
     },
     "--side-navigation-desktop-border-color": {
-      "value": "{Neutral.--neutral-v400}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--side-navigation-desktop-border-width": {
