@@ -1,5 +1,9 @@
 {
   "Root": {
+    "--border-radius-none": {
+      "value": "0px",
+      "type": "borderRadius"
+    },
     "--border-radius-xs": {
       "value": "1px",
       "type": "borderRadius",

@@ -954,7 +954,7 @@
   },
   "Media": {
     "--media-border-radius": {
-      "value": "{Root.--border-radius-m}",
+      "value": "{Root.--border-radius-none}",
       "type": "borderRadius"
     },
     "--media-border-width": {

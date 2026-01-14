@@ -1351,6 +1351,7 @@
     "$figmaCollectionId": "VariableCollectionId:8391:8942",
     "$figmaModeId": "8391:0",
     "$figmaVariableReferences": {
+      "Root.--border-radius-none": "6595b778f53ab0ef1a8759dd41c404ee186f0c79",
       "Root.--border-radius-xs": "79988476b312ac6a361d6ac8c83454a6d100371b",
       "Root.--border-radius-s": "92dd3875bd357c9a235b8e18abddba17c1f47b73",
       "Root.--border-radius-m": "9686f4e896cdf9cc7735a1f05a6fd4e2a74ade55",
