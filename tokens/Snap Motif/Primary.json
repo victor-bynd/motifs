@@ -98,7 +98,7 @@
   },
   "Button": {
     "--button-primary-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-primary-hover-bg-color": {
@@ -116,28 +116,28 @@
       "description": ""
     },
     "--button-primary-fg-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--button-primary-fg-hover-color-": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-secondary-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Palette.Yellow.--palette-yellow-v100}",
+      "type": "color"
     },
     "--button-secondary-hover-bg-color": {
       "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     },
     "--button-secondary-border-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--button-secondary-hover-border-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Primary.--primary-v100}",
+      "type": "color"
     },
     "--button-secondary-fg-color": {
       "value": "{Neutral.--neutral-v700}",
@@ -213,7 +213,7 @@
       "description": ""
     },
     "--button-primary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     }
   },
