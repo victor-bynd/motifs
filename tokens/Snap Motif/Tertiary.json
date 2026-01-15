@@ -120,9 +120,8 @@
   },
   "Accordion": {
     "--accordion-divider-border-color": {
-      "value": "{Neutral.--neutral-v250}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Banner": {
