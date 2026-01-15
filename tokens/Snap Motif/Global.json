@@ -145,12 +145,12 @@
       "description": "H1 titles"
     },
     "--h1-desktop-font-size": {
-      "value": "56px",
+      "value": "64px",
       "type": "fontSizes",
       "description": "Hero Title without foreground media"
     },
     "--h1-desktop-font-size-compact": {
-      "value": "56px",
+      "value": "64px",
       "type": "fontSizes",
       "description": "Hero Title with foreground media"
     },
