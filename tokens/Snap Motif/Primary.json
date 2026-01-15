@@ -292,9 +292,8 @@
       "description": ""
     },
     "--global-header-menu-border-color": {
-      "value": "{Neutral.--neutral-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--global-header-menu-col-label-color": {
       "value": "{Neutral.--neutral-v700}",
