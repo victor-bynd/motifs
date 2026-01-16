@@ -376,6 +376,10 @@
       },
       "type": "boxShadow",
       "description": ""
+    },
+    "--carousel-dot-border-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color"
     }
   },
   "Banner": {

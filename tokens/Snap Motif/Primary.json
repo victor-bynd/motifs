@@ -804,6 +804,10 @@
       "type": "color",
       "description": ""
     },
+    "--carousel-dot-border-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color"
+    },
     "--carousel-card-border-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
@@ -829,9 +833,8 @@
       "description": ""
     },
     "--carousel-inactive-dot-color": {
-      "value": "rgba(133, 141, 148, 0.50)",
-      "type": "color",
-      "description": ""
+      "value": "{Palette.Plain.--palette-plain-transparent}",
+      "type": "color"
     },
     "--carousel-card-border-width": {
       "value": "{Root.--border-width-xs}",
