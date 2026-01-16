@@ -190,7 +190,7 @@
       "type": "lineHeights"
     },
     "--h2-desktop-font-weight": {
-      "value": "500",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h2-mobile-font-size": {
@@ -203,7 +203,7 @@
       "type": "lineHeights"
     },
     "--h2-mobile-font-weight": {
-      "value": "500",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h3-font-family": {
