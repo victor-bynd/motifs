@@ -845,14 +845,12 @@
       "type": "borderRadius"
     },
     "--carousel-card-box-shadow": {
-      "value": "{Root.--box-shadow-s}",
-      "type": "boxShadow",
-      "description": ""
+      "value": "none",
+      "type": "boxShadow"
     },
     "--carousel-card-hover-box-shadow": {
-      "value": "{Root.--box-shadow-l}",
-      "type": "boxShadow",
-      "description": ""
+      "value": "{Root.--box-shadow-m}",
+      "type": "boxShadow"
     },
     "--carousel-card-landscape-square-desktop-width": {
       "value": "364px",
@@ -1095,14 +1093,12 @@
       "description": ""
     },
     "--summary-card-box-shadow": {
-      "value": "{Root.--box-shadow-s}",
-      "type": "boxShadow",
-      "description": ""
+      "value": "none",
+      "type": "boxShadow"
     },
     "--summary-card-hover-box-shadow": {
-      "value": "{Root.--box-shadow-s}",
-      "type": "boxShadow",
-      "description": ""
+      "value": "{Root.--box-shadow-m}",
+      "type": "boxShadow"
     }
   },
   "Pagination": {
