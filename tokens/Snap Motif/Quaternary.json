@@ -28,7 +28,7 @@
       "type": "color"
     },
     "--button-primary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-primary-fg-hover-color-": {
