@@ -150,7 +150,7 @@
       "description": "Hero Title without foreground media"
     },
     "--h1-desktop-font-size-compact": {
-      "value": "64px",
+      "value": "56px",
       "type": "fontSizes",
       "description": "Hero Title with foreground media"
     },
