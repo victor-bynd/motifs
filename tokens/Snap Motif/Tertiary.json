@@ -41,11 +41,11 @@
       "type": "color"
     },
     "--button-secondary-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-secondary-hover-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-secondary-fg-color": {
