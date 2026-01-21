@@ -93,27 +93,24 @@
   },
   "Button": {
     "--button-primary-bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--button-primary-hover-bg-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--button-primary-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--button-primary-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--button-flat-fg-color": {
       "value": "{Neutral.--neutral-v0}",
@@ -126,6 +123,10 @@
     },
     "--button-primary-fg-hover-color-": {
       "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--button-secondary-hover-bg-color": {
+      "value": "{Primary.--primary-v100}",
       "type": "color"
     }
   },
