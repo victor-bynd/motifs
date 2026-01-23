@@ -790,9 +790,8 @@
   },
   "Carousel": {
     "--carousel-active-dot-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--carousel-dot-border-color": {
       "value": "{Root.--fg-color}",
@@ -808,19 +807,16 @@
       "description": ""
     },
     "--carousel-card-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
     },
     "--carousel-card-hover-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color"
     },
     "--carousel-card-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--carousel-inactive-dot-color": {
       "value": "{Palette.Plain.--palette-plain-transparent}",

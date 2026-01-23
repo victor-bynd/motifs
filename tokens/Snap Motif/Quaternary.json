@@ -250,5 +250,27 @@
       "value": "{Neutral.--neutral-v250}",
       "type": "color"
     }
+  },
+  "Carousel": {
+    "--carousel-active-dot-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--carousel-card-bg-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--carousel-card-hover-bg-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--carousel-card-fg-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--carousel-dot-border-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color"
+    }
   }
 }
