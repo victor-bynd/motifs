@@ -105,7 +105,7 @@
       "description": ""
     },
     "--font-family": {
-      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Inter, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "Paragraphs and smaller text"
     },
@@ -140,7 +140,7 @@
       "description": ""
     },
     "--h1-font-family": {
-      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Inter, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H1 titles"
     },
@@ -176,7 +176,7 @@
       "type": "fontWeights"
     },
     "--h2-font-family": {
-      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Inter, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H2 titles"
     },
@@ -190,7 +190,7 @@
       "type": "lineHeights"
     },
     "--h2-desktop-font-weight": {
-      "value": "400",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h2-mobile-font-size": {
@@ -203,11 +203,11 @@
       "type": "lineHeights"
     },
     "--h2-mobile-font-weight": {
-      "value": "400",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h3-font-family": {
-      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Inter, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H3 titles"
     },
@@ -238,7 +238,7 @@
       "type": "fontWeights"
     },
     "--h4-font-family": {
-      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Inter, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H4 titles"
     },
@@ -271,7 +271,7 @@
       "type": "fontWeights"
     },
     "--h5-font-family": {
-      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Inter, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H5 titles"
     },
@@ -304,7 +304,7 @@
       "type": "fontWeights"
     },
     "--h6-font-family": {
-      "value": "Graphik, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Inter, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H6 titles"
     },
@@ -342,9 +342,8 @@
       "description": "Block Subtitles"
     },
     "--p1-desktop-font-line-height": {
-      "value": "160%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "120%",
+      "type": "lineHeights"
     },
     "--p1-desktop-font-weight": {
       "value": "400",
@@ -357,9 +356,8 @@
       "description": "Block Subtitles"
     },
     "--p1-mobile-font-line-height": {
-      "value": "160%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "120%",
+      "type": "lineHeights"
     },
     "--p1-mobile-font-weight": {
       "value": "400",
@@ -372,9 +370,8 @@
       "description": "Content Paragraphs (body)"
     },
     "--p2-desktop-font-line-height": {
-      "value": "160%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "120%",
+      "type": "lineHeights"
     },
     "--p2-desktop-font-weight": {
       "value": "400",
@@ -387,9 +384,8 @@
       "description": "Content Paragraphs (body)"
     },
     "--p2-mobile-font-line-height": {
-      "value": "160%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "120%",
+      "type": "lineHeights"
     },
     "--p2-mobile-font-weight": {
       "value": "400",
@@ -402,9 +398,8 @@
       "description": "Footnotes (References)"
     },
     "--p3-desktop-font-line-height": {
-      "value": "160%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "120%",
+      "type": "lineHeights"
     },
     "--p3-desktop-font-weight": {
       "value": "400",
@@ -417,9 +412,8 @@
       "description": "Footnotes (References)"
     },
     "--p3-mobile-font-line-height": {
-      "value": "160%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "120%",
+      "type": "lineHeights"
     },
     "--p3-mobile-font-weight": {
       "value": "400",
@@ -432,9 +426,8 @@
       "description": "Subtopic body text within Multi-Value Prop component"
     },
     "--p4-desktop-font-line-height": {
-      "value": "160%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "120%",
+      "type": "lineHeights"
     },
     "--p4-desktop-font-weight": {
       "value": "400",
@@ -447,9 +440,8 @@
       "description": "Subtopic body text within Multi-Value Prop component"
     },
     "--p4-mobile-font-line-height": {
-      "value": "160%",
-      "type": "lineHeights",
-      "description": ""
+      "value": "120%",
+      "type": "lineHeights"
     },
     "--p4-mobile-font-weight": {
       "value": "400",
@@ -512,9 +504,8 @@
       "description": ""
     },
     "--annotation-desktop-font-letter-spacing": {
-      "value": "-.14px",
-      "type": "letterSpacing",
-      "description": ""
+      "value": "0px",
+      "type": "letterSpacing"
     },
     "--annotation-mobile-font-size": {
       "value": "14px",
@@ -532,9 +523,8 @@
       "description": ""
     },
     "--annotation-mobile-font-letter-spacing": {
-      "value": "-.14px",
-      "type": "letterSpacing",
-      "description": ""
+      "value": "0px",
+      "type": "letterSpacing"
     },
     "--action-desktop-font-text-decoration": {
       "value": "none",
@@ -555,8 +545,13 @@
       "type": "textCase"
     },
     "--h2-font-letter-spacing": {
-      "value": "1",
+      "value": "none",
       "type": "letterSpacing"
+    },
+    "--heading-letter-spacing": {
+      "value": "-0.04",
+      "type": "letterSpacing",
+      "description": "All Headings letter spacing"
     }
   },
   "Palette": {
