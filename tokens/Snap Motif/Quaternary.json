@@ -4,6 +4,10 @@
       "value": "{Neutral.--neutral-v150}",
       "type": "color",
       "description": ""
+    },
+    "--fg-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Button": {
@@ -57,6 +61,14 @@
     },
     "--button-secondary-hover-fg-color": {
       "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--button-flat-fg-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--button-flat-hover-fg-color": {
+      "value": "{Neutral.--neutral-v500}",
       "type": "color"
     }
   },

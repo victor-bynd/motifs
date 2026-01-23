@@ -213,7 +213,7 @@
   },
   "Block": {
     "--block-title-de-emphasized-color": {
-      "value": "{Root.--fg-color}",
+      "value": "{Neutral.--neutral-v500}",
       "type": "color",
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
     }
@@ -739,7 +739,7 @@
   },
   "Emphasized Text": {
     "--emphasized-text-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     }
   },

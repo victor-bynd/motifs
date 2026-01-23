@@ -61,14 +61,12 @@
       "description": ""
     },
     "--bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v625}",
+      "type": "color"
     },
     "--fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--action-text-default-color": {
       "value": "{Neutral.--neutral-v500}",
@@ -102,25 +100,23 @@
       "type": "color"
     },
     "--button-primary-hover-bg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--button-primary-border-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--button-primary-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--button-primary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-secondary-bg-color": {
@@ -144,12 +140,11 @@
       "type": "color"
     },
     "--button-flat-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--button-flat-hover-fg-color": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "{Neutral.--neutral-v300}",
       "type": "color"
     },
     "--button-desktop-font-size": {
@@ -218,9 +213,8 @@
   },
   "Header": {
     "--global-header-bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--bg-color}",
+      "type": "color"
     },
     "--global-header-fg-color": {
       "value": "{Neutral.--neutral-v600}",
@@ -368,7 +362,7 @@
       "description": ""
     },
     "--block-title-de-emphasized-color": {
-      "value": "{Primary.--primary-v250}",
+      "value": "{Neutral.--neutral-v400}",
       "type": "color",
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
     },
@@ -527,7 +521,7 @@
       "description": ""
     },
     "--break-shadow-light-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--bg-color}",
       "type": "color",
       "description": "break shadow color when the bottom block is secondary (black)"
     },
@@ -621,9 +615,8 @@
   },
   "Footer": {
     "--footer-bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--bg-color}",
+      "type": "color"
     },
     "--footer-fg-color": {
       "value": "{Root.--fg-color}",
@@ -641,9 +634,8 @@
       "description": ""
     },
     "--footer-bar-bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--bg-color}",
+      "type": "color"
     },
     "--footer-bar-fg-color": {
       "value": "{Root.--fg-color}",
@@ -760,13 +752,12 @@
   },
   "Accordion": {
     "--accordion-divider-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--fg-color}",
       "type": "color"
     },
     "--accordion-header-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--fg-color}",
+      "type": "color"
     },
     "--accordion-header-padding": {
       "value": "{Root.--spacing-m}",
@@ -916,14 +907,12 @@
   },
   "Banner": {
     "--banner-bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--bg-color}",
+      "type": "color"
     },
     "--banner-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--fg-color}",
+      "type": "color"
     },
     "--banner-font-size": {
       "value": "{Root.--action-mobile-font-size}",

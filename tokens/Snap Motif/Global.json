@@ -774,7 +774,7 @@
       "type": "color"
     },
     "--primary-v100": {
-      "value": "{Palette.Yellow.--palette-yellow-v100}",
+      "value": "{Neutral.--neutral-v625}",
       "type": "color",
       "description": "main brand color"
     },
@@ -787,7 +787,7 @@
       "type": "color"
     },
     "--primary-v250": {
-      "value": "{Palette.Yellow.--palette-yellow-v250}",
+      "value": "{Neutral.--neutral-v500}",
       "type": "color"
     }
   },
@@ -826,6 +826,10 @@
       "value": "{Palette.Gray.--palette-gray-v300}",
       "type": "color",
       "description": ""
+    },
+    "--neutral-v450": {
+      "value": "#70767A",
+      "type": "color"
     },
     "--neutral-v500": {
       "value": "{Palette.Black.--palette-black-v50}",
