@@ -367,9 +367,8 @@
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
     },
     "--block-subtitle-color": {
-      "value": "{Root.--fg-color}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v450}",
+      "type": "color"
     },
     "--block-eyebrow-color": {
       "value": "{Root.--fg-color}",

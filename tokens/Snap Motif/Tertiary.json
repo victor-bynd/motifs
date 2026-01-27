@@ -81,6 +81,10 @@
       "value": "{Neutral.--neutral-v400}",
       "type": "color",
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
+    },
+    "--block-subtitle-color": {
+      "value": "{Neutral.--neutral-v450}",
+      "type": "color"
     }
   },
   "Hero": {
