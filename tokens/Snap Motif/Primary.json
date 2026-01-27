@@ -120,7 +120,7 @@
       "type": "color"
     },
     "--button-secondary-bg-color": {
-      "value": "{Neutral.--neutral-v600}",
+      "value": "{Neutral.--neutral-v625}",
       "type": "color"
     },
     "--button-secondary-hover-bg-color": {
@@ -128,7 +128,7 @@
       "type": "color"
     },
     "--button-secondary-border-color": {
-      "value": "{Neutral.--neutral-v600}",
+      "value": "{Neutral.--neutral-v625}",
       "type": "color"
     },
     "--button-secondary-hover-border-color": {
