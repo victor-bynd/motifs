@@ -54,6 +54,10 @@
       "type": "borderWidth",
       "description": ""
     },
+    "--spacing-none": {
+      "value": "none",
+      "type": "spacing"
+    },
     "--spacing-xxxs": {
       "value": "2px",
       "type": "spacing",

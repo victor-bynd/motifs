@@ -1,9 +1,8 @@
 {
   "Root": {
     "--bg-color": {
-      "value": "{Neutral.--neutral-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v100}",
+      "type": "color"
     },
     "--fg-color": {
       "value": "{Neutral.--neutral-v700}",
@@ -86,7 +85,7 @@
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
     },
     "--block-subtitle-color": {
-      "value": "{Neutral.--neutral-v450}",
+      "value": "{Neutral.--neutral-v500}",
       "type": "color"
     }
   },

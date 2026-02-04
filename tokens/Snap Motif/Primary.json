@@ -822,7 +822,7 @@
       "type": "color"
     },
     "--carousel-card-border-width": {
-      "value": "{Root.--border-width-xs}",
+      "value": "{Root.--border-width-none}",
       "type": "borderWidth"
     },
     "--carousel-card-border-radius": {
