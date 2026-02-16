@@ -93,6 +93,10 @@
     "--hero-title-de-emphasized-color": {
       "value": "{Neutral.--neutral-v500}",
       "type": "color"
+    },
+    "--hero-subtitle-color": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
     }
   },
   "Footer": {

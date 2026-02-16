@@ -91,6 +91,10 @@
     "--hero-title-de-emphasized-color": {
       "value": "{Neutral.--neutral-v400}",
       "type": "color"
+    },
+    "--hero-subtitle-color": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
     }
   },
   "Quote": {

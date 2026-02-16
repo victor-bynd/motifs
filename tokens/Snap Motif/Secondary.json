@@ -252,6 +252,10 @@
       "value": "{Neutral.--neutral-v700}",
       "type": "color",
       "description": ""
+    },
+    "--hero-subtitle-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color"
     }
   },
   "Quote": {
