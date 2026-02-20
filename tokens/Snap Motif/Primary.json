@@ -61,11 +61,11 @@
       "description": ""
     },
     "--bg-color": {
-      "value": "{Neutral.--neutral-v625}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--action-text-default-color": {
@@ -100,51 +100,55 @@
       "type": "color"
     },
     "--button-primary-hover-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-primary-border-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-primary-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-primary-hover-fg-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--button-secondary-fg-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-secondary-bg-color": {
-      "value": "{Neutral.--neutral-v625}",
-      "type": "color"
-    },
-    "--button-secondary-hover-bg-color": {
-      "value": "{Neutral.--neutral-v500}",
-      "type": "color"
-    },
-    "--button-secondary-border-color": {
-      "value": "{Neutral.--neutral-v625}",
-      "type": "color"
-    },
-    "--button-secondary-hover-border-color": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "{Neutral.--neutral-v150}",
       "type": "color"
     },
     "--button-secondary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--button-secondary-hover-bg-color": {
+      "value": "{Neutral.--neutral-v200}",
+      "type": "color"
+    },
+    "--button-secondary-border-color": {
+      "value": "{Neutral.--neutral-v150}",
+      "type": "color"
+    },
+    "--button-secondary-hover-border-color": {
+      "value": "{Neutral.--neutral-v200}",
       "type": "color"
     },
     "--button-flat-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-flat-hover-fg-color": {
-      "value": "{Neutral.--neutral-v300}",
+      "value": "{Neutral.--neutral-v600}",
       "type": "color"
     },
     "--button-desktop-font-size": {
@@ -789,7 +793,7 @@
   },
   "Carousel": {
     "--carousel-active-dot-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--carousel-dot-border-color": {
@@ -797,7 +801,7 @@
       "type": "color"
     },
     "--carousel-card-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Palette.Plain.--palette-plain-transparent}",
       "type": "color"
     },
     "--carousel-card-hover-border-color": {
@@ -806,15 +810,15 @@
       "description": ""
     },
     "--carousel-card-bg-color": {
-      "value": "{Neutral.--neutral-v600}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--carousel-card-hover-bg-color": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "none",
       "type": "color"
     },
     "--carousel-card-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--carousel-inactive-dot-color": {
