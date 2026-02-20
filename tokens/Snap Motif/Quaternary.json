@@ -133,9 +133,8 @@
       "description": ""
     },
     "--toggle-slider-active-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Toggle Button": {
@@ -174,9 +173,8 @@
   },
   "Progress Bar": {
     "--progress-bar-progress-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Toggle Panel": {

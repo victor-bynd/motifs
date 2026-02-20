@@ -1255,9 +1255,8 @@
       "description": ""
     },
     "--mosaic-highlight-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--mosaic-duration-color": {
       "value": "{Neutral.--neutral-v0}",
@@ -1386,14 +1385,12 @@
   },
   "Progress Bar": {
     "--progress-bar-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color"
     },
     "--progress-bar-progress-color": {
-      "value": "{Neutral.--neutral-v300}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Chart Toggle": {

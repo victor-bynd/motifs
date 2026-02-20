@@ -165,21 +165,18 @@
   },
   "Progress Bar": {
     "--progress-bar-bg-color": {
-      "value": "{Neutral.--neutral-v250}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color"
     },
     "--progress-bar-progress-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Chart Toggle": {
     "--chart-toggle-buttons-active-bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--chart-toggle-buttons-active-color": {
       "value": "{Neutral.--neutral-v700}",
@@ -187,26 +184,22 @@
       "description": ""
     },
     "--chart-toggle-buttons-active-border-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Block Navigation": {
     "--block-navigation-buttons-active-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--block-navigation-buttons-active-border-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--block-navigation-buttons-active-bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Toggle Panel": {
