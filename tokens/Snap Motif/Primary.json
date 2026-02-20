@@ -1217,14 +1217,12 @@
       "description": ""
     },
     "--icon-button-hover-bg-color": {
-      "value": "{Neutral.--neutral-v650}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--icon-button-hover-border-color": {
-      "value": "{Primary.--primary-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--icon-button-disabled-bg-color": {
       "value": "{Neutral.--neutral-v150}",
@@ -1704,7 +1702,7 @@
   },
   "Topic": {
     "--topic-hover-bg-color": {
-      "value": "{Primary.--primary-v150}",
+      "value": "{Neutral.--neutral-v150}",
       "type": "color"
     }
   },

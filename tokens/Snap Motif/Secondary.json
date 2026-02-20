@@ -197,9 +197,8 @@
       "description": ""
     },
     "--global-header-menu-item-icon-color": {
-      "value": "{Primary.--primary-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--global-header-menu-item-bg-hover-color": {
       "value": "{Neutral.--neutral-v625}",
@@ -222,9 +221,8 @@
       "description": ""
     },
     "--global-header-menu-featured-item-icon-color": {
-      "value": "{Primary.--primary-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     }
   },
   "Block": {
