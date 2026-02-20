@@ -229,7 +229,7 @@
   },
   "Block": {
     "--block-title-de-emphasized-color": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "{Neutral.--neutral-v300}",
       "type": "color",
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
     },
