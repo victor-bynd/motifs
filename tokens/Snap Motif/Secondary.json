@@ -330,9 +330,8 @@
       "description": ""
     },
     "--toggle-slider-active-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v625}",
+      "type": "color"
     }
   },
   "Toggle Button": {
