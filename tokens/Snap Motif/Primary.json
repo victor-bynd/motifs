@@ -366,12 +366,12 @@
       "description": ""
     },
     "--block-title-de-emphasized-color": {
-      "value": "{Neutral.--neutral-v400}",
+      "value": "{Neutral.--neutral-v500}",
       "type": "color",
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
     },
     "--block-subtitle-color": {
-      "value": "{Neutral.--neutral-v450}",
+      "value": "{Neutral.--neutral-v500}",
       "type": "color"
     },
     "--block-eyebrow-color": {
