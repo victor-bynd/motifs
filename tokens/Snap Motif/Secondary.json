@@ -79,7 +79,7 @@
       "type": "color"
     },
     "--action-text-active-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--action-indicator-hover-color": {
@@ -714,34 +714,28 @@
   },
   "Definition": {
     "--definition-active-bg-color": {
-      "value": "{Neutral.--neutral-v500}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v650}",
+      "type": "color"
     },
     "--definition-active-border-color": {
-      "value": "{Primary.--primary-v200}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
     },
     "--definition-bg-color": {
-      "value": "{Neutral.--neutral-v625}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v650}",
+      "type": "color"
     },
     "--definition-border-color": {
-      "value": "{Primary.--primary-v200}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v250}",
+      "type": "color"
     },
     "--definition-hover-bg-color": {
-      "value": "{Neutral.--neutral-v600}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v650}",
+      "type": "color"
     },
     "--definition-hover-border-color": {
-      "value": "{Primary.--primary-v200}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v200}",
+      "type": "color"
     }
   },
   "Side Overlay": {

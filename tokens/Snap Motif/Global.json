@@ -821,10 +821,6 @@
       "type": "color",
       "description": ""
     },
-    "--neutral-v450": {
-      "value": "#70767A",
-      "type": "color"
-    },
     "--neutral-v500": {
       "value": "{Palette.Black.--palette-black-v50}",
       "type": "color",

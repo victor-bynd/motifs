@@ -208,9 +208,8 @@
       "description": ""
     },
     "--table-cell-header-bg-color": {
-      "value": "{Neutral.--neutral-v250}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v200}",
+      "type": "color"
     }
   },
   "Autocomplete": {
@@ -222,34 +221,28 @@
   },
   "Definition": {
     "--definition-active-bg-color": {
-      "value": "{Primary.--primary-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v200}",
+      "type": "color"
     },
     "--definition-active-border-color": {
-      "value": "{Primary.--primary-v200}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--definition-bg-color": {
-      "value": "{Neutral.--neutral-v100}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v150}",
+      "type": "color"
     },
     "--definition-border-color": {
-      "value": "{Primary.--primary-v200}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color"
     },
     "--definition-hover-bg-color": {
-      "value": "{Neutral.--neutral-v250}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v200}",
+      "type": "color"
     },
     "--definition-hover-border-color": {
-      "value": "{Primary.--primary-v200}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
     }
   },
   "Topic": {

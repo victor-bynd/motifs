@@ -240,14 +240,12 @@
   },
   "Definition": {
     "--definition-active-bg-color": {
-      "value": "{Primary.--primary-v150}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v150}",
+      "type": "color"
     },
     "--definition-active-border-color": {
-      "value": "{Primary.--primary-v200}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--definition-bg-color": {
       "value": "{Neutral.--neutral-v100}",
@@ -255,19 +253,16 @@
       "description": ""
     },
     "--definition-border-color": {
-      "value": "{Primary.--primary-v200}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v400}",
+      "type": "color"
     },
     "--definition-hover-bg-color": {
-      "value": "{Neutral.--neutral-v250}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v150}",
+      "type": "color"
     },
     "--definition-hover-border-color": {
-      "value": "{Primary.--primary-v200}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color"
     }
   },
   "Side Overlay": {
