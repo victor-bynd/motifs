@@ -1457,6 +1457,8 @@
       "Root.--annotation-mobile-font-letter-spacing": "cd8e8bacde718559065aa865a0ce723f677d6e5c",
       "Root.--stats-font-weight": "6e33ea91cc87d902287b11502a78c785b65eed05",
       "Root.--stats-font-size": "b68331e29875e5f40be8cfabe16da816def5f14e",
+      "Root.--stats-supplementary-text-font-size": "fef221f7643ca2da6344f93e5072bc133a7b7702",
+      "Root.--stats-supplementary-text-font-weight": "dcb8b674febf2d73f68b5d645c4e1c36e45614f6",
       "Root.--h2-font-letter-spacing": "acbb25da880ca1c74f6273c9cb3410bc5d14c71c",
       "Palette.Plain.--palette-plain-black": "823851216a1172a325c40330549495739e24d9cd",
       "Palette.Plain.--palette-plain-transparent": "7671d8606fc301beb53c1e6b0d50f138e71be95d",
