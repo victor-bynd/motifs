@@ -6,33 +6,6 @@
       "description": ""
     }
   },
-  "Button": {
-    "--button-primary-bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
-    },
-    "--button-primary-hover-bg-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
-    },
-    "--button-primary-border-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
-    },
-    "--button-primary-hover-border-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color",
-      "description": ""
-    },
-    "--button-primary-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
-    }
-  },
   "Header": {
     "--global-header-bg-color": {
       "value": "{Neutral.--neutral-v0}",
