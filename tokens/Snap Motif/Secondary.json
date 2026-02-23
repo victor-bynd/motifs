@@ -756,5 +756,12 @@
       "type": "color",
       "description": ""
     }
+  },
+  "Animated Accordion": {
+    "--animated-accordion-progress-indicator-color": {
+      "value": "{Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    }
   }
 }

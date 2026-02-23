@@ -1776,5 +1776,12 @@
       "type": "lineHeights",
       "description": ""
     }
+  },
+  "Animated Accordion": {
+    "--animated-accordion-progress-indicator-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color",
+      "description": ""
+    }
   }
 }
