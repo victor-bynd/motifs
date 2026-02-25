@@ -320,7 +320,7 @@
       "description": ""
     },
     "--global-header-menu-item-bg-hover-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v100}",
       "type": "color"
     },
     "--global-header-menu-featured-item-bg-color": {
@@ -329,7 +329,7 @@
       "description": ""
     },
     "--global-header-menu-featured-item-bg-hover-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v200}",
       "type": "color"
     },
     "--global-header-menu-featured-item-fg-color": {
