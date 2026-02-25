@@ -84,7 +84,7 @@
       "description": "active color for interactive text elements like nav items"
     },
     "--action-indicator-hover-color": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "{Neutral.--neutral-v600}",
       "type": "color",
       "description": "hover color for interactive indicator elements like nav items"
     },
