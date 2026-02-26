@@ -763,5 +763,27 @@
       "type": "color",
       "description": ""
     }
+  },
+  "Footnote": {
+    "--footnote-fg-color": {
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color"
+    },
+    "--footnote-bg-color": {
+      "value": "{Root.--bg-color}",
+      "type": "color"
+    },
+    "--footnote-border-color": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
+    },
+    "--footnote-hover-icon-bg-color": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
+    },
+    "--footnote-title-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    }
   }
 }
