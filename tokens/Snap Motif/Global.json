@@ -530,6 +530,31 @@
       "value": "0px",
       "type": "letterSpacing"
     },
+    "--stats-font-weight": {
+      "value": "500",
+      "type": "fontWeights",
+      "description": ""
+    },
+    "--stats-font-size": {
+      "value": "120px",
+      "type": "fontSizes",
+      "description": ""
+    },
+    "--stats-font-line-height": {
+      "value": "70%",
+      "type": "lineHeights",
+      "description": ""
+    },
+    "--stats-supplementary-text-font-size": {
+      "value": "80px",
+      "type": "fontSizes",
+      "description": ""
+    },
+    "--stats-supplementary-text-font-weight": {
+      "value": "500",
+      "type": "fontWeights",
+      "description": ""
+    },
     "--action-desktop-font-text-decoration": {
       "value": "none",
       "type": "textDecoration",
