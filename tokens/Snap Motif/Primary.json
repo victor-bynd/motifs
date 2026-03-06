@@ -1622,9 +1622,8 @@
       "description": ""
     },
     "--autocomplete-border-color": {
-      "value": "{Neutral.--neutral-v250}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--autocomplete-border-width": {
       "value": "2px",
@@ -1645,9 +1644,8 @@
       "description": ""
     },
     "--autocomplete-hover-border-color": {
-      "value": "{Neutral.--neutral-v400}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
     },
     "--autocomplete-hover-box-shadow": {
       "value": "{Root.--box-shadow-xs}",
