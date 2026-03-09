@@ -124,7 +124,7 @@
       "type": "color"
     },
     "--button-secondary-bg-color": {
-      "value": "{Palette.Plain.--palette-plain-transparent}",
+      "value": "none",
       "type": "color"
     },
     "--button-secondary-hover-fg-color": {
