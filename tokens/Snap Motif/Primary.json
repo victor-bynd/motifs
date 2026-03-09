@@ -205,14 +205,12 @@
       "description": ""
     },
     "--button-hover-shadow": {
-      "value": "{Root.--box-shadow-l}",
-      "type": "boxShadow",
-      "description": ""
+      "value": "none",
+      "type": "boxShadow"
     },
     "--button-active-shadow": {
-      "value": "{Root.--box-shadow-m}",
-      "type": "boxShadow",
-      "description": ""
+      "value": "none",
+      "type": "boxShadow"
     }
   },
   "Header": {
