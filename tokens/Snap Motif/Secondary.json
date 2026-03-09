@@ -121,7 +121,7 @@
       "type": "color"
     },
     "--button-secondary-bg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Palette.Plain.--palette-plain-transparent}",
       "type": "color"
     },
     "--button-secondary-hover-fg-color": {
