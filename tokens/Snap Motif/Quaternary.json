@@ -23,7 +23,7 @@
       "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Neutral.--neutral-v625}",
       "type": "color"
     },
     "--button-primary-fg-color": {
@@ -39,7 +39,7 @@
       "type": "color"
     },
     "--button-secondary-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "none",
       "type": "color"
     },
     "--button-secondary-hover-fg-color": {
