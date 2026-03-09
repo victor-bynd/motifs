@@ -105,7 +105,7 @@
       "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v200}",
       "type": "color"
     },
     "--button-primary-fg-color": {
@@ -365,14 +365,12 @@
       "description": ""
     },
     "--carousel-card-bg-color": {
-      "value": "{Neutral.--neutral-v625}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--bg-color}",
+      "type": "color"
     },
     "--carousel-card-hover-bg-color": {
-      "value": "{Neutral.--neutral-v625}",
-      "type": "color",
-      "description": ""
+      "value": "{Root.--bg-color}",
+      "type": "color"
     },
     "--carousel-card-fg-color": {
       "value": "{Neutral.--neutral-v0}",

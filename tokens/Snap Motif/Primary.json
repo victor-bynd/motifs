@@ -108,7 +108,7 @@
       "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Neutral.--neutral-v625}",
       "type": "color"
     },
     "--button-primary-fg-color": {
@@ -849,7 +849,7 @@
       "type": "color"
     },
     "--carousel-card-hover-bg-color": {
-      "value": "none",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--carousel-card-fg-color": {

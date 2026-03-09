@@ -251,11 +251,11 @@
       "type": "color"
     },
     "--carousel-card-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--carousel-card-hover-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--carousel-card-fg-color": {
