@@ -261,6 +261,10 @@
         "value": "#00A179",
         "type": "color",
         "description": ""
+      },
+      "--palette-green-v250": {
+        "value": "#00624a",
+        "type": "color"
       }
     },
     "Purple": {
