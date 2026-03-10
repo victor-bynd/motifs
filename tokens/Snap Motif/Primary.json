@@ -325,9 +325,8 @@
       "type": "color"
     },
     "--global-header-menu-item-icon-color": {
-      "value": "{Neutral.--neutral-v500}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--global-header-menu-item-bg-hover-color": {
       "value": "{Neutral.--neutral-v100}",
@@ -348,7 +347,7 @@
       "description": ""
     },
     "--global-header-menu-featured-item-hover-color": {
-      "value": "{Root.--action-text-hover-color}",
+      "value": "{Root.--fg-color}",
       "type": "color"
     },
     "--global-header-menu-featured-item-active-color": {
@@ -356,9 +355,8 @@
       "type": "color"
     },
     "--global-header-menu-featured-item-icon-color": {
-      "value": "{Neutral.--neutral-v500}",
-      "type": "color",
-      "description": ""
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     },
     "--global-header-site-name-font-family": {
       "value": "{Root.--h1-font-family}",
