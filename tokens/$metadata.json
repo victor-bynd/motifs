@@ -1,9 +1,18 @@
 {
   "tokenSetOrder": [
-    "Snap Motif/Global",
-    "Snap Motif/Primary",
-    "Snap Motif/Secondary",
-    "Snap Motif/Tertiary",
-    "Snap Motif/Quaternary"
+    "global/primitives",
+    "global/semantic",
+    "global/light",
+    "global/dark",
+    "snapchat/semantic",
+    "snapchat/primary",
+    "snapchat/secondary",
+    "snapchat/tertiary",
+    "snapchat/quaternary",
+    "snapinc/semantic",
+    "snapinc/primary",
+    "snapinc/secondary",
+    "snapinc/tertiary",
+    "snapinc/quaternary"
   ]
 }

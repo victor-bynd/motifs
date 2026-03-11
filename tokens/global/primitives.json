@@ -529,29 +529,6 @@
       "description": ""
     }
   },
-  "Primary": {
-    "--primary-v50": {
-      "value": "{Palette.Yellow.--palette-yellow-v50}",
-      "type": "color"
-    },
-    "--primary-v100": {
-      "value": "{Palette.Yellow.--palette-yellow-v100}",
-      "type": "color",
-      "description": "main brand color"
-    },
-    "--primary-v150": {
-      "value": "{Palette.Yellow.--palette-yellow-v150}",
-      "type": "color"
-    },
-    "--primary-v200": {
-      "value": "{Palette.Yellow.--palette-yellow-v200}",
-      "type": "color"
-    },
-    "--primary-v250": {
-      "value": "{Palette.Yellow.--palette-yellow-v250}",
-      "type": "color"
-    }
-  },
   "Neutral": {
     "--neutral-v0": {
       "value": "{Palette.Plain.--palette-plain-white}",
@@ -600,18 +577,6 @@
     "--neutral-v700": {
       "value": "{Palette.Plain.--palette-plain-black}",
       "type": "color"
-    }
-  },
-  "Semantic": {
-    "--semantic-focus-color": {
-      "value": "#275Dc5",
-      "type": "color",
-      "description": "Focus ring color"
-    },
-    "--semantic-error-color": {
-      "value": "{Palette.Red.--palette-red-v200}",
-      "type": "color",
-      "description": "Error color"
     }
   },
   "Palette": {
