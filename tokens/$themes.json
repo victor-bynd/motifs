@@ -4,7 +4,9 @@
     "name": "primary",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
-      "Snap Motif/Primary": "enabled"
+      "Snap Motif/Primary": "enabled",
+      "Snap Motif/Snapchat": "source",
+      "Snap Motif/Bitmoji": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -346,7 +348,9 @@
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Primary": "enabled",
-      "Snap Motif/Secondary": "enabled"
+      "Snap Motif/Secondary": "enabled",
+      "Snap Motif/Snapchat": "source",
+      "Snap Motif/Bitmoji": "source"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:14b2109327ab7eab54dd6b716c5d15ea4131ab2c,",
@@ -828,7 +832,9 @@
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Primary": "enabled",
-      "Snap Motif/Tertiary": "enabled"
+      "Snap Motif/Tertiary": "enabled",
+      "Snap Motif/Snapchat": "source",
+      "Snap Motif/Bitmoji": "source"
     },
     "$figmaStyleReferences": {
       "Root.--bg-color": "S:2b607735ff09c9ed112729fa50f390efbd55cc9f,",
@@ -1219,7 +1225,9 @@
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Primary": "enabled",
-      "Snap Motif/Quaternary": "enabled"
+      "Snap Motif/Quaternary": "enabled",
+      "Snap Motif/Snapchat": "source",
+      "Snap Motif/Bitmoji": "source"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:14b2109327ab7eab54dd6b716c5d15ea4131ab2c,",
