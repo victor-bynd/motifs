@@ -810,7 +810,7 @@
     },
     "$figmaCollectionId": "VariableCollectionId:21702:23872",
     "$figmaModeId": "21702:2",
-    "group": "Color Themes OK"
+    "group": "Color Themes"
   },
   {
     "id": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
@@ -1202,7 +1202,7 @@
     },
     "$figmaCollectionId": "VariableCollectionId:21702:23872",
     "$figmaModeId": "21702:3",
-    "group": "Color Themes OK"
+    "group": "Color Themes"
   },
   {
     "id": "9d9cc6fcfd48febdb4884c2605572a7c6d647a05",
@@ -1503,7 +1503,7 @@
     },
     "$figmaCollectionId": "VariableCollectionId:21702:23872",
     "$figmaModeId": "21702:4",
-    "group": "Color Themes OK"
+    "group": "Color Themes"
   },
   {
     "id": "a22eb9664fb445a46a938d1277005067ebccc20a",
@@ -2009,6 +2009,6 @@
     },
     "$figmaCollectionId": "VariableCollectionId:21702:23872",
     "$figmaModeId": "21702:5",
-    "group": "Color Themes OK"
+    "group": "Color Themes"
   }
 ]

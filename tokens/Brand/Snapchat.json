@@ -5,7 +5,7 @@
       "type": "color"
     },
     "--primary-v100": {
-      "value": "{Palette.Yellow.--palette-yellow-v100}",
+      "value": "{Palette.Purple.--palette-purple-v100}",
       "type": "color",
       "description": "main brand color"
     },

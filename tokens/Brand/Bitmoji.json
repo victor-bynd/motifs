@@ -79,12 +79,12 @@
       "description": "Paragraphs and smaller text"
     },
     "--h1-font-family": {
-      "value": "Program OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Andale Mono",
       "type": "fontFamilies",
       "description": "H1 titles"
     },
     "--h2-font-family": {
-      "value": "Program OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Arial",
       "type": "fontFamilies",
       "description": "H2 titles"
     },
