@@ -1135,7 +1135,7 @@
   },
   "Stats": {
     "--stats-stat-color": {
-      "value": "{Root.--fg-color}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     }
   },

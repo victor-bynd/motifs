@@ -136,7 +136,7 @@
         "type": "color"
       },
       "--palette-yellow-v100": {
-        "value": "#d92fd4",
+        "value": "#FFFC00",
         "type": "color"
       },
       "--palette-yellow-v150": {
