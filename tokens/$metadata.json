@@ -8,11 +8,6 @@
     "snapchat/primary",
     "snapchat/secondary",
     "snapchat/tertiary",
-    "snapchat/quaternary",
-    "snapinc/semantic",
-    "snapinc/primary",
-    "snapinc/secondary",
-    "snapinc/tertiary",
-    "snapinc/quaternary"
+    "snapchat/quaternary"
   ]
 }
