@@ -1,11 +1,11 @@
 {
   "tokenSetOrder": [
     "Snap Motif/Global",
-    "Snap Motif/Snapchat",
-    "Snap Motif/Bitmoji",
-    "Snap Motif/Primary",
-    "Snap Motif/Secondary",
-    "Snap Motif/Tertiary",
-    "Snap Motif/Quaternary"
+    "Brand/Snapchat",
+    "Brand/Bitmoji",
+    "Color Themes/Primary",
+    "Color Themes/Secondary",
+    "Color Themes/Tertiary",
+    "Color Themes/Quaternary"
   ]
 }

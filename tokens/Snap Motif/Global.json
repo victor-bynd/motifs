@@ -145,9 +145,8 @@
         "description": ""
       },
       "--palette-yellow-v100": {
-        "value": "#FFFC00",
-        "type": "color",
-        "description": ""
+        "value": "#d92fd4",
+        "type": "color"
       },
       "--palette-yellow-v150": {
         "value": "#FCF000",
