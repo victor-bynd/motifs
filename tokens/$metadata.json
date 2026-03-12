@@ -1,9 +1,10 @@
 {
   "tokenSetOrder": [
     "Snap Motif/Global",
-    "Snap Motif/Primary",
-    "Snap Motif/Secondary",
-    "Snap Motif/Tertiary",
-    "Snap Motif/Quaternary"
+    "Brand/Main",
+    "Color Themes/Primary",
+    "Color Themes/Secondary",
+    "Color Themes/Tertiary",
+    "Color Themes/Quaternary"
   ]
 }
