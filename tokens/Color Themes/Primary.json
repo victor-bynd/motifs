@@ -613,7 +613,7 @@
   },
   "Media": {
     "--media-border-color": {
-      "value": "unset",
+      "value": "none",
       "type": "color"
     }
   },
