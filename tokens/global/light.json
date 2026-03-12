@@ -385,17 +385,9 @@
       "value": "16px",
       "type": "fontSizes"
     },
-    "--quote-author-desktop-font-weight": {
-      "value": "500",
-      "type": "fontWeights"
-    },
     "--quote-author-mobile-font-size": {
       "value": "16px",
       "type": "fontSizes"
-    },
-    "--quote-author-mobile-font-weight": {
-      "value": "500",
-      "type": "fontWeights"
     }
   },
   "Footer": {
@@ -526,14 +518,6 @@
     "--accordion-header-mobile-font-line-height": {
       "value": "{Root.--h6-mobile-font-line-height}",
       "type": "lineHeights"
-    },
-    "--accordion-header-desktop-font-weight": {
-      "value": "{Root.--h6-desktop-font-weight}",
-      "type": "fontWeights"
-    },
-    "--accordion-header-mobile-font-weight": {
-      "value": "{Root.--h6-mobile-font-weight}",
-      "type": "fontWeights"
     }
   },
   "Carousel": {
