@@ -1,13 +1,18 @@
 {
   "tokenSetOrder": [
-    "global/primitives",
-    "global/semantic",
-    "global/light",
-    "global/dark",
-    "snapchat/semantic",
-    "snapchat/primary",
-    "snapchat/secondary",
-    "snapchat/tertiary",
-    "snapchat/quaternary"
+    "Core/primitives",
+    "Core/semantic",
+    "Core/light",
+    "Core/dark",
+    "Snapchat/semantic",
+    "Snapchat/primary",
+    "Snapchat/secondary",
+    "Snapchat/tertiary",
+    "Snapchat/quaternary",
+    "Snap Inc/semantic",
+    "Snap Inc/primary",
+    "Snap Inc/secondary",
+    "Snap Inc/tertiary",
+    "Snap Inc/quarternary"
   ]
 }
