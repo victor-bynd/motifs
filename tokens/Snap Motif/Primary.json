@@ -118,10 +118,6 @@
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
-    "--button-primary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color"
-    },
     "--button-secondary-bg-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
@@ -139,10 +135,6 @@
       "type": "color"
     },
     "--button-secondary-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color"
-    },
-    "--button-secondary-hover-fg-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
@@ -205,6 +197,14 @@
     "--button-active-shadow": {
       "value": "{Root.--box-shadow-m}",
       "type": "boxShadow"
+    },
+    "--button-primary-hover-fg-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--button-secondary-hover-fg-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Header": {

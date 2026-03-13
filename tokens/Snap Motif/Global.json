@@ -2,7 +2,12 @@
   "Root": {
     "--border-radius-xs": {
       "value": "1px",
-      "type": "borderRadius"
+      "type": "borderRadius",
+      "$extensions": {
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ]
+      }
     },
     "--border-radius-s": {
       "value": "4px",
