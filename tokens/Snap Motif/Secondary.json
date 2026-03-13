@@ -85,8 +85,7 @@
     },
     "--gutter-color": {
       "value": "{Neutral.--neutral-v650}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     }
   },
   "Button": {
@@ -110,14 +109,13 @@
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
+    "--button-primary-hover-fg-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
     "--button-flat-fg-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
-    },
-    "--button-primary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
     }
   },
   "Header": {
@@ -648,33 +646,34 @@
   "Footnote": {
     "--footnote-fg-color": {
       "value": "{Neutral.--neutral-v300}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     },
     "--footnote-bg-color": {
       "value": "{Root.--bg-color}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     },
     "--footnote-border-color": {
       "value": "{Neutral.--neutral-v600}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     },
     "--footnote-hover-icon-bg-color": {
       "value": "{Neutral.--neutral-v600}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     },
     "--footnote-title-color": {
       "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     }
   },
   "Animated Accordion": {
     "--animated-accordion-progress-indicator-color": {
       "value": "{Primary.--primary-v100}",
+      "type": "color"
+    }
+  },
+  "Cookie Modal Settings": {
+    "--cookie-settings-category-border-color": {
+      "value": "{Neutral.--neutral-v500}",
       "type": "color",
       "description": ""
     }

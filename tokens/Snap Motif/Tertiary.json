@@ -48,13 +48,11 @@
     },
     "--button-primary-hover-fg-color": {
       "value": "{Neutral.--neutral-v700}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     },
     "--button-secondary-hover-fg-color": {
       "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     }
   },
   "Header": {
