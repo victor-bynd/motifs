@@ -52,7 +52,7 @@
       "type": "color"
     },
     "--toggle-slider-active-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
@@ -88,7 +88,7 @@
   },
   "Progress Bar": {
     "--progress-bar-progress-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
@@ -124,11 +124,11 @@
   },
   "Definition": {
     "--definition-active-bg-color": {
-      "value": "{Primary.--primary-v150}",
+      "value": "{Brand.--primary-v150}",
       "type": "color"
     },
     "--definition-active-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Brand.--primary-v200}",
       "type": "color"
     },
     "--definition-bg-color": {
@@ -136,7 +136,7 @@
       "type": "color"
     },
     "--definition-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Brand.--primary-v200}",
       "type": "color"
     },
     "--definition-hover-bg-color": {
@@ -144,7 +144,7 @@
       "type": "color"
     },
     "--definition-hover-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Brand.--primary-v200}",
       "type": "color"
     }
   },

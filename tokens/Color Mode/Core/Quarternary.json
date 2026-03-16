@@ -72,7 +72,7 @@
       "type": "color"
     },
     "--action-text-active-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--action-indicator-hover-color": {
@@ -108,7 +108,7 @@
   },
   "Button": {
     "--button-primary-bg-color": {
-      "value": "{Primary.--primary-v150}",
+      "value": "{Brand.--primary-v150}",
       "type": "color"
     },
     "--button-primary-border-color": {
@@ -116,7 +116,7 @@
       "type": "color"
     },
     "--button-primary-hover-bg-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Brand.--primary-v200}",
       "type": "color"
     },
     "--button-primary-hover-border-color": {
@@ -175,7 +175,7 @@
       "type": "color"
     },
     "--global-header-menu-item-icon-color": {
-      "value": "{Primary.--primary-v150}",
+      "value": "{Brand.--primary-v150}",
       "type": "color"
     },
     "--global-header-menu-item-bg-hover-color": {
@@ -195,7 +195,7 @@
       "type": "color"
     },
     "--global-header-menu-featured-item-icon-color": {
-      "value": "{Primary.--primary-v150}",
+      "value": "{Brand.--primary-v150}",
       "type": "color"
     }
   },
@@ -286,7 +286,7 @@
       "type": "color"
     },
     "--toggle-slider-active-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
@@ -486,13 +486,13 @@
       "type": "color"
     },
     "--progress-bar-progress-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
   "Chart Toggle": {
     "--chart-toggle-buttons-active-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--chart-toggle-buttons-active-color": {
@@ -500,7 +500,7 @@
       "type": "color"
     },
     "--chart-toggle-buttons-active-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
@@ -510,11 +510,11 @@
       "type": "color"
     },
     "--block-navigation-buttons-active-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--block-navigation-buttons-active-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
@@ -600,7 +600,7 @@
       "type": "color"
     },
     "--definition-active-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Brand.--primary-v200}",
       "type": "color"
     },
     "--definition-bg-color": {
@@ -608,7 +608,7 @@
       "type": "color"
     },
     "--definition-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Brand.--primary-v200}",
       "type": "color"
     },
     "--definition-hover-bg-color": {
@@ -616,7 +616,7 @@
       "type": "color"
     },
     "--definition-hover-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Brand.--primary-v200}",
       "type": "color"
     }
   },
@@ -642,7 +642,7 @@
   },
   "Emphasized Text": {
     "--emphasized-text-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
@@ -658,7 +658,7 @@
   },
   "Stats": {
     "--stats-stat-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
@@ -691,7 +691,7 @@
   },
   "Animated Accordion": {
     "--animated-accordion-progress-indicator-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color",
       "description": ""
     }

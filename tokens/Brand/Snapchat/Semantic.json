@@ -594,7 +594,7 @@
       "description": ""
     }
   },
-  "Primary": {
+  "Brand": {
     "--primary-v100": {
       "value": "{Palette.Yellow.--palette-yellow-v50}",
       "type": "color",
