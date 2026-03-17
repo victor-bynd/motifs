@@ -2694,13 +2694,15 @@
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
       "Brand/Core/Light": "enabled",
-      "Brand/Wireframe/Primary": "enabled"
+      "Brand/Wireframe/Primary": "enabled",
+      "Brand/Core/Semantic": "enabled",
+      "Brand/Snapchat/Semantic": "enabled",
+      "Brand/Snapchat/Primary": "enabled"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21725:53094",
     "$figmaParentThemeId": "1c45980f52f497a910b99380152f6c1857ff06a1",
-    "$figmaMirrorParentSets": true,
-    "group": "Brand/Snapchat",
+    "$figmaMirrorParentSets": false,
     "$figmaCollectionId": "VariableCollectionId:21745:1568846",
     "$figmaModeId": "VariableCollectionId:21745:1568846/21745:16",
     "$figmaVariableReferences": {
@@ -3083,7 +3085,8 @@
       "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
       "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
       "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
-    }
+    },
+    "group": "Brand/Snapchat"
   },
   {
     "id": "0108c5b8483f416a97817f51275a6955c36c6c32",

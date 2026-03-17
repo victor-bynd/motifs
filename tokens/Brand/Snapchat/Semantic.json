@@ -1,24 +1,24 @@
 {
   "Brand": {
     "--primary-v50": {
-      "value": "{Neutral.--neutral-v100}",
+      "value": "{Palette.Yellow.--palette-yellow-v50}",
       "type": "color"
     },
     "--primary-v100": {
-      "value": "{Neutral.--neutral-v150}",
+      "value": "{Palette.Yellow.--palette-yellow-v100}",
       "type": "color",
       "description": "main brand color"
     },
     "--primary-v150": {
-      "value": "{Neutral.--neutral-v250}",
+      "value": "{Palette.Yellow.--palette-yellow-v150}",
       "type": "color"
     },
     "--primary-v200": {
-      "value": "{Neutral.--neutral-v400}",
+      "value": "{Palette.Yellow.--palette-yellow-v200}",
       "type": "color"
     },
     "--primary-v250": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "{Palette.Yellow.--palette-yellow-v250}",
       "type": "color"
     }
   }
