@@ -628,10 +628,6 @@
       "value": "{Root.--action-desktop-font-line-height}",
       "type": "lineHeights"
     },
-    "--hyperlink-desktop-font-weight": {
-      "value": "{Root.--action-desktop-font-weight}",
-      "type": "fontWeights"
-    },
     "--hyperlink-desktop-font-text-decoration": {
       "value": "{Root.--action-desktop-font-text-decoration}",
       "type": "textDecoration"
@@ -647,10 +643,6 @@
     "--hyperlink-mobile-font-line-height": {
       "value": "{Root.--action-mobile-font-line-height}",
       "type": "lineHeights"
-    },
-    "--hyperlink-mobile-font-weight": {
-      "value": "{Root.--action-mobile-font-weight}",
-      "type": "fontWeights"
     },
     "--hyperlink-mobile-font-text-decoration": {
       "value": "{Root.--action-mobile-font-text-decoration}",
@@ -918,10 +910,6 @@
       "value": "normal",
       "type": "lineHeights"
     },
-    "--form-input-desktop-font-weight": {
-      "value": "{Root.--text-desktop-font-weight}",
-      "type": "fontWeights"
-    },
     "--form-input-mobile-font-size": {
       "value": "{Root.--text-mobile-font-size}",
       "type": "fontSizes"
@@ -929,10 +917,6 @@
     "--form-input-mobile-font-line-height": {
       "value": "{Root.--text-mobile-font-line-height}",
       "type": "lineHeights"
-    },
-    "--form-input-mobile-font-weight": {
-      "value": "{Root.--text-mobile-font-weight}",
-      "type": "fontWeights"
     }
   },
   "Progress Bar": {
@@ -1078,10 +1062,6 @@
       "value": "{Root.--text-desktop-font-size}",
       "type": "fontSizes"
     },
-    "--autocomplete-desktop-font-weight": {
-      "value": "{Root.--text-desktop-font-weight}",
-      "type": "fontWeights"
-    },
     "--autocomplete-fg-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
@@ -1093,10 +1073,6 @@
     "--autocomplete-mobile-font-size": {
       "value": "{Root.--text-mobile-font-size}",
       "type": "fontSizes"
-    },
-    "--autocomplete-mobile-font-weight": {
-      "value": "{Root.--text-mobile-font-weight}",
-      "type": "fontWeights"
     },
     "--autocomplete-placeholder-color": {
       "value": "{Neutral.--neutral-v400}",
@@ -1188,10 +1164,6 @@
       "value": "{Root.--fg-color}",
       "type": "color"
     },
-    "--stats-stat-font-weight": {
-      "value": "{Root.--stats-font-weight}",
-      "type": "fontWeights"
-    },
     "--stats-stat-font-size": {
       "value": "{Root.--stats-font-size}",
       "type": "fontSizes"
@@ -1203,11 +1175,6 @@
     "--stats-stat-supplementary-text-font-size": {
       "value": "{Root.--stats-supplementary-text-font-size}",
       "type": "fontSizes",
-      "description": ""
-    },
-    "--stats-stat-supplementary-text-font-weight": {
-      "value": "{Root.--stats-supplementary-text-font-weight}",
-      "type": "fontWeights",
       "description": ""
     }
   },

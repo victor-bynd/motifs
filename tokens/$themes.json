@@ -1,9 +1,9 @@
 [
   {
     "id": "ea0004918b9af3955862a523b890938da09c2424",
-    "name": "Core",
+    "name": "Primitives",
     "selectedTokenSets": {
-      "Global/primitives": "enabled"
+      "Global/Primitives": "enabled"
     },
     "$figmaStyleReferences": {
       "Primary.--primary-v50": "S:0191ede1d3ddbfd02c929d7e2860494b694d07a4,",
@@ -238,10 +238,9 @@
     "id": "1c45980f52f497a910b99380152f6c1857ff06a1",
     "name": "Primary",
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Color Mode/Mode/Light": "enabled",
-      "Color Mode/Core/Primary": "enabled",
-      "Global/semantic": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Primary": "enabled",
+      "Color Mode/Core/Light": "enabled"
     },
     "$figmaStyleReferences": {
       "Primary.--primary-v50": "S:0191ede1d3ddbfd02c929d7e2860494b694d07a4,",
@@ -757,16 +756,15 @@
     },
     "$figmaCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaModeId": "21745:12",
-    "group": "Color Modes"
+    "group": "Brand"
   },
   {
     "id": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
     "name": "Secondary",
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Global/semantic": "enabled",
-      "Color Mode/Mode/Light": "enabled",
-      "Color Mode/Core/Secondary": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Secondary": "enabled",
+      "Color Mode/Core/Light": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:806ed1c76a60254dcfd0a2d7a9d12778b2b70205,",
@@ -1413,16 +1411,15 @@
     },
     "$figmaCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaModeId": "21745:13",
-    "group": "Color Modes"
+    "group": "Brand"
   },
   {
     "id": "9d9cc6fcfd48febdb4884c2605572a7c6d647a05",
     "name": "Tertiary",
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Global/semantic": "enabled",
-      "Color Mode/Mode/Light": "enabled",
-      "Color Mode/Core/Tertiary": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Tertiary": "enabled",
+      "Color Mode/Core/Light": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--bg-color": "S:87c30de7d9ec5f74320f7ab04389b7e29a293dd6,",
@@ -1977,16 +1974,15 @@
     },
     "$figmaCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaModeId": "21745:14",
-    "group": "Color Modes"
+    "group": "Brand"
   },
   {
     "id": "a22eb9664fb445a46a938d1277005067ebccc20a",
     "name": "Quaternary",
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Global/semantic": "enabled",
-      "Color Mode/Mode/Dark": "enabled",
-      "Color Mode/Core/Quarternary": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Quarternary": "enabled",
+      "Color Mode/Core/Dark": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:806ed1c76a60254dcfd0a2d7a9d12778b2b70205,",
@@ -2689,23 +2685,22 @@
     },
     "$figmaCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaModeId": "21745:15",
-    "group": "Color Modes"
+    "group": "Brand"
   },
   {
     "id": "6d481f7929f66820b21426d66e1d91ccc5b4a0e9",
     "name": "Primary",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Color Mode/Mode/Light": "enabled",
-      "Color Mode/Core/Primary": "enabled",
-      "Global/semantic": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Primary": "enabled",
+      "Color Mode/Core/Light": "enabled"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21725:53094",
     "$figmaParentThemeId": "1c45980f52f497a910b99380152f6c1857ff06a1",
     "$figmaMirrorParentSets": true,
-    "group": "Color Modes/Snapchat",
+    "group": "Brand/Snapchat",
     "$figmaCollectionId": "VariableCollectionId:21745:1568846",
     "$figmaModeId": "VariableCollectionId:21745:1568846/21745:16",
     "$figmaVariableReferences": {
@@ -3095,12 +3090,11 @@
     "name": "Secondary",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Global/semantic": "enabled",
-      "Color Mode/Mode/Light": "enabled",
-      "Color Mode/Core/Secondary": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Secondary": "enabled",
+      "Color Mode/Core/Light": "enabled"
     },
-    "group": "Color Modes/Snapchat",
+    "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21725:53094",
     "$figmaParentThemeId": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
@@ -3494,12 +3488,11 @@
     "name": "Tertiary",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Global/semantic": "enabled",
-      "Color Mode/Mode/Light": "enabled",
-      "Color Mode/Core/Tertiary": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Tertiary": "enabled",
+      "Color Mode/Core/Light": "enabled"
     },
-    "group": "Color Modes/Snapchat",
+    "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21725:53094",
     "$figmaParentThemeId": "9d9cc6fcfd48febdb4884c2605572a7c6d647a05",
@@ -3893,12 +3886,11 @@
     "name": "Quaternary",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Global/semantic": "enabled",
-      "Color Mode/Mode/Dark": "enabled",
-      "Color Mode/Core/Quarternary": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Quarternary": "enabled",
+      "Color Mode/Core/Dark": "enabled"
     },
-    "group": "Color Modes/Snapchat",
+    "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21725:53094",
     "$figmaParentThemeId": "a22eb9664fb445a46a938d1277005067ebccc20a",
@@ -4312,12 +4304,11 @@
       "Autocomplete.--autocomplete-hover-box-shadow": "S:64f7f7e135846cc858dac64d5f3d7eff9a522c3d,"
     },
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Color Mode/Mode/Light": "enabled",
-      "Color Mode/Core/Primary": "enabled",
-      "Global/semantic": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Primary": "enabled",
+      "Color Mode/Core/Light": "enabled"
     },
-    "group": "Color Modes/Snap Inc",
+    "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21725:53094",
     "$figmaParentThemeId": "1c45980f52f497a910b99380152f6c1857ff06a1",
@@ -4728,12 +4719,11 @@
       "Autocomplete.--autocomplete-hover-box-shadow": "S:64f7f7e135846cc858dac64d5f3d7eff9a522c3d,"
     },
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Global/semantic": "enabled",
-      "Color Mode/Mode/Light": "enabled",
-      "Color Mode/Core/Secondary": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Secondary": "enabled",
+      "Color Mode/Core/Light": "enabled"
     },
-    "group": "Color Modes/Snap Inc",
+    "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21725:53094",
     "$figmaParentThemeId": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
@@ -5135,12 +5125,11 @@
       "Carousel.--carousel-card-hover-box-shadow": "S:40dfbbdbc3c5be6ca16e0a27344d72d8b11e2600,"
     },
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Global/semantic": "enabled",
-      "Color Mode/Mode/Light": "enabled",
-      "Color Mode/Core/Tertiary": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Tertiary": "enabled",
+      "Color Mode/Core/Light": "enabled"
     },
-    "group": "Color Modes/Snap Inc",
+    "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21725:53094",
     "$figmaParentThemeId": "9d9cc6fcfd48febdb4884c2605572a7c6d647a05",
@@ -5551,12 +5540,11 @@
       "Carousel.--carousel-card-hover-box-shadow": "S:40dfbbdbc3c5be6ca16e0a27344d72d8b11e2600,"
     },
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Global/semantic": "enabled",
-      "Color Mode/Mode/Dark": "enabled",
-      "Color Mode/Core/Quarternary": "enabled"
+      "Global/Primitives": "enabled",
+      "Color Mode/Wireframe/Quarternary": "enabled",
+      "Color Mode/Core/Dark": "enabled"
     },
-    "group": "Color Modes/Snap Inc",
+    "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21725:53094",
     "$figmaParentThemeId": "a22eb9664fb445a46a938d1277005067ebccc20a",
@@ -5953,8 +5941,7 @@
     "name": "Semantics",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Brand/Core/Semantic": "enabled"
+      "Global/Primitives": "enabled"
     },
     "group": "Brand",
     "$figmaCollectionId": "VariableCollectionId:21745:1569460",
@@ -6210,8 +6197,7 @@
     "name": "Semantics",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Brand/Core/Semantic": "enabled"
+      "Global/Primitives": "enabled"
     },
     "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
@@ -6223,8 +6209,7 @@
     "name": "Semantics",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Global/primitives": "enabled",
-      "Brand/Core/Semantic": "enabled"
+      "Global/Primitives": "enabled"
     },
     "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
