@@ -958,7 +958,7 @@
       "type": "color"
     },
     "--form-input-error-color": {
-      "value": "{Semantic.--semantic-error-color}",
+      "value": "{Utility.--semantic-error-color}",
       "type": "color"
     },
     "--form-input-bg-color": {
@@ -974,7 +974,7 @@
       "type": "color"
     },
     "--form-input-active-border-color": {
-      "value": "{Semantic.--semantic-focus-color}",
+      "value": "{Utility.--semantic-focus-color}",
       "type": "color"
     },
     "--form-input-border-width": {
@@ -1138,7 +1138,7 @@
   },
   "Autocomplete": {
     "--autocomplete-active-border-color": {
-      "value": "{Semantic.--semantic-focus-color}",
+      "value": "{Utility.--semantic-focus-color}",
       "type": "color"
     },
     "--autocomplete-active-box-shadow": {
@@ -1146,7 +1146,7 @@
       "type": "boxShadow"
     },
     "--autocomplete-button-fg-color": {
-      "value": "{Semantic.--semantic-focus-color}",
+      "value": "{Root.--fg-color}",
       "type": "color"
     },
     "--autocomplete-button-fg-hover-color": {

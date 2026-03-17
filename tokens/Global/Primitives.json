@@ -81,56 +81,6 @@
       "type": "spacing"
     }
   },
-  "Neutral": {
-    "--neutral-v0": {
-      "value": "{Palette.Plain.--palette-plain-white}",
-      "type": "color"
-    },
-    "--neutral-v100": {
-      "value": "{Palette.Gray.--palette-gray-v50}",
-      "type": "color"
-    },
-    "--neutral-v150": {
-      "value": "{Palette.Gray.--palette-gray-v100}",
-      "type": "color"
-    },
-    "--neutral-v200": {
-      "value": "{Palette.Gray.--palette-gray-v150}",
-      "type": "color"
-    },
-    "--neutral-v250": {
-      "value": "{Palette.Gray.--palette-gray-v200}",
-      "type": "color"
-    },
-    "--neutral-v300": {
-      "value": "{Palette.Gray.--palette-gray-v250}",
-      "type": "color"
-    },
-    "--neutral-v400": {
-      "value": "{Palette.Gray.--palette-gray-v300}",
-      "type": "color"
-    },
-    "--neutral-v500": {
-      "value": "{Palette.Black.--palette-black-v50}",
-      "type": "color"
-    },
-    "--neutral-v600": {
-      "value": "{Palette.Black.--palette-black-v100}",
-      "type": "color"
-    },
-    "--neutral-v625": {
-      "value": "{Palette.Black.--palette-black-v125}",
-      "type": "color"
-    },
-    "--neutral-v650": {
-      "value": "{Palette.Black.--palette-black-v150}",
-      "type": "color"
-    },
-    "--neutral-v700": {
-      "value": "{Palette.Plain.--palette-plain-black}",
-      "type": "color"
-    }
-  },
   "Palette": {
     "Plain": {
       "--palette-plain-black": {

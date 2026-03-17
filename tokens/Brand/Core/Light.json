@@ -883,7 +883,7 @@
       "type": "color"
     },
     "--form-input-error-color": {
-      "value": "{Semantic.--semantic-error-color}",
+      "value": "{Utility.--semantic-error-color}",
       "type": "color"
     },
     "--form-input-bg-color": {
@@ -899,7 +899,7 @@
       "type": "color"
     },
     "--form-input-active-border-color": {
-      "value": "{Semantic.--semantic-focus-color}",
+      "value": "{Utility.--semantic-focus-color}",
       "type": "color"
     },
     "--form-input-desktop-font-size": {

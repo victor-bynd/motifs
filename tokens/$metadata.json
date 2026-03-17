@@ -2,8 +2,8 @@
   "tokenSetOrder": [
     "Global/Primitives",
     "Brand/Core/Semantic",
-    "Brand/Core/Dark",
     "Brand/Core/Light",
+    "Brand/Core/Dark",
     "Brand/Snapchat/Semantic",
     "Brand/Snapchat/Primary",
     "Brand/Snapchat/Secondary",
