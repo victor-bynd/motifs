@@ -215,10 +215,6 @@
     "--global-header-menu-featured-item-icon-color": {
       "value": "{Neutral.--neutral-v500}",
       "type": "color"
-    },
-    "--global-header-site-name-font-size": {
-      "value": "20px",
-      "type": "fontSizes"
     }
   },
   "Block": {
@@ -238,22 +234,6 @@
     "--block-eyebrow-color": {
       "value": "{Root.--fg-color}",
       "type": "color"
-    },
-    "--block-title-desktop-font-size": {
-      "value": "{Root.--h2-desktop-font-size}",
-      "type": "fontSizes"
-    },
-    "--block-title-desktop-font-line-height": {
-      "value": "{Root.--h2-desktop-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--block-title-mobile-font-size": {
-      "value": "{Root.--h2-mobile-font-size}",
-      "type": "fontSizes"
-    },
-    "--block-title-mobile-font-line-height": {
-      "value": "{Root.--h2-mobile-font-line-height}",
-      "type": "lineHeights"
     }
   },
   "Tabs": {
@@ -330,11 +310,6 @@
     "--hero-scroll-button-hover-fg-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
-    },
-    "--hero-title-increased-font-size": {
-      "value": "162px",
-      "type": "fontSizes",
-      "description": ""
     }
   },
   "Break": {
@@ -358,10 +333,6 @@
       "value": "{Root.--fg-color}",
       "type": "color"
     },
-    "--content-backdrop-filter": {
-      "value": "none",
-      "type": "backgroundFilter"
-    },
     "--content-border-color": {
       "value": "unset",
       "type": "color",
@@ -380,14 +351,6 @@
     "--quote-icon-color": {
       "value": "{Brand.--primary-v100}",
       "type": "color"
-    },
-    "--quote-author-desktop-font-size": {
-      "value": "16px",
-      "type": "fontSizes"
-    },
-    "--quote-author-mobile-font-size": {
-      "value": "16px",
-      "type": "fontSizes"
     }
   },
   "Footer": {
@@ -502,22 +465,6 @@
     "--accordion-header-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
-    },
-    "--accordion-header-desktop-font-size": {
-      "value": "{Root.--h6-desktop-font-size}",
-      "type": "fontSizes"
-    },
-    "--accordion-header-mobile-font-size": {
-      "value": "{Root.--h6-mobile-font-size}",
-      "type": "fontSizes"
-    },
-    "--accordion-header-desktop-font-line-height": {
-      "value": "{Root.--h6-desktop-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--accordion-header-mobile-font-line-height": {
-      "value": "{Root.--h6-mobile-font-line-height}",
-      "type": "lineHeights"
     }
   },
   "Carousel": {
@@ -548,11 +495,6 @@
     "--carousel-inactive-dot-color": {
       "value": "rgba(133, 141, 148, 0.50)",
       "type": "color"
-    },
-    "--carousel-card-mobile-text-align": {
-      "value": "start",
-      "type": "textAlign",
-      "description": ""
     }
   },
   "Footnote": {
@@ -585,14 +527,6 @@
     "--banner-fg-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
-    },
-    "--banner-font-size": {
-      "value": "{Root.--action-desktop-font-size}",
-      "type": "fontSizes"
-    },
-    "--banner-font-line-height": {
-      "value": "{Root.--action-desktop-font-line-height}",
-      "type": "lineHeights"
     }
   },
   "Tile": {
@@ -619,38 +553,6 @@
     "--hyperlink-hover-color": {
       "value": "{Root.--action-text-hover-color}",
       "type": "color"
-    },
-    "--hyperlink-desktop-font-size": {
-      "value": "{Root.--action-desktop-font-size}",
-      "type": "fontSizes"
-    },
-    "--hyperlink-desktop-font-line-height": {
-      "value": "{Root.--action-desktop-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--hyperlink-desktop-font-text-decoration": {
-      "value": "{Root.--action-desktop-font-text-decoration}",
-      "type": "textDecoration"
-    },
-    "--hyperlink-desktop-font-letter-spacing": {
-      "value": "{Root.--action-desktop-font-letter-spacing}",
-      "type": "letterSpacing"
-    },
-    "--hyperlink-mobile-font-size": {
-      "value": "{Root.--action-mobile-font-size}",
-      "type": "fontSizes"
-    },
-    "--hyperlink-mobile-font-line-height": {
-      "value": "{Root.--action-mobile-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--hyperlink-mobile-font-text-decoration": {
-      "value": "{Root.--action-mobile-font-text-decoration}",
-      "type": "textDecoration"
-    },
-    "--hyperlink-mobile-font-letter-spacing": {
-      "value": "{Root.--action-mobile-font-letter-spacing}",
-      "type": "letterSpacing"
     }
   },
   "Spinner": {
@@ -901,22 +803,6 @@
     "--form-input-active-border-color": {
       "value": "{Utility.--semantic-focus-color}",
       "type": "color"
-    },
-    "--form-input-desktop-font-size": {
-      "value": "{Root.--text-desktop-font-size}",
-      "type": "fontSizes"
-    },
-    "--form-input-desktop-font-line-height": {
-      "value": "normal",
-      "type": "lineHeights"
-    },
-    "--form-input-mobile-font-size": {
-      "value": "{Root.--text-mobile-font-size}",
-      "type": "fontSizes"
-    },
-    "--form-input-mobile-font-line-height": {
-      "value": "{Root.--text-mobile-font-line-height}",
-      "type": "lineHeights"
     }
   },
   "Progress Bar": {
@@ -1058,10 +944,6 @@
       "value": "{Neutral.--neutral-v250}",
       "type": "color"
     },
-    "--autocomplete-desktop-font-size": {
-      "value": "{Root.--text-desktop-font-size}",
-      "type": "fontSizes"
-    },
     "--autocomplete-fg-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
@@ -1069,10 +951,6 @@
     "--autocomplete-hover-border-color": {
       "value": "{Neutral.--neutral-v400}",
       "type": "color"
-    },
-    "--autocomplete-mobile-font-size": {
-      "value": "{Root.--text-mobile-font-size}",
-      "type": "fontSizes"
     },
     "--autocomplete-placeholder-color": {
       "value": "{Neutral.--neutral-v400}",
@@ -1163,19 +1041,6 @@
     "--stats-stat-color": {
       "value": "{Root.--fg-color}",
       "type": "color"
-    },
-    "--stats-stat-font-size": {
-      "value": "{Root.--stats-font-size}",
-      "type": "fontSizes"
-    },
-    "--stats-stat-font-line-height": {
-      "value": "{Root.--stats-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--stats-stat-supplementary-text-font-size": {
-      "value": "{Root.--stats-supplementary-text-font-size}",
-      "type": "fontSizes",
-      "description": ""
     }
   },
   "Animated Accordion": {

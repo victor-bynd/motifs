@@ -6193,7 +6193,8 @@
     "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
     "$figmaParentThemeId": "18e9b52c5f6ea035e9bfe8d458a0fc6172e09c72",
-    "$figmaMirrorParentSets": true
+    "$figmaMirrorParentSets": true,
+    "$figmaVariableReferences": {}
   },
   {
     "id": "48f5a2da96285ccf0bb8556504e6ce882f2aee81",
@@ -6205,6 +6206,7 @@
     "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
     "$figmaParentThemeId": "18e9b52c5f6ea035e9bfe8d458a0fc6172e09c72",
-    "$figmaMirrorParentSets": true
+    "$figmaMirrorParentSets": true,
+    "$figmaVariableReferences": {}
   }
 ]
