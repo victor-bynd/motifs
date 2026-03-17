@@ -239,8 +239,8 @@
     "name": "Primary",
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Primary": "enabled",
-      "Color Mode/Core/Light": "enabled"
+      "Brand/Core/Light": "enabled",
+      "Brand/Wireframe/Primary": "enabled"
     },
     "$figmaStyleReferences": {
       "Primary.--primary-v50": "S:0191ede1d3ddbfd02c929d7e2860494b694d07a4,",
@@ -593,11 +593,6 @@
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
       "Accordion-copy.--accordion-divider-border-color": "414ba0f066eb940771f10d3f823806818a78bbf9",
       "Accordion-copy.--accordion-header-color": "9895e23f4a486a79c4a7bda7790678e500669ef1",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -752,7 +747,12 @@
       "Toggle Button.--toggle-button-active-color": "ff38d77e6ce5fa3a8c100214b9017b7f6059053b",
       "Carousel.--carousel-card-border-color": "3db76672f1581d8d19d4ede2fdc5f5da69f10b29",
       "Carousel.--carousel-card-hover-border-color": "18ec932e82967a0222655f1c76f41b981299b986",
-      "Carousel.--carousel-inactive-dot-color": "3e81cf436444aef7664e7b9ed6ae31a1e7f1835b"
+      "Carousel.--carousel-inactive-dot-color": "3e81cf436444aef7664e7b9ed6ae31a1e7f1835b",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     },
     "$figmaCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaModeId": "21745:12",
@@ -763,8 +763,8 @@
     "name": "Secondary",
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Secondary": "enabled",
-      "Color Mode/Core/Light": "enabled"
+      "Brand/Core/Light": "enabled",
+      "Brand/Wireframe/Secondary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:806ed1c76a60254dcfd0a2d7a9d12778b2b70205,",
@@ -1248,11 +1248,6 @@
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
       "Accordion-copy.--accordion-divider-border-color": "414ba0f066eb940771f10d3f823806818a78bbf9",
       "Accordion-copy.--accordion-header-color": "9895e23f4a486a79c4a7bda7790678e500669ef1",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -1407,7 +1402,12 @@
       "Toggle Button.--toggle-button-active-color": "ff38d77e6ce5fa3a8c100214b9017b7f6059053b",
       "Carousel.--carousel-card-border-color": "3db76672f1581d8d19d4ede2fdc5f5da69f10b29",
       "Carousel.--carousel-card-hover-border-color": "18ec932e82967a0222655f1c76f41b981299b986",
-      "Carousel.--carousel-inactive-dot-color": "3e81cf436444aef7664e7b9ed6ae31a1e7f1835b"
+      "Carousel.--carousel-inactive-dot-color": "3e81cf436444aef7664e7b9ed6ae31a1e7f1835b",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     },
     "$figmaCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaModeId": "21745:13",
@@ -1418,8 +1418,8 @@
     "name": "Tertiary",
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Tertiary": "enabled",
-      "Color Mode/Core/Light": "enabled"
+      "Brand/Core/Light": "enabled",
+      "Brand/Wireframe/Tertiary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--bg-color": "S:87c30de7d9ec5f74320f7ab04389b7e29a293dd6,",
@@ -1811,11 +1811,6 @@
       "Footnote.--footnote-title-color": "d22d70e1c20552fa013f0437d5e29a2889964295",
       "Root.--bg-fade-start": "f14304111fa8b50345862a38ce38dda6ed04fb2b",
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -1970,7 +1965,12 @@
       "Toggle Button.--toggle-button-active-color": "ff38d77e6ce5fa3a8c100214b9017b7f6059053b",
       "Carousel.--carousel-card-border-color": "3db76672f1581d8d19d4ede2fdc5f5da69f10b29",
       "Carousel.--carousel-card-hover-border-color": "18ec932e82967a0222655f1c76f41b981299b986",
-      "Carousel.--carousel-inactive-dot-color": "3e81cf436444aef7664e7b9ed6ae31a1e7f1835b"
+      "Carousel.--carousel-inactive-dot-color": "3e81cf436444aef7664e7b9ed6ae31a1e7f1835b",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     },
     "$figmaCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaModeId": "21745:14",
@@ -1981,8 +1981,8 @@
     "name": "Quaternary",
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Quarternary": "enabled",
-      "Color Mode/Core/Dark": "enabled"
+      "Brand/Core/Dark": "enabled",
+      "Brand/Wireframe/Quarternary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:806ed1c76a60254dcfd0a2d7a9d12778b2b70205,",
@@ -2529,11 +2529,6 @@
       "Footnote.--footnote-title-color": "d22d70e1c20552fa013f0437d5e29a2889964295",
       "Root.--bg-fade-start": "f14304111fa8b50345862a38ce38dda6ed04fb2b",
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -2681,7 +2676,12 @@
       "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e",
       "Button.--button-secondary-hover-fg-color-copy": "2400a75446851a9f616df23202377b2eaa8af8a1",
       "Button.--button-secondary-hover-bg-color-copy": "6864554b426f0db5e15877be416a2b3cbb422eb7",
-      "Button.--button-secondary-hover-border-color-copy": "45b4b7491a6f0ba0bf7e7796afd0d28c4f3e405b"
+      "Button.--button-secondary-hover-border-color-copy": "45b4b7491a6f0ba0bf7e7796afd0d28c4f3e405b",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     },
     "$figmaCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaModeId": "21745:15",
@@ -2693,8 +2693,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Primary": "enabled",
-      "Color Mode/Core/Light": "enabled"
+      "Brand/Core/Light": "enabled",
+      "Brand/Wireframe/Primary": "enabled"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21725:53094",
@@ -2933,11 +2933,6 @@
       "Footnote.--footnote-title-color": "d22d70e1c20552fa013f0437d5e29a2889964295",
       "Root.--bg-fade-start": "f14304111fa8b50345862a38ce38dda6ed04fb2b",
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -3082,7 +3077,12 @@
       "Palette.Blue.--palette-blue-v50": "f0633ec5415efc65e0870035490745df27fbe97e",
       "Palette.Blue.--palette-blue-v100": "8c2078d9cec4bf418c3f2b7a001c2df7a2ffc485",
       "Palette.Blue.--palette-blue-v150": "e1f8452888dcf110fed043365e7fdc2ea51f2a59",
-      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e"
+      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     }
   },
   {
@@ -3091,8 +3091,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Secondary": "enabled",
-      "Color Mode/Core/Light": "enabled"
+      "Brand/Core/Light": "enabled",
+      "Brand/Wireframe/Secondary": "enabled"
     },
     "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
@@ -3331,11 +3331,6 @@
       "Footnote.--footnote-title-color": "d22d70e1c20552fa013f0437d5e29a2889964295",
       "Root.--bg-fade-start": "f14304111fa8b50345862a38ce38dda6ed04fb2b",
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -3480,7 +3475,12 @@
       "Palette.Blue.--palette-blue-v50": "f0633ec5415efc65e0870035490745df27fbe97e",
       "Palette.Blue.--palette-blue-v100": "8c2078d9cec4bf418c3f2b7a001c2df7a2ffc485",
       "Palette.Blue.--palette-blue-v150": "e1f8452888dcf110fed043365e7fdc2ea51f2a59",
-      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e"
+      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     }
   },
   {
@@ -3489,8 +3489,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Tertiary": "enabled",
-      "Color Mode/Core/Light": "enabled"
+      "Brand/Core/Light": "enabled",
+      "Brand/Wireframe/Tertiary": "enabled"
     },
     "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
@@ -3729,11 +3729,6 @@
       "Footnote.--footnote-title-color": "d22d70e1c20552fa013f0437d5e29a2889964295",
       "Root.--bg-fade-start": "f14304111fa8b50345862a38ce38dda6ed04fb2b",
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -3878,7 +3873,12 @@
       "Palette.Blue.--palette-blue-v50": "f0633ec5415efc65e0870035490745df27fbe97e",
       "Palette.Blue.--palette-blue-v100": "8c2078d9cec4bf418c3f2b7a001c2df7a2ffc485",
       "Palette.Blue.--palette-blue-v150": "e1f8452888dcf110fed043365e7fdc2ea51f2a59",
-      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e"
+      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     }
   },
   {
@@ -3887,8 +3887,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Quarternary": "enabled",
-      "Color Mode/Core/Dark": "enabled"
+      "Brand/Core/Dark": "enabled",
+      "Brand/Wireframe/Quarternary": "enabled"
     },
     "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
@@ -4127,11 +4127,6 @@
       "Footnote.--footnote-title-color": "d22d70e1c20552fa013f0437d5e29a2889964295",
       "Root.--bg-fade-start": "f14304111fa8b50345862a38ce38dda6ed04fb2b",
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -4279,7 +4274,12 @@
       "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e",
       "Button.--button-secondary-hover-fg-color-copy": "2400a75446851a9f616df23202377b2eaa8af8a1",
       "Button.--button-secondary-hover-bg-color-copy": "6864554b426f0db5e15877be416a2b3cbb422eb7",
-      "Button.--button-secondary-hover-border-color-copy": "45b4b7491a6f0ba0bf7e7796afd0d28c4f3e405b"
+      "Button.--button-secondary-hover-border-color-copy": "45b4b7491a6f0ba0bf7e7796afd0d28c4f3e405b",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     }
   },
   {
@@ -4305,8 +4305,8 @@
     },
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Primary": "enabled",
-      "Color Mode/Core/Light": "enabled"
+      "Brand/Core/Light": "enabled",
+      "Brand/Wireframe/Primary": "enabled"
     },
     "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
@@ -4545,11 +4545,6 @@
       "Footnote.--footnote-title-color": "d22d70e1c20552fa013f0437d5e29a2889964295",
       "Root.--bg-fade-start": "f14304111fa8b50345862a38ce38dda6ed04fb2b",
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -4694,7 +4689,12 @@
       "Palette.Blue.--palette-blue-v50": "f0633ec5415efc65e0870035490745df27fbe97e",
       "Palette.Blue.--palette-blue-v100": "8c2078d9cec4bf418c3f2b7a001c2df7a2ffc485",
       "Palette.Blue.--palette-blue-v150": "e1f8452888dcf110fed043365e7fdc2ea51f2a59",
-      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e"
+      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     }
   },
   {
@@ -4720,8 +4720,8 @@
     },
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Secondary": "enabled",
-      "Color Mode/Core/Light": "enabled"
+      "Brand/Core/Light": "enabled",
+      "Brand/Wireframe/Secondary": "enabled"
     },
     "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
@@ -4960,11 +4960,6 @@
       "Footnote.--footnote-title-color": "d22d70e1c20552fa013f0437d5e29a2889964295",
       "Root.--bg-fade-start": "f14304111fa8b50345862a38ce38dda6ed04fb2b",
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -5109,7 +5104,12 @@
       "Palette.Blue.--palette-blue-v50": "f0633ec5415efc65e0870035490745df27fbe97e",
       "Palette.Blue.--palette-blue-v100": "8c2078d9cec4bf418c3f2b7a001c2df7a2ffc485",
       "Palette.Blue.--palette-blue-v150": "e1f8452888dcf110fed043365e7fdc2ea51f2a59",
-      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e"
+      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     }
   },
   {
@@ -5126,8 +5126,8 @@
     },
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Tertiary": "enabled",
-      "Color Mode/Core/Light": "enabled"
+      "Brand/Core/Light": "enabled",
+      "Brand/Wireframe/Tertiary": "enabled"
     },
     "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
@@ -5366,11 +5366,6 @@
       "Footnote.--footnote-title-color": "d22d70e1c20552fa013f0437d5e29a2889964295",
       "Root.--bg-fade-start": "f14304111fa8b50345862a38ce38dda6ed04fb2b",
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -5515,7 +5510,12 @@
       "Palette.Blue.--palette-blue-v50": "f0633ec5415efc65e0870035490745df27fbe97e",
       "Palette.Blue.--palette-blue-v100": "8c2078d9cec4bf418c3f2b7a001c2df7a2ffc485",
       "Palette.Blue.--palette-blue-v150": "e1f8452888dcf110fed043365e7fdc2ea51f2a59",
-      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e"
+      "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     }
   },
   {
@@ -5541,8 +5541,8 @@
     },
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Color Mode/Wireframe/Quarternary": "enabled",
-      "Color Mode/Core/Dark": "enabled"
+      "Brand/Core/Dark": "enabled",
+      "Brand/Wireframe/Quarternary": "enabled"
     },
     "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
@@ -5781,11 +5781,6 @@
       "Footnote.--footnote-title-color": "d22d70e1c20552fa013f0437d5e29a2889964295",
       "Root.--bg-fade-start": "f14304111fa8b50345862a38ce38dda6ed04fb2b",
       "Root.--bg-fade-end": "26559e8cbc9af3633943a283fa00cffc3a6fa885",
-      "Primary.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
-      "Primary.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
-      "Primary.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
-      "Primary.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
-      "Primary.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743",
       "Root.--border-radius-xs": "8ac389e862dd70df3014629403e8ab296dbc1f81",
       "Root.--border-radius-s": "4fbbd4f42917befacc74c9d3bdfc22e0d62aa38f",
       "Root.--border-radius-m": "2695124bd09c59abb18ace52de98eef73e35ba4a",
@@ -5933,7 +5928,12 @@
       "Palette.Blue.--palette-blue-v200": "86a51d0f4b64088791c4698ea6cad93c60343b5e",
       "Button.--button-secondary-hover-fg-color-copy": "2400a75446851a9f616df23202377b2eaa8af8a1",
       "Button.--button-secondary-hover-bg-color-copy": "6864554b426f0db5e15877be416a2b3cbb422eb7",
-      "Button.--button-secondary-hover-border-color-copy": "45b4b7491a6f0ba0bf7e7796afd0d28c4f3e405b"
+      "Button.--button-secondary-hover-border-color-copy": "45b4b7491a6f0ba0bf7e7796afd0d28c4f3e405b",
+      "Brand.--primary-v50": "d091231b0f717b882a01ab7480ac0e0518bedb9a",
+      "Brand.--primary-v100": "0cc872e320ed4c681be2d1ed6bc6d6aec1ab4b95",
+      "Brand.--primary-v150": "d72a0180bd7bc3e19208dcffcc141933248aed4c",
+      "Brand.--primary-v200": "efef37743ec6459a6358da3bdab241b683d3f0ce",
+      "Brand.--primary-v250": "4af34c3d58a458eff4b0f4bd554f4f08a2419743"
     }
   },
   {
@@ -6040,11 +6040,6 @@
       "Stats.--stats-stat-supplementary-text-font-weight": "422e0ede0806909fee77686c0e5ce2b60e1f087f",
       "Utility.--semantic-focus-color": "98e608a698ff41995ad47dc8527bb48de27aac5b",
       "Utility.--semantic-error-color": "dbfa7d1e45f8644c503497f0b40cb9d220934c8f",
-      "Primary.--primary-v50": "4602e5322078cbda82030b470b13451bcea1fa99",
-      "Primary.--primary-v100": "eb85096ae9c43c1baf138002025654c85ca94f37",
-      "Primary.--primary-v150": "cb4b11e2d013de7ccaee5cf46b57fb751a19c90d",
-      "Primary.--primary-v200": "b2e1dd36c7b8a0e4075f3525fc5c7ac6553de531",
-      "Primary.--primary-v250": "da03f577b6009c192e6a4da267da107bd1574c78",
       "Root.--border-radius-xs": "e5f29ff7a09dd1104b146339f2b642fdd176a052",
       "Root.--border-radius-s": "27e2ec84e42fc44427f2b8feeaf94ee729f253b6",
       "Root.--border-radius-m": "cacb0b47a7ac8530bffb0d011d37363dda41afd9",
@@ -6189,7 +6184,12 @@
       "Palette.Blue.--palette-blue-v50": "90bf9429c733519aa3992e0b0434f7377c2e8174",
       "Palette.Blue.--palette-blue-v100": "dda5d20c9011ff7b071102d6d3085cecc2ffb20e",
       "Palette.Blue.--palette-blue-v150": "3e9170d92bbc14fff8f7a0ddc36b0e2b9007d373",
-      "Palette.Blue.--palette-blue-v200": "b804aade969696294ed91fd347937b861128886b"
+      "Palette.Blue.--palette-blue-v200": "b804aade969696294ed91fd347937b861128886b",
+      "Brand.--primary-v50": "4602e5322078cbda82030b470b13451bcea1fa99",
+      "Brand.--primary-v100": "eb85096ae9c43c1baf138002025654c85ca94f37",
+      "Brand.--primary-v150": "cb4b11e2d013de7ccaee5cf46b57fb751a19c90d",
+      "Brand.--primary-v200": "b2e1dd36c7b8a0e4075f3525fc5c7ac6553de531",
+      "Brand.--primary-v250": "da03f577b6009c192e6a4da267da107bd1574c78"
     }
   },
   {
