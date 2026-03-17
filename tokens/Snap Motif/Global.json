@@ -530,24 +530,24 @@
   },
   "Primary": {
     "--primary-v50": {
-      "value": "{Palette.Yellow.--palette-yellow-v50}",
+      "value": "{Palette.Purple.--palette-purple-v50}",
       "type": "color"
     },
     "--primary-v100": {
-      "value": "{Palette.Yellow.--palette-yellow-v100}",
+      "value": "{Palette.Purple.--palette-purple-v100}",
       "type": "color",
       "description": "main brand color"
     },
     "--primary-v150": {
-      "value": "{Palette.Yellow.--palette-yellow-v150}",
+      "value": "{Palette.Purple.--palette-purple-v150}",
       "type": "color"
     },
     "--primary-v200": {
-      "value": "{Palette.Yellow.--palette-yellow-v200}",
+      "value": "{Palette.Purple.--palette-purple-v200}",
       "type": "color"
     },
     "--primary-v250": {
-      "value": "{Palette.Yellow.--palette-yellow-v250}",
+      "value": "#441262",
       "type": "color"
     }
   },
