@@ -239,8 +239,7 @@
     "name": "Primary",
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Light": "enabled",
-      "Brand/Wireframe/Primary": "enabled"
+      "Brand/Core/Light": "enabled"
     },
     "$figmaStyleReferences": {
       "Primary.--primary-v50": "S:0191ede1d3ddbfd02c929d7e2860494b694d07a4,",
@@ -763,8 +762,7 @@
     "name": "Secondary",
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Light": "enabled",
-      "Brand/Wireframe/Secondary": "enabled"
+      "Brand/Core/Light": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:806ed1c76a60254dcfd0a2d7a9d12778b2b70205,",
@@ -1418,8 +1416,7 @@
     "name": "Tertiary",
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Light": "enabled",
-      "Brand/Wireframe/Tertiary": "enabled"
+      "Brand/Core/Light": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--bg-color": "S:87c30de7d9ec5f74320f7ab04389b7e29a293dd6,",
@@ -1981,8 +1978,7 @@
     "name": "Quaternary",
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Dark": "enabled",
-      "Brand/Wireframe/Quarternary": "enabled"
+      "Brand/Core/Dark": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:806ed1c76a60254dcfd0a2d7a9d12778b2b70205,",
@@ -2694,7 +2690,6 @@
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
       "Brand/Core/Light": "enabled",
-      "Brand/Wireframe/Primary": "enabled",
       "Brand/Core/Semantic": "enabled",
       "Brand/Snapchat/Semantic": "enabled",
       "Brand/Snapchat/Primary": "enabled"
@@ -3094,8 +3089,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Light": "enabled",
-      "Brand/Wireframe/Secondary": "enabled"
+      "Brand/Core/Light": "enabled"
     },
     "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
@@ -3492,8 +3486,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Light": "enabled",
-      "Brand/Wireframe/Tertiary": "enabled"
+      "Brand/Core/Light": "enabled"
     },
     "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
@@ -3890,8 +3883,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Dark": "enabled",
-      "Brand/Wireframe/Quarternary": "enabled"
+      "Brand/Core/Dark": "enabled"
     },
     "group": "Brand/Snapchat",
     "$figmaIsExtension": true,
@@ -4308,8 +4300,7 @@
     },
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Light": "enabled",
-      "Brand/Wireframe/Primary": "enabled"
+      "Brand/Core/Light": "enabled"
     },
     "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
@@ -4723,8 +4714,7 @@
     },
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Light": "enabled",
-      "Brand/Wireframe/Secondary": "enabled"
+      "Brand/Core/Light": "enabled"
     },
     "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
@@ -5129,8 +5119,7 @@
     },
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Light": "enabled",
-      "Brand/Wireframe/Tertiary": "enabled"
+      "Brand/Core/Light": "enabled"
     },
     "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,
@@ -5544,8 +5533,7 @@
     },
     "selectedTokenSets": {
       "Global/Primitives": "enabled",
-      "Brand/Core/Dark": "enabled",
-      "Brand/Wireframe/Quarternary": "enabled"
+      "Brand/Core/Dark": "enabled"
     },
     "group": "Brand/Snap Inc",
     "$figmaIsExtension": true,

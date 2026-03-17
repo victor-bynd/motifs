@@ -4,19 +4,10 @@
     "Brand/Core/Semantic",
     "Brand/Core/Dark",
     "Brand/Core/Light",
-    "Brand/Wireframe/Semantic",
-    "Brand/Wireframe/Primary",
-    "Brand/Wireframe/Secondary",
-    "Brand/Wireframe/Tertiary",
-    "Brand/Wireframe/Quarternary",
     "Brand/Snapchat/Semantic",
     "Brand/Snapchat/Primary",
     "Brand/Snapchat/Secondary",
     "Brand/Snapchat/Tertiary",
-    "Brand/Snapchat/Quarternary",
-    "Brand/Snap Inc/Primary",
-    "Brand/Snap Inc/Secondary",
-    "Brand/Snap Inc/Tertiary",
-    "Brand/Snap Inc/Quarternary"
+    "Brand/Snapchat/Quarternary"
   ]
 }

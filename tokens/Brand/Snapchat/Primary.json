@@ -56,7 +56,7 @@
       "type": "boxShadow"
     },
     "--bg-color": {
-      "value": "{Brand.--primary-v150}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--fg-color": {
