@@ -38,5 +38,24 @@
       "type": "color",
       "description": ""
     }
+  },
+  "Block": {
+    "--block-title-color": {
+      "value": "#327fec",
+      "type": "color"
+    },
+    "--block-title-de-emphasized-color": {
+      "value": "{Brand.--primary-v250}",
+      "type": "color",
+      "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
+    },
+    "--block-subtitle-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color"
+    },
+    "--block-eyebrow-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color"
+    }
   }
 }
