@@ -625,5 +625,12 @@
       "type": "color",
       "description": ""
     }
+  },
+  "Cookie Modal Settings": {
+    "--cookie-settings-category-border-color": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    }
   }
 }

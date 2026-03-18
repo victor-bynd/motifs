@@ -331,6 +331,10 @@
     "--global-header-site-name-font-size": {
       "value": "20px",
       "type": "fontSizes"
+    },
+    "--global-header-border-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Block": {
