@@ -174,22 +174,22 @@
       "description": ""
     },
     "--font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Ghost Sans",
       "type": "fontFamilies",
       "description": "Paragraphs and smaller text"
     },
     "--h1-font-family": {
-      "value": "Program OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Ghost Sans",
       "type": "fontFamilies",
       "description": "H1 titles"
     },
     "--h2-font-family": {
-      "value": "Program OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Ghost Sans",
       "type": "fontFamilies",
       "description": "H2 titles"
     },
     "--h3-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Ghost Sans",
       "type": "fontFamilies",
       "description": "H3 titles"
     },

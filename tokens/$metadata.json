@@ -4,10 +4,12 @@
     "Brand/Core/Semantic",
     "Brand/Core/Light",
     "Brand/Core/Dark",
-    "Brand/Snapchat/Semantic",
-    "Brand/Snapchat/Primary",
-    "Brand/Snapchat/Secondary",
-    "Brand/Snapchat/Tertiary",
-    "Brand/Snapchat/Quarternary"
+    "Main/Semantic",
+    "Main/Primary",
+    "Main/Secondary",
+    "Main/Tertiary",
+    "Main/Quarternary",
+    "Purply/Semantic",
+    "Purply/Primary"
   ]
 }
