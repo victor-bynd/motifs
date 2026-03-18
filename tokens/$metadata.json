@@ -4,15 +4,15 @@
     "Core/Semantic",
     "Core/Light",
     "Core/Dark",
-    "Main/Semantic",
-    "Main/Primary",
-    "Main/Secondary",
-    "Main/Tertiary",
-    "Main/Quarternary",
-    "Purply/Semantic",
-    "Purply/Primary",
-    "Purply/Secondary",
-    "Purply/Tertiary",
-    "Purply/Quarternary"
+    "Snap Inc/Semantic",
+    "Snap Inc/Primary",
+    "Snap Inc/Secondary",
+    "Snap Inc/Tertiary",
+    "Snap Inc/Quarternary",
+    "Snapchat/Semantic",
+    "Snapchat/Primary",
+    "Snapchat/Secondary",
+    "Snapchat/Tertiary",
+    "Snapchat/Quarternary"
   ]
 }
