@@ -153,8 +153,6 @@
     "name": "Primary",
     "selectedTokenSets": {
       "Global/Primitives": "source",
-      "Brand/Core/Light": "enabled",
-      "Brand/Core/Semantic": "enabled",
       "Main/Semantic": "enabled",
       "Main/Primary": "enabled"
     },
@@ -616,8 +614,6 @@
     "name": "Secondary",
     "selectedTokenSets": {
       "Global/Primitives": "source",
-      "Brand/Core/Semantic": "enabled",
-      "Brand/Core/Dark": "enabled",
       "Main/Semantic": "enabled",
       "Main/Primary": "enabled",
       "Main/Secondary": "enabled"
@@ -1204,7 +1200,6 @@
     "name": "Tertiary",
     "selectedTokenSets": {
       "Global/Primitives": "source",
-      "Brand/Core/Light": "enabled",
       "Main/Semantic": "enabled",
       "Main/Primary": "enabled",
       "Main/Tertiary": "enabled"
@@ -1678,8 +1673,6 @@
     "name": "Quaternary",
     "selectedTokenSets": {
       "Global/Primitives": "source",
-      "Brand/Core/Semantic": "enabled",
-      "Brand/Core/Light": "enabled",
       "Main/Semantic": "enabled",
       "Main/Primary": "enabled",
       "Main/Quarternary": "enabled"
@@ -2431,15 +2424,13 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/Primitives": "source",
-      "Brand/Core/Light": "enabled",
-      "Brand/Core/Semantic": "enabled",
-      "Purply/Semantic": "enabled"
+      "Purply/Semantic": "enabled",
+      "Purply/Primary": "enabled"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaParentThemeId": "1c45980f52f497a910b99380152f6c1857ff06a1",
     "$figmaMirrorParentSets": false,
-    "group": "Brand/Purply",
     "$figmaCollectionId": "VariableCollectionId:21710:499490",
     "$figmaModeId": "VariableCollectionId:21710:499490/21710:1",
     "$figmaVariableReferences": {
@@ -2863,7 +2854,8 @@
       "Carousel.--carousel-card-border-color": "04dc3a887ade0706e801e96f154b4f677a7491bd",
       "Carousel.--carousel-card-hover-border-color": "acfd862994c3238ad97d5c73e32dc8d0f67aa758",
       "Carousel.--carousel-inactive-dot-color": "151048f0342b52468b7ad10cda5f65cd0abedef0"
-    }
+    },
+    "group": "Brand/Purply"
   },
   {
     "id": "0057caa7acf742ba720046b09e696ffff5cd7746",
@@ -2888,16 +2880,14 @@
     },
     "selectedTokenSets": {
       "Global/Primitives": "source",
-      "Brand/Core/Semantic": "enabled",
-      "Brand/Core/Dark": "enabled",
       "Purply/Semantic": "enabled",
-      "Purply/Primary": "enabled"
+      "Purply/Primary": "enabled",
+      "Purply/Secondary": "enabled"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaParentThemeId": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
     "$figmaMirrorParentSets": false,
-    "group": "Brand/Purply",
     "$figmaCollectionId": "VariableCollectionId:21710:499490",
     "$figmaModeId": "VariableCollectionId:21710:499490/21710:4",
     "$figmaVariableReferences": {
@@ -3311,7 +3301,8 @@
       "Primitive Table.--table-desktop-row-gap": "0afb5de98ce10f71ee960e34dd801eb5d86b2d88",
       "Primitive Table.--table-first-column-max-width": "a0c62ab1a732713265abd34619e86039c18d28cb",
       "Primitive Table.--table-mobile-row-gap": "415263fa2e928bc93b2482c6adbe03229ce6ad43"
-    }
+    },
+    "group": "Brand/Purply"
   },
   {
     "id": "51fdb307261ae5a8afa5fff3459f37c99779c693",
@@ -3319,16 +3310,14 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Global/Primitives": "source",
-      "Brand/Core/Light": "enabled",
-      "Main/Semantic": "enabled",
-      "Main/Primary": "enabled",
-      "Main/Tertiary": "enabled"
+      "Purply/Semantic": "enabled",
+      "Purply/Primary": "enabled",
+      "Purply/Tertiary": "enabled"
     },
-    "group": "Brand/Purply",
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaParentThemeId": "9d9cc6fcfd48febdb4884c2605572a7c6d647a05",
-    "$figmaMirrorParentSets": true,
+    "$figmaMirrorParentSets": false,
     "$figmaCollectionId": "VariableCollectionId:21710:499490",
     "$figmaModeId": "VariableCollectionId:21710:499490/21710:2",
     "$figmaVariableReferences": {
@@ -3722,7 +3711,8 @@
       "Carousel.--carousel-card-border-color": "04dc3a887ade0706e801e96f154b4f677a7491bd",
       "Carousel.--carousel-card-hover-border-color": "acfd862994c3238ad97d5c73e32dc8d0f67aa758",
       "Carousel.--carousel-inactive-dot-color": "151048f0342b52468b7ad10cda5f65cd0abedef0"
-    }
+    },
+    "group": "Brand/Purply"
   },
   {
     "id": "3bb011f237a912f245d41a8470d5ff814514f858",
@@ -3747,17 +3737,14 @@
     },
     "selectedTokenSets": {
       "Global/Primitives": "source",
-      "Brand/Core/Semantic": "enabled",
-      "Brand/Core/Light": "enabled",
-      "Main/Semantic": "enabled",
-      "Main/Primary": "enabled",
-      "Main/Quarternary": "enabled"
+      "Purply/Semantic": "enabled",
+      "Purply/Primary": "enabled",
+      "Purply/Quarternary": "enabled"
     },
-    "group": "Brand/Purply",
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:21745:1568217",
     "$figmaParentThemeId": "a22eb9664fb445a46a938d1277005067ebccc20a",
-    "$figmaMirrorParentSets": true,
+    "$figmaMirrorParentSets": false,
     "$figmaCollectionId": "VariableCollectionId:21710:499490",
     "$figmaModeId": "VariableCollectionId:21710:499490/21710:3",
     "$figmaVariableReferences": {
@@ -4181,6 +4168,7 @@
       "Carousel.--carousel-card-border-color": "04dc3a887ade0706e801e96f154b4f677a7491bd",
       "Carousel.--carousel-card-hover-border-color": "acfd862994c3238ad97d5c73e32dc8d0f67aa758",
       "Carousel.--carousel-inactive-dot-color": "151048f0342b52468b7ad10cda5f65cd0abedef0"
-    }
+    },
+    "group": "Brand/Purply"
   }
 ]

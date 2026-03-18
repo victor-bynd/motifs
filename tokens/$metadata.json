@@ -1,15 +1,18 @@
 {
   "tokenSetOrder": [
     "Global/Primitives",
-    "Brand/Core/Semantic",
-    "Brand/Core/Light",
-    "Brand/Core/Dark",
+    "Core/Semantic",
+    "Core/Light",
+    "Core/Dark",
     "Main/Semantic",
     "Main/Primary",
     "Main/Secondary",
     "Main/Tertiary",
     "Main/Quarternary",
     "Purply/Semantic",
-    "Purply/Primary"
+    "Purply/Primary",
+    "Purply/Secondary",
+    "Purply/Tertiary",
+    "Purply/Quarternary"
   ]
 }
