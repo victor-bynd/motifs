@@ -72,7 +72,7 @@
       "type": "color"
     },
     "--action-text-active-color": {
-      "value": "{Brand.--primary-v100}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--action-indicator-hover-color": {
