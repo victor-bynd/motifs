@@ -13,6 +13,8 @@
     "Snapchat/Primary",
     "Snapchat/Secondary",
     "Snapchat/Tertiary",
-    "Snapchat/Quarternary"
+    "Snapchat/Quarternary",
+    "Spectacles/Semantic",
+    "Spectacles/Primary"
   ]
 }

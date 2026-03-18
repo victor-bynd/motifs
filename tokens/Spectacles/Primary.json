@@ -1,0 +1,42 @@
+{
+  "Root": {
+    "--bg-color": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color"
+    },
+    "--fg-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--action-text-default-color": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "default color for interactive text elements like nav items"
+    },
+    "--action-text-hover-color": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color",
+      "description": "hover color for interactive text elements like nav items"
+    },
+    "--action-text-active-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "active color for interactive text elements like nav items"
+    },
+    "--action-indicator-hover-color": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "hover color for interactive indicator elements like nav items"
+    },
+    "--action-indicator-active-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "active color for interactive indicator elements like nav items"
+    },
+    "--gutter-color": {
+      "value": "{Neutral.--neutral-v250}",
+      "type": "color",
+      "description": ""
+    }
+  }
+}
