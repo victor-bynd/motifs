@@ -1,9 +1,15 @@
 {
   "tokenSetOrder": [
     "Snap Motif/Global",
-    "Snap Motif/Primary",
-    "Snap Motif/Secondary",
-    "Snap Motif/Tertiary",
-    "Snap Motif/Quaternary"
+    "Main/Semantics",
+    "Main/Primary",
+    "Main/Secondary",
+    "Main/Tertiary",
+    "Main/Quaternary",
+    "Greens/Semantics",
+    "Greens/Primary",
+    "Greens/Secondary",
+    "Greens/Tertiary",
+    "Greens/Quaternary"
   ]
 }

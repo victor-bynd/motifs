@@ -7,19 +7,19 @@
   },
   "Button": {
     "--button-primary-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--button-primary-hover-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--button-primary-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--button-primary-fg-color": {
@@ -108,7 +108,7 @@
       "type": "color"
     },
     "--toggle-slider-active-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
@@ -142,13 +142,13 @@
       "type": "color"
     },
     "--progress-bar-progress-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
   "Chart Toggle": {
     "--chart-toggle-buttons-active-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--chart-toggle-buttons-active-color": {
@@ -156,7 +156,7 @@
       "type": "color"
     },
     "--chart-toggle-buttons-active-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
@@ -166,11 +166,11 @@
       "type": "color"
     },
     "--block-navigation-buttons-active-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--block-navigation-buttons-active-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     }
   },
@@ -196,11 +196,11 @@
   },
   "Definition": {
     "--definition-active-bg-color": {
-      "value": "{Primary.--primary-v150}",
+      "value": "{Brand.--primary-v150}",
       "type": "color"
     },
     "--definition-active-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Brand.--primary-v200}",
       "type": "color"
     },
     "--definition-bg-color": {
@@ -208,7 +208,7 @@
       "type": "color"
     },
     "--definition-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Brand.--primary-v200}",
       "type": "color"
     },
     "--definition-hover-bg-color": {
@@ -216,7 +216,7 @@
       "type": "color"
     },
     "--definition-hover-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Brand.--primary-v200}",
       "type": "color"
     }
   },
