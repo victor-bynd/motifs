@@ -137,7 +137,7 @@
       "description": ""
     },
     "--font-family": {
-      "value": "Helvetica",
+      "value": "Ghost Sans",
       "type": "fontFamilies",
       "description": "Paragraphs and smaller text"
     },
