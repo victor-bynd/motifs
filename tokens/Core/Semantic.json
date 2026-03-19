@@ -174,37 +174,37 @@
       "description": ""
     },
     "--font-family": {
-      "value": "Ghost Sans",
+      "value": "Arial",
       "type": "fontFamilies",
       "description": "Paragraphs and smaller text"
     },
     "--h1-font-family": {
-      "value": "Ghost Sans",
+      "value": "Arial",
       "type": "fontFamilies",
       "description": "H1 titles"
     },
     "--h2-font-family": {
-      "value": "Ghost Sans",
+      "value": "Arial",
       "type": "fontFamilies",
       "description": "H2 titles"
     },
     "--h3-font-family": {
-      "value": "Ghost Sans",
+      "value": "Arial",
       "type": "fontFamilies",
       "description": "H3 titles"
     },
     "--h4-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Arial",
       "type": "fontFamilies",
       "description": "H4 titles"
     },
     "--h5-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Arial",
       "type": "fontFamilies",
       "description": "H5 titles"
     },
     "--h6-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Arial",
       "type": "fontFamilies",
       "description": "H6 titles"
     },

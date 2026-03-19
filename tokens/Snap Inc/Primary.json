@@ -129,7 +129,7 @@
       "type": "color"
     },
     "--button-secondary-border-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-secondary-hover-border-color": {
@@ -181,7 +181,7 @@
       "type": "borderWidth"
     },
     "--button-border-radius": {
-      "value": "64px",
+      "value": "0px",
       "type": "borderRadius"
     },
     "--button-hover-shadow": {
@@ -333,7 +333,7 @@
       "type": "fontSizes"
     },
     "--global-header-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "transparent",
       "type": "color"
     }
   },
