@@ -1,7 +1,7 @@
 {
   "Brand": {
     "--primary-v50": {
-      "value": "{Palette.Purple.--palette-purple-v50}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--primary-v100": {
@@ -135,15 +135,15 @@
       "value": "600",
       "type": "fontWeights"
     },
-    "--font-family": {
-      "value": "Inter",
-      "type": "fontFamilies",
-      "description": "Paragraphs and smaller text"
-    },
     "--h1-font-family": {
       "value": "Inter",
       "type": "fontFamilies",
       "description": "H1 titles"
+    },
+    "--font-family": {
+      "value": "Inter",
+      "type": "fontFamilies",
+      "description": "Paragraphs and smaller text"
     },
     "--h2-font-family": {
       "value": "Inter",
@@ -179,15 +179,15 @@
       "type": "lineHeights"
     },
     "--h1-desktop-font-line-height": {
-      "value": "108%",
+      "value": "120%",
       "type": "lineHeights"
     },
     "--h1-mobile-font-line-height": {
-      "value": "108%",
+      "value": "120%",
       "type": "lineHeights"
     },
     "--h2-desktop-font-line-height": {
-      "value": "108%",
+      "value": "120%",
       "type": "lineHeights"
     },
     "--h2-mobile-font-line-height": {
@@ -287,12 +287,12 @@
       "type": "fontSizes"
     },
     "--h1-desktop-font-size": {
-      "value": "104px",
+      "value": "56px",
       "type": "fontSizes",
       "description": "Hero Title without foreground media"
     },
     "--h1-desktop-font-size-compact": {
-      "value": "88px",
+      "value": "48px",
       "type": "fontSizes",
       "description": "Hero Title with foreground media"
     },
@@ -302,7 +302,7 @@
       "description": "Hero Title on mobile"
     },
     "--h2-desktop-font-size": {
-      "value": "64px",
+      "value": "36px",
       "type": "fontSizes",
       "description": "Block Title"
     },
@@ -444,7 +444,7 @@
       "description": ""
     },
     "--h1-desktop-font-text-transform": {
-      "value": "none",
+      "value": "capitalize",
       "type": "textCase"
     },
     "--h2-desktop-font-text-transform": {
@@ -532,7 +532,7 @@
   },
   "Button": {
     "--button-border-radius": {
-      "value": "0px",
+      "value": "64px",
       "type": "borderRadius"
     }
   }
