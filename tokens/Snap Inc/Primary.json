@@ -41,15 +41,15 @@
   },
   "Button": {
     "--button-primary-bg-color": {
-      "value": "{Brand.--primary-v150}",
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--button-primary-hover-bg-color": {
+      "value": "{Neutral.--neutral-v625}",
       "type": "color"
     },
     "--button-primary-border-color": {
       "value": "{Button.--button-primary-bg-color}",
-      "type": "color"
-    },
-    "--button-primary-hover-bg-color": {
-      "value": "{Brand.--primary-v200}",
       "type": "color"
     },
     "--button-primary-hover-border-color": {
@@ -57,31 +57,7 @@
       "type": "color"
     },
     "--button-primary-fg-color": {
-      "value": "{Root.--fg-color}",
-      "type": "color"
-    },
-    "--button-secondary-bg-color": {
       "value": "{Neutral.--neutral-v0}",
-      "type": "color"
-    },
-    "--button-secondary-hover-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color"
-    },
-    "--button-secondary-border-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color"
-    },
-    "--button-secondary-hover-border-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color"
-    },
-    "--button-secondary-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color"
-    },
-    "--button-flat-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-primary-hover-fg-color": {
@@ -89,15 +65,39 @@
       "type": "color",
       "description": ""
     },
+    "--button-secondary-bg-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--button-secondary-hover-bg-color": {
+      "value": "{Neutral.--neutral-v150}",
+      "type": "color"
+    },
+    "--button-secondary-border-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--button-secondary-hover-border-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--button-secondary-fg-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
     "--button-secondary-hover-fg-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color",
       "description": ""
+    },
+    "--button-flat-fg-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Header": {
     "--global-header-bg-color": {
-      "value": "{Brand.--primary-v150}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--global-header-fg-color": {
@@ -217,7 +217,7 @@
       "type": "color"
     },
     "--global-header-border-color": {
-      "value": "transparent",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     }
   },
@@ -318,7 +318,7 @@
   },
   "Break": {
     "--break-shadow-light-color": {
-      "value": "{Brand.--primary-v100}",
+      "value": "{Neutral.--neutral-v400}",
       "type": "color",
       "description": "break shadow color when the bottom block is secondary (black)"
     },
@@ -353,13 +353,13 @@
       "type": "color"
     },
     "--quote-icon-color": {
-      "value": "{Brand.--primary-v100}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     }
   },
   "Footer": {
     "--footer-bg-color": {
-      "value": "{Brand.--primary-v100}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--footer-fg-color": {
@@ -375,7 +375,7 @@
       "type": "color"
     },
     "--footer-bar-bg-color": {
-      "value": "{Brand.--primary-v100}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--footer-bar-fg-color": {
@@ -389,11 +389,11 @@
   },
   "Banner": {
     "--banner-bg-color": {
-      "value": "{Brand.--primary-v100}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--banner-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     }
   },
@@ -797,7 +797,7 @@
       "type": "color"
     },
     "--autocomplete-button-fg-color": {
-      "value": "{Root.--fg-color}",
+      "value": "{Utility.--semantic-focus-color}",
       "type": "color"
     },
     "--autocomplete-button-fg-hover-color": {

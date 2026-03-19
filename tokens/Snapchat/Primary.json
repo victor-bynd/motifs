@@ -41,15 +41,15 @@
   },
   "Button": {
     "--button-primary-bg-color": {
-      "value": "{Brand.--primary-v150}",
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--button-primary-hover-bg-color": {
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--button-primary-border-color": {
       "value": "{Button.--button-primary-bg-color}",
-      "type": "color"
-    },
-    "--button-primary-hover-bg-color": {
-      "value": "{Brand.--primary-v200}",
       "type": "color"
     },
     "--button-primary-hover-border-color": {
@@ -57,8 +57,13 @@
       "type": "color"
     },
     "--button-primary-fg-color": {
-      "value": "{Root.--fg-color}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
+    },
+    "--button-primary-hover-fg-color": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
     },
     "--button-secondary-bg-color": {
       "value": "{Neutral.--neutral-v0}",
@@ -80,24 +85,19 @@
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
-    "--button-flat-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
-      "type": "color"
-    },
-    "--button-primary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color",
-      "description": ""
-    },
     "--button-secondary-hover-fg-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color",
       "description": ""
+    },
+    "--button-flat-fg-color": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
     }
   },
   "Header": {
     "--global-header-bg-color": {
-      "value": "{Brand.--primary-v150}",
+      "value": "{Brand.--primary-v100}",
       "type": "color"
     },
     "--global-header-fg-color": {
@@ -793,7 +793,7 @@
       "type": "color"
     },
     "--autocomplete-button-fg-color": {
-      "value": "{Root.--fg-color}",
+      "value": "{Utility.--semantic-focus-color}",
       "type": "color"
     },
     "--autocomplete-button-fg-hover-color": {

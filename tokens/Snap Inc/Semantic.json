@@ -5,20 +5,20 @@
       "type": "color"
     },
     "--primary-v100": {
-      "value": "{Palette.Purple.--palette-purple-v100}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color",
       "description": "main brand color"
     },
     "--primary-v150": {
-      "value": "{Palette.Purple.--palette-purple-v150}",
+      "value": "{Neutral.--neutral-v200}",
       "type": "color"
     },
     "--primary-v200": {
-      "value": "{Palette.Purple.--palette-purple-v200}",
+      "value": "{Neutral.--neutral-v300}",
       "type": "color"
     },
     "--primary-v250": {
-      "value": "{Palette.Yellow.--palette-yellow-v250}",
+      "value": "{Neutral.--neutral-v500}",
       "type": "color"
     }
   },
