@@ -21,5 +21,11 @@
       "value": "{Neutral.--neutral-v500}",
       "type": "color"
     }
+  },
+  "Button": {
+    "--button-border-radius": {
+      "value": "64px",
+      "type": "borderRadius"
+    }
   }
 }

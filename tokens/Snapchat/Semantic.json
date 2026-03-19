@@ -533,5 +533,11 @@
       "value": "{Palette.Plain.--palette-plain-black}",
       "type": "color"
     }
+  },
+  "Button": {
+    "--button-border-radius": {
+      "value": "64px",
+      "type": "borderRadius"
+    }
   }
 }

@@ -128,13 +128,12 @@
       "type": "fontWeights"
     },
     "--stats-font-weight": {
-      "value": "500",
+      "value": "600",
       "type": "fontWeights"
     },
     "--stats-supplementary-text-font-weight": {
-      "value": "500",
-      "type": "fontWeights",
-      "description": ""
+      "value": "600",
+      "type": "fontWeights"
     },
     "--font-family": {
       "value": "Inter",
@@ -411,13 +410,12 @@
       "description": "Eyebrow in Block headers and Hero component"
     },
     "--stats-font-size": {
-      "value": "120px",
+      "value": "72px",
       "type": "fontSizes"
     },
     "--stats-supplementary-text-font-size": {
-      "value": "80px",
-      "type": "fontSizes",
-      "description": ""
+      "value": "48px",
+      "type": "fontSizes"
     },
     "--action-desktop-font-letter-spacing": {
       "value": "normal",
@@ -446,22 +444,20 @@
       "description": ""
     },
     "--h1-desktop-font-text-transform": {
-      "value": "uppercase",
+      "value": "none",
       "type": "textCase"
     },
     "--h2-desktop-font-text-transform": {
-      "value": "uppercase",
+      "value": "none",
       "type": "textCase"
     },
     "--h1-mobile-font-text-transform": {
-      "value": "uppercase",
-      "type": "textCase",
-      "description": ""
+      "value": "none",
+      "type": "textCase"
     },
     "--h2-mobile-font-text-transform": {
-      "value": "uppercase",
-      "type": "textCase",
-      "description": ""
+      "value": "none",
+      "type": "textCase"
     },
     "--action-desktop-font-text-decoration": {
       "value": "none",
@@ -532,6 +528,12 @@
     "--neutral-v700": {
       "value": "{Palette.Plain.--palette-plain-black}",
       "type": "color"
+    }
+  },
+  "Button": {
+    "--button-border-radius": {
+      "value": "0px",
+      "type": "borderRadius"
     }
   }
 }
