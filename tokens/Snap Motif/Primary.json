@@ -95,6 +95,16 @@
     "--action-indicator-hover-opacity": {
       "value": "0.6",
       "type": "opacity"
+    },
+    "gradient-transparency": {
+      "value": "linear-gradient(270deg, {Root.--bg-color} 0%, {Root.bg-gradient-transparent} 100%)",
+      "type": "color",
+      "description": "Figma only token - Made for gradient overlays with transparency used on Carousel, Tabs, SubNav."
+    },
+    "bg-gradient-transparent": {
+      "value": "rgba( {Root.--bg-color}, 0)",
+      "type": "color",
+      "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
     }
   },
   "Button": {

@@ -377,7 +377,8 @@
       "Cookie Modal Settings.--cookie-settings-category-description-desktop-font-weight": "ff1b366763f8c9786be62fd8673f18b17ea6845a",
       "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-size": "fcae3782bd4837c1ef58706f1b3de097ef6a96d7",
       "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-line-height": "544cc1eb01f57272d8bebff7ee5cfe780e33777e",
-      "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-weight": "25a928022040ae5510688765c0f68fe92dad1114"
+      "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-weight": "25a928022040ae5510688765c0f68fe92dad1114",
+      "Root.bg-gradient-transparent": "558e5da6adb890af67dc01de3f0a6c075115dcab"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:1"
@@ -901,7 +902,8 @@
       "Cookie Modal Settings.--cookie-settings-category-description-desktop-font-weight": "ff1b366763f8c9786be62fd8673f18b17ea6845a",
       "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-size": "fcae3782bd4837c1ef58706f1b3de097ef6a96d7",
       "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-line-height": "544cc1eb01f57272d8bebff7ee5cfe780e33777e",
-      "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-weight": "25a928022040ae5510688765c0f68fe92dad1114"
+      "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-weight": "25a928022040ae5510688765c0f68fe92dad1114",
+      "Root.bg-gradient-transparent": "558e5da6adb890af67dc01de3f0a6c075115dcab"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:2"
@@ -1334,7 +1336,8 @@
       "Cookie Modal Settings.--cookie-settings-category-description-desktop-font-weight": "ff1b366763f8c9786be62fd8673f18b17ea6845a",
       "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-size": "fcae3782bd4837c1ef58706f1b3de097ef6a96d7",
       "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-line-height": "544cc1eb01f57272d8bebff7ee5cfe780e33777e",
-      "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-weight": "25a928022040ae5510688765c0f68fe92dad1114"
+      "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-weight": "25a928022040ae5510688765c0f68fe92dad1114",
+      "Root.bg-gradient-transparent": "558e5da6adb890af67dc01de3f0a6c075115dcab"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3"
@@ -1603,7 +1606,8 @@
       "Autocomplete.--autocomplete-hover-border-color": "S:23067763baca4cef3f6a624a2a3b2f1d58e4d51b,",
       "Quote.--quote-box-shadow": "S:ee7b05cb34cad7a27d3e801eba4108f648db903e,",
       "Cookie Modal Settings.--cookie-modal-box-shadow": "S:cb23ea1e4f55e68563060bdfedd89926f3f5482f,",
-      "Cookie Modal Settings.--cookie-settings-box-shadow": "S:a30886de4467db3fb8523b780775254aad861129,"
+      "Cookie Modal Settings.--cookie-settings-box-shadow": "S:a30886de4467db3fb8523b780775254aad861129,",
+      "Root.gradient-transparency": "S:e0d3c07267eb4978e7bb064e9dd36bf6563eccd0,"
     },
     "$figmaVariableReferences": {
       "Root.--bg-color": "660e70aaa7f8241149f0028509d7ce09ac2751cc",
@@ -1974,7 +1978,8 @@
       "Cookie Modal Settings.--cookie-settings-category-description-desktop-font-weight": "ff1b366763f8c9786be62fd8673f18b17ea6845a",
       "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-size": "fcae3782bd4837c1ef58706f1b3de097ef6a96d7",
       "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-line-height": "544cc1eb01f57272d8bebff7ee5cfe780e33777e",
-      "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-weight": "25a928022040ae5510688765c0f68fe92dad1114"
+      "Cookie Modal Settings.--cookie-settings-category-description-mobile-font-weight": "25a928022040ae5510688765c0f68fe92dad1114",
+      "Root.bg-gradient-transparent": "558e5da6adb890af67dc01de3f0a6c075115dcab"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4"
