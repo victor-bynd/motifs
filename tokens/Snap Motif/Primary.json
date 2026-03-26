@@ -219,7 +219,7 @@
   },
   "Header": {
     "--global-header-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--global-header-fg-color": {
@@ -598,7 +598,7 @@
   },
   "Footer": {
     "--footer-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--footer-fg-color": {
@@ -614,7 +614,7 @@
       "type": "color"
     },
     "--footer-bar-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--footer-bar-fg-color": {
@@ -884,7 +884,7 @@
   },
   "Banner": {
     "--banner-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--banner-fg-color": {
