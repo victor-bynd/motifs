@@ -61,7 +61,7 @@
       "description": ""
     },
     "--bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Primary.--primary-v100}",
       "type": "color"
     },
     "--fg-color": {
@@ -374,7 +374,7 @@
       "description": ""
     },
     "--block-title-de-emphasized-color": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "{Primary.--primary-v250}",
       "type": "color",
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
     },
