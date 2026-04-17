@@ -142,8 +142,7 @@
     },
     "--action-indicator-hover-opacity": {
       "value": "0.6",
-      "type": "opacity",
-      "description": ""
+      "type": "opacity"
     },
     "--text-desktop-font-weight": {
       "value": "400",
@@ -255,8 +254,7 @@
     },
     "--stats-supplementary-text-font-weight": {
       "value": "500",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--font-family": {
       "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
@@ -538,8 +536,7 @@
     },
     "--stats-supplementary-text-font-size": {
       "value": "80px",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--action-desktop-font-letter-spacing": {
       "value": "normal",
@@ -559,13 +556,11 @@
     },
     "--h2-desktop-font-letter-spacing": {
       "value": "0.6px",
-      "type": "letterSpacing",
-      "description": ""
+      "type": "letterSpacing"
     },
     "--h2-mobile-font-letter-spacing": {
       "value": "0.48px",
-      "type": "letterSpacing",
-      "description": ""
+      "type": "letterSpacing"
     },
     "--h1-desktop-font-text-transform": {
       "value": "uppercase",
@@ -577,13 +572,11 @@
     },
     "--h1-mobile-font-text-transform": {
       "value": "uppercase",
-      "type": "textCase",
-      "description": ""
+      "type": "textCase"
     },
     "--h2-mobile-font-text-transform": {
       "value": "uppercase",
-      "type": "textCase",
-      "description": ""
+      "type": "textCase"
     },
     "--action-desktop-font-text-decoration": {
       "value": "none",
@@ -707,8 +700,7 @@
   "Hero": {
     "--hero-title-increased-font-size": {
       "value": "162px",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     }
   },
   "Break": {
@@ -779,8 +771,7 @@
     },
     "--quote-box-shadow": {
       "value": "{Root.--box-shadow-s}",
-      "type": "boxShadow",
-      "description": ""
+      "type": "boxShadow"
     }
   },
   "Dropdown Menu": {
@@ -874,23 +865,19 @@
     },
     "--carousel-card-desktop-text-align": {
       "value": "start",
-      "type": "textAlign",
-      "description": ""
+      "type": "textAlign"
     },
     "--carousel-card-mobile-text-align": {
       "value": "start",
-      "type": "textAlign",
-      "description": ""
+      "type": "textAlign"
     },
     "--carousel-card-desktop-text-padding": {
       "value": "{Root.--spacing-m}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--carousel-card-mobile-text-padding": {
       "value": "{Root.--spacing-m}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     }
   },
   "Banner": {
@@ -1126,13 +1113,11 @@
     },
     "--stats-stat-supplementary-text-font-size": {
       "value": "{Root.--stats-supplementary-text-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--stats-stat-supplementary-text-font-weight": {
       "value": "{Root.--stats-supplementary-text-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     }
   },
   "Footer": {
@@ -1160,208 +1145,167 @@
   "Cookie Modal Settings": {
     "--cookie-modal-body-inline-padding": {
       "value": "{Root.--spacing-xs}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-modal-border-radius": {
       "value": "{Root.--border-radius-m}",
-      "type": "borderRadius",
-      "description": ""
+      "type": "borderRadius"
     },
     "--cookie-modal-border-width": {
       "value": "{Root.--border-width-xs}",
-      "type": "borderWidth",
-      "description": ""
+      "type": "borderWidth"
     },
     "--cookie-modal-box-shadow": {
       "value": "{Root.--box-shadow-l}",
-      "type": "boxShadow",
-      "description": ""
+      "type": "boxShadow"
     },
     "--cookie-modal-logo-opacity": {
       "value": "1",
-      "type": "opacity",
-      "description": ""
+      "type": "opacity"
     },
     "--cookie-modal-min-width": {
       "value": "auto",
-      "type": "sizing",
-      "description": ""
+      "type": "sizing"
     },
     "--cookie-modal-desktop-horizontal-padding": {
       "value": "{Root.--spacing-xl}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-modal-desktop-vertical-padding": {
       "value": "{Root.--spacing-l}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-modal-mobile-horizontal-padding": {
       "value": "{Root.--spacing-s}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-modal-mobile-vertical-padding": {
       "value": "{Root.--spacing-xs}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-modal-rich-text-title-desktop-font-size": {
       "value": "1.17em",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-modal-rich-text-title-desktop-font-line-height": {
       "value": "{Root.--h3-desktop-font-line-height}",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-modal-rich-text-title-desktop-font-weight": {
       "value": "500",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-modal-rich-text-title-mobile-font-size": {
       "value": "1.17em",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-modal-rich-text-title-mobile-font-line-height": {
       "value": "{Root.--h3-mobile-font-line-height}",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-modal-rich-text-title-mobile-font-weight": {
       "value": "500",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-modal-rich-text-base-desktop-font-size": {
       "value": "{Root.--text-desktop-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-modal-rich-text-base-desktop-font-line-height": {
       "value": "26px",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-modal-rich-text-base-desktop-font-weight": {
       "value": "400",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-modal-rich-text-base-mobile-font-size": {
       "value": "{Root.--text-mobile-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-modal-rich-text-base-mobile-font-line-height": {
       "value": "26px",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-modal-rich-text-base-mobile-font-weight": {
       "value": "400",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-settings-box-shadow": {
       "value": "{Root.--box-shadow-l}",
-      "type": "boxShadow",
-      "description": ""
+      "type": "boxShadow"
     },
     "--cookie-settings-max-width": {
       "value": "100%",
-      "type": "sizing",
-      "description": ""
+      "type": "sizing"
     },
     "--cookie-settings-border-width": {
       "value": "{Root.--border-width-xs}",
-      "type": "borderWidth",
-      "description": ""
+      "type": "borderWidth"
     },
     "--cookie-settings-padding": {
       "value": "{Root.--spacing-m}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-settings-category-border-radius": {
       "value": "{Root.--border-radius-m}",
-      "type": "borderRadius",
-      "description": ""
+      "type": "borderRadius"
     },
     "--cookie-settings-category-border-width": {
       "value": "{Root.--border-width-xs}",
-      "type": "borderWidth",
-      "description": ""
+      "type": "borderWidth"
     },
     "--cookie-settings-category-padding": {
       "value": "{Root.--spacing-s}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-settings-category-title-desktop-font-size": {
       "value": "{Root.--p1-desktop-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-settings-category-title-desktop-font-line-height": {
       "value": "{Root.--p1-desktop-font-line-height}",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-settings-category-title-desktop-font-weight": {
       "value": "{Root.--p1-desktop-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-settings-category-title-mobile-font-size": {
       "value": "{Root.--p1-mobile-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-settings-category-title-mobile-font-line-height": {
       "value": "{Root.--p1-mobile-font-line-height}",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-settings-category-title-mobile-font-weight": {
       "value": "{Root.--p1-mobile-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-settings-category-description-desktop-font-size": {
       "value": "{Root.--text-desktop-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-settings-category-description-desktop-font-line-height": {
       "value": "26px",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-settings-category-description-desktop-font-weight": {
       "value": "{Root.--text-desktop-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-settings-category-description-mobile-font-size": {
       "value": "{Root.--text-mobile-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-settings-category-description-mobile-font-line-height": {
       "value": "26px",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-settings-category-description-mobile-font-weight": {
       "value": "{Root.--text-mobile-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     }
   }
 }

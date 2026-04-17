@@ -57,8 +57,7 @@
     },
     "--action-indicator-hover-opacity": {
       "value": "0.6",
-      "type": "opacity",
-      "description": ""
+      "type": "opacity"
     },
     "--text-desktop-font-weight": {
       "value": "400",
@@ -170,8 +169,7 @@
     },
     "--stats-supplementary-text-font-weight": {
       "value": "500",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--font-family": {
       "value": "Arial",
@@ -453,8 +451,7 @@
     },
     "--stats-supplementary-text-font-size": {
       "value": "80px",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--action-desktop-font-letter-spacing": {
       "value": "normal",
@@ -474,13 +471,11 @@
     },
     "--h2-desktop-font-letter-spacing": {
       "value": "0.6px",
-      "type": "letterSpacing",
-      "description": ""
+      "type": "letterSpacing"
     },
     "--h2-mobile-font-letter-spacing": {
       "value": "0.48px",
-      "type": "letterSpacing",
-      "description": ""
+      "type": "letterSpacing"
     },
     "--h1-desktop-font-text-transform": {
       "value": "uppercase",
@@ -492,13 +487,11 @@
     },
     "--h1-mobile-font-text-transform": {
       "value": "uppercase",
-      "type": "textCase",
-      "description": ""
+      "type": "textCase"
     },
     "--h2-mobile-font-text-transform": {
       "value": "uppercase",
-      "type": "textCase",
-      "description": ""
+      "type": "textCase"
     },
     "--action-desktop-font-text-decoration": {
       "value": "none",
@@ -622,8 +615,7 @@
   "Hero": {
     "--hero-title-increased-font-size": {
       "value": "162px",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     }
   },
   "Break": {
@@ -694,8 +686,7 @@
     },
     "--quote-box-shadow": {
       "value": "{Root.--box-shadow-s}",
-      "type": "boxShadow",
-      "description": ""
+      "type": "boxShadow"
     }
   },
   "Dropdown Menu": {
@@ -789,23 +780,19 @@
     },
     "--carousel-card-desktop-text-align": {
       "value": "start",
-      "type": "textAlign",
-      "description": ""
+      "type": "textAlign"
     },
     "--carousel-card-mobile-text-align": {
       "value": "start",
-      "type": "textAlign",
-      "description": ""
+      "type": "textAlign"
     },
     "--carousel-card-desktop-text-padding": {
       "value": "{Root.--spacing-m}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--carousel-card-mobile-text-padding": {
       "value": "{Root.--spacing-m}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     }
   },
   "Banner": {
@@ -1041,13 +1028,11 @@
     },
     "--stats-stat-supplementary-text-font-size": {
       "value": "{Root.--stats-supplementary-text-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--stats-stat-supplementary-text-font-weight": {
       "value": "{Root.--stats-supplementary-text-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     }
   },
   "Brand": {
@@ -1160,208 +1145,414 @@
   "Cookie Modal Settings": {
     "--cookie-modal-body-inline-padding": {
       "value": "{Root.--spacing-xs}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-modal-border-radius": {
       "value": "{Root.--border-radius-m}",
-      "type": "borderRadius",
-      "description": ""
+      "type": "borderRadius"
     },
     "--cookie-modal-border-width": {
       "value": "{Root.--border-width-xs}",
-      "type": "borderWidth",
-      "description": ""
+      "type": "borderWidth"
     },
     "--cookie-modal-box-shadow": {
       "value": "{Root.--box-shadow-l}",
-      "type": "boxShadow",
-      "description": ""
+      "type": "boxShadow"
     },
     "--cookie-modal-logo-opacity": {
       "value": "1",
-      "type": "opacity",
-      "description": ""
+      "type": "opacity"
     },
     "--cookie-modal-min-width": {
       "value": "auto",
-      "type": "sizing",
-      "description": ""
+      "type": "sizing"
     },
     "--cookie-modal-desktop-horizontal-padding": {
       "value": "{Root.--spacing-xl}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-modal-desktop-vertical-padding": {
       "value": "{Root.--spacing-l}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-modal-mobile-horizontal-padding": {
       "value": "{Root.--spacing-s}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-modal-mobile-vertical-padding": {
       "value": "{Root.--spacing-xs}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-modal-rich-text-title-desktop-font-size": {
       "value": "1.17em",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-modal-rich-text-title-desktop-font-line-height": {
       "value": "{Root.--h3-desktop-font-line-height}",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-modal-rich-text-title-desktop-font-weight": {
       "value": "500",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-modal-rich-text-title-mobile-font-size": {
       "value": "1.17em",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-modal-rich-text-title-mobile-font-line-height": {
       "value": "{Root.--h3-mobile-font-line-height}",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-modal-rich-text-title-mobile-font-weight": {
       "value": "500",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-modal-rich-text-base-desktop-font-size": {
       "value": "{Root.--text-desktop-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-modal-rich-text-base-desktop-font-line-height": {
       "value": "26px",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-modal-rich-text-base-desktop-font-weight": {
       "value": "400",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-modal-rich-text-base-mobile-font-size": {
       "value": "{Root.--text-mobile-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-modal-rich-text-base-mobile-font-line-height": {
       "value": "26px",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-modal-rich-text-base-mobile-font-weight": {
       "value": "400",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-settings-box-shadow": {
       "value": "{Root.--box-shadow-l}",
-      "type": "boxShadow",
-      "description": ""
+      "type": "boxShadow"
     },
     "--cookie-settings-max-width": {
       "value": "100%",
-      "type": "sizing",
-      "description": ""
+      "type": "sizing"
     },
     "--cookie-settings-border-width": {
       "value": "{Root.--border-width-xs}",
-      "type": "borderWidth",
-      "description": ""
+      "type": "borderWidth"
     },
     "--cookie-settings-padding": {
       "value": "{Root.--spacing-m}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-settings-category-border-radius": {
       "value": "{Root.--border-radius-m}",
-      "type": "borderRadius",
-      "description": ""
+      "type": "borderRadius"
     },
     "--cookie-settings-category-border-width": {
       "value": "{Root.--border-width-xs}",
-      "type": "borderWidth",
-      "description": ""
+      "type": "borderWidth"
     },
     "--cookie-settings-category-padding": {
       "value": "{Root.--spacing-s}",
-      "type": "spacing",
-      "description": ""
+      "type": "spacing"
     },
     "--cookie-settings-category-title-desktop-font-size": {
       "value": "{Root.--p1-desktop-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-settings-category-title-desktop-font-line-height": {
       "value": "{Root.--p1-desktop-font-line-height}",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-settings-category-title-desktop-font-weight": {
       "value": "{Root.--p1-desktop-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-settings-category-title-mobile-font-size": {
       "value": "{Root.--p1-mobile-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-settings-category-title-mobile-font-line-height": {
       "value": "{Root.--p1-mobile-font-line-height}",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-settings-category-title-mobile-font-weight": {
       "value": "{Root.--p1-mobile-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-settings-category-description-desktop-font-size": {
       "value": "{Root.--text-desktop-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-settings-category-description-desktop-font-line-height": {
       "value": "26px",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-settings-category-description-desktop-font-weight": {
       "value": "{Root.--text-desktop-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
     },
     "--cookie-settings-category-description-mobile-font-size": {
       "value": "{Root.--text-mobile-font-size}",
-      "type": "fontSizes",
-      "description": ""
+      "type": "fontSizes"
     },
     "--cookie-settings-category-description-mobile-font-line-height": {
       "value": "26px",
-      "type": "lineHeights",
-      "description": ""
+      "type": "lineHeights"
     },
     "--cookie-settings-category-description-mobile-font-weight": {
       "value": "{Root.--text-mobile-font-weight}",
-      "type": "fontWeights",
-      "description": ""
+      "type": "fontWeights"
+    }
+  },
+  "Semantic": {
+    "--color-surface-page": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "Previously Root.--bg-color (light). Main block/section background."
+    },
+    "--color-surface-raised": {
+      "value": "{Neutral.--neutral-v100}",
+      "type": "color",
+      "description": "New role. Cards, side overlay, autocomplete bg — one step above page surface."
+    },
+    "--color-surface-sunken": {
+      "value": "{Neutral.--neutral-v150}",
+      "type": "color",
+      "description": "New role. Form inputs, table headers, nav overlay links area — one step below page surface."
+    },
+    "--color-surface-overlay": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "New role. Dropdown menu, header dropdown panel, cookie modal — floating surfaces."
+    },
+    "--color-surface-accent": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color",
+      "description": "New role. Brand-colored surface. Header in Primary mode, active block nav bg."
+    },
+    "--color-surface-accent-subtle": {
+      "value": "{Brand.--primary-v50}",
+      "type": "color",
+      "description": "New role. Light brand-tinted surface. Definition popup bg, topic hover bg in light."
+    },
+    "--color-surface-accent-mid": {
+      "value": "{Brand.--primary-v150}",
+      "type": "color",
+      "description": "New role. Mid brand-tinted surface. Definition active bg in light modes."
+    },
+    "--color-gutter": {
+      "value": "{Neutral.--neutral-v250}",
+      "type": "color",
+      "description": "Previously Root.--gutter-color (light). Column gutters, horizontal dividers."
+    },
+    "--color-fg-default": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Previously Root.--fg-color (light). Main body text, headings, icons on light surface."
+    },
+    "--color-fg-muted": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "New role. Subtitles, eyebrow labels, chart toggle text, form description."
+    },
+    "--color-fg-subtle": {
+      "value": "{Neutral.--neutral-v400}",
+      "type": "color",
+      "description": "New role. Input placeholders, progress bar, very low-emphasis text."
+    },
+    "--color-fg-accent": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color",
+      "description": "New role. Emphasized text, stats numbers, animated accordion progress indicator."
+    },
+    "--color-fg-de-emphasized": {
+      "value": "{Brand.--primary-v250}",
+      "type": "color",
+      "description": "New role. De-emphasized portion within a hero or block title headline."
+    },
+    "--color-fg-on-accent": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "New role. Text and icons placed on a brand-colored (accent) surface."
+    },
+    "--color-fg-inverse": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "New role. Text on inverted dark surfaces in a light context — footnote title, curtain hero."
+    },
+    "--color-action-default": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "Previously Root.--action-text-default-color (light). Nav items, tabs, pagination default."
+    },
+    "--color-action-hover": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color",
+      "description": "Previously Root.--action-text-hover-color (light). Interactive text on hover."
+    },
+    "--color-action-active": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Previously Root.--action-text-active-color (light). Active/selected interactive text."
+    },
+    "--color-action-indicator-hover": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "Previously Root.--action-indicator-hover-color (light). Underlines, dots on nav/tab hover."
+    },
+    "--color-action-indicator-active": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Previously Root.--action-indicator-active-color (light). Active indicator elements."
+    },
+    "--color-border-default": {
+      "value": "{Neutral.--neutral-v200}",
+      "type": "color",
+      "description": "New role. General component borders — carousel cards, form inputs, overlays, table."
+    },
+    "--color-border-subtle": {
+      "value": "{Neutral.--neutral-v150}",
+      "type": "color",
+      "description": "New role. Softer dividers — header menu panel, nav screen links, cookie settings rows."
+    },
+    "--color-border-strong": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "New role. High-contrast borders — secondary button border in Tertiary, definition active."
+    },
+    "--color-border-accent": {
+      "value": "{Brand.--primary-v200}",
+      "type": "color",
+      "description": "New role. Brand-colored border — definition popup borders, active block nav border."
+    },
+    "--color-border-hover": {
+      "value": "{Neutral.--neutral-v400}",
+      "type": "color",
+      "description": "New role. Input and autocomplete border on hover state."
+    },
+    "--color-divider-footer": {
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color",
+      "description": "New role. Footer section dividers — footer-border-color, footer-divider-border-color."
+    },
+    "--color-header-bg": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "Previously Header.--global-header-bg-color (light). Overridden per mode (Primary = brand-v100, Secondary = neutral-v700)."
+    },
+    "--color-header-fg": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color",
+      "description": "Previously Header.--global-header-fg-color (light). Header text and icon color."
+    },
+    "--color-header-menu-bg": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "Previously Header.--global-header-menu-bg-color (light). Header dropdown panel background."
+    },
+    "--color-header-menu-border": {
+      "value": "{Neutral.--neutral-v150}",
+      "type": "color",
+      "description": "Previously Header.--global-header-menu-border-color (light). Header dropdown panel border."
+    },
+    "--color-header-screen-bg": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "Previously Header.--global-header-nav-screen-bg-color (light). Mobile nav screen background."
+    },
+    "--color-header-screen-fg": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color",
+      "description": "Previously Header.--global-header-nav-screen-fg-color (light). Mobile nav screen text."
+    },
+    "--color-header-screen-links-bg": {
+      "value": "{Neutral.--neutral-v150}",
+      "type": "color",
+      "description": "Previously Header.--global-header-nav-screen-global-links-bg-color (light). Mobile nav links section background."
+    },
+    "--color-footnote-fg": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "Previously Footnote.--footnote-fg-color (light). Footnote tooltip body text."
+    },
+    "--color-footnote-border": {
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color",
+      "description": "Previously Footnote.--footnote-border-color (light). Footnote tooltip border."
+    },
+    "--color-footnote-title": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "Previously Footnote.--footnote-title-color. Footnote title — always on dark bg."
+    },
+    "--color-banner-bg": {
+      "value": "{Neutral.--neutral-v100}",
+      "type": "color",
+      "description": "Previously Ai Localization Banner.--banner-ai-bg-color (light). AI banner and cookie modal background."
+    },
+    "--color-banner-fg": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "Previously Ai Localization Banner.--banner-ai-fg-color (light). AI banner foreground text."
+    },
+    "--color-break-shadow-light": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color",
+      "description": "Previously Break.--break-shadow-light-color. Break shadow when block below is Secondary (black)."
+    },
+    "--color-break-shadow-dark": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Previously Break.--break-shadow-dark-color. Break shadow when block below is Primary, Tertiary, or Quaternary."
+    },
+    "--color-focus": {
+      "value": "{Utility.--semantic-focus-color}",
+      "type": "color",
+      "description": "Previously Utility.--semantic-focus-color (direct alias). Focus ring — always references Utility for WCAG."
+    },
+    "--color-error": {
+      "value": "{Utility.--semantic-error-color}",
+      "type": "color",
+      "description": "Previously Utility.--semantic-error-color (direct alias). Form validation error."
+    },
+    "--color-skeleton-bg": {
+      "value": "{Neutral.--neutral-v100}",
+      "type": "color",
+      "description": "Previously Chart Skeleton.--chart-skeleton-bg-color (light). Skeleton base fill."
+    },
+    "--color-skeleton-shimmer-dark": {
+      "value": "{Neutral.--neutral-v200}",
+      "type": "color",
+      "description": "Previously Chart Skeleton.--chart-skeleton-dark-animation-color (light). Dark shimmer animation."
+    },
+    "--color-skeleton-shimmer-light": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "Previously Chart Skeleton.--chart-skeleton-light-animation-color (light). Light shimmer highlight."
+    },
+    "--color-loading-start": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color",
+      "description": "New role. Loading bar left/start color."
+    },
+    "--color-loading-end": {
+      "value": "{Brand.--primary-v250}",
+      "type": "color",
+      "description": "New role. Loading bar right/end color."
+    },
+    "--color-surface-constant-light": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "New role. Surface that stays white regardless of color mode — for elements that need to remain light even on dark backgrounds (e.g. secondary button bg)."
+    },
+    "--color-fg-constant-dark": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "New role. Foreground/text that stays black/dark regardless of color mode — pairs with --color-surface-constant-light."
     }
   }
 }

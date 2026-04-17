@@ -435,13 +435,11 @@
     },
     "--h2-desktop-font-letter-spacing": {
       "value": "0.6px",
-      "type": "letterSpacing",
-      "description": ""
+      "type": "letterSpacing"
     },
     "--h2-mobile-font-letter-spacing": {
       "value": "0.48px",
-      "type": "letterSpacing",
-      "description": ""
+      "type": "letterSpacing"
     },
     "--h1-desktop-font-text-transform": {
       "value": "capitalize",

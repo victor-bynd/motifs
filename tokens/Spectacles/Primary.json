@@ -1,60 +1,46 @@
 {
-  "Root": {
-    "--bg-color": {
+  "Semantic": {
+    "--color-surface-page": {
       "value": "{Brand.--primary-v100}",
       "type": "color"
     },
-    "--fg-color": {
+    "--color-fg-default": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
-    "--action-text-default-color": {
+    "--color-action-default": {
       "value": "{Neutral.--neutral-v500}",
       "type": "color",
       "description": "default color for interactive text elements like nav items"
     },
-    "--action-text-hover-color": {
+    "--color-action-hover": {
       "value": "{Neutral.--neutral-v600}",
       "type": "color",
       "description": "hover color for interactive text elements like nav items"
     },
-    "--action-text-active-color": {
+    "--color-action-active": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color",
       "description": "active color for interactive text elements like nav items"
     },
-    "--action-indicator-hover-color": {
+    "--color-action-indicator-hover": {
       "value": "{Neutral.--neutral-v500}",
       "type": "color",
       "description": "hover color for interactive indicator elements like nav items"
     },
-    "--action-indicator-active-color": {
+    "--color-action-indicator-active": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color",
       "description": "active color for interactive indicator elements like nav items"
     },
-    "--gutter-color": {
+    "--color-gutter": {
       "value": "{Neutral.--neutral-v250}",
-      "type": "color",
-      "description": ""
+      "type": "color"
     }
   },
   "Block": {
     "--block-title-color": {
       "value": "#327fec",
-      "type": "color"
-    },
-    "--block-title-de-emphasized-color": {
-      "value": "{Brand.--primary-v250}",
-      "type": "color",
-      "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
-    },
-    "--block-subtitle-color": {
-      "value": "{Root.--fg-color}",
-      "type": "color"
-    },
-    "--block-eyebrow-color": {
-      "value": "{Root.--fg-color}",
       "type": "color"
     }
   }
