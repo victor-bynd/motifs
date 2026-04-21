@@ -17,12 +17,12 @@
       "description": "Was {Brand.--primary-v100}"
     },
     "--button-primary-border-color": {
-      "value": "{Semantic.--color-border-accent}",
+      "value": "{Semantic.--color-surface-accent}",
       "type": "color",
       "description": "Was {Brand.--primary-v100}"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Semantic.--color-border-accent}",
+      "value": "{Semantic.--color-surface-accent}",
       "type": "color",
       "description": "Was {Brand.--primary-v100}"
     },

@@ -32,5 +32,22 @@
       "value": "{Neutral.--neutral-v650}",
       "type": "color"
     }
+  },
+  "Button": {
+    "--button-secondary-fg-color": {
+      "value": "{Semantic.--color-fg-default}",
+      "type": "color",
+      "description": "Was {Semantic.--color-fg-default}"
+    },
+    "--button-secondary-bg-color": {
+      "value": "{Semantic.--color-fg-constant-dark}",
+      "type": "color",
+      "description": "Was {Semantic.--color-surface-page}"
+    },
+    "--button-secondary-border-color": {
+      "value": "{Semantic.--color-surface-constant-light}",
+      "type": "color",
+      "description": "Was {Semantic.--color-surface-page}"
+    }
   }
 }

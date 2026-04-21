@@ -1,94 +1,23 @@
 {
   "Semantic": {
     "--color-surface-page": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v150}",
       "type": "color"
     }
   },
-  "Button": {
-    "--button-primary-bg-color": {
-      "value": "{Semantic.--color-surface-accent}",
-      "type": "color",
-      "description": "Was {Brand.--primary-v100}"
-    },
-    "--button-primary-hover-bg-color": {
-      "value": "{Semantic.--color-surface-accent}",
-      "type": "color",
-      "description": "Was {Brand.--primary-v100}"
-    },
-    "--button-primary-border-color": {
-      "value": "{Semantic.--color-border-accent}",
-      "type": "color",
-      "description": "Was {Brand.--primary-v100}"
-    },
-    "--button-primary-hover-border-color": {
-      "value": "{Semantic.--color-border-accent}",
-      "type": "color",
-      "description": "Was {Brand.--primary-v100}"
-    },
-    "--button-primary-fg-color": {
-      "value": "{Semantic.--color-fg-default}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v700}"
-    },
-    "--button-secondary-bg-color": {
-      "value": "{Semantic.--color-fg-default}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v700}"
-    },
-    "--button-secondary-hover-bg-color": {
-      "value": "{Semantic.--color-fg-default}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v700}"
-    },
-    "--button-secondary-border-color": {
-      "value": "{Semantic.--color-border-strong}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v700}"
-    },
-    "--button-secondary-hover-border-color": {
-      "value": "{Semantic.--color-border-strong}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v700}"
-    },
-    "--button-secondary-fg-color": {
+  "Header": {
+    "--global-header-bg-color": {
       "value": "{Semantic.--color-fg-inverse}",
       "type": "color",
       "description": "Was {Neutral.--neutral-v0}"
-    },
-    "--button-primary-hover-fg-color": {
-      "value": "{Semantic.--color-fg-default}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v700}"
-    },
-    "--button-secondary-hover-fg-color": {
-      "value": "{Semantic.--color-fg-inverse}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v0}"
-    }
-  },
-  "Block": {
-    "--block-title-de-emphasized-color": {
-      "value": "{Semantic.--color-fg-subtle}",
-      "type": "color",
-      "description": "color for de-emphasized text, applicable only on H1 and H2 (optional) | Was {Neutral.--neutral-v400}"
-    }
-  },
-  "Hero": {
-    "--hero-title-de-emphasized-color": {
-      "value": "{Semantic.--color-fg-subtle}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v400}"
-    }
-  },
-  "Quote": {
-    "--quote-bg-color": {
-      "value": "{Semantic.--color-surface-sunken}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v150}"
     }
   },
   "Footer": {
+    "--footer-bg-color": {
+      "value": "{Semantic.--color-surface-sunken}",
+      "type": "color",
+      "description": "Was {Neutral.--neutral-v150}"
+    },
     "--footer-border-color": {
       "value": "{Semantic.--color-divider-footer}",
       "type": "color",
@@ -105,16 +34,16 @@
       "description": "Was {Neutral.--neutral-v150}"
     },
     "--footer-bar-divider-border-color": {
-      "value": "{Semantic.--color-border-subtle}",
+      "value": "{Semantic.--color-divider-footer}",
       "type": "color",
-      "description": "Was {Neutral.--neutral-v150}"
+      "description": "Was {Neutral.--neutral-v300}"
     }
   },
   "Toggle Slider": {
     "--toggle-slider-bg-color": {
-      "value": "{Semantic.--color-fg-muted}",
+      "value": "{Semantic.--color-fg-default}",
       "type": "color",
-      "description": "Was {Neutral.--neutral-v500}"
+      "description": "Was {Neutral.--neutral-v700}"
     },
     "--toggle-slider-active-color": {
       "value": "{Semantic.--color-fg-accent}",
@@ -122,18 +51,32 @@
       "description": "Was {Brand.--primary-v100}"
     }
   },
+  "Toggle Button": {
+    "--toggle-button-color": {
+      "value": "{Semantic.--color-fg-inverse}",
+      "type": "color",
+      "description": "Was {Neutral.--neutral-v0}"
+    }
+  },
   "Accordion": {
     "--accordion-divider-border-color": {
-      "value": "{Semantic.--color-border-default}",
+      "value": "{Semantic.--color-divider-footer}",
       "type": "color",
-      "description": "Was {Neutral.--neutral-v250}"
+      "description": "Was {Neutral.--neutral-v300}"
+    }
+  },
+  "Banner": {
+    "--banner-bg-color": {
+      "value": "{Semantic.--color-surface-sunken}",
+      "type": "color",
+      "description": "Was {Neutral.--neutral-v150}"
     }
   },
   "Side Navigation": {
     "--side-navigation-mobile-bg-color": {
-      "value": "{Semantic.--color-surface-raised}",
+      "value": "{Semantic.--color-border-default}",
       "type": "color",
-      "description": "Was {Neutral.--neutral-v100}"
+      "description": "Was {Neutral.--neutral-v200}"
     }
   },
   "Form": {
@@ -144,47 +87,8 @@
     }
   },
   "Progress Bar": {
-    "--progress-bar-bg-color": {
-      "value": "{Semantic.--color-gutter}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v250}"
-    },
     "--progress-bar-progress-color": {
       "value": "{Semantic.--color-fg-accent}",
-      "type": "color",
-      "description": "Was {Brand.--primary-v100}"
-    }
-  },
-  "Chart Toggle": {
-    "--chart-toggle-buttons-active-bg-color": {
-      "value": "{Semantic.--color-surface-accent}",
-      "type": "color",
-      "description": "Was {Brand.--primary-v100}"
-    },
-    "--chart-toggle-buttons-active-color": {
-      "value": "{Semantic.--color-fg-default}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v700}"
-    },
-    "--chart-toggle-buttons-active-border-color": {
-      "value": "{Semantic.--color-border-accent}",
-      "type": "color",
-      "description": "Was {Brand.--primary-v100}"
-    }
-  },
-  "Block Navigation": {
-    "--block-navigation-buttons-active-color": {
-      "value": "{Semantic.--color-fg-default}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v700}"
-    },
-    "--block-navigation-buttons-active-border-color": {
-      "value": "{Semantic.--color-border-accent}",
-      "type": "color",
-      "description": "Was {Brand.--primary-v100}"
-    },
-    "--block-navigation-buttons-active-bg-color": {
-      "value": "{Semantic.--color-surface-accent}",
       "type": "color",
       "description": "Was {Brand.--primary-v100}"
     }
@@ -204,12 +108,19 @@
     "--table-border-color": {
       "value": "{Semantic.--color-border-default}",
       "type": "color",
-      "description": "Was {Neutral.--neutral-v200}"
+      "description": "Was {Neutral.--neutral-v250}"
     },
     "--table-cell-header-bg-color": {
-      "value": "{Semantic.--color-border-default}",
+      "value": "{Semantic.--color-gutter}",
       "type": "color",
-      "description": "Was {Neutral.--neutral-v200}"
+      "description": "Was {Neutral.--neutral-v250}"
+    }
+  },
+  "Autocomplete": {
+    "--autocomplete-border-color": {
+      "value": "{Semantic.--color-divider-footer}",
+      "type": "color",
+      "description": "Was {Neutral.--neutral-v300}"
     }
   },
   "Definition": {
@@ -244,18 +155,11 @@
       "description": "Was {Brand.--primary-v200}"
     }
   },
-  "Side Overlay": {
-    "--side-overlay-border-color": {
-      "value": "{Semantic.--color-border-default}",
-      "type": "color",
-      "description": "Was {Neutral.--neutral-v200}"
-    }
-  },
   "Topic": {
     "--topic-hover-bg-color": {
-      "value": "{Semantic.--color-surface-sunken}",
+      "value": "{Semantic.--color-gutter}",
       "type": "color",
-      "description": "Was {Neutral.--neutral-v150}"
+      "description": "Was {Neutral.--neutral-v250}"
     }
   }
 }
