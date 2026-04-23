@@ -1,0 +1,36 @@
+{
+  "Semantic": {
+    "--color-surface-page": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--color-fg-default": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--color-action-default": {
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color"
+    },
+    "--color-action-hover": {
+      "value": "{Neutral.--neutral-v200}",
+      "type": "color"
+    },
+    "--color-action-active": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color"
+    },
+    "--color-action-indicator-hover": {
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color"
+    },
+    "--color-action-indicator-active": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--color-gutter": {
+      "value": "{Neutral.--neutral-v650}",
+      "type": "color"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "Semantic": {
+    "--color-surface-page": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Dark mode value. Was Root.--bg-color."
+    },
+    "--color-surface-raised": {
+      "value": "{Neutral.--neutral-v625}",
+      "type": "color",
+      "description": "Dark mode value."
+    },
+    "--color-surface-sunken": {
+      "value": "{Neutral.--neutral-v650}",
+      "type": "color",
+      "description": "Dark mode value."
+    },
+    "--color-surface-overlay": {
+      "value": "{Neutral.--neutral-v650}",
+      "type": "color",
+      "description": "Dark mode value."
+    },
+    "--color-gutter": {
+      "value": "{Neutral.--neutral-v650}",
+      "type": "color",
+      "description": "Dark mode value. Was Root.--gutter-color."
+    },
+    "--color-fg-default": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "Dark mode value. Was Root.--fg-color."
+    },
+    "--color-fg-muted": {
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color",
+      "description": "Dark mode value."
+    },
+    "--color-fg-subtle": {
+      "value": "{Neutral.--neutral-v400}",
+      "type": "color",
+      "description": "Dark mode value."
+    },
+    "--color-fg-strong": {
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color"
+    },
+    "--color-fg-inverse": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Dark mode value."
+    },
+    "--color-action-default": {
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color",
+      "description": "Dark mode value. Was Root.--action-text-default-color."
+    },
+    "--color-action-hover": {
+      "value": "{Neutral.--neutral-v200}",
+      "type": "color",
+      "description": "Dark mode value. Was Root.--action-text-hover-color."
+    },
+    "--color-action-active": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color",
+      "description": "Dark mode value. Was Root.--action-text-active-color."
+    },
+    "--color-action-indicator-hover": {
+      "value": "{Neutral.--neutral-v300}",
+      "type": "color",
+      "description": "Dark mode value. Was Root.--action-indicator-hover-color."
+    },
+    "--color-action-indicator-active": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "Dark mode value. Was Root.--action-indicator-active-color."
+    },
+    "--color-border-default": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color",
+      "description": "Dark mode value."
+    },
+    "--color-border-subtle": {
+      "value": "{Neutral.--neutral-v625}",
+      "type": "color",
+      "description": "Dark mode value."
+    },
+    "--color-border-muted": {
+      "value": "{Neutral.--neutral-v600}",
+      "type": "color"
+    },
+    "--color-skeleton-bg": {
+      "value": "{Neutral.--neutral-v625}",
+      "type": "color",
+      "description": "Dark mode value."
+    },
+    "--color-skeleton-shimmer-dark": {
+      "value": "{Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "Dark mode value."
+    },
+    "--color-skeleton-shimmer-light": {
+      "value": "{Neutral.--neutral-v400}",
+      "type": "color",
+      "description": "Dark mode value."
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Semantic": {
+    "--color-surface-page": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  }
+}
