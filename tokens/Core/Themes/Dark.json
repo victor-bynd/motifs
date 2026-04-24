@@ -20,6 +20,26 @@
       "type": "color",
       "description": "Dark mode value."
     },
+    "--color-surface-accent": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-surface-accent-subtle": {
+      "value": "{Brand.--primary-v50}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-surface-accent-mid": {
+      "value": "{Brand.--primary-v150}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-surface-on-accent": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Light mode value."
+    },
     "--color-gutter": {
       "value": "{Neutral.--neutral-v650}",
       "type": "color",
@@ -39,6 +59,16 @@
       "value": "{Neutral.--neutral-v400}",
       "type": "color",
       "description": "Dark mode value."
+    },
+    "--color-fg-accent": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-fg-de-emphasized": {
+      "value": "{Brand.--primary-v250}",
+      "type": "color",
+      "description": "Light mode value."
     },
     "--color-fg-strong": {
       "value": "{Neutral.--neutral-v300}",
@@ -88,6 +118,41 @@
       "value": "{Neutral.--neutral-v600}",
       "type": "color"
     },
+    "--color-border-strong": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-border-accent": {
+      "value": "{Brand.--primary-v200}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-border-hover": {
+      "value": "{Neutral.--neutral-v400}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-break-shadow-light": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-break-shadow-dark": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-focus": {
+      "value": "{Utility.--semantic-focus-color}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-error": {
+      "value": "{Utility.--semantic-error-color}",
+      "type": "color",
+      "description": "Light mode value."
+    },
     "--color-skeleton-bg": {
       "value": "{Neutral.--neutral-v625}",
       "type": "color",
@@ -102,6 +167,37 @@
       "value": "{Neutral.--neutral-v400}",
       "type": "color",
       "description": "Dark mode value."
+    },
+    "--color-loading-start": {
+      "value": "{Brand.--primary-v100}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-loading-end": {
+      "value": "{Brand.--primary-v250}",
+      "type": "color",
+      "description": "Light mode value."
+    },
+    "--color-fg-constant-dark": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--color-fg-constant-light": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--color-surface-constant-light": {
+      "value": "{Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--color-surface-constant-dark": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--color-surface-onaccent": {
+      "value": "{Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Light mode value."
     }
   }
 }

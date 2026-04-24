@@ -5,7 +5,7 @@
       "type": "color"
     },
     "--button-primary-bg-color": {
-      "value": "{Semantic.--color-fg-default}",
+      "value": "{Semantic.--color-surface-on-accent}",
       "type": "color"
     },
     "--button-primary-border-color": {
@@ -25,7 +25,7 @@
       "type": "color"
     },
     "--button-secondary-fg-color": {
-      "value": "{Semantic.--color-fg-constant-light}",
+      "value": "{Semantic.--color-fg-default}",
       "type": "color",
       "description": "Was {Semantic.--color-fg-default}"
     },

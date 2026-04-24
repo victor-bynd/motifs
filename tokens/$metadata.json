@@ -1,15 +1,15 @@
 {
   "tokenSetOrder": [
-    "Global/Primitives",
-    "Core/Colors",
+    "Global/Global",
+    "Component/Colors",
+    "Component/Dimensions",
+    "Core/BrandColors",
     "Core/Themes/Light",
     "Core/Themes/Dark",
-    "Core/Component/Colors",
-    "Core/Component/Dimensions",
-    "Snapchat/Colors",
+    "Snapchat/BrandColors",
     "Snapchat/Themes/Primary",
     "Snapchat/Themes/Secondary",
     "Snapchat/Themes/Tertiary",
-    "Snapchat/Themes/Quarternary"
+    "Snapchat/Themes/Quaternary"
   ]
 }
