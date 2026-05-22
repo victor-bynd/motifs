@@ -185,27 +185,27 @@
       "type": "fontWeights"
     },
     "--button-regular-padding": {
-      "value": "11px 31px",
+      "value": "16px 24px",
       "type": "spacing"
     },
     "--button-compact-padding": {
-      "value": "7px 15px",
+      "value": "8px 12px",
       "type": "spacing"
     },
     "--button-border-width": {
-      "value": "2px",
+      "value": "{Root.--border-width-xs}",
       "type": "borderWidth"
     },
     "--button-border-radius": {
-      "value": "0",
+      "value": "0px",
       "type": "borderRadius"
     },
     "--button-hover-shadow": {
-      "value": "{Root.--box-shadow-l}",
+      "value": "0px",
       "type": "boxShadow"
     },
     "--button-active-shadow": {
-      "value": "{Root.--box-shadow-m}",
+      "value": "0px",
       "type": "boxShadow"
     },
     "--button-primary-hover-fg-color": {
@@ -576,23 +576,23 @@
       "type": "color"
     },
     "--quote-author-desktop-font-size": {
-      "value": "16px",
+      "value": "{Root.--p3-desktop-font-size}",
       "type": "fontSizes"
     },
     "--quote-author-desktop-font-weight": {
-      "value": "500",
+      "value": "{Root.--p3-desktop-font-weight}",
       "type": "fontWeights"
     },
     "--quote-author-mobile-font-size": {
-      "value": "16px",
+      "value": "{Root.--p3-mobile-font-size}",
       "type": "fontSizes"
     },
     "--quote-author-mobile-font-weight": {
-      "value": "500",
+      "value": "{Root.--p3-mobile-font-weight}",
       "type": "fontWeights"
     },
     "--quote-box-shadow": {
-      "value": "{Root.--box-shadow-s}",
+      "value": "none",
       "type": "boxShadow"
     }
   },
@@ -808,7 +808,7 @@
       "type": "borderRadius"
     },
     "--carousel-card-box-shadow": {
-      "value": "{Root.--box-shadow-s}",
+      "value": "none",
       "type": "boxShadow"
     },
     "--carousel-card-hover-box-shadow": {
@@ -1040,7 +1040,7 @@
       "type": "color"
     },
     "--summary-card-box-shadow": {
-      "value": "{Root.--box-shadow-s}",
+      "value": "none",
       "type": "boxShadow"
     },
     "--summary-card-hover-box-shadow": {
@@ -1160,7 +1160,7 @@
   },
   "Icon Button": {
     "--icon-button-border-width": {
-      "value": "2px",
+      "value": "{Root.--border-width-xs}",
       "type": "borderWidth"
     },
     "--icon-button-fg-color": {
@@ -1288,7 +1288,7 @@
       "type": "fontSizes"
     },
     "--form-input-desktop-font-line-height": {
-      "value": "normal",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--form-input-desktop-font-weight": {

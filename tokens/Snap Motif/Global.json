@@ -91,11 +91,11 @@
       "description": "Paragraphs and smaller text"
     },
     "--text-desktop-font-size": {
-      "value": "18px",
+      "value": "14px",
       "type": "fontSizes"
     },
     "--text-desktop-font-line-height": {
-      "value": "24px",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--text-desktop-font-weight": {
@@ -103,11 +103,11 @@
       "type": "fontWeights"
     },
     "--text-mobile-font-size": {
-      "value": "16px",
+      "value": "14px",
       "type": "fontSizes"
     },
     "--text-mobile-font-line-height": {
-      "value": "120%",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--text-mobile-font-weight": {
@@ -120,34 +120,34 @@
       "description": "H1 titles"
     },
     "--h1-desktop-font-size": {
-      "value": "104px",
+      "value": "24px",
       "type": "fontSizes",
       "description": "Hero Title without foreground media"
     },
     "--h1-desktop-font-size-compact": {
-      "value": "88px",
+      "value": "22px",
       "type": "fontSizes",
       "description": "Hero Title with foreground media"
     },
     "--h1-desktop-font-line-height": {
-      "value": "108%",
+      "value": "32px",
       "type": "lineHeights"
     },
     "--h1-desktop-font-weight": {
-      "value": "500",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h1-mobile-font-size": {
-      "value": "56px",
+      "value": "20px",
       "type": "fontSizes",
       "description": "Hero Title on mobile"
     },
     "--h1-mobile-font-line-height": {
-      "value": "108%",
+      "value": "24px",
       "type": "lineHeights"
     },
     "--h1-mobile-font-weight": {
-      "value": "500",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h2-font-family": {
@@ -156,29 +156,29 @@
       "description": "H2 titles"
     },
     "--h2-desktop-font-size": {
-      "value": "64px",
+      "value": "20px",
       "type": "fontSizes",
       "description": "Block Title"
     },
     "--h2-desktop-font-line-height": {
-      "value": "108%",
+      "value": "24px",
       "type": "lineHeights"
     },
     "--h2-desktop-font-weight": {
-      "value": "500",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h2-mobile-font-size": {
-      "value": "48px",
+      "value": "18px",
       "type": "fontSizes",
       "description": "Block Title"
     },
     "--h2-mobile-font-line-height": {
-      "value": "108%",
+      "value": "22px",
       "type": "lineHeights"
     },
     "--h2-mobile-font-weight": {
-      "value": "500",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h3-font-family": {
@@ -187,27 +187,27 @@
       "description": "H3 titles"
     },
     "--h3-desktop-font-size": {
-      "value": "32px",
+      "value": "16px",
       "type": "fontSizes"
     },
     "--h3-desktop-font-line-height": {
-      "value": "120%",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--h3-desktop-font-weight": {
-      "value": "600",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h3-mobile-font-size": {
-      "value": "24px",
+      "value": "16px",
       "type": "fontSizes"
     },
     "--h3-mobile-font-line-height": {
-      "value": "120%",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--h3-mobile-font-weight": {
-      "value": "600",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h4-font-family": {
@@ -216,29 +216,29 @@
       "description": "H4 titles"
     },
     "--h4-desktop-font-size": {
-      "value": "28px",
+      "value": "16px",
       "type": "fontSizes",
       "description": "Content Title"
     },
     "--h4-desktop-font-line-height": {
-      "value": "120%",
+      "value": "22px",
       "type": "lineHeights"
     },
     "--h4-desktop-font-weight": {
-      "value": "600",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h4-mobile-font-size": {
-      "value": "22px",
+      "value": "16px",
       "type": "fontSizes",
       "description": "Content Title"
     },
     "--h4-mobile-font-line-height": {
-      "value": "120%",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--h4-mobile-font-weight": {
-      "value": "600",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h5-font-family": {
@@ -247,29 +247,29 @@
       "description": "H5 titles"
     },
     "--h5-desktop-font-size": {
-      "value": "22px",
+      "value": "14px",
       "type": "fontSizes",
       "description": "Carousel Title"
     },
     "--h5-desktop-font-line-height": {
-      "value": "120%",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--h5-desktop-font-weight": {
-      "value": "600",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h5-mobile-font-size": {
-      "value": "20px",
+      "value": "14px",
       "type": "fontSizes",
       "description": "Carousel Title"
     },
     "--h5-mobile-font-line-height": {
-      "value": "120%",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--h5-mobile-font-weight": {
-      "value": "600",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h6-font-family": {
@@ -278,38 +278,38 @@
       "description": "H6 titles"
     },
     "--h6-desktop-font-size": {
-      "value": "18px",
+      "value": "12px",
       "type": "fontSizes",
       "description": "Carousel Subtitle"
     },
     "--h6-desktop-font-line-height": {
-      "value": "120%",
+      "value": "16px",
       "type": "lineHeights"
     },
     "--h6-desktop-font-weight": {
-      "value": "600",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h6-mobile-font-size": {
-      "value": "18px",
+      "value": "12px",
       "type": "fontSizes",
       "description": "Carousel Subtitle"
     },
     "--h6-mobile-font-line-height": {
-      "value": "120%",
+      "value": "16px",
       "type": "lineHeights"
     },
     "--h6-mobile-font-weight": {
-      "value": "600",
+      "value": "400",
       "type": "fontWeights"
     },
     "--p1-desktop-font-size": {
-      "value": "20px",
+      "value": "16px",
       "type": "fontSizes",
       "description": "Block Subtitles"
     },
     "--p1-desktop-font-line-height": {
-      "value": "160%",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--p1-desktop-font-weight": {
@@ -317,12 +317,12 @@
       "type": "fontWeights"
     },
     "--p1-mobile-font-size": {
-      "value": "18px",
+      "value": "16px",
       "type": "fontSizes",
       "description": "Block Subtitles"
     },
     "--p1-mobile-font-line-height": {
-      "value": "160%",
+      "value": "24px",
       "type": "lineHeights"
     },
     "--p1-mobile-font-weight": {
@@ -330,12 +330,12 @@
       "type": "fontWeights"
     },
     "--p2-desktop-font-size": {
-      "value": "16px",
+      "value": "14px",
       "type": "fontSizes",
       "description": "Content Paragraphs (body)"
     },
     "--p2-desktop-font-line-height": {
-      "value": "160%",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--p2-desktop-font-weight": {
@@ -343,12 +343,12 @@
       "type": "fontWeights"
     },
     "--p2-mobile-font-size": {
-      "value": "16px",
+      "value": "14px",
       "type": "fontSizes",
       "description": "Content Paragraphs (body)"
     },
     "--p2-mobile-font-line-height": {
-      "value": "160%",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--p2-mobile-font-weight": {
@@ -356,12 +356,12 @@
       "type": "fontWeights"
     },
     "--p3-desktop-font-size": {
-      "value": "14px",
+      "value": "12px",
       "type": "fontSizes",
       "description": "Footnotes (References)"
     },
     "--p3-desktop-font-line-height": {
-      "value": "160%",
+      "value": "16px",
       "type": "lineHeights"
     },
     "--p3-desktop-font-weight": {
@@ -369,12 +369,12 @@
       "type": "fontWeights"
     },
     "--p3-mobile-font-size": {
-      "value": "14px",
+      "value": "12px",
       "type": "fontSizes",
       "description": "Footnotes (References)"
     },
     "--p3-mobile-font-line-height": {
-      "value": "160%",
+      "value": "16px",
       "type": "lineHeights"
     },
     "--p3-mobile-font-weight": {
@@ -382,12 +382,12 @@
       "type": "fontWeights"
     },
     "--p4-desktop-font-size": {
-      "value": "12px",
+      "value": "11px",
       "type": "fontSizes",
       "description": "Subtopic body text within Multi-Value Prop component"
     },
     "--p4-desktop-font-line-height": {
-      "value": "160%",
+      "value": "14px",
       "type": "lineHeights"
     },
     "--p4-desktop-font-weight": {
@@ -395,12 +395,12 @@
       "type": "fontWeights"
     },
     "--p4-mobile-font-size": {
-      "value": "12x",
+      "value": "11x",
       "type": "fontSizes",
       "description": "Subtopic body text within Multi-Value Prop component"
     },
     "--p4-mobile-font-line-height": {
-      "value": "160%",
+      "value": "14px",
       "type": "lineHeights"
     },
     "--p4-mobile-font-weight": {
@@ -408,12 +408,12 @@
       "type": "fontWeights"
     },
     "--action-desktop-font-size": {
-      "value": "16px",
+      "value": "12px",
       "type": "fontSizes",
       "description": "Button text, interactive text like: Header navigation items, subnav items, sidenav items"
     },
     "--action-desktop-font-line-height": {
-      "value": "24px",
+      "value": "16px",
       "type": "lineHeights"
     },
     "--action-desktop-font-weight": {
@@ -421,16 +421,16 @@
       "type": "fontWeights"
     },
     "--action-desktop-font-letter-spacing": {
-      "value": "normal",
+      "value": "0.4px",
       "type": "letterSpacing"
     },
     "--action-mobile-font-size": {
-      "value": "16px",
+      "value": "12px",
       "type": "fontSizes",
       "description": "Button text, interactive text like: Header navigation items, subnav items, sidenav items"
     },
     "--action-mobile-font-line-height": {
-      "value": "120%",
+      "value": "16px",
       "type": "lineHeights"
     },
     "--action-mobile-font-weight": {
@@ -438,41 +438,41 @@
       "type": "fontWeights"
     },
     "--action-mobile-font-letter-spacing": {
-      "value": "normal",
+      "value": "0.4px",
       "type": "letterSpacing"
     },
     "--annotation-desktop-font-size": {
-      "value": "14px",
+      "value": "12px",
       "type": "fontSizes",
       "description": "Eyebrow in Block headers and Hero component"
     },
     "--annotation-desktop-font-weight": {
-      "value": "500",
+      "value": "400",
       "type": "fontWeights"
     },
     "--annotation-desktop-font-line-height": {
-      "value": "20px",
+      "value": "16px",
       "type": "lineHeights"
     },
     "--annotation-desktop-font-letter-spacing": {
-      "value": "-.14px",
+      "value": "0.4px",
       "type": "letterSpacing"
     },
     "--annotation-mobile-font-size": {
-      "value": "14px",
+      "value": "12px",
       "type": "fontSizes",
       "description": "Eyebrow in Block headers and Hero component"
     },
     "--annotation-mobile-font-weight": {
-      "value": "500",
+      "value": "400",
       "type": "fontWeights"
     },
     "--annotation-mobile-font-line-height": {
-      "value": "20px",
+      "value": "16px",
       "type": "lineHeights"
     },
     "--annotation-mobile-font-letter-spacing": {
-      "value": "-.14px",
+      "value": "0.4px",
       "type": "letterSpacing"
     },
     "--stats-font-weight": {
@@ -496,27 +496,27 @@
       "type": "textDecoration"
     },
     "--h1-desktop-font-text-transform": {
-      "value": "uppercase",
+      "value": "none",
       "type": "textCase"
     },
     "--h2-desktop-font-text-transform": {
-      "value": "uppercase",
+      "value": "none",
       "type": "textCase"
     },
     "--h1-mobile-font-text-transform": {
-      "value": "uppercase",
+      "value": "none",
       "type": "textCase"
     },
     "--h2-desktop-font-letter-spacing": {
-      "value": "0.6px",
+      "value": "0px",
       "type": "letterSpacing"
     },
     "--h2-mobile-font-text-transform": {
-      "value": "uppercase",
+      "value": "none",
       "type": "textCase"
     },
     "--h2-mobile-font-letter-spacing": {
-      "value": "0.48px",
+      "value": "0px",
       "type": "letterSpacing"
     },
     "--stats-supplementary-text-font-size": {
