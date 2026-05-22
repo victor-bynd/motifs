@@ -86,7 +86,7 @@
       "type": "spacing"
     },
     "--font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Specs Sans, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "Paragraphs and smaller text"
     },
@@ -115,7 +115,7 @@
       "type": "fontWeights"
     },
     "--h1-font-family": {
-      "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Specs Sans, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H1 titles"
     },
@@ -151,7 +151,7 @@
       "type": "fontWeights"
     },
     "--h2-font-family": {
-      "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Specs Sans, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H2 titles"
     },
@@ -182,7 +182,7 @@
       "type": "fontWeights"
     },
     "--h3-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Specs Sans, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H3 titles"
     },
@@ -211,7 +211,7 @@
       "type": "fontWeights"
     },
     "--h4-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Specs Sans, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H4 titles"
     },
@@ -242,7 +242,7 @@
       "type": "fontWeights"
     },
     "--h5-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Specs Sans, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H5 titles"
     },
@@ -273,7 +273,7 @@
       "type": "fontWeights"
     },
     "--h6-font-family": {
-      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Specs Sans, Helvetica, Tahoma, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H6 titles"
     },
