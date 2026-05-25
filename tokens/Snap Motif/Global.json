@@ -480,7 +480,7 @@
       "type": "fontWeights"
     },
     "--stats-font-size": {
-      "value": "120px",
+      "value": "64px",
       "type": "fontSizes"
     },
     "--stats-font-line-height": {
@@ -520,7 +520,7 @@
       "type": "letterSpacing"
     },
     "--stats-supplementary-text-font-size": {
-      "value": "80px",
+      "value": "32px",
       "type": "fontSizes"
     },
     "--stats-supplementary-text-font-weight": {
