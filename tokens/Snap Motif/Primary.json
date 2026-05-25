@@ -113,7 +113,7 @@
       "type": "color"
     },
     "--button-primary-hover-bg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Neutral.--neutral-v650}",
       "type": "color"
     },
     "--button-primary-border-color": {
@@ -121,7 +121,7 @@
       "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Neutral.--neutral-v650}",
       "type": "color"
     },
     "--button-primary-fg-color": {
@@ -129,27 +129,27 @@
       "type": "color"
     },
     "--button-secondary-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--button-secondary-hover-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--button-secondary-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--fg-color}",
       "type": "color"
     },
     "--button-secondary-hover-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--fg-color}",
       "type": "color"
     },
     "--button-secondary-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--fg-color}",
       "type": "color"
     },
     "--button-flat-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--fg-color}",
       "type": "color"
     },
     "--button-desktop-font-size": {
@@ -213,7 +213,7 @@
       "type": "color"
     },
     "--button-secondary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--fg-color}",
       "type": "color"
     }
   },
@@ -564,15 +564,15 @@
   },
   "Quote": {
     "--quote-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--quote-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--fg-color}",
       "type": "color"
     },
     "--quote-icon-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--action-text-active-color}",
       "type": "color"
     },
     "--quote-author-desktop-font-size": {
@@ -592,7 +592,7 @@
       "type": "fontWeights"
     },
     "--quote-box-shadow": {
-      "value": "none",
+      "value": "0px",
       "type": "boxShadow"
     }
   },
@@ -804,15 +804,15 @@
       "type": "borderWidth"
     },
     "--carousel-card-border-radius": {
-      "value": "{Root.--border-radius-l}",
+      "value": "0px",
       "type": "borderRadius"
     },
     "--carousel-card-box-shadow": {
-      "value": "none",
+      "value": "0px",
       "type": "boxShadow"
     },
     "--carousel-card-hover-box-shadow": {
-      "value": "{Root.--box-shadow-l}",
+      "value": "0px",
       "type": "boxShadow"
     },
     "--carousel-card-landscape-square-desktop-width": {
@@ -1420,11 +1420,11 @@
       "type": "spacing"
     },
     "--table-cell-fg-color": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--table-cell-header-bg-color": {
-      "value": "{Neutral.--neutral-v300}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--table-cell-min-width": {
@@ -1544,7 +1544,7 @@
   },
   "Definition": {
     "--definition-active-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v150}",
       "type": "color"
     },
     "--definition-active-border-color": {
@@ -1552,15 +1552,15 @@
       "type": "color"
     },
     "--definition-bg-color": {
-      "value": "{Primary.--primary-v150}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--definition-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Neutral.--neutral-v600}",
       "type": "color"
     },
     "--definition-hover-bg-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Neutral.--neutral-v150}",
       "type": "color"
     },
     "--definition-hover-border-color": {

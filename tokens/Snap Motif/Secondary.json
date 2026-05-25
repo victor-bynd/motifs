@@ -94,7 +94,7 @@
       "type": "color"
     },
     "--button-primary-hover-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Neutral.--neutral-v200}",
       "type": "color"
     },
     "--button-primary-border-color": {
@@ -102,7 +102,7 @@
       "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Neutral.--neutral-v200}",
       "type": "color"
     },
     "--button-primary-fg-color": {
@@ -217,11 +217,11 @@
   },
   "Quote": {
     "--quote-bg-color": {
-      "value": "{Neutral.--neutral-v600}",
+      "value": "{Root.--bg-color}",
       "type": "color"
     },
     "--quote-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--fg-color}",
       "type": "color"
     }
   },
@@ -297,11 +297,11 @@
       "type": "color"
     },
     "--carousel-card-bg-color": {
-      "value": "{Neutral.--neutral-v625}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--carousel-card-hover-bg-color": {
-      "value": "{Neutral.--neutral-v625}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--carousel-card-fg-color": {
@@ -515,7 +515,7 @@
       "type": "color"
     },
     "--table-border-color": {
-      "value": "{Neutral.--neutral-v600}",
+      "value": "{Neutral.--neutral-v625}",
       "type": "color"
     },
     "--table-cell-body-bg-color": {
@@ -523,11 +523,11 @@
       "type": "color"
     },
     "--table-cell-fg-color": {
-      "value": "{Neutral.--neutral-v200}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--table-cell-header-bg-color": {
-      "value": "{Neutral.--neutral-v600}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     }
   },
@@ -577,11 +577,11 @@
   },
   "Definition": {
     "--definition-active-bg-color": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "{Neutral.--neutral-v600}",
       "type": "color"
     },
     "--definition-active-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Neutral.--neutral-v200}",
       "type": "color"
     },
     "--definition-bg-color": {
@@ -589,7 +589,7 @@
       "type": "color"
     },
     "--definition-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Neutral.--neutral-v0}",
       "type": "color"
     },
     "--definition-hover-bg-color": {
@@ -597,7 +597,7 @@
       "type": "color"
     },
     "--definition-hover-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Neutral.--neutral-v200}",
       "type": "color"
     }
   },
