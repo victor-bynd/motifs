@@ -434,7 +434,6 @@
       "Block.--block-title-mobile-font-size": "ec84f6a6fbcf8dd17ca6954bb7bdf53445780811",
       "Block.--block-title-mobile-font-line-height": "edd9cfd89d9561b6f678ef226b6663ed5ef85c8b",
       "Block.--block-header-mobile-padding": "d697768908c08fbdfb4189086737bb31e3c6e45a",
-      "Block.--block-boundary-desktop-padding": "10697855044645dd32e79ef56b5c6f2e82a57419",
       "Block.--block-boundary-mobile-padding": "3a05bdd8ae4b24b63fc600516c5cc72ae3bfeca1",
       "Tabs.--tabs-item-color": "7c6004edf442654da5e6053f18f8d0f057c9131c",
       "Tabs.--tabs-item-hover-color": "b9441b746408e1c89a499f65e2ba1f5ee35a2526",
@@ -463,6 +462,7 @@
       "Content.--content-decoration-border-width": "2e97f9e47f9e02fa3c115cef891fc3511d83ba4f",
       "Content.--content-border-color": "b345780b344555a217f69b3dc25db79192698df7",
       "Content.--content-mobile-no-bg-padding": "feabdc4e000d176193bf9ad7c3347ef8a30d3930",
+      "Content.--content-desktop-no-bg-padding": "a4de49c9cd7fa8c0582a1e4aed93671915680978",
       "Quote.--quote-icon-color": "fd539f54805da879c0c79dc845aef34a9a155eef",
       "Quote.--quote-author-desktop-font-size": "4c583084d34e9488ffa9520b14bd7629296dd17c",
       "Quote.--quote-author-desktop-font-weight": "ca061ad8e321bda729f214aac44f8e1189f36c49",
@@ -898,7 +898,6 @@
       "Block.--block-title-mobile-font-size": "ec84f6a6fbcf8dd17ca6954bb7bdf53445780811",
       "Block.--block-title-mobile-font-line-height": "edd9cfd89d9561b6f678ef226b6663ed5ef85c8b",
       "Block.--block-header-mobile-padding": "d697768908c08fbdfb4189086737bb31e3c6e45a",
-      "Block.--block-boundary-desktop-padding": "10697855044645dd32e79ef56b5c6f2e82a57419",
       "Block.--block-boundary-mobile-padding": "3a05bdd8ae4b24b63fc600516c5cc72ae3bfeca1",
       "Tabs.--tabs-underline-color": "57f6810cca2f67a8009730678ff13f040309c868",
       "Tabs.--tabs-item-color": "7c6004edf442654da5e6053f18f8d0f057c9131c",
@@ -932,6 +931,7 @@
       "Content.--content-decoration-border-width": "2e97f9e47f9e02fa3c115cef891fc3511d83ba4f",
       "Content.--content-border-color": "b345780b344555a217f69b3dc25db79192698df7",
       "Content.--content-mobile-no-bg-padding": "feabdc4e000d176193bf9ad7c3347ef8a30d3930",
+      "Content.--content-desktop-no-bg-padding": "a4de49c9cd7fa8c0582a1e4aed93671915680978",
       "Quote.--quote-fg-color": "4f7f00a32726cc498249b88294d2b15e905aec97",
       "Quote.--quote-icon-color": "fd539f54805da879c0c79dc845aef34a9a155eef",
       "Quote.--quote-author-desktop-font-size": "4c583084d34e9488ffa9520b14bd7629296dd17c",
@@ -1181,8 +1181,7 @@
     "name": "tertiary",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
-      "Snap Motif/Primary": "enabled",
-      "Snap Motif/NOTertiary": "enabled"
+      "Snap Motif/Primary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--bg-color": "S:9e73de469f9f42740022449c934061c3c1f858e7,",
@@ -1429,7 +1428,6 @@
       "Block.--block-title-mobile-font-size": "ec84f6a6fbcf8dd17ca6954bb7bdf53445780811",
       "Block.--block-title-mobile-font-line-height": "edd9cfd89d9561b6f678ef226b6663ed5ef85c8b",
       "Block.--block-header-mobile-padding": "d697768908c08fbdfb4189086737bb31e3c6e45a",
-      "Block.--block-boundary-desktop-padding": "10697855044645dd32e79ef56b5c6f2e82a57419",
       "Block.--block-boundary-mobile-padding": "3a05bdd8ae4b24b63fc600516c5cc72ae3bfeca1",
       "Tabs.--tabs-item-color": "7c6004edf442654da5e6053f18f8d0f057c9131c",
       "Tabs.--tabs-item-hover-color": "b9441b746408e1c89a499f65e2ba1f5ee35a2526",
@@ -1458,6 +1456,7 @@
       "Content.--content-decoration-border-width": "2e97f9e47f9e02fa3c115cef891fc3511d83ba4f",
       "Content.--content-border-color": "b345780b344555a217f69b3dc25db79192698df7",
       "Content.--content-mobile-no-bg-padding": "feabdc4e000d176193bf9ad7c3347ef8a30d3930",
+      "Content.--content-desktop-no-bg-padding": "a4de49c9cd7fa8c0582a1e4aed93671915680978",
       "Quote.--quote-icon-color": "fd539f54805da879c0c79dc845aef34a9a155eef",
       "Quote.--quote-author-desktop-font-size": "4c583084d34e9488ffa9520b14bd7629296dd17c",
       "Quote.--quote-author-desktop-font-weight": "ca061ad8e321bda729f214aac44f8e1189f36c49",

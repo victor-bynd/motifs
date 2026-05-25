@@ -608,7 +608,7 @@
       "description": "Focus ring color"
     },
     "--semantic-error-color": {
-      "value": "{Palette.Red.--palette-red-v200}",
+      "value": "{Palette.Red.--palette-red-v150}",
       "type": "color",
       "description": "Error color"
     }
@@ -741,24 +741,20 @@
     },
     "Red": {
       "--palette-red-v50": {
-        "value": "#F77F91",
-        "type": "color",
-        "description": ""
+        "value": "#FF4242",
+        "type": "color"
       },
       "--palette-red-v100": {
-        "value": "#F23C57",
-        "type": "color",
-        "description": ""
+        "value": "#FF0000",
+        "type": "color"
       },
       "--palette-red-v150": {
-        "value": "#E1143D",
-        "type": "color",
-        "description": ""
+        "value": "#DD0000",
+        "type": "color"
       },
       "--palette-red-v200": {
-        "value": "#C50A33",
-        "type": "color",
-        "description": ""
+        "value": "#B30000",
+        "type": "color"
       }
     },
     "Green": {

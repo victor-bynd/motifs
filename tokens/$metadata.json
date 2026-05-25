@@ -2,7 +2,6 @@
   "tokenSetOrder": [
     "Snap Motif/Global",
     "Snap Motif/Primary",
-    "Snap Motif/Secondary",
-    "Snap Motif/NOTertiary"
+    "Snap Motif/Secondary"
   ]
 }

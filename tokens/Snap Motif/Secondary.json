@@ -156,7 +156,7 @@
       "type": "color"
     },
     "--global-header-menu-item-icon-color": {
-      "value": "{Primary.--primary-v150}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--global-header-menu-item-bg-hover-color": {
@@ -176,13 +176,13 @@
       "type": "color"
     },
     "--global-header-menu-featured-item-icon-color": {
-      "value": "{Primary.--primary-v150}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     }
   },
   "Block": {
     "--block-title-de-emphasized-color": {
-      "value": "{Root.--fg-color}",
+      "value": "{Neutral.--neutral-v400}",
       "type": "color",
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
     }
@@ -195,7 +195,7 @@
   },
   "Hero": {
     "--hero-title-de-emphasized-color": {
-      "value": "{Root.--fg-color}",
+      "value": "{Neutral.--neutral-v400}",
       "type": "color"
     },
     "--hero-scroll-button-bg-color": {
@@ -449,7 +449,7 @@
       "type": "color"
     },
     "--form-input-error-color": {
-      "value": "{Palette.Red.--palette-red-v50}",
+      "value": "{Palette.Red.--palette-red-v200}",
       "type": "color"
     },
     "--form-input-bg-color": {
