@@ -1264,7 +1264,7 @@
       "type": "color"
     },
     "--form-input-border-color": {
-      "value": "{Neutral.--neutral-v250}",
+      "value": "{Neutral.--neutral-v500}",
       "type": "color"
     },
     "--form-input-hover-border-color": {
@@ -1276,7 +1276,7 @@
       "type": "color"
     },
     "--form-input-border-width": {
-      "value": "1px",
+      "value": "0px 0px 0.5px 0px",
       "type": "borderWidth"
     },
     "--form-input-border-radius": {
@@ -1316,7 +1316,7 @@
       "type": "boxShadow"
     },
     "--form-input-padding": {
-      "value": "{Root.--spacing-m}",
+      "value": "12px 0px",
       "type": "spacing"
     }
   },
