@@ -1961,40 +1961,36 @@
     "--cookie-settings-category-description-mobile-font-weight": {
       "value": "{Root.--text-mobile-font-weight}",
       "type": "fontWeights"
+    }
+  },
+  "Multi Select": {
+    "--multi-select-bg-color": {
+      "type": "color",
+      "value": "{Root.--bg-color}"
     },
-    "Multi Select": {
-      "--multi-select-bg-color": {
-        "type": "color",
-        "value": "{Neutral.--neutral-v0}",
-        "description": ""
-      },
-      "--multi-select-fg-color": {
-        "type": "color",
-        "value": "{Neutral.--neutral-v700}",
-        "description": ""
-      },
-      "--multi-select-chip-bg-color": {
-        "type": "color",
-        "value": "{Neutral.--neutral-v250}",
-        "description": ""
-      },
-      "--multi-select-hover-border-color": {
-        "type": "color",
-        "value": "{Neutral.--neutral-v400}",
-        "description": ""
-      },
-      "--multi-select-option-fg-color": {
-        "type": "color",
-        "value": "{Neutral.--neutral-v700}",
-        "description": ""
-      }
+    "--multi-select-fg-color": {
+      "type": "color",
+      "value": "{Root.--fg-color}"
     },
-    "Editorial Gallery Card": {
-      "--editorial-gallery-card-hover-background-color": {
-        "type": "color",
-        "value": "{Neutral.--neutral-v150}",
-        "description": ""
-      }
+    "--multi-select-chip-bg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v250}",
+      "description": ""
+    },
+    "--multi-select-hover-border-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v250}"
+    },
+    "--multi-select-option-fg-color": {
+      "type": "color",
+      "value": "{Root.--fg-color}"
+    }
+  },
+  "Editorial Gallery Card": {
+    "--editorial-gallery-card-hover-background-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v150}",
+      "description": ""
     }
   }
 }
