@@ -524,20 +524,20 @@
       "type": "sizing"
     },
     "--break-total-mobile-height": {
-      "value": "64px",
-      "type": "sizing"
-    },
-    "--break-half-mobile-height": {
       "value": "32px",
       "type": "sizing"
     },
+    "--break-half-mobile-height": {
+      "value": "16px",
+      "type": "sizing"
+    },
     "--break-shadow-light-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Palette.Plain.--palette-plain-transparent}",
       "type": "color",
       "description": "break shadow color when the bottom block is secondary (black)"
     },
     "--break-shadow-dark-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Palette.Plain.--palette-plain-transparent}",
       "type": "color",
       "description": "break shadow color when the bottom block is primary(yellow), tertiary (white) or quaternary (gray)"
     }
@@ -958,9 +958,8 @@
       "type": "spacing"
     },
     "--carousel-card-related-content-body-line-clamp": {
-      "type": "number",
-      "description": "",
-      "value": 4
+      "type": "other",
+      "value": "4"
     },
     "--carousel-card-text-position": {
       "type": "other",
