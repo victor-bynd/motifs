@@ -337,7 +337,7 @@
   },
   "Summary Card": {
     "--summary-card-bg-color": {
-      "value": "{Neutral.--neutral-v625}",
+      "value": "{Neutral.--neutral-v650}",
       "type": "color"
     },
     "--summary-card-hover-bg-color": {
