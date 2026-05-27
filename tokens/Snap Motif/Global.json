@@ -120,17 +120,17 @@
       "description": "H1 titles"
     },
     "--h1-desktop-font-size": {
-      "value": "24px",
+      "value": "28px",
       "type": "fontSizes",
       "description": "Hero Title without foreground media"
     },
     "--h1-desktop-font-size-compact": {
-      "value": "22px",
+      "value": "26px",
       "type": "fontSizes",
       "description": "Hero Title with foreground media"
     },
     "--h1-desktop-font-line-height": {
-      "value": "32px",
+      "value": "36px",
       "type": "lineHeights"
     },
     "--h1-desktop-font-weight": {
@@ -138,12 +138,12 @@
       "type": "fontWeights"
     },
     "--h1-mobile-font-size": {
-      "value": "20px",
+      "value": "24px",
       "type": "fontSizes",
       "description": "Hero Title on mobile"
     },
     "--h1-mobile-font-line-height": {
-      "value": "24px",
+      "value": "28px",
       "type": "lineHeights"
     },
     "--h1-mobile-font-weight": {
@@ -156,12 +156,12 @@
       "description": "H2 titles"
     },
     "--h2-desktop-font-size": {
-      "value": "20px",
+      "value": "24px",
       "type": "fontSizes",
       "description": "Block Title"
     },
     "--h2-desktop-font-line-height": {
-      "value": "24px",
+      "value": "28px",
       "type": "lineHeights"
     },
     "--h2-desktop-font-weight": {
@@ -169,12 +169,12 @@
       "type": "fontWeights"
     },
     "--h2-mobile-font-size": {
-      "value": "18px",
+      "value": "20px",
       "type": "fontSizes",
       "description": "Block Title"
     },
     "--h2-mobile-font-line-height": {
-      "value": "22px",
+      "value": "24px",
       "type": "lineHeights"
     },
     "--h2-mobile-font-weight": {

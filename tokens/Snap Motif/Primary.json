@@ -88,6 +88,25 @@
       "type": "color",
       "description": "active color for interactive indicator elements like nav items"
     },
+    "--action-indicator-border-radius": {
+      "type": "borderRadius",
+      "value": "0px"
+    },
+    "--curtain-backdrop-filter": {
+      "type": "backgroundFilter",
+      "description": "",
+      "value": "none"
+    },
+    "--curtain-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v700}",
+      "description": ""
+    },
+    "--curtain-opacity": {
+      "type": "opacity",
+      "description": "",
+      "value": "0.75"
+    },
     "--gutter-color": {
       "value": "{Neutral.--neutral-v250}",
       "type": "color"
@@ -1313,11 +1332,11 @@
       "type": "color"
     },
     "--icon-button-bg-color": {
-      "value": "{Neutral.--neutral-v650}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--icon-button-border-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--icon-button-hover-bg-color": {
@@ -1325,7 +1344,7 @@
       "type": "color"
     },
     "--icon-button-hover-border-color": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "{Neutral.--neutral-v650}",
       "type": "color"
     },
     "--icon-button-disabled-bg-color": {
@@ -1337,8 +1356,12 @@
       "type": "color"
     },
     "--icon-button-disabled-border-color": {
-      "value": "{Neutral.--neutral-v300}",
+      "value": "{Neutral.--neutral-v150}",
       "type": "color"
+    },
+    "--icon-button-border-radius": {
+      "value": "0px",
+      "type": "borderRadius"
     }
   },
   "Mosaic": {
