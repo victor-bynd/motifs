@@ -251,11 +251,11 @@
   },
   "Toggle Slider": {
     "--toggle-slider-bg-color": {
-      "value": "{Neutral.--neutral-v150}",
+      "value": "{Neutral.--neutral-v400}",
       "type": "color"
     },
     "--toggle-slider-active-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Neutral.--neutral-v600}",
       "type": "color"
     }
   },

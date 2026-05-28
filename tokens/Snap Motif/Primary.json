@@ -741,7 +741,7 @@
       "type": "color"
     },
     "--dropdown-menu-border-color": {
-      "value": "{Neutral.--neutral-v200}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--dropdown-skeleton-animation-color": {
@@ -769,11 +769,11 @@
       "type": "color"
     },
     "--dropdown-button-border-radius": {
-      "value": "{Root.--border-radius-m}",
+      "value": "0px",
       "type": "borderRadius"
     },
     "--dropdown-button-border-width": {
-      "value": "0",
+      "value": "{Root.--border-width-xs}",
       "type": "borderWidth"
     },
     "--dropdown-button-border-color": {
@@ -787,7 +787,7 @@
   },
   "Toggle Slider": {
     "--toggle-slider-bg-color": {
-      "value": "{Neutral.--neutral-v250}",
+      "value": "{Neutral.--neutral-v500}",
       "type": "color"
     },
     "--toggle-slider-active-color": {
