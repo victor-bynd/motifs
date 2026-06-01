@@ -1,5 +1,15 @@
 {
   "Root": {
+    "--border-radius-none": {
+      "value": "0px",
+      "type": "borderRadius",
+      "$extensions": {
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
     "--border-radius-xs": {
       "value": "1px",
       "type": "borderRadius",

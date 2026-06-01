@@ -66,6 +66,7 @@
       "Palette.Blue.--palette-blue-v200": "S:4cb584c74c4eacc87bf1937dd7ae5a48c8fd0093,"
     },
     "$figmaVariableReferences": {
+      "Root.--border-radius-none": "51dfaa716d0366a7b6c64af37398876b88e113cc",
       "Root.--border-radius-xs": "1124b087a8cc608c3495598f22af8313f650e984",
       "Root.--border-radius-s": "dc05ed9b1cfeb9579e9cd9398123f5f174458f11",
       "Root.--border-radius-m": "5996532298e144b52f64d43961c8b027bec95043",
@@ -581,6 +582,7 @@
       "Side Navigation.--side-navigation-right-padding": "aa82a5534597d972e4ceaa57df1483a0224b4ec0",
       "Side Navigation.--side-navigation-left-padding": "3c5ba8e8df20dbac5bf856973ac01c7018a9db15",
       "Icon Button.--icon-button-border-width": "29398d18bd7e085363a91613fca1522a093aa53c",
+      "Icon Button.--icon-button-border-radius": "a607d9c049a361d9e9c4d38b8b93fac334b45b89",
       "Mosaic.--mosaic-border-radius": "9bcc0e8ee06711a8209ba9b6261a5475f288d1a0",
       "Mosaic.--mosaic-grid-gap": "0139d3a30f3bd215ac85b1c75b28201e20ad1fd8",
       "Mosaic.--mosaic-title-color": "d66f5acf0500001afaca0c791e5bfa571d711fed",
@@ -671,8 +673,7 @@
       "Multi Select.--multi-select-chip-bg-color": "10fb371798684f07b330fda8c1bafc07cadf27ab",
       "Multi Select.--multi-select-hover-border-color": "4c94ea40ba42b375dfade83e17b8a754254415eb",
       "Multi Select.--multi-select-option-fg-color": "a708ab82ed3a7d0d3936308aac28d54137d72714",
-      "Editorial Gallery Card.--editorial-gallery-card-hover-background-color": "ae10d1fe9c50b962da029b2ddbfa5cd3438cb3c2",
-      "Icon Button.--icon-button-border-radius": "a607d9c049a361d9e9c4d38b8b93fac334b45b89"
+      "Editorial Gallery Card.--editorial-gallery-card-hover-background-color": "ae10d1fe9c50b962da029b2ddbfa5cd3438cb3c2"
     },
     "$figmaCollectionId": "VariableCollectionId:22702:6961",
     "$figmaModeId": "22702:0",
@@ -1118,6 +1119,7 @@
       "Icon Button.--icon-button-disabled-bg-color": "c0e184f1284a7ae7b6ced4bd36e4a74da3400fe6",
       "Icon Button.--icon-button-disabled-fg-color": "c4ebdde6a54f98f4b1051ae9db4ade4eb7ff1b4c",
       "Icon Button.--icon-button-disabled-border-color": "2587cb5770ce585b17fc37e54bf9483fbe4daf02",
+      "Icon Button.--icon-button-border-radius": "a607d9c049a361d9e9c4d38b8b93fac334b45b89",
       "Mosaic.--mosaic-border-radius": "9bcc0e8ee06711a8209ba9b6261a5475f288d1a0",
       "Mosaic.--mosaic-grid-gap": "0139d3a30f3bd215ac85b1c75b28201e20ad1fd8",
       "Mosaic.--mosaic-title-color": "d66f5acf0500001afaca0c791e5bfa571d711fed",
@@ -1257,8 +1259,7 @@
       "Multi Select.--multi-select-chip-bg-color": "10fb371798684f07b330fda8c1bafc07cadf27ab",
       "Multi Select.--multi-select-hover-border-color": "4c94ea40ba42b375dfade83e17b8a754254415eb",
       "Multi Select.--multi-select-option-fg-color": "a708ab82ed3a7d0d3936308aac28d54137d72714",
-      "Editorial Gallery Card.--editorial-gallery-card-hover-background-color": "ae10d1fe9c50b962da029b2ddbfa5cd3438cb3c2",
-      "Icon Button.--icon-button-border-radius": "a607d9c049a361d9e9c4d38b8b93fac334b45b89"
+      "Editorial Gallery Card.--editorial-gallery-card-hover-background-color": "ae10d1fe9c50b962da029b2ddbfa5cd3438cb3c2"
     },
     "$figmaCollectionId": "VariableCollectionId:22702:6961",
     "$figmaModeId": "22702:1",
