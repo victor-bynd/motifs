@@ -177,8 +177,8 @@ jobs:
             --title "${{ steps.pr_content.outputs.title }}" \
             --body-file /tmp/pr-body.md \
             --draft \
-            --label "tokens" \
-            --label "sync"
+
+
 
       # ── 8. Print PR link to workflow log ───────────────────────────────────
       - name: Print PR link
