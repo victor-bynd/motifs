@@ -116,6 +116,10 @@
     "--button-primary-hover-fg-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
+    },
+    "--button-flat-hover-fg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v0}"
     }
   },
   "Header": {
@@ -223,6 +227,10 @@
     "--quote-fg-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
+    },
+    "--quote-icon-color": {
+      "type": "color",
+      "value": "{Primary.--primary-v100}"
     }
   },
   "Footer": {
@@ -289,6 +297,10 @@
     "--accordion-header-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
+    },
+    "--accordion-item-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v0}"
     }
   },
   "Carousel": {
@@ -675,6 +687,22 @@
     "--cookie-settings-category-border-color": {
       "value": "{Neutral.--neutral-v500}",
       "type": "color"
+    }
+  },
+  "Multi Select": {
+    "--multi-select-fg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v0}"
+    },
+    "--multi-select-chip-bg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v500}"
+    }
+  },
+  "Editorial Gallery Card": {
+    "--editorial-gallery-card-hover-background-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v625}"
     }
   }
 }
