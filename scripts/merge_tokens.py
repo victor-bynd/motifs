@@ -28,8 +28,12 @@ Ignore list:
 Usage:
   python scripts/merge_tokens.py \
     --design-dir  tokens \
-    --prod        tokens/production.json \
+    --prod        production.json \
     --ignore      tokens/sync-ignore.json
+
+NOTE: production.json must live at the REPO ROOT (not inside tokens/).
+Tokens Studio treats every .json inside tokens/ as a token set — keeping
+production.json outside that folder prevents it from showing up as a set.
 """
 
 import argparse
