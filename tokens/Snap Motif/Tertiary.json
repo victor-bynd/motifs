@@ -78,6 +78,10 @@
     "--quote-bg-color": {
       "value": "{Neutral.--neutral-v150}",
       "type": "color"
+    },
+    "--quote-icon-color": {
+      "type": "color",
+      "value": "{Primary.--primary-v100}"
     }
   },
   "Footer": {
