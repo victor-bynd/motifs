@@ -3,35 +3,33 @@
 # Token Sync Workflow
 #
 # Triggers:
-#   1. Automatically — when the production token file is pushed to main/develop
+#   1. Automatically — when production.json is pushed to main/develop
 #   2. Manually      — via the "Run workflow" button in the GitHub Actions UI
 #
 # What it does:
 #   - Runs scripts/merge_tokens.py
-#   - Opens a DRAFT Pull Request (cannot be merged until you manually
-#     mark it "Ready for review") with:
-#       · The merged design-team token file
-#       · A Markdown diff report (missing tokens + changed values)
+#   - Creates a new branch with the merged changes
+#   - Opens a DRAFT Pull Request using gh CLI (reliable, no third-party action)
 #
 # ⚠️  AUTO-MERGE IS INTENTIONALLY DISABLED.
-#     The PR is always opened as a draft. You must:
-#       1. Review the diff report inside the PR
-#       2. Click "Ready for review" to un-draft it
-#       3. Merge manually when happy
+#     The PR opens as a draft — GitHub blocks the merge button until you:
+#       1. Review tokens/diff-report.md in the Files changed tab
+#       2. Click "Ready for review"
+#       3. Merge manually
 # ─────────────────────────────────────────────────────────────────────────────
 
 name: 🔄 Sync Tokens
 
 on:
-  # ── Auto: triggers when the production file is updated on main/develop ──────
+  # ── Auto: triggers when the production file is updated ─────────────────────
   push:
     branches:
       - main
       - develop
     paths:
-      - "production.json"          # lives at repo root level, OUTSIDE tokens/
+      - "production.json"     # lives at repo root, OUTSIDE tokens/ folder
 
-  # ── Manual: "Run workflow" button in the Actions tab ────────────────────────
+  # ── Manual: "Run workflow" button in the Actions tab ───────────────────────
   workflow_dispatch:
     inputs:
       notes:
@@ -45,122 +43,154 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write        # needed to push the new branch
-      pull-requests: write   # needed to open the PR
+      contents: write        # push new branch
+      pull-requests: write   # open PR
 
     steps:
-      # ── 1. Checkout repo ───────────────────────────────────────────────────
+      # ── 1. Checkout ────────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # ── 2. Set up Python ───────────────────────────────────────────────────
+      # ── 2. Python ──────────────────────────────────────────────────────────
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # ── 3. Run the merge script ────────────────────────────────────────────
+      # ── 3. Run merge script ────────────────────────────────────────────────
       - name: Run token merge & diff
         id: merge
         run: |
           python scripts/merge_tokens.py \
-            --design-dir  tokens \
-            --prod        production.json \
-            --ignore      tokens/sync-ignore.json
-        # Exit code 0 → only missing tokens added
-        # Exit code 2 → changed values detected (PR still opens, flagged)
-        continue-on-error: true   # always open the PR regardless
+            --design-dir tokens \
+            --prod       production.json \
+            --ignore     tokens/sync-ignore.json
+        # exit 0 → new tokens only | exit 2 → changed values found
+        continue-on-error: true   # always continue to open the PR
 
-      # ── 4. Check if anything actually changed ─────────────────────────────
+      # ── 4. Check if anything changed ───────────────────────────────────────
       - name: Check for changes
         id: check
         run: |
-          if git diff --quiet -- "tokens/" 2>/dev/null && \
-             [ -z "$(git status --porcelain tokens/)" ]; then
+          if [ -z "$(git status --porcelain tokens/)" ]; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No token changes detected."
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected — will create PR."
           fi
 
-      # ── 5. Set PR flags based on diff report ──────────────────────────────
-      - name: Set PR flags
-        id: flags
-        run: |
-          if grep -q "⚠️ Changed Values" tokens/diff-report.md 2>/dev/null; then
-            echo "has_value_changes=true"   >> $GITHUB_OUTPUT
-            echo "pr_label=⚠️ value changes" >> $GITHUB_OUTPUT
-          else
-            echo "has_value_changes=false"  >> $GITHUB_OUTPUT
-            echo "pr_label=🆕 new tokens only" >> $GITHUB_OUTPUT
-          fi
-
-      # ── 6. Create a branch and commit ──────────────────────────────────────
-      - name: Commit merged files
+      # ── 5. Build PR title & body ───────────────────────────────────────────
+      - name: Build PR content
         if: steps.check.outputs.has_changes == 'true'
+        id: pr_content
+        run: |
+          # Label based on whether values changed
+          if grep -q "⚠️ Changed Values" tokens/diff-report.md 2>/dev/null; then
+            LABEL="⚠️ value changes detected"
+            BANNER="> ⚠️ **Changed values were detected.** Review carefully — production values differ from your design file."
+          else
+            LABEL="🆕 new tokens only"
+            BANNER="> ✅ Only new/missing tokens were added. No existing values were modified."
+          fi
+
+          # Count summary numbers from diff report
+          MISSING=$(grep -oP '(?<=Missing tokens \(added to set files\) \| \*\*)\d+(?=\*\*)' tokens/diff-report.md || echo "?")
+          CHANGED=$(grep -oP '(?<=Changed values \(review needed\) \| \*\*)\d+(?=\*\*)' tokens/diff-report.md || echo "?")
+
+          # Notes from manual trigger (empty string if auto-triggered)
+          NOTES="${{ github.event.inputs.notes }}"
+          TITLE="🔄 [DRAFT] Token sync — ${LABEL}${NOTES:+ · $NOTES}"
+
+          # Write PR body to a file (avoids shell escaping issues)
+          cat > /tmp/pr-body.md << EOF
+          ## 🔄 Token Sync — Review Required
+
+          > 📋 **This is a DRAFT PR — it cannot be merged until you mark it "Ready for review".**
+
+          ${BANNER}
+
+          | | Count |
+          |---|---|
+          | 🆕 New tokens added | **${MISSING}** |
+          | ⚠️ Changed values (review needed) | **${CHANGED}** |
+
+          ---
+
+          ### How to review
+
+          1. Click the **Files changed** tab above
+          2. Open \`tokens/diff-report.md\` — full breakdown of every change
+          3. If there are ⚠️ changed values, decide whether to keep your design value or accept production's
+          4. Come back here → click **"Ready for review"** to un-draft
+          5. Merge
+          6. Pull changes in Tokens Studio and re-import
+
+          ---
+
+          ### Files in this PR
+
+          | File | Description |
+          |---|---|
+          | \`tokens/Snap Motif/*.json\` | Updated token sets — re-import in Tokens Studio after merging |
+          | \`tokens/diff-report.md\` | Full diff: new tokens, changed values, design-only tokens |
+
+          ---
+
+          _Triggered by: \`${{ github.event_name }}\` · \`${{ github.sha }}\`_
+          EOF
+
+          echo "title=${TITLE}" >> $GITHUB_OUTPUT
+
+      # ── 6. Create branch and commit ────────────────────────────────────────
+      - name: Create branch and commit
+        if: steps.check.outputs.has_changes == 'true'
+        id: branch
         run: |
           BRANCH="token-sync/$(date +'%Y-%m-%d-%H%M')"
-          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+          echo "name=${BRANCH}" >> $GITHUB_OUTPUT
 
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git checkout -b "$BRANCH"
+          git checkout -b "${BRANCH}"
           git add tokens/
           git commit -m "chore(tokens): sync with production — $(date +'%Y-%m-%d')"
-          git push origin "$BRANCH"
+          git push origin "${BRANCH}"
 
-      # ── 7. Open a DRAFT Pull Request ───────────────────────────────────────
+      # ── 7. Open DRAFT PR using gh CLI ──────────────────────────────────────
       #
-      #  draft: true  →  PR cannot be merged until you click "Ready for review"
-      #  auto-merge is NOT configured anywhere in this workflow (it is off by
-      #  default on GitHub unless explicitly enabled in repo settings — keep it off)
-      # ──────────────────────────────────────────────────────────────────────
+      #  Using gh CLI instead of peter-evans/create-pull-request to avoid the
+      #  issue where the action commits directly to main instead of opening a PR.
+      #  --draft flag means GitHub blocks merging until you click "Ready for review".
+      # ─────────────────────────────────────────────────────────────────────
       - name: Open Draft Pull Request
         if: steps.check.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ env.BRANCH }}
-          base: main
-          title: "🔄 [DRAFT] Token sync — ${{ steps.flags.outputs.pr_label }} · ${{ github.event.inputs.notes || github.event.head_commit.message }}"
-          body: |
-            ## 🔄 Token Sync — Review Required
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --base main \
+            --head "${{ steps.branch.outputs.name }}" \
+            --title "${{ steps.pr_content.outputs.title }}" \
+            --body-file /tmp/pr-body.md \
+            --draft \
+            --label "tokens" \
+            --label "sync"
 
-            > 📋 **This is a DRAFT PR — it cannot be merged until you mark it "Ready for review".**
-            > Open `tokens/diff-report.md` in the **Files changed** tab to see the full breakdown, then merge when happy.
+      # ── 8. Print PR link to workflow log ───────────────────────────────────
+      - name: Print PR link
+        if: steps.check.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_URL=$(gh pr view "${{ steps.branch.outputs.name }}" --json url -q .url)
+          echo "✅ Draft PR created: ${PR_URL}"
+          echo "   Review the diff report, then mark it Ready for review to merge."
 
-            ---
-
-            ${{ steps.flags.outputs.has_value_changes == 'true' && '> ⚠️ **Changed values were detected.** Review carefully before merging — production values differ from your design file.' || '> ✅ Only new/missing tokens were added. No existing values were modified.' }}
-
-            ---
-
-            ### What's inside this PR
-
-            | File | What changed |
-            |---|---|
-            | `tokens/Snap Motif/*.json` | Updated token set files — re-import in Tokens Studio after merging |
-            | `tokens/diff-report.md` | Full diff report: new tokens, changed values, design-only tokens |
-
-            ---
-
-            ### Your review checklist
-
-            - [ ] Open **Files changed** → review `tokens/diff-report.md`
-            - [ ] If there are ⚠️ **changed values** — decide whether to keep your design value or accept production's
-            - [ ] Click **"Ready for review"** to un-draft this PR
-            - [ ] Merge
-            - [ ] Re-import the updated set files in Tokens Studio
-
-            ---
-
-            _Triggered by: `${{ github.event_name }}` · `${{ github.sha }}`_
-          labels: "tokens, sync"
-          draft: true          # ← DRAFT: blocks merging until you manually un-draft it
-
-      # ── 8. No-op message if nothing changed ───────────────────────────────
+      # ── 9. No-op if nothing changed ────────────────────────────────────────
       - name: Nothing to sync
         if: steps.check.outputs.has_changes == 'false'
         run: echo "✅ No token differences found. Design file is already in sync with production."
