@@ -527,10 +527,6 @@
       "value": "500",
       "type": "fontWeights"
     },
-    "--h1-desktop-font-line-height-compact": {
-      "value": "108%",
-      "type": "sizing"
-    },
     "--h5-desktop-font-letter-spacing": {
       "value": "normal",
       "type": "letterSpacing"
@@ -546,6 +542,11 @@
     "--h6-mobile-font-letter-spacing": {
       "value": "normal",
       "type": "letterSpacing"
+    },
+    "--h1-desktop-font-line-height-compact": {
+      "value": "95px",
+      "type": "lineHeights",
+      "description": "production: 108% = 95px for Figma variables"
     }
   },
   "Primary": {
