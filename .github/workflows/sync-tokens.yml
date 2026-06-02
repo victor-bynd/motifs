@@ -59,11 +59,9 @@ jobs:
         id: merge
         run: |
           python scripts/merge_tokens.py \
-            --design  tokens/design-team.json \
-            --prod    tokens/production.json \
-            --output  tokens/design-team-merged.json \
-            --report  tokens/diff-report.md \
-            --ignore  tokens/sync-ignore.json
+            --design-dir  tokens \
+            --prod        tokens/production.json \
+            --ignore      tokens/sync-ignore.json
         # Exit code meanings:
         #   0 → clean (only missing tokens, no value changes)
         #   2 → changed values detected (PR still opens, but flagged)
@@ -73,8 +71,8 @@ jobs:
       - name: Check for changes
         id: check
         run: |
-          if git diff --quiet tokens/design-team-merged.json tokens/diff-report.md 2>/dev/null \
-             && git ls-files --error-unmatch tokens/design-team-merged.json 2>/dev/null; then
+          if git diff --quiet -- "tokens/Snap Motif/" tokens/diff-report.md 2>/dev/null && \
+             [ -z "$(git status --porcelain tokens/)" ]; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
@@ -107,7 +105,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git checkout -b "$BRANCH"
-          git add tokens/design-team-merged.json tokens/diff-report.md
+          # Add all modified token set files + the diff report
+          git add tokens/
           git commit -m "chore(tokens): sync with production — $(date +'%Y-%m-%d')"
           git push origin "$BRANCH"
 
@@ -133,7 +132,7 @@ jobs:
 
             | File | Description |
             |---|---|
-            | `tokens/design-team-merged.json` | Merged token file — ready to import in Tokens Studio |
+            | `tokens/Snap Motif/*.json` | Updated set files — ready to re-import in Tokens Studio |
             | `tokens/diff-report.md` | Full diff: missing tokens + changed values |
 
             ---
@@ -142,7 +141,7 @@ jobs:
 
             1. Open **`tokens/diff-report.md`** in this PR to see the full breakdown
             2. If there are ⚠️ **changed values**, decide whether to accept production's version or keep the design team's
-            3. Merge when happy — then re-import `design-team-merged.json` into Tokens Studio
+            3. Merge when happy — then re-import the updated set files in Tokens Studio
 
             ---
 
