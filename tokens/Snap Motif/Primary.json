@@ -404,6 +404,10 @@
     "--global-header-menu-item-border-radius": {
       "value": "{Root.--border-radius-m}",
       "type": "borderRadius"
+    },
+    "--global-header-menu-featured-item-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-m}"
     }
   },
   "Block": {
