@@ -247,7 +247,7 @@
   },
   "Header": {
     "--global-header-bg-color": {
-      "value": "{Root.--bg-color}",
+      "value": "{Primary.--primary-v100}",
       "type": "color"
     },
     "--global-header-fg-color": {
@@ -647,7 +647,7 @@
       "type": "color"
     },
     "--quote-icon-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Neutral.--neutral-v700}",
       "type": "color"
     },
     "--quote-author-desktop-font-size": {
@@ -705,7 +705,7 @@
   },
   "Footer": {
     "--footer-bg-color": {
-      "value": "{Root.--bg-color}",
+      "value": "{Primary.--primary-v100}",
       "type": "color"
     },
     "--footer-fg-color": {
@@ -721,7 +721,7 @@
       "type": "color"
     },
     "--footer-bar-bg-color": {
-      "value": "{Root.--bg-color}",
+      "value": "{Primary.--primary-v100}",
       "type": "color"
     },
     "--footer-bar-fg-color": {
@@ -1067,7 +1067,7 @@
   },
   "Banner": {
     "--banner-bg-color": {
-      "value": "{Root.--bg-color}",
+      "value": "{Primary.--primary-v100}",
       "type": "color"
     },
     "--banner-fg-color": {

@@ -192,6 +192,7 @@
       "Header.--global-header-site-name-font-size": "c73f85cf7e659a7c14e159e0ae31523e5da1c7f5",
       "Header.--global-header-border-color": "13d0935ce7bef268e49c20b2374143df62682d13",
       "Header.--global-header-menu-item-border-radius": "e705f388d16310f22add582dcbf3cc097dde0d92",
+      "Header.--global-header-menu-featured-item-border-radius": "75bd9bff865e3d7bd960ea95e81157f863b0c68c",
       "Block.--block-title-color": "bdc39606796c1c035404ade46b1224baf8ae04df",
       "Block.--block-subtitle-color": "9b0b7896ec9721c681cec7b481fea23f507f2540",
       "Block.--block-eyebrow-color": "2466aab3dd0ccbadd64ca706de3ad31a2d3d699e",
@@ -689,6 +690,7 @@
       "Header.--global-header-site-name-font-size": "c73f85cf7e659a7c14e159e0ae31523e5da1c7f5",
       "Header.--global-header-border-color": "13d0935ce7bef268e49c20b2374143df62682d13",
       "Header.--global-header-menu-item-border-radius": "e705f388d16310f22add582dcbf3cc097dde0d92",
+      "Header.--global-header-menu-featured-item-border-radius": "75bd9bff865e3d7bd960ea95e81157f863b0c68c",
       "Block.--block-title-color": "bdc39606796c1c035404ade46b1224baf8ae04df",
       "Block.--block-subtitle-color": "9b0b7896ec9721c681cec7b481fea23f507f2540",
       "Block.--block-eyebrow-color": "2466aab3dd0ccbadd64ca706de3ad31a2d3d699e",
@@ -1241,6 +1243,7 @@
       "Header.--global-header-site-name-font-size": "c73f85cf7e659a7c14e159e0ae31523e5da1c7f5",
       "Header.--global-header-border-color": "13d0935ce7bef268e49c20b2374143df62682d13",
       "Header.--global-header-menu-item-border-radius": "e705f388d16310f22add582dcbf3cc097dde0d92",
+      "Header.--global-header-menu-featured-item-border-radius": "75bd9bff865e3d7bd960ea95e81157f863b0c68c",
       "Block.--block-title-color": "bdc39606796c1c035404ade46b1224baf8ae04df",
       "Block.--block-subtitle-color": "9b0b7896ec9721c681cec7b481fea23f507f2540",
       "Block.--block-eyebrow-color": "2466aab3dd0ccbadd64ca706de3ad31a2d3d699e",
@@ -1930,6 +1933,7 @@
       "Header.--global-header-site-name-font-size": "c73f85cf7e659a7c14e159e0ae31523e5da1c7f5",
       "Header.--global-header-border-color": "13d0935ce7bef268e49c20b2374143df62682d13",
       "Header.--global-header-menu-item-border-radius": "e705f388d16310f22add582dcbf3cc097dde0d92",
+      "Header.--global-header-menu-featured-item-border-radius": "75bd9bff865e3d7bd960ea95e81157f863b0c68c",
       "Block.--block-title-color": "bdc39606796c1c035404ade46b1224baf8ae04df",
       "Block.--block-subtitle-color": "9b0b7896ec9721c681cec7b481fea23f507f2540",
       "Block.--block-eyebrow-color": "2466aab3dd0ccbadd64ca706de3ad31a2d3d699e",
@@ -2234,6 +2238,7 @@
       "Palette.Blue.--palette-blue-v200": "S:4cb584c74c4eacc87bf1937dd7ae5a48c8fd0093,"
     },
     "$figmaVariableReferences": {
+      "Root.--border-radius-none": "de57072189f705255f43ed79c125c7d34f454f01",
       "Root.--border-radius-xs": "b0d3ce42588d7ad7802297d699e4dd402e7a2620",
       "Root.--border-radius-s": "0f108bc70d44cd7ed472e17aed53dc9436ce3778",
       "Root.--border-radius-m": "f86e843989f39a2e2425db3a72f271b61fd8ee71",
@@ -2244,6 +2249,7 @@
       "Root.--border-width-s": "688f6297ef17a6ee01304f7543d5cec33e13252a",
       "Root.--border-width-m": "2a8a35276f584d51458cf90871987ce9616d094b",
       "Root.--border-width-l": "12b3ff8a90369a567fe415d9db9d5d20af6120b2",
+      "Root.--spacing-none": "fb4366a672a5c36658ca6c89d1755ef7fb9744b2",
       "Root.--spacing-xxxs": "374cddc72489ab21aabaeb69e46c4301accd03f4",
       "Root.--spacing-xxs": "0589eebdb886d4ea1bd536e00495aa0ce50c01d5",
       "Root.--spacing-xs": "0714d28f9d6f635013dfeac750c4f5c03b318256",
@@ -2389,8 +2395,7 @@
       "Palette.Blue.--palette-blue-v50": "6b21c6716b10f7fd27de71f64666a00492556058",
       "Palette.Blue.--palette-blue-v100": "fb8f22c9ac29bd9cc21b8bf1f0ec008e05ae533d",
       "Palette.Blue.--palette-blue-v150": "d5da44201b1830b26a7d2d2c774ee258f140611d",
-      "Palette.Blue.--palette-blue-v200": "e52cf4c7c068434fea40c0ddcc74e747c2f4a340",
-      "Root.--h1-desktop-font-line-height-compact": "f07cb87abdfe74e0ef9c539ac08421fae079d80c"
+      "Palette.Blue.--palette-blue-v200": "e52cf4c7c068434fea40c0ddcc74e747c2f4a340"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:8942",
     "$figmaModeId": "8391:0"

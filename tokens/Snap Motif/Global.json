@@ -557,9 +557,9 @@
       "type": "letterSpacing"
     },
     "--h1-desktop-font-line-height-compact": {
-      "value": "95px",
+      "value": "108%",
       "type": "lineHeights",
-      "description": "production: 108% = 95px for Figma variables"
+      "description": "won't be shown as an applied Figma variable since Figma doesn't support percentages for line-height variables yet"
     }
   },
   "Primary": {
