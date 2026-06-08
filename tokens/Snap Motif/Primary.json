@@ -927,6 +927,18 @@
     "--accordion-item-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
+    },
+    "--accordion-item-icon-inset": {
+      "type": "spacing",
+      "value": "{Root.--spacing-m}"
+    },
+    "--accordion-header-divider-border-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v500}"
+    },
+    "--accordion-item-icon-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v700}"
     }
   },
   "Carousel": {
