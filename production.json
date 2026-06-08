@@ -2054,6 +2054,11 @@
         "description": "",
         "value": "{Root.--spacing-m}"
       },
+      "--accordion-item-icon-inset": {
+        "type": "spacing",
+        "description": "",
+        "value": "{Root.--spacing-m}"
+      },
       "--accordion-item-body-desktop-font-size": {
         "type": "fontSizes",
         "description": "",
@@ -2084,12 +2089,22 @@
         "value": "{Neutral.--neutral-v500}",
         "description": ""
       },
+      "--accordion-header-divider-border-color": {
+        "type": "color",
+        "value": "{Neutral.--neutral-v500}",
+        "description": ""
+      },
       "--accordion-header-color": {
         "type": "color",
         "value": "{Neutral.--neutral-v700}",
         "description": ""
       },
       "--accordion-item-color": {
+        "type": "color",
+        "value": "{Neutral.--neutral-v700}",
+        "description": ""
+      },
+      "--accordion-item-icon-color": {
         "type": "color",
         "value": "{Neutral.--neutral-v700}",
         "description": ""
@@ -3849,12 +3864,22 @@
         "value": "{Neutral.--neutral-v300}",
         "description": ""
       },
+      "--accordion-header-divider-border-color": {
+        "type": "color",
+        "value": "{Neutral.--neutral-v300}",
+        "description": ""
+      },
       "--accordion-header-color": {
         "type": "color",
         "value": "{Neutral.--neutral-v0}",
         "description": ""
       },
       "--accordion-item-color": {
+        "type": "color",
+        "value": "{Neutral.--neutral-v0}",
+        "description": ""
+      },
+      "--accordion-item-icon-color": {
         "type": "color",
         "value": "{Neutral.--neutral-v0}",
         "description": ""
@@ -4527,6 +4552,11 @@
         "type": "color",
         "value": "{Neutral.--neutral-v250}",
         "description": ""
+      },
+      "--accordion-header-divider-border-color": {
+        "type": "color",
+        "value": "{Neutral.--neutral-v250}",
+        "description": ""
       }
     },
     "Carousel": {},
@@ -4793,6 +4823,11 @@
     },
     "Accordion": {
       "--accordion-divider-border-color": {
+        "type": "color",
+        "value": "{Neutral.--neutral-v300}",
+        "description": ""
+      },
+      "--accordion-header-divider-border-color": {
         "type": "color",
         "value": "{Neutral.--neutral-v300}",
         "description": ""
