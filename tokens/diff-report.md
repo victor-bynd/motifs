@@ -1,6 +1,6 @@
 # Token Diff Report
 
-**Generated:** 2026-06-03 23:26 UTC  
+**Generated:** 2026-06-08 23:53 UTC  
 **Design dir:** `tokens`  
 **Production file:** `production.json`
 
@@ -10,29 +10,56 @@
 
 | | Count |
 |---|---|
-| 🆕 Missing tokens (added to set files) | **1** |
-| ⚠️ Changed values (review needed) | **8** |
+| 🆕 Missing tokens (added to set files) | **7** |
+| ⚠️ Changed values (review needed) | **2** |
 | 🚫 Ignored changes (sync-ignore.json) | **0** |
 | 🔵 Design-only tokens (not in production) | **4** |
 
 ---
 
-## 🆕 Missing Tokens — added to set files (1)
+## 🆕 Missing Tokens — added to set files (7)
 
 These tokens exist in the production file but were absent from the design files.  
 They have been automatically added to the corresponding set file.
 
 ### `Snap Motif/Primary`
 
-#### Header
+#### Accordion
 
 | Token | Type | Value |
 |---|---|---|
-| `--global-header-menu-featured-item-border-radius` | borderRadius | `{Root.--border-radius-m}` |
+| `--accordion-header-divider-border-color` | color | `{Neutral.--neutral-v500}` |
+| `--accordion-item-icon-color` | color | `{Neutral.--neutral-v700}` |
+| `--accordion-item-icon-inset` | spacing | `{Root.--spacing-m}` |
+
+### `Snap Motif/Quaternary`
+
+#### Accordion
+
+| Token | Type | Value |
+|---|---|---|
+| `--accordion-header-divider-border-color` | color | `{Neutral.--neutral-v300}` |
+
+### `Snap Motif/Secondary`
+
+#### Accordion
+
+| Token | Type | Value |
+|---|---|---|
+| `--accordion-header-divider-border-color` | color | `{Neutral.--neutral-v300}` |
+| `--accordion-item-icon-color` | color | `{Neutral.--neutral-v0}` |
+
+### `Snap Motif/Tertiary`
+
+#### Accordion
+
+| Token | Type | Value |
+|---|---|---|
+| `--accordion-header-divider-border-color` | color | `{Neutral.--neutral-v250}` |
 
 ---
 
-## ⚠️ Changed Values — review required (8)
+## ⚠️ Changed Values — review required (2)
 
 These tokens exist in both files but the production value differs from the design file.  
 **The design file value is kept.** Review each one and update manually if needed.
@@ -41,19 +68,8 @@ These tokens exist in both files but the production value differs from the desig
 
 | Token | Type | Design value | Production value |
 |---|---|---|---|
-| `Root.--h1-desktop-font-line-height-compact` | sizing | `95px` | `108%` |
 | `Root.--h1-font-family` | fontFamilies | `Program Nar OT, Helvetica, Tahoma, Arial, sans-serif` | `Program OT, Helvetica Heading, Tahoma Heading, Arial, sans-serif` |
 | `Root.--h2-font-family` | fontFamilies | `Program Nar OT, Helvetica, Tahoma, Arial, sans-serif` | `Program OT, Helvetica Heading, Tahoma Heading, Arial, sans-serif` |
-
-### `Snap Motif/Primary`
-
-| Token | Type | Design value | Production value |
-|---|---|---|---|
-| `Banner.--banner-bg-color` | color | `{Root.--bg-color}` | `{Primary.--primary-v100}` |
-| `Footer.--footer-bar-bg-color` | color | `{Root.--bg-color}` | `{Primary.--primary-v100}` |
-| `Footer.--footer-bg-color` | color | `{Root.--bg-color}` | `{Primary.--primary-v100}` |
-| `Header.--global-header-bg-color` | color | `{Root.--bg-color}` | `{Primary.--primary-v100}` |
-| `Quote.--quote-icon-color` | color | `{Primary.--primary-v100}` | `{Neutral.--neutral-v700}` |
 
 ---
 

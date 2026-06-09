@@ -66,6 +66,10 @@
     "--accordion-divider-border-color": {
       "value": "{Neutral.--neutral-v300}",
       "type": "color"
+    },
+    "--accordion-header-divider-border-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v300}"
     }
   },
   "Banner": {

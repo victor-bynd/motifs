@@ -301,6 +301,14 @@
     "--accordion-item-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
+    },
+    "--accordion-header-divider-border-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v300}"
+    },
+    "--accordion-item-icon-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v0}"
     }
   },
   "Carousel": {
