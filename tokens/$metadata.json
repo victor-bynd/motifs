@@ -1,6 +1,9 @@
 {
   "tokenSetOrder": [
     "Snap Motif/Global",
+    "Snap Motif/Devices/Desktop",
+    "Snap Motif/Devices/Mobile",
+    "Snap Motif/Semantic",
     "Snap Motif/Primary",
     "Snap Motif/Secondary",
     "Snap Motif/Tertiary",

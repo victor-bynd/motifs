@@ -1,190 +1,252 @@
 {
-  "Root": {
-    "--bg-color": {
-      "value": "{Neutral.--neutral-v0}",
-      "type": "color"
-    }
-  },
   "Button": {
     "--button-primary-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--color-bg-brand}",
       "type": "color"
     },
     "--button-primary-hover-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--color-bg-brand}",
       "type": "color"
     },
     "--button-primary-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--color-border-brand}",
       "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--color-border-brand}",
       "type": "color"
     },
     "--button-primary-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--color-fg-default}",
       "type": "color"
     },
     "--button-secondary-bg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--color-bg-inverse}",
       "type": "color"
     },
     "--button-secondary-hover-bg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--color-bg-inverse}",
       "type": "color"
     },
     "--button-secondary-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--color-border-default}",
       "type": "color"
     },
     "--button-secondary-hover-border-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--color-border-default}",
       "type": "color"
     },
     "--button-secondary-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--color-fg-inverse}",
       "type": "color"
     },
     "--button-primary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--color-fg-default}",
       "type": "color"
     },
     "--button-secondary-hover-fg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--color-fg-inverse}",
       "type": "color"
+    },
+    "--button-font-size": {
+      "value": "{Root.--action-font-size}",
+      "type": "fontSizes"
+    },
+    "--button-font-letter-spacing": {
+      "value": "{Root.--action-font-letter-spacing}",
+      "type": "letterSpacing"
+    },
+    "--button-font-line-height": {
+      "value": "{Root.--action-font-line-height}",
+      "type": "lineHeights"
+    },
+    "--button-font-weight": {
+      "value": "{Root.--action-font-weight}",
+      "type": "fontWeights"
     }
   },
   "Header": {
     "--global-header-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--color-bg-surface}",
       "type": "color"
+    },
+    "--global-header-navigator-item-font-text-transform": {
+      "value": "none",
+      "type": "textCase"
     }
   },
   "Block": {
     "--block-title-de-emphasized-color": {
-      "value": "{Neutral.--neutral-v400}",
+      "value": "{Root.--color-fg-faint}",
       "type": "color",
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
+    },
+    "--block-title-font-size": {
+      "value": "{Root.--h2-font-size}",
+      "type": "fontSizes"
+    },
+    "--block-title-font-line-height": {
+      "value": "{Root.--h2-font-line-height}",
+      "type": "lineHeights"
+    },
+    "--block-header-padding": {
+      "value": "{Root.--spacing-16} {Root.--spacing-32}",
+      "type": "spacing"
+    },
+    "--block-boundary-padding": {
+      "value": "{Root.--spacing-32}",
+      "type": "spacing"
     }
   },
   "Hero": {
     "--hero-title-de-emphasized-color": {
-      "value": "{Neutral.--neutral-v400}",
+      "value": "{Root.--color-fg-faint}",
       "type": "color"
     }
   },
   "Quote": {
     "--quote-bg-color": {
-      "value": "{Neutral.--neutral-v150}",
+      "value": "{Root.--color-bg-subtle}",
       "type": "color"
     },
-    "--quote-icon-color": {
-      "value": "{Primary.--primary-v100}",
-      "type": "color"
+    "--quote-author-font-size": {
+      "value": "16px",
+      "type": "fontSizes"
+    },
+    "--quote-author-font-weight": {
+      "value": "500",
+      "type": "fontWeights"
     }
   },
   "Footer": {
     "--footer-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--color-bg-surface}",
       "type": "color"
     },
     "--footer-border-color": {
-      "value": "{Neutral.--neutral-v300}",
+      "value": "{Root.--color-border-muted}",
       "type": "color"
     },
     "--footer-divider-border-color": {
-      "value": "{Neutral.--neutral-v300}",
+      "value": "{Root.--color-border-muted}",
       "type": "color"
     },
     "--footer-bar-bg-color": {
-      "value": "{Neutral.--neutral-v150}",
+      "value": "{Root.--color-bg-subtle}",
       "type": "color"
     },
     "--footer-bar-divider-border-color": {
-      "value": "{Neutral.--neutral-v150}",
+      "value": "{Root.--color-border-subtle}",
       "type": "color"
+    },
+    "--footer-font-size": {
+      "value": "14px",
+      "type": "fontSizes"
+    },
+    "--footer-bar-header-font-text-transform": {
+      "value": "none",
+      "type": "textCase"
     }
   },
   "Toggle Slider": {
     "--toggle-slider-bg-color": {
-      "value": "{Neutral.--neutral-v500}",
+      "value": "{Root.--color-fg-muted}",
       "type": "color"
     },
     "--toggle-slider-active-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--color-bg-brand}",
       "type": "color"
     }
   },
   "Accordion": {
     "--accordion-divider-border-color": {
-      "value": "{Neutral.--neutral-v250}",
+      "value": "{Root.--color-border-moderate}",
       "type": "color"
     },
-    "--accordion-header-divider-border-color": {
-      "type": "color",
-      "value": "{Neutral.--neutral-v250}"
+    "--accordion-header-font-size": {
+      "value": "{Root.--h6-font-size}",
+      "type": "fontSizes"
+    },
+    "--accordion-header-font-line-height": {
+      "value": "{Root.--h6-font-line-height}",
+      "type": "lineHeights"
+    },
+    "--accordion-header-font-weight": {
+      "value": "{Root.--h6-font-weight}",
+      "type": "fontWeights"
     }
   },
   "Banner": {
     "--banner-bg-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Root.--color-bg-surface}",
       "type": "color"
     }
   },
   "Side Navigation": {
     "--side-navigation-mobile-bg-color": {
-      "value": "{Neutral.--neutral-v100}",
+      "value": "{Root.--color-bg-recessed}",
       "type": "color"
     }
   },
   "Form": {
     "--form-input-border-color": {
-      "value": "{Neutral.--neutral-v300}",
+      "value": "{Root.--color-border-muted}",
       "type": "color"
+    },
+    "--form-input-font-size": {
+      "value": "{Root.--text-font-size}",
+      "type": "fontSizes"
+    },
+    "--form-input-font-line-height": {
+      "value": "normal",
+      "type": "lineHeights"
+    },
+    "--form-input-font-weight": {
+      "value": "{Root.--text-font-weight}",
+      "type": "fontWeights"
     }
   },
   "Progress Bar": {
     "--progress-bar-bg-color": {
-      "value": "{Neutral.--neutral-v250}",
+      "value": "{Root.--color-bg-subtle-active}",
       "type": "color"
     },
     "--progress-bar-progress-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--color-bg-brand}",
       "type": "color"
     }
   },
   "Chart Toggle": {
     "--chart-toggle-buttons-active-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--color-bg-brand}",
       "type": "color"
     },
     "--chart-toggle-buttons-active-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--color-fg-default}",
       "type": "color"
     },
     "--chart-toggle-buttons-active-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--color-border-brand}",
       "type": "color"
     }
   },
   "Block Navigation": {
     "--block-navigation-buttons-active-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--color-fg-default}",
       "type": "color"
     },
     "--block-navigation-buttons-active-border-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--color-border-brand}",
       "type": "color"
     },
     "--block-navigation-buttons-active-bg-color": {
-      "value": "{Primary.--primary-v100}",
+      "value": "{Root.--color-bg-brand}",
       "type": "color"
     }
   },
   "Toggle Panel": {
     "--toggle-panel-bg-color": {
-      "value": "{Neutral.--neutral-v700}",
+      "value": "{Root.--color-bg-inverse}",
       "type": "color"
     }
   },
@@ -194,49 +256,57 @@
       "type": "color"
     },
     "--table-border-color": {
-      "value": "{Neutral.--neutral-v200}",
+      "value": "{Root.--color-bg-subtle-hover}",
       "type": "color"
     },
     "--table-cell-header-bg-color": {
-      "value": "{Neutral.--neutral-v200}",
+      "value": "{Root.--color-bg-subtle-hover}",
       "type": "color"
+    },
+    "--table-cell-padding": {
+      "value": "{Root.--spacing-32} {Root.--spacing-16}",
+      "type": "spacing"
+    },
+    "--table-row-gap": {
+      "value": "0",
+      "type": "spacing"
     }
   },
   "Definition": {
     "--definition-active-bg-color": {
-      "value": "{Primary.--primary-v150}",
+      "value": "{Root.--color-bg-brand-emphasis}",
       "type": "color"
     },
     "--definition-active-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Root.--color-bg-brand-hover}",
       "type": "color"
     },
     "--definition-bg-color": {
-      "value": "{Neutral.--neutral-v100}",
+      "value": "{Root.--color-bg-recessed}",
       "type": "color"
     },
     "--definition-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Root.--color-bg-brand-hover}",
       "type": "color"
     },
     "--definition-hover-bg-color": {
-      "value": "{Neutral.--neutral-v250}",
+      "value": "{Root.--color-bg-subtle-active}",
       "type": "color"
     },
     "--definition-hover-border-color": {
-      "value": "{Primary.--primary-v200}",
+      "value": "{Root.--color-bg-brand-hover}",
       "type": "color"
     }
   },
   "Side Overlay": {
     "--side-overlay-border-color": {
-      "value": "{Neutral.--neutral-v200}",
+      "value": "{Root.--color-bg-subtle-hover}",
       "type": "color"
     }
   },
   "Topic": {
     "--topic-hover-bg-color": {
-      "value": "{Neutral.--neutral-v150}",
+      "value": "{Root.--color-bg-subtle}",
       "type": "color"
     }
   }
