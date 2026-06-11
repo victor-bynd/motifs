@@ -327,6 +327,10 @@
     "--block-header-padding": {
       "value": "{Root.--spacing-16} {Root.--spacing-32}",
       "type": "spacing"
+    },
+    "--block-boundary-padding": {
+      "value": "{Root.--spacing-32}",
+      "type": "spacing"
     }
   },
   "Tabs": {
