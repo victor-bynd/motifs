@@ -205,39 +205,7 @@
       "type": "fontWeights"
     }
   },
-  "Button": {
-    "--button-font-size": {
-      "value": "{Root.--action-font-size}",
-      "type": "fontSizes"
-    },
-    "--button-font-line-height": {
-      "value": "{Root.--action-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--button-font-letter-spacing": {
-      "value": "{Root.--action-font-letter-spacing}",
-      "type": "letterSpacing"
-    },
-    "--button-font-weight": {
-      "value": "{Root.--action-font-weight}",
-      "type": "fontWeights"
-    }
-  },
-  "Header": {
-    "--global-header-navigator-item-font-text-transform": {
-      "value": "none",
-      "type": "textCase"
-    }
-  },
   "Block": {
-    "--block-title-font-size": {
-      "value": "{Root.--h2-font-size}",
-      "type": "fontSizes"
-    },
-    "--block-title-font-line-height": {
-      "value": "{Root.--h2-font-line-height}",
-      "type": "lineHeights"
-    },
     "--block-header-padding": {
       "value": "{Root.--spacing-16}",
       "type": "spacing"
@@ -267,40 +235,6 @@
       "type": "spacing"
     }
   },
-  "Quote": {
-    "--quote-author-font-size": {
-      "value": "{Root.--font-size-16}",
-      "type": "fontSizes"
-    },
-    "--quote-author-font-weight": {
-      "value": "{Root.--font-weight-medium}",
-      "type": "fontWeights"
-    }
-  },
-  "Footer": {
-    "--footer-font-size": {
-      "value": "{Root.--font-size-14}",
-      "type": "fontSizes"
-    },
-    "--footer-bar-header-font-text-transform": {
-      "value": "none",
-      "type": "textCase"
-    }
-  },
-  "Accordion": {
-    "--accordion-header-font-size": {
-      "value": "{Root.--h6-font-size}",
-      "type": "fontSizes"
-    },
-    "--accordion-header-font-line-height": {
-      "value": "{Root.--h6-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--accordion-header-font-weight": {
-      "value": "{Root.--h6-font-weight}",
-      "type": "fontWeights"
-    }
-  },
   "Carousel": {
     "--carousel-card-landscape-square-width": {
       "value": "311px",
@@ -310,83 +244,15 @@
       "value": "288px",
       "type": "sizing"
     },
-    "--carousel-card-portrait-width": {
-      "value": "257px",
-      "type": "sizing"
-    },
     "--carousel-card-grid-gap": {
       "value": "16px",
       "type": "spacing"
-    },
-    "--carousel-card-text-align": {
-      "value": "start",
-      "type": "textAlign"
-    },
-    "--carousel-card-text-padding": {
-      "value": "{Root.--spacing-16}",
-      "type": "spacing"
-    }
-  },
-  "Hyperlink": {
-    "--hyperlink-font-size": {
-      "value": "{Root.--action-font-size}",
-      "type": "fontSizes"
-    },
-    "--hyperlink-font-line-height": {
-      "value": "{Root.--action-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--hyperlink-font-weight": {
-      "value": "{Root.--action-font-weight}",
-      "type": "fontWeights"
-    },
-    "--hyperlink-font-text-decoration": {
-      "value": "{Root.--action-font-text-decoration}",
-      "type": "textDecoration"
-    },
-    "--hyperlink-font-letter-spacing": {
-      "value": "{Root.--action-font-letter-spacing}",
-      "type": "letterSpacing"
-    }
-  },
-  "Side Navigation": {
-    "--side-navigation-bar-bg-color": {
-      "value": "{Root.--color-bg-subtle-hover}",
-      "type": "color"
-    },
-    "--side-navigation-bar-fg-color": {
-      "value": "{Root.--action-text-active-color}",
-      "type": "color"
-    },
-    "--side-navigation-bg-color": {
-      "value": "{Root.--color-bg-surface}",
-      "type": "color"
-    },
-    "--side-navigation-item-color": {
-      "value": "{Root.--action-text-default-color}",
-      "type": "color"
-    },
-    "--side-navigation-item-active-color": {
-      "value": "{Root.--action-text-active-color}",
-      "type": "color"
-    },
-    "--side-navigation-toggler-icon-color": {
-      "value": "{Root.--color-fg-default}",
-      "type": "color"
     }
   },
   "Form": {
-    "--form-input-font-size": {
-      "value": "{Root.--text-font-size}",
-      "type": "fontSizes"
-    },
     "--form-input-font-line-height": {
       "value": "{Root.--text-font-line-height}",
       "type": "lineHeights"
-    },
-    "--form-input-font-weight": {
-      "value": "{Root.--text-font-weight}",
-      "type": "fontWeights"
     }
   },
   "Primitive Table": {
@@ -399,16 +265,6 @@
       "type": "spacing"
     }
   },
-  "Autocomplete": {
-    "--autocomplete-font-size": {
-      "value": "{Root.--text-font-size}",
-      "type": "fontSizes"
-    },
-    "--autocomplete-font-weight": {
-      "value": "{Root.--text-font-weight}",
-      "type": "fontWeights"
-    }
-  },
   "Cookie Modal Settings": {
     "--cookie-modal-horizontal-padding": {
       "value": "{Root.--spacing-12}",
@@ -417,54 +273,6 @@
     "--cookie-modal-vertical-padding": {
       "value": "{Root.--spacing-8}",
       "type": "spacing"
-    },
-    "--cookie-modal-rich-text-title-font-size": {
-      "value": "1.17em",
-      "type": "fontSizes"
-    },
-    "--cookie-modal-rich-text-title-font-line-height": {
-      "value": "{Root.--h3-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--cookie-modal-rich-text-title-font-weight": {
-      "value": "{Root.--font-weight-medium}",
-      "type": "fontWeights"
-    },
-    "--cookie-modal-rich-text-base-font-size": {
-      "value": "{Root.--text-font-size}",
-      "type": "fontSizes"
-    },
-    "--cookie-modal-rich-text-base-font-line-height": {
-      "value": "{Root.--line-height-26px}",
-      "type": "lineHeights"
-    },
-    "--cookie-modal-rich-text-base-font-weight": {
-      "value": "{Root.--font-weight-regular}",
-      "type": "fontWeights"
-    },
-    "--cookie-settings-category-title-font-size": {
-      "value": "{Root.--p1-font-size}",
-      "type": "fontSizes"
-    },
-    "--cookie-settings-category-title-font-line-height": {
-      "value": "{Root.--p1-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--cookie-settings-category-title-font-weight": {
-      "value": "{Root.--p1-font-weight}",
-      "type": "fontWeights"
-    },
-    "--cookie-settings-category-description-font-size": {
-      "value": "{Root.--text-font-size}",
-      "type": "fontSizes"
-    },
-    "--cookie-settings-category-description-font-line-height": {
-      "value": "{Root.--line-height-26px}",
-      "type": "lineHeights"
-    },
-    "--cookie-settings-category-description-font-weight": {
-      "value": "{Root.--text-font-weight}",
-      "type": "fontWeights"
     }
   }
 }

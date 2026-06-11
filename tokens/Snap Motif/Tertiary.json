@@ -47,32 +47,12 @@
     "--button-secondary-hover-fg-color": {
       "value": "{Root.--color-fg-inverse}",
       "type": "color"
-    },
-    "--button-font-size": {
-      "value": "{Root.--action-font-size}",
-      "type": "fontSizes"
-    },
-    "--button-font-letter-spacing": {
-      "value": "{Root.--action-font-letter-spacing}",
-      "type": "letterSpacing"
-    },
-    "--button-font-line-height": {
-      "value": "{Root.--action-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--button-font-weight": {
-      "value": "{Root.--action-font-weight}",
-      "type": "fontWeights"
     }
   },
   "Header": {
     "--global-header-bg-color": {
       "value": "{Root.--color-bg-surface}",
       "type": "color"
-    },
-    "--global-header-navigator-item-font-text-transform": {
-      "value": "none",
-      "type": "textCase"
     }
   },
   "Block": {
@@ -80,22 +60,6 @@
       "value": "{Root.--color-fg-faint}",
       "type": "color",
       "description": "color for de-emphasized text, applicable only on H1 and H2 (optional)"
-    },
-    "--block-title-font-size": {
-      "value": "{Root.--h2-font-size}",
-      "type": "fontSizes"
-    },
-    "--block-title-font-line-height": {
-      "value": "{Root.--h2-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--block-header-padding": {
-      "value": "{Root.--spacing-16} {Root.--spacing-32}",
-      "type": "spacing"
-    },
-    "--block-boundary-padding": {
-      "value": "{Root.--spacing-32}",
-      "type": "spacing"
     }
   },
   "Hero": {
@@ -108,14 +72,6 @@
     "--quote-bg-color": {
       "value": "{Root.--color-bg-subtle}",
       "type": "color"
-    },
-    "--quote-author-font-size": {
-      "value": "16px",
-      "type": "fontSizes"
-    },
-    "--quote-author-font-weight": {
-      "value": "500",
-      "type": "fontWeights"
     }
   },
   "Footer": {
@@ -138,14 +94,6 @@
     "--footer-bar-divider-border-color": {
       "value": "{Root.--color-border-subtle}",
       "type": "color"
-    },
-    "--footer-font-size": {
-      "value": "14px",
-      "type": "fontSizes"
-    },
-    "--footer-bar-header-font-text-transform": {
-      "value": "none",
-      "type": "textCase"
     }
   },
   "Toggle Slider": {
@@ -162,18 +110,6 @@
     "--accordion-divider-border-color": {
       "value": "{Root.--color-border-moderate}",
       "type": "color"
-    },
-    "--accordion-header-font-size": {
-      "value": "{Root.--h6-font-size}",
-      "type": "fontSizes"
-    },
-    "--accordion-header-font-line-height": {
-      "value": "{Root.--h6-font-line-height}",
-      "type": "lineHeights"
-    },
-    "--accordion-header-font-weight": {
-      "value": "{Root.--h6-font-weight}",
-      "type": "fontWeights"
     }
   },
   "Banner": {
@@ -192,18 +128,6 @@
     "--form-input-border-color": {
       "value": "{Root.--color-border-muted}",
       "type": "color"
-    },
-    "--form-input-font-size": {
-      "value": "{Root.--text-font-size}",
-      "type": "fontSizes"
-    },
-    "--form-input-font-line-height": {
-      "value": "normal",
-      "type": "lineHeights"
-    },
-    "--form-input-font-weight": {
-      "value": "{Root.--text-font-weight}",
-      "type": "fontWeights"
     }
   },
   "Progress Bar": {
@@ -262,14 +186,6 @@
     "--table-cell-header-bg-color": {
       "value": "{Root.--color-bg-subtle-hover}",
       "type": "color"
-    },
-    "--table-cell-padding": {
-      "value": "{Root.--spacing-32} {Root.--spacing-16}",
-      "type": "spacing"
-    },
-    "--table-row-gap": {
-      "value": "0",
-      "type": "spacing"
     }
   },
   "Definition": {
