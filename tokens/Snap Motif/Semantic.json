@@ -216,7 +216,7 @@
       "description": "Primary brand typeface. Override per brand."
     },
     "--font-family-secondary": {
-      "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Program Nar OT",
       "type": "fontFamilies",
       "description": "Secondary/display brand typeface. Override per brand."
     },
