@@ -4,10 +4,14 @@
     "Snap Motif/Devices/Desktop",
     "Snap Motif/Devices/Mobile",
     "Snap Motif/Brand-Main/Semantic",
-    "Snap Motif/Brand-Main/Component-Base",
     "Snap Motif/Brand-Main/Theme/Primary",
     "Snap Motif/Brand-Main/Theme/Secondary",
     "Snap Motif/Brand-Main/Theme/Tertiary",
-    "Snap Motif/Brand-Main/Theme/Quaternary"
+    "Snap Motif/Brand-Main/Theme/Quaternary",
+    "Snap Motif/Brand-Main/Component-Base",
+    "Snap Motif/Brand-B/Semantic",
+    "Snap Motif/Brand-B/Component-Base",
+    "Snap Motif/Brand-B/Theme/Primary",
+    "Snap Motif/Brand-B/Theme/Secondary"
   ]
 }
