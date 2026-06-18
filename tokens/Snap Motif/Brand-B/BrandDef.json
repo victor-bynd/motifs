@@ -1,7 +1,7 @@
 {
   "Root": {
     "--bg-color": {
-      "value": "{Palette.Blue.--palette-blue-v100}",
+      "value": "{Primary.--primary-v100}",
       "type": "color",
       "description": "Page/section background color. Driven by brand primary in light theme."
     },
@@ -81,12 +81,12 @@
       "description": "Deeply recessed background. Used by chart skeletons, AI banner, side overlays."
     },
     "--color-bg-brand": {
-      "value": "{Palette.Blue.--palette-blue-v100}",
+      "value": "{Primary.--primary-v100}",
       "type": "color",
       "description": "Brand accent background. Used by active indicators, progress, chart toggles."
     },
     "--color-bg-brand-emphasis": {
-      "value": "{Palette.Blue.--palette-blue-v150}",
+      "value": "{Primary.--primary-v150}",
       "type": "color",
       "description": "Emphasized brand background. Used by icon buttons, definition active states."
     },
@@ -126,12 +126,12 @@
       "description": "Text/icon color on brand-colored backgrounds (yellow). Must stay dark for contrast."
     },
     "--color-fg-brand": {
-      "value": "{Palette.Blue.--palette-blue-v100}",
+      "value": "{Primary.--primary-v100}",
       "type": "color",
       "description": "Brand-colored text or icon. Used for emphasized text, stats, animated accordion."
     },
     "--color-fg-brand-dark": {
-      "value": "{Palette.Blue.--palette-blue-v200}",
+      "value": "{Primary.--primary-v250}",
       "type": "color",
       "description": "Dark brand accent for de-emphasized text on light backgrounds."
     },
@@ -166,12 +166,12 @@
       "description": "Muted border. Used by footnotes, icon buttons, side overlays."
     },
     "--color-border-brand": {
-      "value": "{Palette.Blue.--palette-blue-v100}",
+      "value": "{Primary.--primary-v100}",
       "type": "color",
       "description": "Brand-colored border. Used for active states: chart toggles, block nav."
     },
     "--color-border-brand-emphasis": {
-      "value": "{Palette.Blue.--palette-blue-v150}",
+      "value": "{Primary.--primary-v150}",
       "type": "color",
       "description": "Emphasized brand border. Used by topic hover, definition active."
     },
@@ -206,7 +206,7 @@
       "description": "Subtle error background tint."
     },
     "--color-bg-brand-hover": {
-      "value": "{Palette.Blue.--palette-blue-v200}",
+      "value": "{Primary.--primary-v200}",
       "type": "color",
       "description": "Hover/strong variant of brand background. Used by Definition component hover states."
     },
