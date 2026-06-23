@@ -1,0 +1,8 @@
+{
+  "Header": {
+    "--global-header-bg-color": {
+      "value": "{Palette.Purple.--palette-purple-v100}",
+      "type": "color"
+    }
+  }
+}

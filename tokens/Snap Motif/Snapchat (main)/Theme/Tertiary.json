@@ -1,0 +1,200 @@
+{
+  "Root": {
+    "gradient-transparency": {
+      "value": "linear-gradient(270deg, {Root.--bg-color} 0%, {Root.bg-gradient-transparent} 100%)",
+      "type": "color",
+      "description": "Figma only token - Made for gradient overlays with transparency used on Carousel, Tabs, SubNav."
+    },
+    "bg-gradient-transparent": {
+      "value": "rgba( {Root.--bg-color}, 0)",
+      "type": "color",
+      "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
+    },
+    "--bg-color": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "Page/section background color. Tertiary theme: white."
+    },
+    "--color-bg-inverse": {
+      "value": "{Brands.Snapchat.Primary.--primary-v100}",
+      "type": "color",
+      "description": "Page/section background color. Driven by brand primary in light theme."
+    },
+    "--color-fg-inverse": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Default foreground / text color."
+    },
+    "--color-fg-brand-dark": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v400}",
+      "type": "color",
+      "description": "Faint text and icon color. Used for disabled-adjacent states."
+    },
+    "--color-bg-subtle-active": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "Default color for interactive text elements (nav items, links)."
+    },
+    "--color-border-moderate": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
+    },
+    "--color-border-muted": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v200}",
+      "type": "color",
+      "description": "Hover state for tinted surfaces."
+    },
+    "--color-bg-brand-hover": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v250}",
+      "type": "color",
+      "description": "Divider / gutter color between layout sections."
+    }
+  },
+  "Button": {
+    "--button-primary-border-color": {
+      "value": "{Root.--color-border-brand}",
+      "type": "color"
+    },
+    "--button-primary-hover-border-color": {
+      "value": "{Root.--color-border-brand}",
+      "type": "color"
+    },
+    "--button-secondary-bg-color": {
+      "value": "{Root.--color-bg-inverse}",
+      "type": "color"
+    },
+    "--button-secondary-hover-bg-color": {
+      "value": "{Root.--color-bg-inverse}",
+      "type": "color"
+    },
+    "--button-secondary-fg-color": {
+      "value": "{Root.--color-fg-inverse}",
+      "type": "color"
+    },
+    "--button-secondary-hover-fg-color": {
+      "value": "{Root.--color-fg-inverse}",
+      "type": "color"
+    }
+  },
+  "Header": {
+    "--global-header-bg-color": {
+      "value": "{Root.--color-bg-surface}",
+      "type": "color"
+    }
+  },
+  "Quote": {
+    "--quote-bg-color": {
+      "value": "{Root.--color-bg-subtle}",
+      "type": "color"
+    }
+  },
+  "Footer": {
+    "--footer-border-color": {
+      "value": "{Root.--color-border-muted}",
+      "type": "color"
+    },
+    "--footer-divider-border-color": {
+      "value": "{Root.--color-border-muted}",
+      "type": "color"
+    },
+    "--footer-bar-bg-color": {
+      "value": "{Root.--color-bg-subtle}",
+      "type": "color"
+    },
+    "--footer-bar-divider-border-color": {
+      "value": "{Root.--color-border-subtle}",
+      "type": "color"
+    }
+  },
+  "Toggle Slider": {
+    "--toggle-slider-active-color": {
+      "value": "{Root.--color-bg-brand}",
+      "type": "color"
+    }
+  },
+  "Accordion": {
+    "--accordion-divider-border-color": {
+      "value": "{Root.--color-border-moderate}",
+      "type": "color"
+    }
+  },
+  "Banner": {
+    "--banner-bg-color": {
+      "value": "{Root.--color-bg-surface}",
+      "type": "color"
+    }
+  },
+  "Side Navigation": {
+    "--side-navigation-mobile-bg-color": {
+      "value": "{Root.--color-bg-recessed}",
+      "type": "color"
+    }
+  },
+  "Progress Bar": {
+    "--progress-bar-bg-color": {
+      "value": "{Root.--color-bg-subtle-active}",
+      "type": "color"
+    },
+    "--progress-bar-progress-color": {
+      "value": "{Root.--color-bg-brand}",
+      "type": "color"
+    }
+  },
+  "Chart Toggle": {
+    "--chart-toggle-buttons-active-border-color": {
+      "value": "{Root.--color-border-brand}",
+      "type": "color"
+    }
+  },
+  "Block Navigation": {
+    "--block-navigation-buttons-active-border-color": {
+      "value": "{Root.--color-border-brand}",
+      "type": "color"
+    }
+  },
+  "Toggle Panel": {
+    "--toggle-panel-bg-color": {
+      "value": "{Root.--color-bg-inverse}",
+      "type": "color"
+    }
+  },
+  "Primitive Table": {
+    "--table-bg-color": {
+      "value": "transparent",
+      "type": "color"
+    },
+    "--table-cell-header-bg-color": {
+      "value": "{Root.--color-bg-subtle-hover}",
+      "type": "color"
+    }
+  },
+  "Definition": {
+    "--definition-active-bg-color": {
+      "value": "{Root.--color-bg-brand-emphasis}",
+      "type": "color"
+    },
+    "--definition-active-border-color": {
+      "value": "{Root.--color-bg-brand-hover}",
+      "type": "color"
+    },
+    "--definition-bg-color": {
+      "value": "{Root.--color-bg-recessed}",
+      "type": "color"
+    },
+    "--definition-border-color": {
+      "value": "{Root.--color-bg-brand-hover}",
+      "type": "color"
+    },
+    "--definition-hover-border-color": {
+      "value": "{Root.--color-bg-brand-hover}",
+      "type": "color"
+    }
+  },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Root.--color-bg-subtle}",
+      "type": "color"
+    }
+  }
+}

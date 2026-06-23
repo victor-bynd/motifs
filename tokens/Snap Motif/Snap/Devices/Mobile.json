@@ -1,0 +1,8 @@
+{
+  "Root": {
+    "--h1-font-size": {
+      "value": "20px",
+      "type": "fontSizes"
+    }
+  }
+}

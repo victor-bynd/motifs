@@ -1,0 +1,251 @@
+{
+  "Root": {
+    "--bg-color": {
+      "value": "{Brands.Snapchat.Primary.--primary-v100}",
+      "type": "color",
+      "description": "Page/section background color. Driven by brand primary in light theme."
+    },
+    "--fg-color": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Default foreground / text color."
+    },
+    "--action-text-default-color": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "Default color for interactive text elements (nav items, links)."
+    },
+    "--action-text-hover-color": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": "Hover color for interactive text elements."
+    },
+    "--action-text-active-color": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Active/selected color for interactive text elements."
+    },
+    "--action-indicator-hover-color": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "Hover color for interactive indicator elements (underlines, dots)."
+    },
+    "--action-indicator-active-color": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Active color for interactive indicator elements."
+    },
+    "--gutter-color": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v250}",
+      "type": "color",
+      "description": "Divider / gutter color between layout sections."
+    },
+    "--action-indicator-hover-opacity": {
+      "value": "0.6",
+      "type": "opacity",
+      "description": "Opacity for hover state indicator elements."
+    },
+    "--color-bg-surface": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "Default white surface background. Used by cards, menus, modals, forms."
+    },
+    "--color-bg-subtle": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v150}",
+      "type": "color",
+      "description": "Tinted/inset surface background. Used by featured items, table headers, banners."
+    },
+    "--color-bg-subtle-hover": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v200}",
+      "type": "color",
+      "description": "Hover state for tinted surfaces."
+    },
+    "--color-bg-subtle-active": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v250}",
+      "type": "color",
+      "description": "Active/selected state for tinted surfaces. Used by tabs, progress bars, forms."
+    },
+    "--color-bg-inverse": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Dark/inverse background. Used by primary buttons, dark sections, overlays."
+    },
+    "--color-bg-overlay": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v650}",
+      "type": "color",
+      "description": "Semi-dark overlay background. Used by nav screens, side nav mobile."
+    },
+    "--color-bg-recessed": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v100}",
+      "type": "color",
+      "description": "Deeply recessed background. Used by chart skeletons, AI banner, side overlays."
+    },
+    "--color-bg-brand": {
+      "value": "{Brands.Snapchat.Primary.--primary-v100}",
+      "type": "color",
+      "description": "Brand accent background. Used by active indicators, progress, chart toggles."
+    },
+    "--color-bg-brand-emphasis": {
+      "value": "{Brands.Snapchat.Primary.--primary-v150}",
+      "type": "color",
+      "description": "Emphasized brand background. Used by icon buttons, definition active states."
+    },
+    "--color-fg-default": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Primary text and icon color on light surfaces."
+    },
+    "--color-fg-subtle": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": "Secondary/subdued text. Used for descriptions, meta text."
+    },
+    "--color-fg-muted": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": "Muted/tertiary text. Used for placeholders, icons, helper text."
+    },
+    "--color-fg-faint": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v400}",
+      "type": "color",
+      "description": "Faint text and icon color. Used for disabled-adjacent states."
+    },
+    "--color-fg-inverse": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": "White foreground for use on dark/inverse backgrounds."
+    },
+    "--color-fg-inverse-subtle": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
+    },
+    "--color-fg-on-brand": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Text/icon color on brand-colored backgrounds (yellow). Must stay dark for contrast."
+    },
+    "--color-fg-brand": {
+      "value": "{Brands.Snapchat.Primary.--primary-v100}",
+      "type": "color",
+      "description": "Brand-colored text or icon. Used for emphasized text, stats, animated accordion."
+    },
+    "--color-fg-brand-dark": {
+      "value": "{Brands.Snapchat.Primary.--primary-v250}",
+      "type": "color",
+      "description": "Dark brand accent for de-emphasized text on light backgrounds."
+    },
+    "--color-fg-dark-subtle": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": "Subtle dark foreground. Used on very dark backgrounds."
+    },
+    "--color-fg-dark-muted": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v650}",
+      "type": "color",
+      "description": "Muted foreground on dark surfaces. Used for featured item text, nav."
+    },
+    "--color-border-default": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": "Default strong border. Used by primary buttons, dark outline components."
+    },
+    "--color-border-subtle": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v150}",
+      "type": "color",
+      "description": "Subtle divider/border. Used by header menus, tables, footnotes."
+    },
+    "--color-border-moderate": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v250}",
+      "type": "color",
+      "description": "Moderate border weight. Used by tabs, form inputs, accordions."
+    },
+    "--color-border-muted": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": "Muted border. Used by footnotes, icon buttons, side overlays."
+    },
+    "--color-border-brand": {
+      "value": "{Brands.Snapchat.Primary.--primary-v100}",
+      "type": "color",
+      "description": "Brand-colored border. Used for active states: chart toggles, block nav."
+    },
+    "--color-border-brand-emphasis": {
+      "value": "{Brands.Snapchat.Primary.--primary-v150}",
+      "type": "color",
+      "description": "Emphasized brand border. Used by topic hover, definition active."
+    },
+    "--color-border-dark-subtle": {
+      "value": "{Brands.Snapchat.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": "Subtle border on dark surfaces. Used by dark theme menus, side nav."
+    },
+    "--color-status-focus": {
+      "value": "{Semantic.--semantic-focus-color}",
+      "type": "color",
+      "description": "Focus ring color. Used by form inputs and autocomplete."
+    },
+    "--color-status-error": {
+      "value": "{Semantic.--semantic-error-color}",
+      "type": "color",
+      "description": "Error state color."
+    },
+    "--color-status-success": {
+      "value": "{Palette.Green.--palette-green-v100}",
+      "type": "color",
+      "description": "Success state color."
+    },
+    "--color-status-warning": {
+      "value": "{Palette.Orange.--palette-orange-v100}",
+      "type": "color",
+      "description": "Warning state color."
+    },
+    "--color-status-error-subtle": {
+      "value": "{Palette.Red.--palette-red-v50}",
+      "type": "color",
+      "description": "Subtle error background tint."
+    },
+    "--color-bg-brand-hover": {
+      "value": "{Brands.Snapchat.Primary.--primary-v200}",
+      "type": "color",
+      "description": "Hover/strong variant of brand background. Used by Definition component hover states."
+    },
+    "--font-family-primary": {
+      "value": "Ghost Sans, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies",
+      "description": "Primary brand typeface. Override per brand."
+    },
+    "--font-family-secondary": {
+      "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies",
+      "description": "Secondary/display brand typeface. Override per brand."
+    },
+    "--font-family-body": {
+      "value": "{Root.--font-family-primary}",
+      "type": "fontFamilies",
+      "description": "Typeface for body text."
+    },
+    "--font-family-heading-default": {
+      "value": "{Root.--font-family-primary}",
+      "type": "fontFamilies",
+      "description": "Typeface for h3–h6 headings."
+    },
+    "--font-family-heading-display": {
+      "value": "{Root.--font-family-secondary}",
+      "type": "fontFamilies",
+      "description": "Typeface for h1–h2 display headings."
+    }
+  },
+  "Shape": {
+    "--shape-radius-interactive": {
+      "value": "{Root.--border-radius-64}",
+      "type": "borderRadius",
+      "description": "Border radius for interactive pill-shaped elements (buttons, toggles, chips)."
+    },
+    "--shape-radius-card": {
+      "value": "{Root.--border-radius-64}",
+      "type": "borderRadius",
+      "description": "Border radius for card-like components (carousel cards, summary cards)."
+    }
+  }
+}
