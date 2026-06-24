@@ -1,7 +1,7 @@
 {
   "Root": {
     "--text-font-size": {
-      "value": "{Root.--font-size-16}",
+      "value": "16px",
       "type": "fontSizes"
     },
     "--text-font-line-height": {
@@ -9,7 +9,7 @@
       "type": "lineHeights"
     },
     "--text-font-weight": {
-      "value": "{Root.--font-weight-regular}",
+      "value": "400",
       "type": "fontWeights"
     },
     "--h1-font-size": {
@@ -21,11 +21,11 @@
       "type": "lineHeights"
     },
     "--h1-font-weight": {
-      "value": "{Root.--font-weight-medium}",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h2-font-size": {
-      "value": "{Root.--font-size-48}",
+      "value": "48px",
       "type": "fontSizes"
     },
     "--h2-font-line-height": {
@@ -33,11 +33,11 @@
       "type": "lineHeights"
     },
     "--h2-font-weight": {
-      "value": "{Root.--font-weight-medium}",
+      "value": "500",
       "type": "fontWeights"
     },
     "--h3-font-size": {
-      "value": "{Root.--font-size-24}",
+      "value": "24px",
       "type": "fontSizes"
     },
     "--h3-font-line-height": {
@@ -45,11 +45,11 @@
       "type": "lineHeights"
     },
     "--h3-font-weight": {
-      "value": "{Root.--font-weight-semibold}",
+      "value": "600",
       "type": "fontWeights"
     },
     "--h4-font-size": {
-      "value": "{Root.--font-size-22}",
+      "value": "22px",
       "type": "fontSizes"
     },
     "--h4-font-line-height": {
@@ -57,11 +57,11 @@
       "type": "lineHeights"
     },
     "--h4-font-weight": {
-      "value": "{Root.--font-weight-semibold}",
+      "value": "600",
       "type": "fontWeights"
     },
     "--h5-font-size": {
-      "value": "{Root.--font-size-20}",
+      "value": "20px",
       "type": "fontSizes"
     },
     "--h5-font-line-height": {
@@ -69,11 +69,11 @@
       "type": "lineHeights"
     },
     "--h5-font-weight": {
-      "value": "{Root.--font-weight-semibold}",
+      "value": "600",
       "type": "fontWeights"
     },
     "--h6-font-size": {
-      "value": "{Root.--font-size-18}",
+      "value": "18px",
       "type": "fontSizes"
     },
     "--h6-font-line-height": {
@@ -81,11 +81,11 @@
       "type": "lineHeights"
     },
     "--h6-font-weight": {
-      "value": "{Root.--font-weight-semibold}",
+      "value": "600",
       "type": "fontWeights"
     },
     "--p1-font-size": {
-      "value": "{Root.--font-size-18}",
+      "value": "18px",
       "type": "fontSizes"
     },
     "--p1-font-line-height": {
@@ -93,11 +93,11 @@
       "type": "lineHeights"
     },
     "--p1-font-weight": {
-      "value": "{Root.--font-weight-regular}",
+      "value": "400",
       "type": "fontWeights"
     },
     "--p2-font-size": {
-      "value": "{Root.--font-size-16}",
+      "value": "16px",
       "type": "fontSizes"
     },
     "--p2-font-line-height": {
@@ -105,11 +105,11 @@
       "type": "lineHeights"
     },
     "--p2-font-weight": {
-      "value": "{Root.--font-weight-regular}",
+      "value": "400",
       "type": "fontWeights"
     },
     "--p3-font-size": {
-      "value": "{Root.--font-size-14}",
+      "value": "14px",
       "type": "fontSizes"
     },
     "--p3-font-line-height": {
@@ -117,11 +117,11 @@
       "type": "lineHeights"
     },
     "--p3-font-weight": {
-      "value": "{Root.--font-weight-regular}",
+      "value": "400",
       "type": "fontWeights"
     },
     "--p4-font-size": {
-      "value": "{Root.--font-size-12}",
+      "value": "12px",
       "type": "fontSizes"
     },
     "--p4-font-line-height": {
@@ -129,11 +129,11 @@
       "type": "lineHeights"
     },
     "--p4-font-weight": {
-      "value": "{Root.--font-weight-regular}",
+      "value": "400",
       "type": "fontWeights"
     },
     "--action-font-size": {
-      "value": "{Root.--font-size-16}",
+      "value": "16px",
       "type": "fontSizes"
     },
     "--action-font-line-height": {
@@ -141,19 +141,19 @@
       "type": "lineHeights"
     },
     "--action-font-weight": {
-      "value": "{Root.--font-weight-medium}",
+      "value": "500",
       "type": "fontWeights"
     },
     "--action-font-letter-spacing": {
-      "value": "{Root.--letter-spacing-default}",
+      "value": "normal",
       "type": "letterSpacing"
     },
     "--annotation-font-size": {
-      "value": "{Root.--font-size-14}",
+      "value": "14px",
       "type": "fontSizes"
     },
     "--annotation-font-weight": {
-      "value": "{Root.--font-weight-medium}",
+      "value": "500",
       "type": "fontWeights"
     },
     "--annotation-font-line-height": {
@@ -161,7 +161,7 @@
       "type": "lineHeights"
     },
     "--annotation-font-letter-spacing": {
-      "value": "{Root.--letter-spacing-tight}",
+      "value": "-.14px",
       "type": "letterSpacing"
     },
     "--action-font-text-decoration": {
@@ -177,19 +177,19 @@
       "type": "textCase"
     },
     "--h2-font-letter-spacing": {
-      "value": "{Root.--letter-spacing-wide}",
+      "value": "0.48px",
       "type": "letterSpacing"
     },
     "--h1-font-size-compact": {
-      "value": "{Root.--font-size-88}",
+      "value": "88px",
       "type": "fontSizes"
     },
     "--stats-font-weight": {
-      "value": "{Root.--font-weight-medium}",
+      "value": "500",
       "type": "fontWeights"
     },
     "--stats-font-size": {
-      "value": "{Root.--font-size-120}",
+      "value": "120px",
       "type": "fontSizes"
     },
     "--stats-font-line-height": {
@@ -197,11 +197,11 @@
       "type": "lineHeights"
     },
     "--stats-supplementary-text-font-size": {
-      "value": "{Root.--font-size-80}",
+      "value": "80px",
       "type": "fontSizes"
     },
     "--stats-supplementary-text-font-weight": {
-      "value": "{Root.--font-weight-medium}",
+      "value": "500",
       "type": "fontWeights"
     }
   },

@@ -224,6 +224,18 @@
       "value": "{Brands.Snapchat.--brand-snapchat-font-family-secondary}",
       "type": "fontFamilies",
       "description": "Typeface for h1–h2 display headings."
+    },
+    "--font-weight-heading": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "--font-weight-body": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "--font-weight-action": {
+      "value": "500",
+      "type": "fontWeights"
     }
   },
   "Shape": {

@@ -2,6 +2,7 @@
   {
     "id": "ea0004918b9af3955862a523b890938da09c2424",
     "name": "global",
+    "group": "Global",
     "selectedTokenSets": {
       "Snap Motif/Global": "enabled"
     },
@@ -232,12 +233,12 @@
       "Palette.Blue.--palette-blue-v200": "21acc31d92e96fc749bfe2a870bcee8c72d3d849"
     },
     "$figmaCollectionId": "VariableCollectionId:13:2",
-    "$figmaModeId": "13:0",
-    "group": "Global"
+    "$figmaModeId": "13:0"
   },
   {
     "id": "1c45980f52f497a910b99380152f6c1857ff06a1",
     "name": "Primary",
+    "group": "Theme",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Snapchat (main)/Semantic": "enabled",
@@ -552,12 +553,12 @@
       "Cookie Modal Settings.--cookie-modal-border-color": "373fdb41a825cdaa92a5c6246fab89077c1a5781"
     },
     "$figmaCollectionId": "VariableCollectionId:13:3",
-    "$figmaModeId": "13:1",
-    "group": "Theme"
+    "$figmaModeId": "13:1"
   },
   {
     "id": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
     "name": "Secondary",
+    "group": "Theme",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Snapchat (main)/Semantic": "enabled",
@@ -994,12 +995,12 @@
       "Cookie Modal Settings.--cookie-settings-category-border-color": "3b584214bc3b075158be91b822d7e1594adcbe1d"
     },
     "$figmaCollectionId": "VariableCollectionId:13:3",
-    "$figmaModeId": "13:2",
-    "group": "Theme"
+    "$figmaModeId": "13:2"
   },
   {
     "id": "9d9cc6fcfd48febdb4884c2605572a7c6d647a05",
     "name": "Tertiary",
+    "group": "Theme",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Snapchat (main)/Semantic": "enabled",
@@ -1345,12 +1346,12 @@
       "Cookie Modal Settings.--cookie-modal-border-color": "373fdb41a825cdaa92a5c6246fab89077c1a5781"
     },
     "$figmaCollectionId": "VariableCollectionId:13:3",
-    "$figmaModeId": "13:3",
-    "group": "Theme"
+    "$figmaModeId": "13:3"
   },
   {
     "id": "a22eb9664fb445a46a938d1277005067ebccc20a",
     "name": "Quaternary",
+    "group": "Theme",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Snapchat (main)/Semantic": "enabled",
@@ -1904,25 +1905,18 @@
       "Cookie Modal Settings.--cookie-modal-border-color": "373fdb41a825cdaa92a5c6246fab89077c1a5781"
     },
     "$figmaCollectionId": "VariableCollectionId:13:3",
-    "$figmaModeId": "13:4",
-    "group": "Theme"
+    "$figmaModeId": "13:4"
   },
   {
     "id": "fdb871169755f4dbc02b6b8b15cfa9c95acd5adc",
     "name": "Primary",
-    "$figmaStyleReferences": {},
+    "group": "Theme-Snap",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Snap/Semantic": "enabled",
       "Snap Motif/Snap/Themes/Primary": "enabled"
     },
-    "$figmaIsExtension": true,
-    "$figmaParentCollectionId": "VariableCollectionId:13:3",
-    "$figmaParentThemeId": "1c45980f52f497a910b99380152f6c1857ff06a1",
-    "$figmaMirrorParentSets": false,
-    "group": "Theme-Snap",
-    "$figmaCollectionId": "VariableCollectionId:42:740",
-    "$figmaModeId": "VariableCollectionId:42:740/42:15",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Root.--bg-color": "5f8618a5741c05d730f8209b3972fb3213367d91",
       "Root.--fg-color": "b5d32c736de783b8929145b68649dd96d0adfb7c",
@@ -1967,11 +1961,22 @@
       "Shape.--shape-radius-interactive": "e6a265b75c5ceb430a5e29484d293242b1161654",
       "Shape.--shape-radius-card": "c19bba87abfd6c6869132dca0d9a6a39c19919d3",
       "Header.--global-header-bg-color": "f6969aa70aba43af6293283c3884c2a171f9912b"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:42:740",
+    "$figmaModeId": "VariableCollectionId:42:740/42:15",
+    "$figmaParentThemeId": "1c45980f52f497a910b99380152f6c1857ff06a1",
+    "$figmaMirrorParentSets": false
   },
   {
     "id": "af18c31fffaca501f7ae61378699b375f07706eb",
     "name": "Secondary",
+    "group": "Theme-Snap",
+    "selectedTokenSets": {
+      "Snap Motif/Global": "source",
+      "Snap Motif/Snapchat (main)/Semantic": "enabled",
+      "Snap Motif/Snapchat (main)/Theme/Primary": "enabled",
+      "Snap Motif/Snapchat (main)/Theme/Secondary": "enabled"
+    },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:a67fc2397440b2e99bce242b165168bdc224f513,",
       "Root.--box-shadow-s": "S:383d35cee9ea8eb6b6941f4c35f57403fef50b24,",
@@ -1981,19 +1986,6 @@
       "Carousel.--carousel-card-box-shadow": "S:8ddd36aaf8c7b753a9bf307517f604afd96197e7,",
       "Carousel.--carousel-card-hover-box-shadow": "S:33a532aab9c028aff6e05693f7df278895e48ebc,"
     },
-    "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snapchat (main)/Semantic": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Primary": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Secondary": "enabled"
-    },
-    "group": "Theme-Snap",
-    "$figmaIsExtension": true,
-    "$figmaParentCollectionId": "VariableCollectionId:13:3",
-    "$figmaParentThemeId": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
-    "$figmaMirrorParentSets": true,
-    "$figmaCollectionId": "VariableCollectionId:42:740",
-    "$figmaModeId": "VariableCollectionId:42:740/42:16",
     "$figmaVariableReferences": {
       "Root.bg-gradient-transparent": "a42aa7d35ccf6543953daebdeca39711f5636dc4",
       "Root.--bg-color": "5f8618a5741c05d730f8209b3972fb3213367d91",
@@ -2281,25 +2273,23 @@
       "Animated Accordion.--animated-accordion-progress-indicator-color": "5271f62cfe00b76e81518437f6aa3ecaa355e964",
       "Cookie Modal Settings.--cookie-modal-border-color": "373fdb41a825cdaa92a5c6246fab89077c1a5781",
       "Cookie Modal Settings.--cookie-settings-category-border-color": "3b584214bc3b075158be91b822d7e1594adcbe1d"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:42:740",
+    "$figmaModeId": "VariableCollectionId:42:740/42:16",
+    "$figmaParentThemeId": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
+    "$figmaMirrorParentSets": true
   },
   {
     "id": "5ed2a340d31a762027f32b27a163facd4a29c317",
     "name": "Tertiary",
-    "$figmaStyleReferences": {},
+    "group": "Theme-Snap",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Snapchat (main)/Semantic": "enabled",
       "Snap Motif/Snapchat (main)/Theme/Primary": "enabled",
       "Snap Motif/Snapchat (main)/Theme/Tertiary": "enabled"
     },
-    "group": "Theme-Snap",
-    "$figmaIsExtension": true,
-    "$figmaParentCollectionId": "VariableCollectionId:13:3",
-    "$figmaParentThemeId": "9d9cc6fcfd48febdb4884c2605572a7c6d647a05",
-    "$figmaMirrorParentSets": true,
-    "$figmaCollectionId": "VariableCollectionId:42:740",
-    "$figmaModeId": "VariableCollectionId:42:740/42:17",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Root.--bg-color": "5f8618a5741c05d730f8209b3972fb3213367d91",
       "Root.--fg-color": "b5d32c736de783b8929145b68649dd96d0adfb7c",
@@ -2587,11 +2577,22 @@
       "Stats.--stats-stat-color": "ddc45c37ed93d86a11275e46ad34cfd1ee1ae461",
       "Animated Accordion.--animated-accordion-progress-indicator-color": "5271f62cfe00b76e81518437f6aa3ecaa355e964",
       "Cookie Modal Settings.--cookie-modal-border-color": "373fdb41a825cdaa92a5c6246fab89077c1a5781"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:42:740",
+    "$figmaModeId": "VariableCollectionId:42:740/42:17",
+    "$figmaParentThemeId": "9d9cc6fcfd48febdb4884c2605572a7c6d647a05",
+    "$figmaMirrorParentSets": true
   },
   {
     "id": "ff77c4021053150307c1bf3397facbe3dd8eee26",
     "name": "Quaternary",
+    "group": "Theme-Snap",
+    "selectedTokenSets": {
+      "Snap Motif/Global": "source",
+      "Snap Motif/Snapchat (main)/Semantic": "enabled",
+      "Snap Motif/Snapchat (main)/Theme/Primary": "enabled",
+      "Snap Motif/Snapchat (main)/Theme/Quaternary": "enabled"
+    },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:a67fc2397440b2e99bce242b165168bdc224f513,",
       "Root.--box-shadow-s": "S:383d35cee9ea8eb6b6941f4c35f57403fef50b24,",
@@ -2612,19 +2613,6 @@
       "Cookie Modal Settings.--cookie-modal-box-shadow": "S:1162d2eb4f3e877fe7999e4e71fbf4325760fb36,",
       "Cookie Modal Settings.--cookie-settings-box-shadow": "S:72359b841f6e9530306a9e01cd963e987965b105,"
     },
-    "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snapchat (main)/Semantic": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Primary": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Quaternary": "enabled"
-    },
-    "group": "Theme-Snap",
-    "$figmaIsExtension": true,
-    "$figmaParentCollectionId": "VariableCollectionId:13:3",
-    "$figmaParentThemeId": "a22eb9664fb445a46a938d1277005067ebccc20a",
-    "$figmaMirrorParentSets": true,
-    "$figmaCollectionId": "VariableCollectionId:42:740",
-    "$figmaModeId": "VariableCollectionId:42:740/42:18",
     "$figmaVariableReferences": {
       "Root.--bg-color": "5f8618a5741c05d730f8209b3972fb3213367d91",
       "Root.--fg-color": "b5d32c736de783b8929145b68649dd96d0adfb7c",
@@ -2912,19 +2900,21 @@
       "Stats.--stats-stat-color": "ddc45c37ed93d86a11275e46ad34cfd1ee1ae461",
       "Animated Accordion.--animated-accordion-progress-indicator-color": "5271f62cfe00b76e81518437f6aa3ecaa355e964",
       "Cookie Modal Settings.--cookie-modal-border-color": "373fdb41a825cdaa92a5c6246fab89077c1a5781"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:42:740",
+    "$figmaModeId": "VariableCollectionId:42:740/42:18",
+    "$figmaParentThemeId": "a22eb9664fb445a46a938d1277005067ebccc20a",
+    "$figmaMirrorParentSets": true
   },
   {
     "id": "df8d38fc391ff9069ab7794f4be8553ae9189ea5",
     "name": "Desktop",
-    "$figmaStyleReferences": {},
+    "group": "Device",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Snapchat (main)/Devices/Desktop": "enabled"
     },
-    "group": "Device",
-    "$figmaCollectionId": "VariableCollectionId:42:1483",
-    "$figmaModeId": "42:31",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Root.--text-font-size": "c8198dd66a37f5716424b1a15e4856f8fc36157c",
       "Root.--text-font-line-height": "220f29b7e62f3e32f1f8a0ce8932bd4445d536f8",
@@ -3044,19 +3034,20 @@
       "Stats.--stats-stat-font-size": "fb743722b00108789dcc5036383c2864a215c7c2",
       "Stats.--stats-stat-supplementary-text-font-size": "d486f0df317f04776c896bf8039a0ed8d631526c",
       "Stats.--stats-stat-supplementary-text-font-weight": "e34f74e37637c86c20b2cc5af260a0aacb3b3d01"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:42:1483",
+    "$figmaModeId": "42:31"
   },
   {
     "id": "ee0e1c5ddcc175cfaaf4e44ed6fecb3a393aadbf",
     "name": "Mobile",
-    "$figmaStyleReferences": {},
+    "group": "Device",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Snapchat (main)/Devices/Mobile": "enabled",
       "Snap Motif/Snapchat (main)/Devices/Desktop": "enabled"
     },
-    "$figmaCollectionId": "VariableCollectionId:42:1483",
-    "$figmaModeId": "42:32",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Root.--h1-font-size": "40d46a69929bc7725ea83d2931eed84cef968461",
       "Root.--text-font-size": "c8198dd66a37f5716424b1a15e4856f8fc36157c",
@@ -3182,45 +3173,42 @@
       "Cookie Modal Settings.--cookie-modal-horizontal-padding": "b39c8bc225e504210efe1d8d7d44a155c8995faf",
       "Cookie Modal Settings.--cookie-modal-vertical-padding": "aca1a0527cec687ccd12caf593ed5a7b09f2c70d"
     },
-    "group": "Device"
+    "$figmaCollectionId": "VariableCollectionId:42:1483",
+    "$figmaModeId": "42:32"
   },
   {
     "id": "f8cf26e0a1120a91137969a4f709466975bbb8c6",
     "name": "Desktop",
-    "$figmaStyleReferences": {},
+    "group": "Device-Snap",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Snap/Devices/Desktop": "enabled"
     },
-    "$figmaIsExtension": true,
-    "$figmaParentCollectionId": "VariableCollectionId:42:1483",
-    "$figmaParentThemeId": "df8d38fc391ff9069ab7794f4be8553ae9189ea5",
-    "$figmaMirrorParentSets": false,
-    "group": "Device-Snap",
-    "$figmaCollectionId": "VariableCollectionId:44:2",
-    "$figmaModeId": "VariableCollectionId:44:2/44:0",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Root.--h1-font-size": "40d46a69929bc7725ea83d2931eed84cef968461"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:44:2",
+    "$figmaModeId": "VariableCollectionId:44:2/44:0",
+    "$figmaParentThemeId": "df8d38fc391ff9069ab7794f4be8553ae9189ea5",
+    "$figmaMirrorParentSets": false
   },
   {
     "id": "fce925c5b9800d94aa6cf42174ae0cc665c63ec4",
     "name": "Mobile",
-    "$figmaStyleReferences": {},
+    "group": "Device-Snap",
     "selectedTokenSets": {
       "Snap Motif/Global": "source",
       "Snap Motif/Snap/Devices/Desktop": "enabled",
       "Snap Motif/Snap/Devices/Mobile": "enabled"
     },
-    "$figmaIsExtension": true,
-    "$figmaParentCollectionId": "VariableCollectionId:42:1483",
-    "$figmaParentThemeId": "ee0e1c5ddcc175cfaaf4e44ed6fecb3a393aadbf",
-    "$figmaMirrorParentSets": false,
-    "group": "Device-Snap",
-    "$figmaCollectionId": "VariableCollectionId:44:2",
-    "$figmaModeId": "VariableCollectionId:44:2/44:1",
+    "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
       "Root.--h1-font-size": "40d46a69929bc7725ea83d2931eed84cef968461"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:44:2",
+    "$figmaModeId": "VariableCollectionId:44:2/44:1",
+    "$figmaParentThemeId": "ee0e1c5ddcc175cfaaf4e44ed6fecb3a393aadbf",
+    "$figmaMirrorParentSets": false
   }
 ]
