@@ -3,6 +3,10 @@
     "--h1-font-size": {
       "value": "50px",
       "type": "fontSizes"
+    },
+    "--h1-font-text-transform": {
+      "value": "lowercase",
+      "type": "textCase"
     }
   }
 }
