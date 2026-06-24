@@ -185,28 +185,18 @@
       "type": "color",
       "description": "Hover/strong variant of brand background. Used by Definition component hover states."
     },
-    "--font-family-primary": {
-      "value": "Arial",
-      "type": "fontFamilies",
-      "description": "Primary brand typeface. Override per brand."
-    },
-    "--font-family-secondary": {
-      "value": "Times New Roman",
-      "type": "fontFamilies",
-      "description": "Secondary/display brand typeface. Override per brand."
-    },
     "--font-family-body": {
-      "value": "{Root.--font-family-primary}",
+      "value": "{Brands.Snap.--brand-snapchat-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for body text."
     },
     "--font-family-heading-default": {
-      "value": "{Root.--font-family-primary}",
+      "value": "{Brands.Snap.--brand-snapchat-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for h3–h6 headings."
     },
     "--font-family-heading-display": {
-      "value": "{Root.--font-family-secondary}",
+      "value": "{Brands.Snap.--brand-snapchat-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for h1–h2 display headings."
     }
