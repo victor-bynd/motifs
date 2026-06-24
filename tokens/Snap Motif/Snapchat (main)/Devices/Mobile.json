@@ -13,7 +13,7 @@
       "type": "fontWeights"
     },
     "--h1-font-size": {
-      "value": "{Root.--font-size-56}",
+      "value": "56px",
       "type": "fontSizes"
     },
     "--h1-font-line-height": {

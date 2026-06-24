@@ -13,7 +13,7 @@
       "type": "fontWeights"
     },
     "--h1-font-size": {
-      "value": "{Root.--font-size-104}",
+      "value": "104px",
       "type": "fontSizes"
     },
     "--h1-font-size-compact": {
