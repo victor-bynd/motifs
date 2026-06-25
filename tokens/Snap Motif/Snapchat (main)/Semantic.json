@@ -236,6 +236,71 @@
     "--font-weight-action": {
       "value": "500",
       "type": "fontWeights"
+    },
+    "--box-shadow-xs": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "2px",
+        "blur": "4px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "--box-shadow-s": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "4px",
+        "blur": "8px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "--box-shadow-m": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "8px",
+        "blur": "16px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "--box-shadow-l": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "12px",
+        "blur": "20px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "--box-shadow-xl": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "16px",
+        "blur": "32px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "gradient-transparency": {
+      "value": "linear-gradient(270deg, {Root.--bg-color} 0%, {Root.bg-gradient-transparent} 100%)",
+      "type": "color",
+      "description": "Figma only token - Made for gradient overlays with transparency used on Carousel, Tabs, SubNav."
+    },
+    "bg-gradient-transparent": {
+      "value": "rgba( {Root.--bg-color}, 0)",
+      "type": "color",
+      "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
     }
   },
   "Shape": {

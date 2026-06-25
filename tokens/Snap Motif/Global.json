@@ -291,7 +291,7 @@
           "type": "color"
         }
       },
-      "--brand-snapchat-font-family-primary": {
+      "--brand-snap-font-family-primary": {
         "value": "Inter",
         "type": "fontFamilies"
       }
