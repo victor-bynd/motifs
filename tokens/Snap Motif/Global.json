@@ -98,37 +98,37 @@
       "type": "borderWidth"
     },
     "--breakpoint-xs": {
-      "value": "375",
+      "value": 375,
       "type": "number",
       "description": "Mobile portrait"
     },
     "--breakpoint-sm": {
-      "value": "768",
+      "value": 768,
       "type": "number",
       "description": "Tablet portrait"
     },
     "--breakpoint-md": {
-      "value": "1024",
+      "value": 1024,
       "type": "number",
       "description": "Tablet landscape"
     },
     "--breakpoint-lg": {
-      "value": "1240",
+      "value": 1240,
       "type": "number",
       "description": "Desktop small"
     },
     "--breakpoint-xl": {
-      "value": "1440",
+      "value": 1440,
       "type": "number",
       "description": "Desktop standard"
     },
     "--breakpoint-2xl": {
-      "value": "1920",
+      "value": 1920,
       "type": "number",
       "description": "Desktop large"
     },
     "--breakpoint-3xl": {
-      "value": "2560",
+      "value": 2560,
       "type": "number",
       "description": "Desktop ultra-wide"
     }
@@ -297,18 +297,6 @@
       }
     }
   },
-  "Semantic": {
-    "--semantic-focus-color": {
-      "value": "#275Dc5",
-      "type": "color",
-      "description": "Focus ring color"
-    },
-    "--semantic-error-color": {
-      "value": "{Palette.Red.--palette-red-v200}",
-      "type": "color",
-      "description": "Error color"
-    }
-  },
   "Palette": {
     "Plain": {
       "--palette-plain-black": {
@@ -364,7 +352,11 @@
         "type": "color"
       },
       "--palette-yellow-v250": {
-        "value": "#817C00",
+        "value": "#CC9500",
+        "type": "color"
+      },
+      "--palette-yellow-v300": {
+        "value": "#996100",
         "type": "color"
       }
     },
@@ -410,6 +402,14 @@
       "--palette-orange-v200": {
         "value": "#E57200",
         "type": "color"
+      },
+      "--palette-orange-v250": {
+        "value": "#B85900",
+        "type": "color"
+      },
+      "--palette-orange-v300": {
+        "value": "#8A4000",
+        "type": "color"
       }
     },
     "Red": {
@@ -427,6 +427,14 @@
       },
       "--palette-red-v200": {
         "value": "#C50A33",
+        "type": "color"
+      },
+      "v250": {
+        "value": "#A0082E",
+        "type": "color"
+      },
+      "v300": {
+        "value": "#790627",
         "type": "color"
       }
     },
@@ -446,6 +454,14 @@
       "--palette-green-v200": {
         "value": "#00A179",
         "type": "color"
+      },
+      "--palette-green-v250": {
+        "value": "#00805D",
+        "type": "color"
+      },
+      "--palette-green-v300": {
+        "value": "#005C42",
+        "type": "color"
       }
     },
     "Purple": {
@@ -464,6 +480,14 @@
       "--palette-purple-v200": {
         "value": "#8936B6",
         "type": "color"
+      },
+      "--palette-purple-v250": {
+        "value": "#6F2A92",
+        "type": "color"
+      },
+      "--palette-purple-v300": {
+        "value": "#56206F",
+        "type": "color"
       }
     },
     "Blue": {
@@ -481,6 +505,14 @@
       },
       "--palette-blue-v200": {
         "value": "#0096E5",
+        "type": "color"
+      },
+      "v250": {
+        "value": "#0074B8",
+        "type": "color"
+      },
+      "v300": {
+        "value": "#00558A",
         "type": "color"
       }
     }

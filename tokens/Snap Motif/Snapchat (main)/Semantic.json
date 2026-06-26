@@ -181,12 +181,12 @@
       "description": "Subtle border on dark surfaces. Used by dark theme menus, side nav."
     },
     "--color-status-focus": {
-      "value": "{Semantic.--semantic-focus-color}",
+      "value": "{Palette.Blue.v250}",
       "type": "color",
       "description": "Focus ring color. Used by form inputs and autocomplete."
     },
     "--color-status-error": {
-      "value": "{Semantic.--semantic-error-color}",
+      "value": "{Palette.Red.--palette-red-v200}",
       "type": "color",
       "description": "Error state color."
     },

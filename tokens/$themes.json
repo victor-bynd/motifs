@@ -190,8 +190,6 @@
       "Brands.Snap.Neutral.--neutral-v650": "e2684a901f35a84d71335fc5ab9fcd49850c4efd",
       "Brands.Snap.Neutral.--neutral-v700": "a9670cd18a1fa483abb82935d2d92c3d1aa0c211",
       "Brands.Snap.--brand-snapchat-font-family-primary": "7777631f6a246c09ea107c50dfd92baacc71f150",
-      "Semantic.--semantic-focus-color": "8be37be0f9ae8ca46ed873109ad40cd6359c7ff0",
-      "Semantic.--semantic-error-color": "e6e27adbdafaa99cfab9ce1a2a52f84ec786ac67",
       "Palette.Plain.--palette-plain-black": "e2721ebb15405cc4ed0e8fc1748c719b00770c9c",
       "Palette.Plain.--palette-plain-transparent": "2f46e31ed7acd56fc273add590e5be4f2d07d4a6",
       "Palette.Plain.--palette-plain-white": "140a6935d7a81f6c1c63a7dec1ba94d4e026e4a4",
@@ -230,7 +228,9 @@
       "Palette.Blue.--palette-blue-v50": "135f806d3e74525b82b49bdb4eea6b019e999223",
       "Palette.Blue.--palette-blue-v100": "2a2559fef4eaf66f4bac82cf33e9472ce659c059",
       "Palette.Blue.--palette-blue-v150": "e93b61ace03227a20cf8e82c191a921b217f25c5",
-      "Palette.Blue.--palette-blue-v200": "21acc31d92e96fc749bfe2a870bcee8c72d3d849"
+      "Palette.Blue.--palette-blue-v200": "21acc31d92e96fc749bfe2a870bcee8c72d3d849",
+      "Root.--semantic-focus-color": "8be37be0f9ae8ca46ed873109ad40cd6359c7ff0",
+      "Root.--semantic-error-color": "e6e27adbdafaa99cfab9ce1a2a52f84ec786ac67"
     },
     "$figmaCollectionId": "VariableCollectionId:13:2",
     "$figmaModeId": "13:0"
