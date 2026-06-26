@@ -243,6 +243,10 @@
     "--button-active-transform-size": {
       "value": "-1px",
       "type": "sizing"
+    },
+    "--button-disabled-opacity": {
+      "type": "opacity",
+      "value": "0.7"
     }
   },
   "Header": {
