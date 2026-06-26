@@ -1244,6 +1244,11 @@
         "type": "sizing",
         "description": "",
         "value": "-1px"
+      },
+      "--button-disabled-opacity": {
+        "type": "opacity",
+        "description": "",
+        "value": "0.7"
       }
     },
     "Header": {
