@@ -283,17 +283,5 @@
       "type": "color",
       "description": "Error color"
     }
-  },
-  "Shape": {
-    "--shape-radius-interactive": {
-      "value": "{Root.--border-radius-0}",
-      "type": "borderRadius",
-      "description": "Border radius for interactive pill-shaped elements (buttons, toggles, chips)."
-    },
-    "--shape-radius-card": {
-      "value": "{Root.--border-radius-0}",
-      "type": "borderRadius",
-      "description": "Border radius for card-like components (carousel cards, summary cards)."
-    }
   }
 }

@@ -301,18 +301,61 @@
       "value": "rgba( {Root.--bg-color}, 0)",
       "type": "color",
       "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
-    }
-  },
-  "Shape": {
-    "--shape-radius-interactive": {
-      "value": "{Root.--border-radius-64}",
-      "type": "borderRadius",
-      "description": "Border radius for interactive pill-shaped elements (buttons, toggles, chips)."
     },
-    "--shape-radius-card": {
+    "--border-width-none": {
+      "value": "{Root.--border-width-0}",
+      "type": "borderWidth",
+      "description": "No border (0px). Used by: Content, Carousel Card, Dropdown Button, Media, and Summary Card."
+    },
+    "--border-width-s": {
+      "value": "{Root.--border-width-1}",
+      "type": "borderWidth",
+      "description": "Small/thin border (1px). Used by: Cookie Modal, Cookie Settings, and Content Decoration."
+    },
+    "--border-width-m": {
+      "value": "{Root.--border-width-2}",
+      "type": "borderWidth",
+      "description": "Medium/base border (2px). Used by: Button, Form Input, Side Navigation Desktop, Icon Button, and Autocomplete."
+    },
+    "--border-width-l": {
+      "value": "{Root.--border-width-5}",
+      "type": "borderWidth",
+      "description": "Large/thick border (5px). Reserved for future heavy emphasis components."
+    },
+    "--border-width-xl": {
+      "value": "{Root.--border-width-9}",
+      "type": "borderWidth",
+      "description": "Extra large/heavy border (9px). Reserved for future structural layouts or heavy focus states."
+    },
+    "--border-radius-none": {
+      "value": "{Root.--border-radius-0}",
+      "type": "borderRadius",
+      "description": "No border radius (0px). Used for sharp corners and Snap theme overrides."
+    },
+    "--border-radius-xs": {
+      "value": "{Root.--border-radius-4}",
+      "type": "borderRadius",
+      "description": "Extra small radius (4px). Reserved for tight nested elements, small tags, or tooltips."
+    },
+    "--border-radius-s": {
+      "value": "{Root.--border-radius-8}",
+      "type": "borderRadius",
+      "description": "Small radius (8px). Used by: Cookie Modal, Cookie Settings Category, Dropdown Button, Media, and Mosaic."
+    },
+    "--border-radius-m": {
+      "value": "{Root.--border-radius-16}",
+      "type": "borderRadius",
+      "description": "Medium radius (16px). Used by: Carousel Card, Form Input, and Summary Card."
+    },
+    "--border-radius-l": {
+      "value": "{Root.--border-radius-24}",
+      "type": "borderRadius",
+      "description": "Large radius (24px). Reserved for large modals or featured layout containers."
+    },
+    "--border-radius-pill": {
       "value": "{Root.--border-radius-64}",
       "type": "borderRadius",
-      "description": "Border radius for card-like components (carousel cards, summary cards)."
+      "description": "Fully rounded/pill shape (64px). Used by: Button, and semantic Shape tokens (Interactive/Card)."
     }
   }
 }

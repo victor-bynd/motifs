@@ -98,37 +98,37 @@
       "type": "borderWidth"
     },
     "--breakpoint-xs": {
-      "value": 375,
+      "value": "375",
       "type": "number",
       "description": "Mobile portrait"
     },
     "--breakpoint-sm": {
-      "value": 768,
+      "value": "768",
       "type": "number",
       "description": "Tablet portrait"
     },
     "--breakpoint-md": {
-      "value": 1024,
+      "value": "1024",
       "type": "number",
       "description": "Tablet landscape"
     },
     "--breakpoint-lg": {
-      "value": 1240,
+      "value": "1240",
       "type": "number",
       "description": "Desktop small"
     },
     "--breakpoint-xl": {
-      "value": 1440,
+      "value": "1440",
       "type": "number",
       "description": "Desktop standard"
     },
     "--breakpoint-2xl": {
-      "value": 1920,
+      "value": "1920",
       "type": "number",
       "description": "Desktop large"
     },
     "--breakpoint-3xl": {
-      "value": 2560,
+      "value": "2560",
       "type": "number",
       "description": "Desktop ultra-wide"
     }
