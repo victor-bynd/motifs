@@ -100,6 +100,11 @@
       "type": "color",
       "description": "Default white surface background. Used by cards, menus, modals, forms."
     },
+    "--color-status-focus": {
+      "value": "{Palette.Blue.--palette-blue-v200}",
+      "type": "color",
+      "description": "Default white surface background. Used by cards, menus, modals, forms."
+    },
     "--color-status-error": {
       "value": "{Palette.Red.--palette-red-v150}",
       "type": "color",
@@ -109,11 +114,6 @@
       "value": "{Brands.Snapchat.Neutral.--neutral-v500}",
       "type": "color",
       "description": "Default color for interactive text elements (nav items, links)."
-    },
-    "--color-status-focus": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v0}",
-      "type": "color",
-      "description": "Default white surface background. Used by cards, menus, modals, forms."
     },
     "--color-bg-brand-hover": {
       "value": "{Brands.Snapchat.Neutral.--neutral-v600}",
