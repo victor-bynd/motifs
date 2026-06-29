@@ -185,10 +185,6 @@
     "--global-header-border-color": {
       "value": "transparent",
       "type": "color"
-    },
-    "--global-header-bg-color-copy": {
-      "value": "{Palette.Blue.--palette-blue-v100}",
-      "type": "color"
     }
   },
   "Block": {

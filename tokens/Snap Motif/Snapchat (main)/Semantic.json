@@ -181,7 +181,7 @@
       "description": "Subtle border on dark surfaces. Used by dark theme menus, side nav."
     },
     "--color-status-focus": {
-      "value": "{Palette.Blue.v250}",
+      "value": "{Palette.Blue.--palette-blue-v250}",
       "type": "color",
       "description": "Focus ring color. Used by form inputs and autocomplete."
     },

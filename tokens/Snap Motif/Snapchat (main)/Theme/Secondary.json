@@ -101,7 +101,7 @@
       "description": "Default white surface background. Used by cards, menus, modals, forms."
     },
     "--color-status-error": {
-      "value": "{Palette.Red.--palette-red-v50}",
+      "value": "{Palette.Red.--palette-red-v150}",
       "type": "color",
       "description": "Subtle error background tint."
     },

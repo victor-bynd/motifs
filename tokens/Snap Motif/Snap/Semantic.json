@@ -273,15 +273,15 @@
       "type": "color",
       "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
     },
-    "--semantic-focus-color": {
-      "value": "{Palette.Blue.v250}",
-      "type": "color",
-      "description": "Focus ring color"
-    },
     "--semantic-error-color": {
       "value": "{Palette.Red.--palette-red-v200}",
       "type": "color",
       "description": "Error color"
+    },
+    "--color-status-focus": {
+      "value": "{Palette.Blue.--palette-blue-v200}",
+      "type": "color",
+      "description": "Focus ring color. Used by form inputs and autocomplete."
     }
   }
 }
