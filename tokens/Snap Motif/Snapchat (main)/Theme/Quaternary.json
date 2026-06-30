@@ -31,7 +31,7 @@
       "description": "Default foreground / text color."
     },
     "--color-fg-default": {
-      "value": "{Brands.Snapchat.Primary.--primary-v100}",
+      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Page/section background color. Driven by brand primary in light theme."
     },
@@ -124,6 +124,12 @@
   "Topic": {
     "--topic-hover-bg-color": {
       "value": "{Root.--color-bg-subtle-active}",
+      "type": "color"
+    }
+  },
+  "Button": {
+    "--button-secondary-fg-color": {
+      "value": "{Root.--color-fg-default}",
       "type": "color"
     }
   }

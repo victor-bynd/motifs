@@ -8,5 +8,11 @@
       "value": "lowercase",
       "type": "textCase"
     }
+  },
+  "Button": {
+    "--button-border-radius": {
+      "value": "{Root.--border-radius-none}",
+      "type": "borderRadius"
+    }
   }
 }

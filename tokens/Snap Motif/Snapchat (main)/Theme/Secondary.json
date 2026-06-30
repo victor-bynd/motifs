@@ -157,6 +157,10 @@
     "--button-primary-hover-fg-color": {
       "value": "{Root.--color-fg-inverse}",
       "type": "color"
+    },
+    "--button-secondary-fg-color": {
+      "value": "{Root.--color-fg-inverse}",
+      "type": "color"
     }
   },
   "Header": {

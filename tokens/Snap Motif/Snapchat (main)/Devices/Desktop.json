@@ -410,7 +410,7 @@
       "type": "borderWidth"
     },
     "--button-border-radius": {
-      "value": "64px",
+      "value": "{Root.--border-radius-pill}",
       "type": "borderRadius"
     },
     "--button-font-size": {

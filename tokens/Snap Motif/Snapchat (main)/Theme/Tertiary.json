@@ -16,12 +16,12 @@
       "description": "Page/section background color. Tertiary theme: white."
     },
     "--color-bg-inverse": {
-      "value": "{Brands.Snapchat.Primary.--primary-v100}",
+      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Page/section background color. Driven by brand primary in light theme."
     },
     "--color-fg-inverse": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "value": "{Brands.Snapchat.Neutral.--neutral-v0}",
       "type": "color",
       "description": "Default foreground / text color."
     },
@@ -52,12 +52,20 @@
     }
   },
   "Button": {
+    "--button-primary-bg-color": {
+      "value": "{Root.--color-bg-brand}",
+      "type": "color"
+    },
     "--button-primary-border-color": {
       "value": "{Root.--color-border-brand}",
       "type": "color"
     },
     "--button-primary-hover-border-color": {
       "value": "{Root.--color-border-brand}",
+      "type": "color"
+    },
+    "--button-primary-fg-color": {
+      "value": "{Root.--color-fg-default}",
       "type": "color"
     },
     "--button-secondary-bg-color": {
