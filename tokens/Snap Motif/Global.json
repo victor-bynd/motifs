@@ -133,16 +133,6 @@
       "description": "Desktop ultra-wide"
     }
   },
-  "Brands": {
-    "--brand-snapchat-font-family-primary": {
-      "value": "Ghost Sans",
-      "type": "fontFamilies"
-    },
-    "--brand-snapchat-font-family-secondary": {
-      "value": "Program Nar OT",
-      "type": "fontFamilies"
-    }
-  },
   "Palette": {
     "Black": {
       "--palette-plain-white": {

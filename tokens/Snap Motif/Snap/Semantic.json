@@ -72,10 +72,8 @@
         "value": "#000",
         "type": "color"
       }
-    }
-  },
-  "Snap": {
-    "--brand-snap-font-family-primary": {
+    },
+    "--brand-font-family-primary": {
       "value": "Inter",
       "type": "fontFamilies"
     }
@@ -267,17 +265,17 @@
       "description": "Hover/strong variant of brand background. Used by Definition component hover states."
     },
     "--font-family-body": {
-      "value": "{Snap.--brand-snap-font-family-primary}",
+      "value": "{Brand.--brand-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for body text."
     },
     "--font-family-heading-default": {
-      "value": "{Snap.--brand-snap-font-family-primary}",
+      "value": "{Brand.--brand-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for h3–h6 headings."
     },
     "--font-family-heading-display": {
-      "value": "{Snap.--brand-snap-font-family-primary}",
+      "value": "{Brand.--brand-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for h1–h2 display headings."
     },

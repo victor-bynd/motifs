@@ -1,4 +1,87 @@
 {
+  "Brand": {
+    "Primary": {
+      "--primary-v50": {
+        "value": "{Palette.Yellow.--palette-yellow-v50}",
+        "type": "color"
+      },
+      "--primary-v100": {
+        "value": "{Palette.Yellow.--palette-yellow-v100}",
+        "type": "color",
+        "description": "main brand color"
+      },
+      "--primary-v150": {
+        "value": "{Palette.Yellow.--palette-yellow-v150}",
+        "type": "color"
+      },
+      "--primary-v200": {
+        "value": "{Palette.Yellow.--palette-yellow-v200}",
+        "type": "color"
+      },
+      "--primary-v250": {
+        "value": "{Palette.Yellow.--palette-yellow-v250}",
+        "type": "color"
+      }
+    },
+    "Neutral": {
+      "--neutral-v0": {
+        "value": "{Palette.Black.--palette-plain-white}",
+        "type": "color"
+      },
+      "--neutral-v100": {
+        "value": "{Palette.Black.--palette-gray-v50}",
+        "type": "color"
+      },
+      "--neutral-v150": {
+        "value": "{Palette.Black.--palette-gray-v100}",
+        "type": "color"
+      },
+      "--neutral-v200": {
+        "value": "{Palette.Black.--palette-gray-v150}",
+        "type": "color"
+      },
+      "--neutral-v250": {
+        "value": "{Palette.Black.--palette-gray-v200}",
+        "type": "color"
+      },
+      "--neutral-v300": {
+        "value": "{Palette.Black.--palette-gray-v250}",
+        "type": "color"
+      },
+      "--neutral-v400": {
+        "value": "{Palette.Black.--palette-gray-v300}",
+        "type": "color"
+      },
+      "--neutral-v500": {
+        "value": "{Palette.Black.--palette-black-v50}",
+        "type": "color"
+      },
+      "--neutral-v600": {
+        "value": "{Palette.Black.--palette-black-v100}",
+        "type": "color"
+      },
+      "--neutral-v625": {
+        "value": "{Palette.Black.--palette-black-v125}",
+        "type": "color"
+      },
+      "--neutral-v650": {
+        "value": "{Palette.Black.--palette-black-v150}",
+        "type": "color"
+      },
+      "--neutral-v700": {
+        "value": "{Palette.Black.--palette-plain-black}",
+        "type": "color"
+      }
+    },
+    "--brand-font-family-primary": {
+      "value": "Ghost Sans",
+      "type": "fontFamilies"
+    },
+    "--brand-font-family-secondary": {
+      "value": "Program Nar OT",
+      "type": "fontFamilies"
+    }
+  },
   "Root": {
     "--bg-color": {
       "value": "{Brand.Primary.--primary-v100}",
@@ -211,17 +294,17 @@
       "description": "Hover/strong variant of brand background. Used by Definition component hover states."
     },
     "--font-family-body": {
-      "value": "{Brands.Snapchat.--brand-snapchat-font-family-primary}",
+      "value": "{Brand.--brand-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for body text."
     },
     "--font-family-heading-default": {
-      "value": "{Brands.Snapchat.--brand-snapchat-font-family-primary}",
+      "value": "{Brand.--brand-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for h3–h6 headings."
     },
     "--font-family-heading-display": {
-      "value": "{Brands.Snapchat.--brand-snapchat-font-family-secondary}",
+      "value": "{Brand.--brand-font-family-secondary}",
       "type": "fontFamilies",
       "description": "Typeface for h1–h2 display headings."
     },
@@ -356,89 +439,6 @@
       "value": "{Root.--border-radius-64}",
       "type": "borderRadius",
       "description": "Fully rounded/pill shape (64px). Used by: Button, and semantic Shape tokens (Interactive/Card)."
-    }
-  },
-  "Brand": {
-    "Primary": {
-      "--primary-v50": {
-        "value": "{Palette.Yellow.--palette-yellow-v50}",
-        "type": "color"
-      },
-      "--primary-v100": {
-        "value": "{Palette.Yellow.--palette-yellow-v100}",
-        "type": "color",
-        "description": "main brand color"
-      },
-      "--primary-v150": {
-        "value": "{Palette.Yellow.--palette-yellow-v150}",
-        "type": "color"
-      },
-      "--primary-v200": {
-        "value": "{Palette.Yellow.--palette-yellow-v200}",
-        "type": "color"
-      },
-      "--primary-v250": {
-        "value": "{Palette.Yellow.--palette-yellow-v250}",
-        "type": "color"
-      }
-    },
-    "Neutral": {
-      "--neutral-v0": {
-        "value": "{Palette.Black.--palette-plain-white}",
-        "type": "color"
-      },
-      "--neutral-v100": {
-        "value": "{Palette.Black.--palette-gray-v50}",
-        "type": "color"
-      },
-      "--neutral-v150": {
-        "value": "{Palette.Black.--palette-gray-v100}",
-        "type": "color"
-      },
-      "--neutral-v200": {
-        "value": "{Palette.Black.--palette-gray-v150}",
-        "type": "color"
-      },
-      "--neutral-v250": {
-        "value": "{Palette.Black.--palette-gray-v200}",
-        "type": "color"
-      },
-      "--neutral-v300": {
-        "value": "{Palette.Black.--palette-gray-v250}",
-        "type": "color"
-      },
-      "--neutral-v400": {
-        "value": "{Palette.Black.--palette-gray-v300}",
-        "type": "color"
-      },
-      "--neutral-v500": {
-        "value": "{Palette.Black.--palette-black-v50}",
-        "type": "color"
-      },
-      "--neutral-v600": {
-        "value": "{Palette.Black.--palette-black-v100}",
-        "type": "color"
-      },
-      "--neutral-v625": {
-        "value": "{Palette.Black.--palette-black-v125}",
-        "type": "color"
-      },
-      "--neutral-v650": {
-        "value": "{Palette.Black.--palette-black-v150}",
-        "type": "color"
-      },
-      "--neutral-v700": {
-        "value": "{Palette.Black.--palette-plain-black}",
-        "type": "color"
-      }
-    },
-    "--brand-snapchat-font-family-primary": {
-      "value": "Ghost Sans",
-      "type": "fontFamilies"
-    },
-    "--brand-snapchat-font-family-secondary": {
-      "value": "Program Nar OT",
-      "type": "fontFamilies"
     }
   }
 }
