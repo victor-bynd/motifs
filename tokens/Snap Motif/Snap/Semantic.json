@@ -1,42 +1,123 @@
 {
+  "Brand": {
+    "Primary": {
+      "--primary-v50": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color"
+      },
+      "--primary-v100": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "main brand color"
+      },
+      "--primary-v150": {
+        "value": "{Brand.Neutral.--neutral-v200}",
+        "type": "color"
+      },
+      "--primary-v200": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color"
+      },
+      "--primary-v250": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color"
+      }
+    },
+    "Neutral": {
+      "--neutral-v0": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "--neutral-v100": {
+        "value": "#F8F8F8",
+        "type": "color"
+      },
+      "--neutral-v150": {
+        "value": "#F1F1F1",
+        "type": "color"
+      },
+      "--neutral-v200": {
+        "value": "#D9D9D9",
+        "type": "color"
+      },
+      "--neutral-v250": {
+        "value": "#BFBFBF",
+        "type": "color"
+      },
+      "--neutral-v300": {
+        "value": "#A6A6A6",
+        "type": "color"
+      },
+      "--neutral-v400": {
+        "value": "#8C8C8C",
+        "type": "color"
+      },
+      "--neutral-v500": {
+        "value": "#757575",
+        "type": "color"
+      },
+      "--neutral-v600": {
+        "value": "#595959",
+        "type": "color"
+      },
+      "--neutral-v625": {
+        "value": "#404040",
+        "type": "color"
+      },
+      "--neutral-v650": {
+        "value": "#262626",
+        "type": "color"
+      },
+      "--neutral-v700": {
+        "value": "#000",
+        "type": "color"
+      }
+    }
+  },
+  "Snap": {
+    "--brand-snap-font-family-primary": {
+      "value": "Inter",
+      "type": "fontFamilies"
+    }
+  },
   "Root": {
     "--bg-color": {
-      "value": "{Brands.Snap.Primary.--primary-v100}",
+      "value": "{Brand.Primary.--primary-v100}",
       "type": "color",
       "description": "Page/section background color. Driven by brand primary in light theme."
     },
     "--fg-color": {
-      "value": "{Brands.Snap.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Default foreground / text color."
     },
     "--action-text-default-color": {
-      "value": "{Brands.Snap.Neutral.--neutral-v500}",
+      "value": "{Brand.Neutral.--neutral-v500}",
       "type": "color",
       "description": "Default color for interactive text elements (nav items, links)."
     },
     "--action-text-hover-color": {
-      "value": "{Brands.Snap.Neutral.--neutral-v600}",
+      "value": "{Brand.Neutral.--neutral-v600}",
       "type": "color",
       "description": "Hover color for interactive text elements."
     },
     "--action-text-active-color": {
-      "value": "{Brands.Snap.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Active/selected color for interactive text elements."
     },
     "--action-indicator-hover-color": {
-      "value": "{Brands.Snap.Neutral.--neutral-v500}",
+      "value": "{Brand.Neutral.--neutral-v500}",
       "type": "color",
       "description": "Hover color for interactive indicator elements (underlines, dots)."
     },
     "--action-indicator-active-color": {
-      "value": "{Brands.Snap.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Active color for interactive indicator elements."
     },
     "--gutter-color": {
-      "value": "{Brands.Snap.Neutral.--neutral-v250}",
+      "value": "{Brand.Neutral.--neutral-v250}",
       "type": "color",
       "description": "Divider / gutter color between layout sections."
     },
@@ -46,157 +127,157 @@
       "description": "Opacity for hover state indicator elements."
     },
     "--color-bg-surface": {
-      "value": "{Brands.Snap.Neutral.--neutral-v0}",
+      "value": "{Brand.Neutral.--neutral-v0}",
       "type": "color",
       "description": "Default white surface background. Used by cards, menus, modals, forms."
     },
     "--color-bg-subtle": {
-      "value": "{Brands.Snap.Neutral.--neutral-v150}",
+      "value": "{Brand.Neutral.--neutral-v150}",
       "type": "color",
       "description": "Tinted/inset surface background. Used by featured items, table headers, banners."
     },
     "--color-bg-subtle-hover": {
-      "value": "{Brands.Snap.Neutral.--neutral-v200}",
+      "value": "{Brand.Neutral.--neutral-v200}",
       "type": "color",
       "description": "Hover state for tinted surfaces."
     },
     "--color-bg-subtle-active": {
-      "value": "{Brands.Snap.Neutral.--neutral-v250}",
+      "value": "{Brand.Neutral.--neutral-v250}",
       "type": "color",
       "description": "Active/selected state for tinted surfaces. Used by tabs, progress bars, forms."
     },
     "--color-bg-inverse": {
-      "value": "{Brands.Snap.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Dark/inverse background. Used by primary buttons, dark sections, overlays."
     },
     "--color-bg-overlay": {
-      "value": "{Brands.Snap.Neutral.--neutral-v650}",
+      "value": "{Brand.Neutral.--neutral-v650}",
       "type": "color",
       "description": "Semi-dark overlay background. Used by nav screens, side nav mobile."
     },
     "--color-bg-recessed": {
-      "value": "{Brands.Snap.Neutral.--neutral-v100}",
+      "value": "{Brand.Neutral.--neutral-v100}",
       "type": "color",
       "description": "Deeply recessed background. Used by chart skeletons, AI banner, side overlays."
     },
     "--color-bg-brand": {
-      "value": "{Brands.Snap.Primary.--primary-v100}",
+      "value": "{Brand.Primary.--primary-v100}",
       "type": "color",
       "description": "Brand accent background. Used by active indicators, progress, chart toggles."
     },
     "--color-bg-brand-emphasis": {
-      "value": "{Brands.Snap.Primary.--primary-v150}",
+      "value": "{Brand.Primary.--primary-v150}",
       "type": "color",
       "description": "Emphasized brand background. Used by icon buttons, definition active states."
     },
     "--color-fg-default": {
-      "value": "{Brands.Snap.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Primary text and icon color on light surfaces."
     },
     "--color-fg-subtle": {
-      "value": "{Brands.Snap.Neutral.--neutral-v600}",
+      "value": "{Brand.Neutral.--neutral-v600}",
       "type": "color",
       "description": "Secondary/subdued text. Used for descriptions, meta text."
     },
     "--color-fg-muted": {
-      "value": "{Brands.Snap.Neutral.--neutral-v500}",
+      "value": "{Brand.Neutral.--neutral-v500}",
       "type": "color",
       "description": "Muted/tertiary text. Used for placeholders, icons, helper text."
     },
     "--color-fg-faint": {
-      "value": "{Brands.Snap.Neutral.--neutral-v400}",
+      "value": "{Brand.Neutral.--neutral-v400}",
       "type": "color",
       "description": "Faint text and icon color. Used for disabled-adjacent states."
     },
     "--color-fg-inverse": {
-      "value": "{Brands.Snap.Neutral.--neutral-v0}",
+      "value": "{Brand.Neutral.--neutral-v0}",
       "type": "color",
       "description": "White foreground for use on dark/inverse backgrounds."
     },
     "--color-fg-inverse-subtle": {
-      "value": "{Brands.Snap.Neutral.--neutral-v300}",
+      "value": "{Brand.Neutral.--neutral-v300}",
       "type": "color",
       "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
     },
     "--color-fg-on-brand": {
-      "value": "{Brands.Snap.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Text/icon color on brand-colored backgrounds (yellow). Must stay dark for contrast."
     },
     "--color-fg-brand": {
-      "value": "{Brands.Snap.Primary.--primary-v100}",
+      "value": "{Brand.Primary.--primary-v100}",
       "type": "color",
       "description": "Brand-colored text or icon. Used for emphasized text, stats, animated accordion."
     },
     "--color-fg-brand-dark": {
-      "value": "{Brands.Snap.Primary.--primary-v250}",
+      "value": "{Brand.Primary.--primary-v250}",
       "type": "color",
       "description": "Dark brand accent for de-emphasized text on light backgrounds."
     },
     "--color-fg-dark-subtle": {
-      "value": "{Brands.Snap.Neutral.--neutral-v625}",
+      "value": "{Brand.Neutral.--neutral-v625}",
       "type": "color",
       "description": "Subtle dark foreground. Used on very dark backgrounds."
     },
     "--color-fg-dark-muted": {
-      "value": "{Brands.Snap.Neutral.--neutral-v650}",
+      "value": "{Brand.Neutral.--neutral-v650}",
       "type": "color",
       "description": "Muted foreground on dark surfaces. Used for featured item text, nav."
     },
     "--color-border-default": {
-      "value": "{Brands.Snap.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Default strong border. Used by primary buttons, dark outline components."
     },
     "--color-border-subtle": {
-      "value": "{Brands.Snap.Neutral.--neutral-v150}",
+      "value": "{Brand.Neutral.--neutral-v150}",
       "type": "color",
       "description": "Subtle divider/border. Used by header menus, tables, footnotes."
     },
     "--color-border-moderate": {
-      "value": "{Brands.Snap.Neutral.--neutral-v250}",
+      "value": "{Brand.Neutral.--neutral-v250}",
       "type": "color",
       "description": "Moderate border weight. Used by tabs, form inputs, accordions."
     },
     "--color-border-muted": {
-      "value": "{Brands.Snap.Neutral.--neutral-v300}",
+      "value": "{Brand.Neutral.--neutral-v300}",
       "type": "color",
       "description": "Muted border. Used by footnotes, icon buttons, side overlays."
     },
     "--color-border-brand": {
-      "value": "{Brands.Snap.Primary.--primary-v100}",
+      "value": "{Brand.Primary.--primary-v100}",
       "type": "color",
       "description": "Brand-colored border. Used for active states: chart toggles, block nav."
     },
     "--color-border-brand-emphasis": {
-      "value": "{Brands.Snap.Primary.--primary-v150}",
+      "value": "{Brand.Primary.--primary-v150}",
       "type": "color",
       "description": "Emphasized brand border. Used by topic hover, definition active."
     },
     "--color-border-dark-subtle": {
-      "value": "{Brands.Snap.Neutral.--neutral-v625}",
+      "value": "{Brand.Neutral.--neutral-v625}",
       "type": "color",
       "description": "Subtle border on dark surfaces. Used by dark theme menus, side nav."
     },
     "--color-bg-brand-hover": {
-      "value": "{Brands.Snap.Primary.--primary-v200}",
+      "value": "{Brand.Primary.--primary-v200}",
       "type": "color",
       "description": "Hover/strong variant of brand background. Used by Definition component hover states."
     },
     "--font-family-body": {
-      "value": "{Brands.Snap.--brand-snap-font-family-primary}",
+      "value": "{Snap.--brand-snap-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for body text."
     },
     "--font-family-heading-default": {
-      "value": "{Brands.Snap.--brand-snap-font-family-primary}",
+      "value": "{Snap.--brand-snap-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for h3–h6 headings."
     },
     "--font-family-heading-display": {
-      "value": "{Brands.Snap.--brand-snap-font-family-primary}",
+      "value": "{Snap.--brand-snap-font-family-primary}",
       "type": "fontFamilies",
       "description": "Typeface for h1–h2 display headings."
     },
