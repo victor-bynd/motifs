@@ -11,52 +11,52 @@
       "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
     },
     "--bg-color": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v150}",
+      "value": "{Brand.Neutral.--neutral-v150}",
       "type": "color",
       "description": "Page/section background color. Quaternary theme: light gray."
     },
     "--color-fg-brand-dark": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v500}",
+      "value": "{Brand.Neutral.--neutral-v500}",
       "type": "color",
       "description": "Default color for interactive text elements (nav items, links)."
     },
     "--color-fg-muted": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v300}",
+      "value": "{Brand.Neutral.--neutral-v300}",
       "type": "color",
       "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
     },
     "--color-bg-subtle-active": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Default foreground / text color."
     },
     "--color-fg-default": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Page/section background color. Driven by brand primary in light theme."
     },
     "--color-bg-subtle-hover": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v0}",
+      "value": "{Brand.Neutral.--neutral-v0}",
       "type": "color",
       "description": "Default white surface background. Used by cards, menus, modals, forms."
     },
     "--color-border-moderate": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v300}",
+      "value": "{Brand.Neutral.--neutral-v300}",
       "type": "color",
       "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
     },
     "--color-border-muted": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v250}",
+      "value": "{Brand.Neutral.--neutral-v250}",
       "type": "color",
       "description": "Divider / gutter color between layout sections."
     },
     "--color-border-default": {
-      "value": "{Brands.Snapchat.Primary.--primary-v200}",
+      "value": "{Brand.Primary.--primary-v200}",
       "type": "color",
       "description": "Hover/strong variant of brand background. Used by Definition component hover states."
     },
     "--color-bg-brand-hover": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v250}",
+      "value": "{Brand.Neutral.--neutral-v250}",
       "type": "color",
       "description": "Divider / gutter color between layout sections."
     }

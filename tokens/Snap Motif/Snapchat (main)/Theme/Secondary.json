@@ -56,47 +56,47 @@
       "type": "boxShadow"
     },
     "--bg-color": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Page/section background color. Secondary theme: black."
     },
     "--fg-color": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v0}",
+      "value": "{Brand.Neutral.--neutral-v0}",
       "type": "color",
       "description": "Default foreground / text color. Secondary theme: white."
     },
     "--gutter-color": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v650}",
+      "value": "{Brand.Neutral.--neutral-v650}",
       "type": "color",
       "description": "Divider / gutter color. Secondary theme: dark gray."
     },
     "--action-text-default-color": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v300}",
+      "value": "{Brand.Neutral.--neutral-v300}",
       "type": "color",
       "description": "Default color for interactive text elements on dark background."
     },
     "--action-text-hover-color": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v200}",
+      "value": "{Brand.Neutral.--neutral-v200}",
       "type": "color",
       "description": "Hover color for interactive text elements on dark background."
     },
     "--action-text-active-color": {
-      "value": "{Brands.Snapchat.Primary.--primary-v100}",
+      "value": "{Brand.Primary.--primary-v100}",
       "type": "color",
       "description": "Active/selected color for interactive text elements. Secondary: brand yellow."
     },
     "--action-indicator-hover-color": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v300}",
+      "value": "{Brand.Neutral.--neutral-v300}",
       "type": "color",
       "description": "Hover color for interactive indicator elements on dark background."
     },
     "--action-indicator-active-color": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v0}",
+      "value": "{Brand.Neutral.--neutral-v0}",
       "type": "color",
       "description": "Active color for interactive indicator elements on dark background."
     },
     "--color-fg-brand-dark": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v0}",
+      "value": "{Brand.Neutral.--neutral-v0}",
       "type": "color",
       "description": "Default white surface background. Used by cards, menus, modals, forms."
     },
@@ -111,21 +111,21 @@
       "description": "Subtle error background tint."
     },
     "--color-border-moderate": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v500}",
+      "value": "{Brand.Neutral.--neutral-v500}",
       "type": "color",
       "description": "Default color for interactive text elements (nav items, links)."
     },
     "--color-bg-brand-hover": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v600}",
+      "value": "{Brand.Neutral.--neutral-v600}",
       "type": "color",
       "description": "Hover color for interactive text elements."
     },
     "--color-fg-default": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v0}",
+      "value": "{Brand.Neutral.--neutral-v0}",
       "type": "color"
     },
     "--color-fg-inverse": {
-      "value": "{Brands.Snapchat.Neutral.--neutral-v700}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color"
     }
   },
