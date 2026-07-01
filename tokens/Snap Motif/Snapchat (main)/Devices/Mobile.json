@@ -137,7 +137,7 @@
       "type": "fontSizes"
     },
     "--action-font-line-height": {
-      "value": "120%",
+      "value": "21.6px",
       "type": "lineHeights"
     },
     "--action-font-weight": {
@@ -273,6 +273,19 @@
     "--cookie-modal-vertical-padding": {
       "value": "{Root.--spacing-8}",
       "type": "spacing"
+    }
+  },
+  "Banner": {
+    "--banner-font-size": {
+      "value": "14px",
+      "type": "fontSizes"
+    }
+  },
+  "FigmaTokens": {
+    "--component-breakpoint": {
+      "value": "{Root.--breakpoint-xs}",
+      "type": "sizing",
+      "description": "Figma only token for managing component widths per breakpoint"
     }
   }
 }

@@ -633,5 +633,12 @@
       "value": "{Root.--stats-supplementary-text-font-weight}",
       "type": "fontWeights"
     }
+  },
+  "FigmaTokens": {
+    "--component-breakpoint": {
+      "value": "{Root.--breakpoint-xl}",
+      "type": "sizing",
+      "description": "Figma only token for managing component widths per breakpoint"
+    }
   }
 }
