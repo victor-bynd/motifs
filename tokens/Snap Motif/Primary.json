@@ -813,6 +813,58 @@
     "--dropdown-button-hover-border-color": {
       "value": "transparent",
       "type": "color"
+    },
+    "--dropdown-menu-min-width": {
+      "type": "sizing",
+      "value": "170px"
+    },
+    "--dropdown-menu-shadow": {
+      "type": "boxShadow",
+      "value": "{Root.--box-shadow-l}"
+    },
+    "--dropdown-menu-border-width": {
+      "type": "borderWidth",
+      "value": "{Root.--border-width-xs}"
+    },
+    "--dropdown-menu-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-s}"
+    },
+    "--dropdown-menu-divider-color": {
+      "type": "color",
+      "value": "transparent"
+    },
+    "--dropdown-menu-divider-width": {
+      "type": "sizing",
+      "value": "0"
+    },
+    "--dropdown-item-bg-color": {
+      "type": "color",
+      "value": "transparent"
+    },
+    "--dropdown-item-padding": {
+      "type": "spacing",
+      "value": "{Root.--spacing-m}"
+    },
+    "--dropdown-item-desktop-font-weight": {
+      "type": "fontWeights",
+      "value": "{Root.--action-desktop-font-weight}"
+    },
+    "--dropdown-item-mobile-font-weight": {
+      "type": "fontWeights",
+      "value": "{Root.--action-mobile-font-weight}"
+    },
+    "--dropdown-item-desktop-selected-font-weight": {
+      "type": "fontWeights",
+      "value": "{Root.--action-desktop-font-weight}"
+    },
+    "--dropdown-item-mobile-selected-font-weight": {
+      "type": "fontWeights",
+      "value": "{Root.--action-mobile-font-weight}"
+    },
+    "--dropdown-button-shadow": {
+      "type": "boxShadow",
+      "value": "{Root.--box-shadow-s}"
     }
   },
   "Toggle Slider": {
@@ -827,6 +879,62 @@
     "--toggle-slider-switch-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
+    },
+    "--toggle-slider-track-border-radius": {
+      "type": "borderRadius",
+      "value": "100px"
+    },
+    "--toggle-slider-switch-border-radius": {
+      "type": "borderRadius",
+      "value": "45px"
+    },
+    "--toggle-slider-track-desktop-width": {
+      "type": "sizing",
+      "value": "42px"
+    },
+    "--toggle-slider-track-desktop-height": {
+      "type": "sizing",
+      "value": "24px"
+    },
+    "--toggle-slider-switch-desktop-width": {
+      "type": "sizing",
+      "value": "18px"
+    },
+    "--toggle-slider-switch-desktop-height": {
+      "type": "sizing",
+      "value": "18px"
+    },
+    "--toggle-slider-switch-desktop-inset-top": {
+      "type": "spacing",
+      "value": "3px"
+    },
+    "--toggle-slider-switch-desktop-inset-left": {
+      "type": "spacing",
+      "value": "3px"
+    },
+    "--toggle-slider-track-mobile-width": {
+      "type": "sizing",
+      "value": "34px"
+    },
+    "--toggle-slider-track-mobile-height": {
+      "type": "sizing",
+      "value": "20px"
+    },
+    "--toggle-slider-switch-mobile-width": {
+      "type": "sizing",
+      "value": "14px"
+    },
+    "--toggle-slider-switch-mobile-height": {
+      "type": "sizing",
+      "value": "14px"
+    },
+    "--toggle-slider-switch-mobile-inset-top": {
+      "type": "spacing",
+      "value": "3px"
+    },
+    "--toggle-slider-switch-mobile-inset-left": {
+      "type": "spacing",
+      "value": "3px"
     }
   },
   "Toggle Button": {
