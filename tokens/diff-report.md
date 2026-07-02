@@ -1,8 +1,8 @@
 # Token Diff Report
 
-**Generated:** 2026-06-26 15:42 UTC  
+**Generated:** 2026-07-02 16:18 UTC  
 **Design dir:** `tokens`  
-**Production file:** `production.json`
+**Production file:** `Motifs-Storybook/Figma Tokens - Motif.2026-07-02T15_51_33.838Z.json`
 
 ---
 
@@ -10,25 +10,56 @@
 
 | | Count |
 |---|---|
-| 🆕 Missing tokens (added to set files) | **1** |
+| 🆕 Missing tokens (added to set files) | **27** |
 | ⚠️ Changed values (review needed) | **2** |
 | 🚫 Ignored changes (sync-ignore.json) | **0** |
 | 🔵 Design-only tokens (not in production) | **4** |
 
 ---
 
-## 🆕 Missing Tokens — added to set files (1)
+## 🆕 Missing Tokens — added to set files (27)
 
 These tokens exist in the production file but were absent from the design files.  
 They have been automatically added to the corresponding set file.
 
 ### `Snap Motif/Primary`
 
-#### Button
+#### Dropdown Menu
 
 | Token | Type | Value |
 |---|---|---|
-| `--button-disabled-opacity` | opacity | `0.7` |
+| `--dropdown-button-shadow` | boxShadow | `{Root.--box-shadow-s}` |
+| `--dropdown-item-bg-color` | color | `transparent` |
+| `--dropdown-item-desktop-font-weight` | fontWeights | `{Root.--action-desktop-font-weight}` |
+| `--dropdown-item-desktop-selected-font-weight` | fontWeights | `{Root.--action-desktop-font-weight}` |
+| `--dropdown-item-mobile-font-weight` | fontWeights | `{Root.--action-mobile-font-weight}` |
+| `--dropdown-item-mobile-selected-font-weight` | fontWeights | `{Root.--action-mobile-font-weight}` |
+| `--dropdown-item-padding` | spacing | `{Root.--spacing-m}` |
+| `--dropdown-menu-border-radius` | borderRadius | `{Root.--border-radius-s}` |
+| `--dropdown-menu-border-width` | borderWidth | `{Root.--border-width-xs}` |
+| `--dropdown-menu-divider-color` | color | `transparent` |
+| `--dropdown-menu-divider-width` | sizing | `0` |
+| `--dropdown-menu-min-width` | sizing | `170px` |
+| `--dropdown-menu-shadow` | boxShadow | `{Root.--box-shadow-l}` |
+
+#### Toggle Slider
+
+| Token | Type | Value |
+|---|---|---|
+| `--toggle-slider-switch-border-radius` | borderRadius | `45px` |
+| `--toggle-slider-switch-desktop-height` | sizing | `18px` |
+| `--toggle-slider-switch-desktop-inset-left` | spacing | `3px` |
+| `--toggle-slider-switch-desktop-inset-top` | spacing | `3px` |
+| `--toggle-slider-switch-desktop-width` | sizing | `18px` |
+| `--toggle-slider-switch-mobile-height` | sizing | `14px` |
+| `--toggle-slider-switch-mobile-inset-left` | spacing | `3px` |
+| `--toggle-slider-switch-mobile-inset-top` | spacing | `3px` |
+| `--toggle-slider-switch-mobile-width` | sizing | `14px` |
+| `--toggle-slider-track-border-radius` | borderRadius | `100px` |
+| `--toggle-slider-track-desktop-height` | sizing | `24px` |
+| `--toggle-slider-track-desktop-width` | sizing | `42px` |
+| `--toggle-slider-track-mobile-height` | sizing | `20px` |
+| `--toggle-slider-track-mobile-width` | sizing | `34px` |
 
 ---
 
