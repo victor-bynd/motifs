@@ -1,8 +1,8 @@
 # Token Diff Report
 
-**Generated:** 2026-06-26 15:42 UTC  
+**Generated:** 2026-07-02 16:14 UTC  
 **Design dir:** `tokens`  
-**Production file:** `production.json`
+**Production file:** `Motifs-Storybook/production.json`
 
 ---
 
@@ -10,25 +10,19 @@
 
 | | Count |
 |---|---|
-| 🆕 Missing tokens (added to set files) | **1** |
+| 🆕 Missing tokens (added to set files) | **0** |
 | ⚠️ Changed values (review needed) | **2** |
 | 🚫 Ignored changes (sync-ignore.json) | **0** |
 | 🔵 Design-only tokens (not in production) | **4** |
 
 ---
 
-## 🆕 Missing Tokens — added to set files (1)
+## 🆕 Missing Tokens — added to set files (0)
 
 These tokens exist in the production file but were absent from the design files.  
 They have been automatically added to the corresponding set file.
 
-### `Snap Motif/Primary`
-
-#### Button
-
-| Token | Type | Value |
-|---|---|---|
-| `--button-disabled-opacity` | opacity | `0.7` |
+_No missing tokens._
 
 ---
 
