@@ -3,31 +3,34 @@
 # Token Sync Workflow
 #
 # Triggers:
-#   1. Automatically — when production.json is pushed to main/develop
-#   2. Manually      — via the "Run workflow" button in the GitHub Actions UI
+# 1. Automatically — when a .json file is uploaded to Motifs-Storybook/
+#    (any filename works — no renaming needed before upload)
+# 2. Manually — via the "Run workflow" button in the GitHub Actions UI
 #
 # What it does:
-#   - Runs scripts/merge_tokens.py
-#   - Creates a new branch with the merged changes
-#   - Opens a DRAFT Pull Request using gh CLI (reliable, no third-party action)
+# - Finds whichever JSON file is sitting in Motifs-Storybook/ (root level only)
+# - Runs scripts/merge_tokens.py against it
+# - Creates a new branch with the merged changes
+# - Opens a DRAFT Pull Request using gh CLI (reliable, no third-party action)
+# - Moves the processed file into Motifs-Storybook/archive/ (direct commit to
+#   main — this is housekeeping, not a token change, so it skips PR review)
 #
-# ⚠️  AUTO-MERGE IS INTENTIONALLY DISABLED.
-#     The PR opens as a draft — GitHub blocks the merge button until you:
-#       1. Review tokens/diff-report.md in the Files changed tab
-#       2. Click "Ready for review"
-#       3. Merge manually
+# ⚠️ AUTO-MERGE IS INTENTIONALLY DISABLED.
+# The PR opens as a draft — GitHub blocks the merge button until you:
+# 1. Review tokens/diff-report.md in the Files changed tab
+# 2. Click "Ready for review"
+# 3. Merge manually
 # ─────────────────────────────────────────────────────────────────────────────
-
 name: 🔄 Sync Tokens
 
 on:
-  # ── Auto: triggers when the production file is updated ─────────────────────
+  # ── Auto: triggers when a new export lands in Motifs-Storybook/ ──────────
   push:
     branches:
       - main
       - develop
     paths:
-      - "production.json"     # lives at repo root, OUTSIDE tokens/ folder
+      - "Motifs-Storybook/*.json" # root level only — excludes archive/ subfolder
 
   # ── Manual: "Run workflow" button in the Actions tab ───────────────────────
   workflow_dispatch:
@@ -41,10 +44,9 @@ jobs:
   sync-tokens:
     name: Diff & Merge Token Files
     runs-on: ubuntu-latest
-
     permissions:
-      contents: write        # push new branch
-      pull-requests: write   # open PR
+      contents: write # push new branch + archive commit
+      pull-requests: write # open PR
 
     steps:
       # ── 1. Checkout ────────────────────────────────────────────────────────
@@ -53,25 +55,42 @@ jobs:
         with:
           fetch-depth: 0
 
-      # ── 2. Python ──────────────────────────────────────────────────────────
+      # ── 2. Find the uploaded file ────────────────────────────────────────
+      - name: Find uploaded token file
+        id: find
+        run: |
+          FILE=$(find Motifs-Storybook -maxdepth 1 -type f -name "*.json" | head -n 1)
+          if [ -z "$FILE" ]; then
+            echo "found=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No JSON file found in Motifs-Storybook/. Nothing to do (likely the archive commit re-trigger)."
+          else
+            echo "found=true" >> $GITHUB_OUTPUT
+            echo "file=${FILE}" >> $GITHUB_OUTPUT
+            echo "📄 Found uploaded file: ${FILE}"
+          fi
+
+      # ── 3. Python ──────────────────────────────────────────────────────────
       - name: Set up Python
+        if: steps.find.outputs.found == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # ── 3. Run merge script ────────────────────────────────────────────────
+      # ── 4. Run merge script ────────────────────────────────────────────────
       - name: Run token merge & diff
+        if: steps.find.outputs.found == 'true'
         id: merge
         run: |
           python scripts/merge_tokens.py \
             --design-dir tokens \
-            --prod       production.json \
-            --ignore     tokens/sync-ignore.json
-        # exit 0 → new tokens only | exit 2 → changed values found
-        continue-on-error: true   # always continue to open the PR
+            --prod "${{ steps.find.outputs.file }}" \
+            --ignore tokens/sync-ignore.json
+          # exit 0 → new tokens only | exit 2 → changed values found
+        continue-on-error: true # always continue to open the PR
 
-      # ── 4. Check if anything changed ───────────────────────────────────────
+      # ── 5. Check if anything changed ───────────────────────────────────────
       - name: Check for changes
+        if: steps.find.outputs.found == 'true'
         id: check
         run: |
           if [ -z "$(git status --porcelain tokens/)" ]; then
@@ -82,9 +101,9 @@ jobs:
             echo "Changes detected — will create PR."
           fi
 
-      # ── 5. Build PR title & body ───────────────────────────────────────────
+      # ── 6. Build PR title & body ───────────────────────────────────────────
       - name: Build PR content
-        if: steps.check.outputs.has_changes == 'true'
+        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
         id: pr_content
         run: |
           # Label based on whether values changed
@@ -102,6 +121,7 @@ jobs:
 
           # Notes from manual trigger (empty string if auto-triggered)
           NOTES="${{ github.event.inputs.notes }}"
+
           TITLE="🔄 [DRAFT] Token sync — ${LABEL}${NOTES:+ · $NOTES}"
 
           # Write PR body to a file (avoids shell escaping issues)
@@ -120,7 +140,6 @@ jobs:
           ---
 
           ### How to review
-
           1. Click the **Files changed** tab above
           2. Open \`tokens/diff-report.md\` — full breakdown of every change
           3. If there are ⚠️ changed values, decide whether to keep your design value or accept production's
@@ -131,43 +150,39 @@ jobs:
           ---
 
           ### Files in this PR
-
           | File | Description |
           |---|---|
           | \`tokens/Snap Motif/*.json\` | Updated token sets — re-import in Tokens Studio after merging |
           | \`tokens/diff-report.md\` | Full diff: new tokens, changed values, design-only tokens |
 
           ---
-
-          _Triggered by: \`${{ github.event_name }}\` · \`${{ github.sha }}\`_
+          _Triggered by: \`${{ github.event_name }}\` · \`${{ github.sha }}\` · source file: \`${{ steps.find.outputs.file }}\`_
           EOF
 
           echo "title=${TITLE}" >> $GITHUB_OUTPUT
 
-      # ── 6. Create branch and commit ────────────────────────────────────────
+      # ── 7. Create branch and commit ────────────────────────────────────────
       - name: Create branch and commit
-        if: steps.check.outputs.has_changes == 'true'
+        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
         id: branch
         run: |
           BRANCH="token-sync/$(date +'%Y-%m-%d-%H%M')"
           echo "name=${BRANCH}" >> $GITHUB_OUTPUT
-
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git checkout -b "${BRANCH}"
           git add tokens/
           git commit -m "chore(tokens): sync with production — $(date +'%Y-%m-%d')"
           git push origin "${BRANCH}"
 
-      # ── 7. Open DRAFT PR using gh CLI ──────────────────────────────────────
+      # ── 8. Open DRAFT PR using gh CLI ──────────────────────────────────────
       #
-      #  Using gh CLI instead of peter-evans/create-pull-request to avoid the
-      #  issue where the action commits directly to main instead of opening a PR.
-      #  --draft flag means GitHub blocks merging until you click "Ready for review".
+      # Using gh CLI instead of peter-evans/create-pull-request to avoid the
+      # issue where the action commits directly to main instead of opening a PR.
+      # --draft flag means GitHub blocks merging until you click "Ready for review".
       # ─────────────────────────────────────────────────────────────────────
       - name: Open Draft Pull Request
-        if: steps.check.outputs.has_changes == 'true'
+        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -176,13 +191,11 @@ jobs:
             --head "${{ steps.branch.outputs.name }}" \
             --title "${{ steps.pr_content.outputs.title }}" \
             --body-file /tmp/pr-body.md \
-            --draft \
+            --draft
 
-
-
-      # ── 8. Print PR link to workflow log ───────────────────────────────────
+      # ── 9. Print PR link to workflow log ───────────────────────────────────
       - name: Print PR link
-        if: steps.check.outputs.has_changes == 'true'
+        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -190,7 +203,24 @@ jobs:
           echo "✅ Draft PR created: ${PR_URL}"
           echo "   Review the diff report, then mark it Ready for review to merge."
 
-      # ── 9. No-op if nothing changed ────────────────────────────────────────
+      # ── 10. No-op if nothing changed ────────────────────────────────────────
       - name: Nothing to sync
-        if: steps.check.outputs.has_changes == 'false'
+        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'false'
         run: echo "✅ No token differences found. Design file is already in sync with production."
+
+      # ── 11. Archive the processed upload (direct commit to main) ───────────
+      # This runs regardless of whether tokens changed, as long as a file was
+      # found. It's a housekeeping commit, separate from the draft PR, so it
+      # doesn't get held up behind manual review.
+      - name: Archive processed upload
+        if: steps.find.outputs.found == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git pull origin main
+          mkdir -p Motifs-Storybook/archive
+          FILENAME=$(basename "${{ steps.find.outputs.file }}")
+          git mv "${{ steps.find.outputs.file }}" "Motifs-Storybook/archive/${FILENAME}"
+          git commit -m "chore: archive processed token export — ${FILENAME}"
+          git push origin main
