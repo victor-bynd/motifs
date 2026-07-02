@@ -1,8 +1,14 @@
 # Token Diff Report
 
+token-sync/2026-07-02-1618
 **Generated:** 2026-07-02 16:18 UTC  
 **Design dir:** `tokens`  
 **Production file:** `Motifs-Storybook/Figma Tokens - Motif.2026-07-02T15_51_33.838Z.json`
+
+**Generated:** 2026-07-02 16:14 UTC  
+**Design dir:** `tokens`  
+**Production file:** `Motifs-Storybook/production.json`
+main
 
 ---
 
@@ -10,18 +16,27 @@
 
 | | Count |
 |---|---|
+token-sync/2026-07-02-1618
 | 🆕 Missing tokens (added to set files) | **27** |
+
+| 🆕 Missing tokens (added to set files) | **0** |
+main
 | ⚠️ Changed values (review needed) | **2** |
 | 🚫 Ignored changes (sync-ignore.json) | **0** |
 | 🔵 Design-only tokens (not in production) | **4** |
 
 ---
 
+token-sync/2026-07-02-1618
 ## 🆕 Missing Tokens — added to set files (27)
+
+## 🆕 Missing Tokens — added to set files (0)
+main
 
 These tokens exist in the production file but were absent from the design files.  
 They have been automatically added to the corresponding set file.
 
+token-sync/2026-07-02-1618
 ### `Snap Motif/Primary`
 
 #### Dropdown Menu
@@ -60,6 +75,9 @@ They have been automatically added to the corresponding set file.
 | `--toggle-slider-track-desktop-width` | sizing | `42px` |
 | `--toggle-slider-track-mobile-height` | sizing | `20px` |
 | `--toggle-slider-track-mobile-width` | sizing | `34px` |
+
+_No missing tokens._
+main
 
 ---
 
