@@ -51,7 +51,7 @@
       "description": "Divider / gutter color between layout sections."
     },
     "--color-border-default": {
-      "value": "{Brand.Primary.--primary-v200}",
+      "value": "{Brand.Neutral.--neutral-v700}",
       "type": "color",
       "description": "Hover/strong variant of brand background. Used by Definition component hover states."
     },
