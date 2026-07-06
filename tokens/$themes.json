@@ -4,7 +4,7 @@
     "name": "global",
     "group": "Global",
     "selectedTokenSets": {
-      "Snap Motif/Global": "enabled"
+      "Global": "enabled"
     },
     "$figmaStyleReferences": {
       "Primary.--primary-v50": "S:b54bd2b8c69e8011b2199e34adc13db4ad8b2c84,",
@@ -156,9 +156,9 @@
     "name": "Primary",
     "group": "Theme",
     "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snapchat (main)/Semantic": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Primary": "enabled"
+      "Global": "source",
+      "Snapchat (main)/Semantic": "enabled",
+      "Snapchat (main)/Theme/Primary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:54f33ae078fd28f3ed8b38aa8b5bf2772d8bde77,",
@@ -316,12 +316,12 @@
       "Button.--button-secondary-bg-color": "ffe8cab614b79b1df915d91fa0d179aa30dd0f8c",
       "Button.--button-secondary-hover-bg-color": "905ae672bca035e7565f242c4313e6a2b2a40625",
       "Button.--button-secondary-hover-fg-color": "de037cbfb4811f5c22581d79b945677d5cf97698",
+      "Button.--button-secondary-hover-border-color": "6c3915debff815c62a8d8f3812014d9b845172e4",
+      "Button.--button-secondary-border-color": "35ffbf1f3c18c7d28d6a6c33a7dfddb05bc6b6da",
       "Footer.--footer-border-color": "54d9d754a679cd6426bc0166d7483167f1ad7dc2",
       "Footer.--footer-divider-border-color": "4d1c6a5aeb3e88ccfe71c82a8e82f4e457c88a5d",
       "Footer.--footer-bar-divider-border-color": "4d3a15ef89c981fcec2e27418d482d8924ac687f",
       "Toggle Panel.--toggle-panel-bg-color": "c3163d7c7ab2f97a97793272341d53892907ccec",
-      "Button.--button-secondary-hover-border-color": "6c3915debff815c62a8d8f3812014d9b845172e4",
-      "Button.--button-secondary-border-color": "35ffbf1f3c18c7d28d6a6c33a7dfddb05bc6b6da",
       "Root.--color-fg-muted": "d9ba3c16b85ebbb107fc1ee07bcd3f0aaeb38bee",
       "Root.--color-bg-subtle-hover": "8fa52bc4062ccd196bc2f68b92dac63ee41f34f1",
       "Root.--color-border-default": "e6a8d571da40444a7b6168614f3bc6719e41dc24",
@@ -507,10 +507,10 @@
     "name": "Secondary",
     "group": "Theme",
     "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snapchat (main)/Semantic": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Primary": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Secondary": "enabled"
+      "Global": "source",
+      "Snapchat (main)/Semantic": "enabled",
+      "Snapchat (main)/Theme/Primary": "enabled",
+      "Snapchat (main)/Theme/Secondary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:0747873c89a0c4d03bbba2c33b3279cc745b95bb,",
@@ -684,6 +684,8 @@
       "Button.--button-secondary-hover-bg-color": "905ae672bca035e7565f242c4313e6a2b2a40625",
       "Button.--button-secondary-fg-color": "bd4dfe500d94327e4b30b2a66ed114f151141366",
       "Button.--button-secondary-hover-fg-color": "de037cbfb4811f5c22581d79b945677d5cf97698",
+      "Button.--button-secondary-hover-border-color": "6c3915debff815c62a8d8f3812014d9b845172e4",
+      "Button.--button-secondary-border-color": "35ffbf1f3c18c7d28d6a6c33a7dfddb05bc6b6da",
       "Header.--global-header-bg-color": "b2184ba4bd4de8392bb12136430b8ef567bb467d",
       "Quote.--quote-bg-color": "05f9844a8a4bfba1c1711ea266e1f5111dca90ad",
       "Footer.--footer-border-color": "54d9d754a679cd6426bc0166d7483167f1ad7dc2",
@@ -707,8 +709,6 @@
       "Definition.--definition-border-color": "331525e1fd8b8403ec8f2117592cf29b772f2e20",
       "Definition.--definition-hover-border-color": "5703111ad5d96b3f207d46e5200bcd158924ab60",
       "Topic.--topic-hover-bg-color": "f97aa36a696c948409e22f3f8417560deb86b394",
-      "Button.--button-secondary-hover-border-color": "6c3915debff815c62a8d8f3812014d9b845172e4",
-      "Button.--button-secondary-border-color": "35ffbf1f3c18c7d28d6a6c33a7dfddb05bc6b6da",
       "Root.--color-fg-muted": "d9ba3c16b85ebbb107fc1ee07bcd3f0aaeb38bee",
       "Root.--color-fg-default": "056b7f73f0f42d10f3fac5230e51a3baa6ebe6cc",
       "Root.--color-bg-subtle-hover": "8fa52bc4062ccd196bc2f68b92dac63ee41f34f1",
@@ -991,10 +991,10 @@
     "name": "Tertiary",
     "group": "Theme",
     "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snapchat (main)/Semantic": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Primary": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Tertiary": "enabled"
+      "Global": "source",
+      "Snapchat (main)/Semantic": "enabled",
+      "Snapchat (main)/Theme/Primary": "enabled",
+      "Snapchat (main)/Theme/Tertiary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--bg-color": "S:9e73de469f9f42740022449c934061c3c1f858e7,",
@@ -1373,10 +1373,10 @@
     "name": "Quaternary",
     "group": "Theme",
     "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snapchat (main)/Semantic": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Primary": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Quaternary": "enabled"
+      "Global": "source",
+      "Snapchat (main)/Semantic": "enabled",
+      "Snapchat (main)/Theme/Primary": "enabled",
+      "Snapchat (main)/Theme/Quaternary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:a67fc2397440b2e99bce242b165168bdc224f513,",
@@ -1772,12 +1772,12 @@
       "Button.--button-secondary-bg-color": "ffe8cab614b79b1df915d91fa0d179aa30dd0f8c",
       "Button.--button-secondary-hover-bg-color": "905ae672bca035e7565f242c4313e6a2b2a40625",
       "Button.--button-secondary-hover-fg-color": "de037cbfb4811f5c22581d79b945677d5cf97698",
+      "Button.--button-secondary-hover-border-color": "6c3915debff815c62a8d8f3812014d9b845172e4",
+      "Button.--button-secondary-border-color": "35ffbf1f3c18c7d28d6a6c33a7dfddb05bc6b6da",
       "Footer.--footer-border-color": "54d9d754a679cd6426bc0166d7483167f1ad7dc2",
       "Footer.--footer-divider-border-color": "4d1c6a5aeb3e88ccfe71c82a8e82f4e457c88a5d",
       "Footer.--footer-bar-divider-border-color": "4d3a15ef89c981fcec2e27418d482d8924ac687f",
       "Toggle Panel.--toggle-panel-bg-color": "c3163d7c7ab2f97a97793272341d53892907ccec",
-      "Button.--button-secondary-hover-border-color": "6c3915debff815c62a8d8f3812014d9b845172e4",
-      "Button.--button-secondary-border-color": "35ffbf1f3c18c7d28d6a6c33a7dfddb05bc6b6da",
       "Brand.Primary.--primary-v50": "bee4cab70bee52a3ac9bfd1154234dc89c7c38b3",
       "Brand.Primary.--primary-v100": "02e09e35982d3d28fea015f1e00a48fbe6a123a8",
       "Brand.Primary.--primary-v150": "2d34523c4f2b52ed38c201f1de95ebfe665d26b8",
@@ -1963,8 +1963,8 @@
     "name": "Desktop",
     "group": "Device",
     "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snapchat (main)/Devices/Desktop": "enabled"
+      "Global": "source",
+      "Snapchat (main)/Devices/Desktop": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -2096,9 +2096,9 @@
     "name": "Mobile",
     "group": "Device",
     "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snapchat (main)/Devices/Mobile": "enabled",
-      "Snap Motif/Snapchat (main)/Devices/Desktop": "enabled"
+      "Global": "source",
+      "Snapchat (main)/Devices/Desktop": "enabled",
+      "Snapchat (main)/Devices/Mobile": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -2140,7 +2140,7 @@
       "Root.--stats-supplementary-text-font-size": "796738237a4d32518d57cdb668e3e63131b8e5f9",
       "Root.--stats-supplementary-text-font-weight": "1732bddee29faca9bb08a9091017cdc15b707061",
       "Block.--block-title-font-size": "890fc82e8c90d6ebdb6b0de3a3cefca92414331b",
-      "Block.--block-header-padding": "5a0cc4a568c40cb3b01360a541ee8031416a605f",
+      "Block.--block-header-padding": "c50bba3b26fc352189c8e12b690081c1a7bd8a92",
       "Break.--break-total-height": "43752d9c37d770523a7d2db459451ebee5381a05",
       "Break.--break-half-height": "43e4e0247e8b364754a35769b7bf5ced22bcd1ea",
       "Content.--content-border-width": "6b749f491be625c23562b8e7afe1b11e75faec76",
@@ -2221,15 +2221,15 @@
       "Stats.--stats-stat-supplementary-text-font-size": "72e7ea98011016ca3605a47ff4dde3aab98635dc",
       "Stats.--stats-stat-supplementary-text-font-weight": "5d17e5e282884f70c0cfeab3fe9e29e6a721cc98",
       "FigmaTokens.--component-breakpoint": "ad8e4de45aa2bc192212ff547dcdeaee3ef54671",
-      "Block.--block-boundary-padding": "2770b1a38d1748bba62d46830b2d85c2694339dc",
-      "Content.--content-grid-gap": "796305ca08479326d222020abd5477e0e1a052b8",
-      "Content.--content-no-bg-padding": "183fab3298a00116ae3cf86f7cc3079a22b3a710",
-      "Carousel.--carousel-card-landscape-square-width": "912551fb2ee63087de7cc142dec1d24d864d8966",
-      "Carousel.--carousel-card-landscape-square-small-width": "5cfc334e0e75f102a065742a710165eb26d06481",
-      "Carousel.--carousel-card-grid-gap": "95acfa5d2bc6750712e4fb93557618c0829065a2",
-      "Primitive Table.--table-row-gap": "05bb5eea1da47869cb021a2eaac34341e0fd60b6",
-      "Cookie Modal Settings.--cookie-modal-horizontal-padding": "6696371efde8109c30862866310c8a6666c04064",
-      "Cookie Modal Settings.--cookie-modal-vertical-padding": "1664c2880045022badf13478d921af9ca4ca7756"
+      "Block.--block-boundary-padding": "e790b557e6cdbf340e2b0b9ddb1d3ad82f0d3b9f",
+      "Content.--content-grid-gap": "6e04f698a874c67e2fb4ea795a43a51b5b7d5c35",
+      "Content.--content-no-bg-padding": "e9bfcde9048ac5f1620129c63624370468c0e1cb",
+      "Carousel.--carousel-card-landscape-square-width": "1f3f987a8eb83099597a4056818f500007e30988",
+      "Carousel.--carousel-card-landscape-square-small-width": "d5cfaa60912532c11b9eacb1900f1f7d2646b7eb",
+      "Carousel.--carousel-card-grid-gap": "d68f0eafee25cb6dac8697ea28e147f4d73fd927",
+      "Primitive Table.--table-row-gap": "0fafcad1f00eb012325cd4c4931ca74ff517a328",
+      "Cookie Modal Settings.--cookie-modal-horizontal-padding": "f3f1c58f223e9c0902b6d548105faf0019f8756c",
+      "Cookie Modal Settings.--cookie-modal-vertical-padding": "579aa019bd7381a3cf978d914fc25929d2469d93"
     },
     "$figmaCollectionId": "VariableCollectionId:23700:42401",
     "$figmaModeId": "23700:5"
@@ -2258,11 +2258,11 @@
       "Cookie Modal Settings.--cookie-settings-box-shadow": "S:e7636d592d59def5ce18254f71e13f80088c6ca0,"
     },
     "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snap/Semantic": "enabled",
-      "Snap Motif/Snap/Themes/Primary": "enabled",
-      "Snap Motif/Snapchat (main)/Semantic": "enabled",
-      "Snap Motif/Snapchat (main)/Theme/Primary": "enabled"
+      "Global": "source",
+      "Snapchat (main)/Semantic": "enabled",
+      "Snapchat (main)/Theme/Primary": "enabled",
+      "Snap/Semantic": "enabled",
+      "Snap/Themes/Primary": "enabled"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:13:3",
@@ -2406,12 +2406,12 @@
       "Button.--button-secondary-bg-color": "ffe8cab614b79b1df915d91fa0d179aa30dd0f8c",
       "Button.--button-secondary-hover-bg-color": "905ae672bca035e7565f242c4313e6a2b2a40625",
       "Button.--button-secondary-hover-fg-color": "de037cbfb4811f5c22581d79b945677d5cf97698",
+      "Button.--button-secondary-hover-border-color": "6c3915debff815c62a8d8f3812014d9b845172e4",
+      "Button.--button-secondary-border-color": "35ffbf1f3c18c7d28d6a6c33a7dfddb05bc6b6da",
       "Footer.--footer-border-color": "54d9d754a679cd6426bc0166d7483167f1ad7dc2",
       "Footer.--footer-divider-border-color": "4d1c6a5aeb3e88ccfe71c82a8e82f4e457c88a5d",
       "Footer.--footer-bar-divider-border-color": "4d3a15ef89c981fcec2e27418d482d8924ac687f",
       "Toggle Panel.--toggle-panel-bg-color": "c3163d7c7ab2f97a97793272341d53892907ccec",
-      "Button.--button-secondary-hover-border-color": "6c3915debff815c62a8d8f3812014d9b845172e4",
-      "Button.--button-secondary-border-color": "35ffbf1f3c18c7d28d6a6c33a7dfddb05bc6b6da",
       "Root.--color-fg-muted": "d9ba3c16b85ebbb107fc1ee07bcd3f0aaeb38bee",
       "Root.--color-bg-subtle-hover": "8fa52bc4062ccd196bc2f68b92dac63ee41f34f1",
       "Root.--color-border-default": "e6a8d571da40444a7b6168614f3bc6719e41dc24",
@@ -2596,7 +2596,7 @@
     "name": "Secondary",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Snap Motif/Global": "source"
+      "Global": "source"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:13:3",
@@ -2609,7 +2609,7 @@
     "name": "Tertiary",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Snap Motif/Global": "source"
+      "Global": "source"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:13:3",
@@ -2622,7 +2622,7 @@
     "name": "Quaternary",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Snap Motif/Global": "source"
+      "Global": "source"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:13:3",
@@ -2635,9 +2635,9 @@
     "name": "Desktop",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snap/Devices/Desktop": "enabled",
-      "Snap Motif/Snapchat (main)/Devices/Desktop": "enabled"
+      "Global": "source",
+      "Snapchat (main)/Devices/Desktop": "enabled",
+      "Snap/Devices/Desktop": "enabled"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:23700:42401",
@@ -2647,7 +2647,6 @@
     "$figmaModeId": "VariableCollectionId:23700:51435/23700:12",
     "$figmaVariableReferences": {
       "Root.--text-font-size": "2ddd75066b99e5a272ab8bec2ec4d1e1c8b07bcc",
-      "Root.--text-font-line-height": "2fb58b5fce8bc1407e7d780cab3027debe6bf3cc",
       "Root.--text-font-weight": "49c426a70e54267efb29ac5e7cdd8ee8839f45cc",
       "Root.--h1-font-size": "5e9a3cda82fa493bc5d65ec1bfec7652cb4de6a0",
       "Root.--h1-font-weight": "fc02bc5a2be34c69dc928ebcd6d47f163e79084e",
@@ -2773,8 +2772,8 @@
     "name": "Mobile",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Snap Motif/Global": "source",
-      "Snap Motif/Snap/Devices/Mobile": "enabled"
+      "Global": "source",
+      "Snap/Devices/Mobile": "enabled"
     },
     "$figmaIsExtension": true,
     "$figmaParentCollectionId": "VariableCollectionId:23700:42401",
