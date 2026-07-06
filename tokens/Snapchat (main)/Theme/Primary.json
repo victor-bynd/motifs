@@ -696,26 +696,6 @@
       "value": "{Root.Foreground.--color-fg-faint}",
       "type": "color"
     },
-    "--side-navigation-bar-bg-color": {
-      "value": "{Root.Background.--color-bg-subtle-hover}",
-      "type": "color"
-    },
-    "--side-navigation-bar-fg-color": {
-      "value": "{Root.Action.--action-text-active-color}",
-      "type": "color"
-    },
-    "--side-navigation-bg-color": {
-      "value": "{Root.Background.--color-bg-surface}",
-      "type": "color"
-    },
-    "--side-navigation-item-color": {
-      "value": "{Root.Action.--action-text-default-color}",
-      "type": "color"
-    },
-    "--side-navigation-item-active-color": {
-      "value": "{Root.Action.--action-text-active-color}",
-      "type": "color"
-    },
     "--side-navigation-toggler-icon-color": {
       "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
