@@ -1,99 +1,107 @@
 {
   "Root": {
-    "gradient-transparency": {
-      "value": "linear-gradient(270deg, {Root.--bg-color} 0%, {Root.bg-gradient-transparent} 100%)",
-      "type": "color",
-      "description": "Figma only token - Made for gradient overlays with transparency used on Carousel, Tabs, SubNav."
+    "Background": {
+      "--bg-color": {
+        "value": "{Brand.Neutral.--neutral-v150}",
+        "type": "color",
+        "description": "Page/section background color. Quaternary theme: light gray."
+      },
+      "--color-bg-subtle-active": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Default foreground / text color."
+      },
+      "--color-bg-subtle-hover": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "Default white surface background. Used by cards, menus, modals, forms."
+      },
+      "--color-bg-brand-hover": {
+        "value": "{Brand.Neutral.--neutral-v250}",
+        "type": "color",
+        "description": "Divider / gutter color between layout sections."
+      }
     },
-    "bg-gradient-transparent": {
-      "value": "rgba( {Root.--bg-color}, 0)",
-      "type": "color",
-      "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
+    "Foreground": {
+      "--color-fg-default": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Page/section background color. Driven by brand primary in light theme."
+      },
+      "--color-fg-muted": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color",
+        "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
+      },
+      "--color-fg-brand-dark": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color",
+        "description": "Default color for interactive text elements (nav items, links)."
+      }
     },
-    "--bg-color": {
-      "value": "{Brand.Neutral.--neutral-v150}",
-      "type": "color",
-      "description": "Page/section background color. Quaternary theme: light gray."
+    "Border": {
+      "--color-border-default": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Hover/strong variant of brand background. Used by Definition component hover states."
+      },
+      "--color-border-moderate": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color",
+        "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
+      },
+      "--color-border-muted": {
+        "value": "{Brand.Neutral.--neutral-v250}",
+        "type": "color",
+        "description": "Divider / gutter color between layout sections."
+      }
     },
-    "--color-fg-brand-dark": {
-      "value": "{Brand.Neutral.--neutral-v500}",
-      "type": "color",
-      "description": "Default color for interactive text elements (nav items, links)."
-    },
-    "--color-fg-muted": {
-      "value": "{Brand.Neutral.--neutral-v300}",
-      "type": "color",
-      "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
-    },
-    "--color-bg-subtle-active": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Default foreground / text color."
-    },
-    "--color-fg-default": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Page/section background color. Driven by brand primary in light theme."
-    },
-    "--color-bg-subtle-hover": {
-      "value": "{Brand.Neutral.--neutral-v0}",
-      "type": "color",
-      "description": "Default white surface background. Used by cards, menus, modals, forms."
-    },
-    "--color-border-moderate": {
-      "value": "{Brand.Neutral.--neutral-v300}",
-      "type": "color",
-      "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
-    },
-    "--color-border-muted": {
-      "value": "{Brand.Neutral.--neutral-v250}",
-      "type": "color",
-      "description": "Divider / gutter color between layout sections."
-    },
-    "--color-border-default": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Hover/strong variant of brand background. Used by Definition component hover states."
-    },
-    "--color-bg-brand-hover": {
-      "value": "{Brand.Neutral.--neutral-v250}",
-      "type": "color",
-      "description": "Divider / gutter color between layout sections."
+    "FigmaOnly": {
+      "gradient-transparency": {
+        "value": "linear-gradient(270deg, {Root.Background.--bg-color} 0%, {Root.FigmaOnly.bg-gradient-transparent} 100%)",
+        "type": "color",
+        "description": "Figma only token - Made for gradient overlays with transparency used on Carousel, Tabs, SubNav."
+      },
+      "bg-gradient-transparent": {
+        "value": "rgba( {Root.Background.--bg-color}, 0)",
+        "type": "color",
+        "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
+      }
     }
   },
   "Header": {
     "--global-header-bg-color": {
-      "value": "{Root.--color-bg-surface}",
+      "value": "{Root.Background.--color-bg-surface}",
       "type": "color"
     }
   },
   "Footer": {
     "--footer-bar-bg-color": {
-      "value": "{Root.--color-bg-subtle}",
+      "value": "{Root.Background.--color-bg-subtle}",
       "type": "color"
     }
   },
   "Banner": {
     "--banner-bg-color": {
-      "value": "{Root.--color-bg-subtle}",
+      "value": "{Root.Background.--color-bg-subtle}",
       "type": "color"
     }
   },
   "Side Navigation": {
     "--side-navigation-mobile-bg-color": {
-      "value": "{Root.--color-bg-subtle-hover}",
+      "value": "{Root.Background.--color-bg-subtle-hover}",
       "type": "color"
     }
   },
   "Progress Bar": {
     "--progress-bar-progress-color": {
-      "value": "{Root.--color-bg-brand}",
+      "value": "{Root.Background.--color-bg-brand}",
       "type": "color"
     }
   },
   "Toggle Panel": {
     "--toggle-panel-bg-color": {
-      "value": "{Root.--color-bg-inverse}",
+      "value": "{Root.Background.--color-bg-inverse}",
       "type": "color"
     }
   },
@@ -103,33 +111,33 @@
       "type": "color"
     },
     "--table-cell-body-bg-color": {
-      "value": "{Root.--color-bg-subtle}",
+      "value": "{Root.Background.--color-bg-subtle}",
       "type": "color"
     },
     "--table-cell-header-bg-color": {
-      "value": "{Root.--color-bg-subtle-active}",
+      "value": "{Root.Background.--color-bg-subtle-active}",
       "type": "color"
     }
   },
   "Definition": {
     "--definition-active-bg-color": {
-      "value": "{Root.--color-bg-brand-emphasis}",
+      "value": "{Root.Background.--color-bg-brand-emphasis}",
       "type": "color"
     },
     "--definition-bg-color": {
-      "value": "{Root.--color-bg-recessed}",
+      "value": "{Root.Background.--color-bg-recessed}",
       "type": "color"
     }
   },
   "Topic": {
     "--topic-hover-bg-color": {
-      "value": "{Root.--color-bg-subtle-active}",
+      "value": "{Root.Background.--color-bg-subtle-active}",
       "type": "color"
     }
   },
   "Button": {
     "--button-secondary-fg-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     }
   }

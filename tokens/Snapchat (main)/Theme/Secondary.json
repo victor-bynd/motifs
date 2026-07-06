@@ -1,5 +1,88 @@
 {
   "Root": {
+    "Background": {
+      "--bg-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Page/section background color. Secondary theme: black."
+      },
+      "--color-bg-brand-hover": {
+        "value": "{Brand.Neutral.--neutral-v600}",
+        "type": "color",
+        "description": "Hover color for interactive text elements."
+      }
+    },
+    "Foreground": {
+      "--fg-color": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "Default foreground / text color. Secondary theme: white."
+      },
+      "--color-fg-default": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color"
+      },
+      "--color-fg-inverse": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color"
+      },
+      "--color-fg-brand-dark": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "Default white surface background. Used by cards, menus, modals, forms."
+      }
+    },
+    "Border": {
+      "--color-border-moderate": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color",
+        "description": "Default color for interactive text elements (nav items, links)."
+      },
+      "--gutter-color": {
+        "value": "{Brand.Neutral.--neutral-v650}",
+        "type": "color",
+        "description": "Divider / gutter color. Secondary theme: dark gray."
+      }
+    },
+    "Status": {
+      "--color-status-focus": {
+        "value": "{Palette.Blue.--palette-blue-v200}",
+        "type": "color",
+        "description": "Default white surface background. Used by cards, menus, modals, forms."
+      },
+      "--color-status-error": {
+        "value": "{Palette.Red.--palette-red-v150}",
+        "type": "color",
+        "description": "Subtle error background tint."
+      }
+    },
+    "Action": {
+      "--action-text-default-color": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color",
+        "description": "Default color for interactive text elements on dark background."
+      },
+      "--action-text-hover-color": {
+        "value": "{Brand.Neutral.--neutral-v200}",
+        "type": "color",
+        "description": "Hover color for interactive text elements on dark background."
+      },
+      "--action-text-active-color": {
+        "value": "{Brand.Primary.--primary-v100}",
+        "type": "color",
+        "description": "Active/selected color for interactive text elements. Secondary: brand yellow."
+      },
+      "--action-indicator-hover-color": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color",
+        "description": "Hover color for interactive indicator elements on dark background."
+      },
+      "--action-indicator-active-color": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "Active color for interactive indicator elements on dark background."
+      }
+    },
     "--box-shadow-xs": {
       "value": {
         "type": "dropShadow",
@@ -54,288 +137,219 @@
         "color": "rgba(255, 255, 255, 0.12)"
       },
       "type": "boxShadow"
-    },
-    "--bg-color": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Page/section background color. Secondary theme: black."
-    },
-    "--fg-color": {
-      "value": "{Brand.Neutral.--neutral-v0}",
-      "type": "color",
-      "description": "Default foreground / text color. Secondary theme: white."
-    },
-    "--gutter-color": {
-      "value": "{Brand.Neutral.--neutral-v650}",
-      "type": "color",
-      "description": "Divider / gutter color. Secondary theme: dark gray."
-    },
-    "--action-text-default-color": {
-      "value": "{Brand.Neutral.--neutral-v300}",
-      "type": "color",
-      "description": "Default color for interactive text elements on dark background."
-    },
-    "--action-text-hover-color": {
-      "value": "{Brand.Neutral.--neutral-v200}",
-      "type": "color",
-      "description": "Hover color for interactive text elements on dark background."
-    },
-    "--action-text-active-color": {
-      "value": "{Brand.Primary.--primary-v100}",
-      "type": "color",
-      "description": "Active/selected color for interactive text elements. Secondary: brand yellow."
-    },
-    "--action-indicator-hover-color": {
-      "value": "{Brand.Neutral.--neutral-v300}",
-      "type": "color",
-      "description": "Hover color for interactive indicator elements on dark background."
-    },
-    "--action-indicator-active-color": {
-      "value": "{Brand.Neutral.--neutral-v0}",
-      "type": "color",
-      "description": "Active color for interactive indicator elements on dark background."
-    },
-    "--color-fg-brand-dark": {
-      "value": "{Brand.Neutral.--neutral-v0}",
-      "type": "color",
-      "description": "Default white surface background. Used by cards, menus, modals, forms."
-    },
-    "--color-status-focus": {
-      "value": "{Palette.Blue.--palette-blue-v200}",
-      "type": "color",
-      "description": "Default white surface background. Used by cards, menus, modals, forms."
-    },
-    "--color-status-error": {
-      "value": "{Palette.Red.--palette-red-v150}",
-      "type": "color",
-      "description": "Subtle error background tint."
-    },
-    "--color-border-moderate": {
-      "value": "{Brand.Neutral.--neutral-v500}",
-      "type": "color",
-      "description": "Default color for interactive text elements (nav items, links)."
-    },
-    "--color-bg-brand-hover": {
-      "value": "{Brand.Neutral.--neutral-v600}",
-      "type": "color",
-      "description": "Hover color for interactive text elements."
-    },
-    "--color-fg-default": {
-      "value": "{Brand.Neutral.--neutral-v0}",
-      "type": "color"
-    },
-    "--color-fg-inverse": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color"
     }
   },
   "Button": {
     "--button-primary-bg-color": {
-      "value": "{Root.--color-bg-brand}",
+      "value": "{Root.Background.--color-bg-brand}",
       "type": "color"
     },
     "--button-primary-hover-bg-color": {
-      "value": "{Root.--color-bg-brand}",
+      "value": "{Root.Background.--color-bg-brand}",
       "type": "color"
     },
     "--button-primary-border-color": {
-      "value": "{Root.--color-border-brand}",
+      "value": "{Root.Border.--color-border-brand}",
       "type": "color"
     },
     "--button-primary-hover-border-color": {
-      "value": "{Root.--color-border-brand}",
+      "value": "{Root.Border.--color-border-brand}",
       "type": "color"
     },
     "--button-primary-fg-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     },
     "--button-flat-fg-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     },
     "--button-primary-hover-fg-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     },
     "--button-secondary-fg-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
+      "type": "color"
+    },
+    "--button-secondary-hover-fg-color": {
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     }
   },
   "Header": {
     "--global-header-bg-color": {
-      "value": "{Root.--color-bg-inverse}",
+      "value": "{Root.Background.--color-bg-inverse}",
       "type": "color"
     },
     "--global-header-fg-color": {
-      "value": "{Root.--color-fg-inverse-subtle}",
+      "value": "{Root.Foreground.--color-fg-inverse-subtle}",
       "type": "color"
     },
     "--global-header-nav-screen-bg-color": {
-      "value": "{Root.--color-bg-inverse}",
+      "value": "{Root.Background.--color-bg-inverse}",
       "type": "color"
     },
     "--global-header-nav-screen-fg-color": {
-      "value": "{Root.--color-fg-inverse-subtle}",
+      "value": "{Root.Foreground.--color-fg-inverse-subtle}",
       "type": "color"
     },
     "--global-header-nav-screen-global-links-bg-color": {
-      "value": "{Root.--color-fg-dark-muted}",
+      "value": "{Root.Foreground.--color-fg-dark-muted}",
       "type": "color"
     },
     "--global-header-menu-bg-color": {
-      "value": "{Root.--color-fg-dark-muted}",
+      "value": "{Root.Foreground.--color-fg-dark-muted}",
       "type": "color"
     },
     "--global-header-menu-border-color": {
-      "value": "{Root.--color-border-dark-subtle}",
+      "value": "{Root.Border.--color-border-dark-subtle}",
       "type": "color"
     },
     "--global-header-menu-col-label-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     },
     "--global-header-menu-col-divider-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--global-header-menu-item-icon-color": {
-      "value": "{Root.--color-bg-brand-emphasis}",
+      "value": "{Root.Background.--color-bg-brand-emphasis}",
       "type": "color"
     },
     "--global-header-menu-item-bg-hover-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--global-header-menu-featured-item-bg-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--global-header-menu-featured-item-bg-hover-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--global-header-menu-featured-item-fg-color": {
-      "value": "{Root.--color-fg-inverse-subtle}",
+      "value": "{Root.Foreground.--color-fg-inverse-subtle}",
       "type": "color"
     },
     "--global-header-menu-featured-item-icon-color": {
-      "value": "{Root.--color-bg-brand-emphasis}",
+      "value": "{Root.Background.--color-bg-brand-emphasis}",
       "type": "color"
     }
   },
   "Tabs": {
     "--tabs-underline-color": {
-      "value": "{Root.--action-indicator-hover-color}",
+      "value": "{Root.Action.--action-indicator-hover-color}",
       "type": "color"
     }
   },
   "Hero": {
     "--hero-scroll-button-bg-color": {
-      "value": "{Root.--color-bg-surface}",
+      "value": "{Root.Background.--color-bg-surface}",
       "type": "color"
     },
     "--hero-scroll-button-hover-bg-color": {
-      "value": "{Root.--color-bg-subtle-active}",
+      "value": "{Root.Background.--color-bg-subtle-active}",
       "type": "color"
     },
     "--hero-scroll-button-fg-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     },
     "--hero-scroll-button-hover-fg-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     }
   },
   "Quote": {
     "--quote-bg-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--quote-fg-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     }
   },
   "Footer": {
     "--footer-bar-bg-color": {
-      "value": "{Root.--color-bg-inverse}",
+      "value": "{Root.Background.--color-bg-inverse}",
       "type": "color"
     }
   },
   "Dropdown Menu": {
     "--dropdown-menu-bg-color": {
-      "value": "{Root.--color-fg-dark-muted}",
+      "value": "{Root.Foreground.--color-fg-dark-muted}",
       "type": "color"
     },
     "--dropdown-item-bg-hover-color": {
-      "value": "{Root.--color-fg-muted}",
+      "value": "{Root.Foreground.--color-fg-muted}",
       "type": "color"
     },
     "--dropdown-item-bg-active-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--dropdown-menu-border-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     },
     "--dropdown-skeleton-animation-color": {
-      "value": "{Root.--color-fg-muted}",
+      "value": "{Root.Foreground.--color-fg-muted}",
       "type": "color"
     },
     "--dropdown-skeleton-animation-default-color": {
-      "value": "{Root.--color-fg-faint}",
+      "value": "{Root.Foreground.--color-fg-faint}",
       "type": "color"
     }
   },
   "Toggle Slider": {
     "--toggle-slider-bg-color": {
-      "value": "{Root.--color-bg-subtle}",
+      "value": "{Root.Background.--color-bg-subtle}",
       "type": "color"
     },
     "--toggle-slider-active-color": {
-      "value": "{Root.--color-bg-brand}",
+      "value": "{Root.Background.--color-bg-brand}",
       "type": "color"
     }
   },
   "Toggle Button": {
     "--toggle-button-color": {
-      "value": "{Root.--color-fg-inverse-subtle}",
+      "value": "{Root.Foreground.--color-fg-inverse-subtle}",
       "type": "color"
     },
     "--toggle-button-hover-color": {
-      "value": "{Root.--color-bg-subtle-hover}",
+      "value": "{Root.Background.--color-bg-subtle-hover}",
       "type": "color"
     }
   },
   "Accordion": {
     "--accordion-divider-border-color": {
-      "value": "{Root.--color-border-muted}",
+      "value": "{Root.Border.--color-border-muted}",
       "type": "color"
     },
     "--accordion-header-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     }
   },
   "Carousel": {
     "--carousel-active-dot-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     },
     "--carousel-card-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--carousel-card-hover-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--carousel-card-fg-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     },
     "--carousel-card-box-shadow": {
@@ -363,87 +377,87 @@
   },
   "Banner": {
     "--banner-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--banner-fg-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     }
   },
   "Spinner": {
     "--spinner-fg-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     }
   },
   "Summary Card": {
     "--summary-card-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--summary-card-hover-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--summary-card-description-color": {
-      "value": "{Root.--color-bg-subtle}",
+      "value": "{Root.Background.--color-bg-subtle}",
       "type": "color"
     },
     "--summary-card-fg-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     },
     "--summary-card-title-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     }
   },
   "Side Navigation": {
     "--side-navigation-mobile-bar-bg-color": {
-      "value": "{Root.--color-fg-dark-muted}",
+      "value": "{Root.Foreground.--color-fg-dark-muted}",
       "type": "color"
     },
     "--side-navigation-mobile-toggler-icon-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     },
     "--side-navigation-mobile-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--side-navigation-desktop-border-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     }
   },
   "Icon Button": {
     "--icon-button-fg-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--icon-button-bg-color": {
-      "value": "{Root.--color-bg-surface}",
+      "value": "{Root.Background.--color-bg-surface}",
       "type": "color"
     },
     "--icon-button-border-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--icon-button-hover-bg-color": {
-      "value": "{Root.--color-bg-surface}",
+      "value": "{Root.Background.--color-bg-surface}",
       "type": "color"
     },
     "--icon-button-disabled-bg-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--icon-button-disabled-fg-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     },
     "--icon-button-disabled-border-color": {
-      "value": "{Root.--color-fg-dark-muted}",
+      "value": "{Root.Foreground.--color-fg-dark-muted}",
       "type": "color"
     }
   },
@@ -453,77 +467,77 @@
       "type": "color"
     },
     "--modal-close-bg-color": {
-      "value": "{Root.--color-bg-surface}",
+      "value": "{Root.Background.--color-bg-surface}",
       "type": "color"
     },
     "--modal-close-fg-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     }
   },
   "Form": {
     "--form-description-fg-color": {
-      "value": "{Root.--color-bg-subtle-active}",
+      "value": "{Root.Background.--color-bg-subtle-active}",
       "type": "color"
     },
     "--form-input-placeholder-color": {
-      "value": "{Root.--color-fg-inverse-subtle}",
+      "value": "{Root.Foreground.--color-fg-inverse-subtle}",
       "type": "color"
     },
     "--form-input-fg-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     },
     "--form-input-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     }
   },
   "Progress Bar": {
     "--progress-bar-bg-color": {
-      "value": "{Root.--color-bg-subtle-active}",
+      "value": "{Root.Background.--color-bg-subtle-active}",
       "type": "color"
     },
     "--progress-bar-progress-color": {
-      "value": "{Root.--color-bg-brand}",
+      "value": "{Root.Background.--color-bg-brand}",
       "type": "color"
     }
   },
   "Chart Toggle": {
     "--chart-toggle-buttons-active-bg-color": {
-      "value": "{Root.--color-bg-brand}",
+      "value": "{Root.Background.--color-bg-brand}",
       "type": "color"
     },
     "--chart-toggle-buttons-active-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     },
     "--chart-toggle-buttons-active-border-color": {
-      "value": "{Root.--color-border-brand}",
+      "value": "{Root.Border.--color-border-brand}",
       "type": "color"
     }
   },
   "Block Navigation": {
     "--block-navigation-buttons-active-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     },
     "--block-navigation-buttons-active-border-color": {
-      "value": "{Root.--color-border-brand}",
+      "value": "{Root.Border.--color-border-brand}",
       "type": "color"
     },
     "--block-navigation-buttons-active-bg-color": {
-      "value": "{Root.--color-bg-brand}",
+      "value": "{Root.Background.--color-bg-brand}",
       "type": "color"
     }
   },
   "Logo": {
     "--logo-stroke-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     },
     "--logo-fill-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     }
   },
@@ -533,135 +547,135 @@
       "type": "color"
     },
     "--table-border-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--table-cell-body-bg-color": {
-      "value": "{Root.--color-bg-inverse}",
+      "value": "{Root.Background.--color-bg-inverse}",
       "type": "color"
     },
     "--table-cell-fg-color": {
-      "value": "{Root.--color-bg-subtle-hover}",
+      "value": "{Root.Background.--color-bg-subtle-hover}",
       "type": "color"
     },
     "--table-cell-header-bg-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     }
   },
   "Autocomplete": {
     "--autocomplete-button-fg-hover-color": {
-      "value": "{Root.--color-fg-inverse}",
+      "value": "{Root.Foreground.--color-fg-inverse}",
       "type": "color"
     },
     "--autocomplete-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--autocomplete-fg-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     },
     "--autocomplete-placeholder-color": {
-      "value": "{Root.--color-fg-inverse-subtle}",
+      "value": "{Root.Foreground.--color-fg-inverse-subtle}",
       "type": "color"
     }
   },
   "Chart Skeleton": {
     "--chart-skeleton-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--chart-skeleton-mask-color": {
-      "value": "{Root.--color-fg-muted}",
+      "value": "{Root.Foreground.--color-fg-muted}",
       "type": "color"
     },
     "--chart-skeleton-dark-animation-color": {
-      "value": "{Root.--color-fg-muted}",
+      "value": "{Root.Foreground.--color-fg-muted}",
       "type": "color"
     },
     "--chart-skeleton-light-animation-color": {
-      "value": "{Root.--color-fg-faint}",
+      "value": "{Root.Foreground.--color-fg-faint}",
       "type": "color"
     }
   },
   "Definition": {
     "--definition-active-bg-color": {
-      "value": "{Root.--color-fg-muted}",
+      "value": "{Root.Foreground.--color-fg-muted}",
       "type": "color"
     },
     "--definition-active-border-color": {
-      "value": "{Root.--color-bg-brand-hover}",
+      "value": "{Root.Background.--color-bg-brand-hover}",
       "type": "color"
     },
     "--definition-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--definition-border-color": {
-      "value": "{Root.--color-bg-brand-hover}",
+      "value": "{Root.Background.--color-bg-brand-hover}",
       "type": "color"
     },
     "--definition-hover-border-color": {
-      "value": "{Root.--color-bg-brand-hover}",
+      "value": "{Root.Background.--color-bg-brand-hover}",
       "type": "color"
     }
   },
   "Side Overlay": {
     "--side-overlay-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--side-overlay-border-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--side-overlay-fg-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     }
   },
   "Topic": {
     "--topic-hover-bg-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     }
   },
   "Ai Localization Banner": {
     "--banner-ai-bg-color": {
-      "value": "{Root.--color-fg-dark-subtle}",
+      "value": "{Root.Foreground.--color-fg-dark-subtle}",
       "type": "color"
     },
     "--banner-ai-fg-color": {
-      "value": "{Root.--color-bg-recessed}",
+      "value": "{Root.Background.--color-bg-recessed}",
       "type": "color"
     }
   },
   "Footnote": {
     "--footnote-fg-color": {
-      "value": "{Root.--color-fg-inverse-subtle}",
+      "value": "{Root.Foreground.--color-fg-inverse-subtle}",
       "type": "color"
     },
     "--footnote-bg-color": {
-      "value": "{Root.--bg-color}",
+      "value": "{Root.Background.--bg-color}",
       "type": "color"
     },
     "--footnote-border-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--footnote-hover-icon-bg-color": {
-      "value": "{Root.--color-fg-subtle}",
+      "value": "{Root.Foreground.--color-fg-subtle}",
       "type": "color"
     },
     "--footnote-title-color": {
-      "value": "{Root.--color-fg-default}",
+      "value": "{Root.Foreground.--color-fg-default}",
       "type": "color"
     }
   },
   "Cookie Modal Settings": {
     "--cookie-settings-category-border-color": {
-      "value": "{Root.--color-fg-muted}",
+      "value": "{Root.Foreground.--color-fg-muted}",
       "type": "color"
     }
   }

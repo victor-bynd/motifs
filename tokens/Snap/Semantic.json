@@ -79,190 +79,222 @@
     }
   },
   "Root": {
-    "--bg-color": {
-      "value": "{Brand.Primary.--primary-v100}",
-      "type": "color",
-      "description": "Page/section background color. Driven by brand primary in light theme."
+    "Background": {
+      "--bg-color": {
+        "value": "{Brand.Primary.--primary-v100}",
+        "type": "color",
+        "description": "Page/section background color. Driven by brand primary in light theme."
+      },
+      "--color-bg-surface": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "Default white surface background. Used by cards, menus, modals, forms."
+      },
+      "--color-bg-subtle": {
+        "value": "{Brand.Neutral.--neutral-v150}",
+        "type": "color",
+        "description": "Tinted/inset surface background. Used by featured items, table headers, banners."
+      },
+      "--color-bg-subtle-hover": {
+        "value": "{Brand.Neutral.--neutral-v200}",
+        "type": "color",
+        "description": "Hover state for tinted surfaces."
+      },
+      "--color-bg-subtle-active": {
+        "value": "{Brand.Neutral.--neutral-v250}",
+        "type": "color",
+        "description": "Active/selected state for tinted surfaces. Used by tabs, progress bars, forms."
+      },
+      "--color-bg-inverse": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Dark/inverse background. Used by primary buttons, dark sections, overlays."
+      },
+      "--color-bg-overlay": {
+        "value": "{Brand.Neutral.--neutral-v650}",
+        "type": "color",
+        "description": "Semi-dark overlay background. Used by nav screens, side nav mobile."
+      },
+      "--color-bg-recessed": {
+        "value": "{Brand.Neutral.--neutral-v100}",
+        "type": "color",
+        "description": "Deeply recessed background. Used by chart skeletons, AI banner, side overlays."
+      },
+      "--color-bg-brand": {
+        "value": "{Brand.Primary.--primary-v100}",
+        "type": "color",
+        "description": "Brand accent background. Used by active indicators, progress, chart toggles."
+      },
+      "--color-bg-brand-emphasis": {
+        "value": "{Brand.Primary.--primary-v150}",
+        "type": "color",
+        "description": "Emphasized brand background. Used by icon buttons, definition active states."
+      },
+      "--color-bg-brand-hover": {
+        "value": "{Brand.Primary.--primary-v200}",
+        "type": "color",
+        "description": "Hover/strong variant of brand background. Used by Definition component hover states."
+      }
     },
-    "--fg-color": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Default foreground / text color."
+    "Foreground": {
+      "--fg-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Default foreground / text color."
+      },
+      "--color-fg-default": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Primary text and icon color on light surfaces."
+      },
+      "--color-fg-subtle": {
+        "value": "{Brand.Neutral.--neutral-v600}",
+        "type": "color",
+        "description": "Secondary/subdued text. Used for descriptions, meta text."
+      },
+      "--color-fg-muted": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color",
+        "description": "Muted/tertiary text. Used for placeholders, icons, helper text."
+      },
+      "--color-fg-faint": {
+        "value": "{Brand.Neutral.--neutral-v400}",
+        "type": "color",
+        "description": "Faint text and icon color. Used for disabled-adjacent states."
+      },
+      "--color-fg-inverse-subtle": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color",
+        "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
+      },
+      "--color-fg-inverse": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "White foreground for use on dark/inverse backgrounds."
+      },
+      "--color-fg-on-brand": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Text/icon color on brand-colored backgrounds (yellow). Must stay dark for contrast."
+      },
+      "--color-fg-brand-dark": {
+        "value": "{Brand.Primary.--primary-v250}",
+        "type": "color",
+        "description": "Dark brand accent for de-emphasized text on light backgrounds."
+      },
+      "--color-fg-brand": {
+        "value": "{Brand.Primary.--primary-v100}",
+        "type": "color",
+        "description": "Brand-colored text or icon. Used for emphasized text, stats, animated accordion."
+      },
+      "--color-fg-dark-subtle": {
+        "value": "{Brand.Neutral.--neutral-v625}",
+        "type": "color",
+        "description": "Subtle dark foreground. Used on very dark backgrounds."
+      },
+      "--color-fg-dark-muted": {
+        "value": "{Brand.Neutral.--neutral-v650}",
+        "type": "color",
+        "description": "Muted foreground on dark surfaces. Used for featured item text, nav."
+      }
     },
-    "--action-text-default-color": {
-      "value": "{Brand.Neutral.--neutral-v500}",
-      "type": "color",
-      "description": "Default color for interactive text elements (nav items, links)."
+    "Border": {
+      "--color-border-default": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Default strong border. Used by primary buttons, dark outline components."
+      },
+      "--color-border-subtle": {
+        "value": "{Brand.Neutral.--neutral-v150}",
+        "type": "color",
+        "description": "Subtle divider/border. Used by header menus, tables, footnotes."
+      },
+      "--color-border-moderate": {
+        "value": "{Brand.Neutral.--neutral-v250}",
+        "type": "color",
+        "description": "Moderate border weight. Used by tabs, form inputs, accordions."
+      },
+      "--color-border-muted": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color",
+        "description": "Muted border. Used by footnotes, icon buttons, side overlays."
+      },
+      "--color-border-brand-emphasis": {
+        "value": "{Brand.Primary.--primary-v150}",
+        "type": "color",
+        "description": "Emphasized brand border. Used by topic hover, definition active."
+      },
+      "--color-border-brand": {
+        "value": "{Brand.Primary.--primary-v100}",
+        "type": "color",
+        "description": "Brand-colored border. Used for active states: chart toggles, block nav."
+      },
+      "--color-border-dark-subtle": {
+        "value": "{Brand.Neutral.--neutral-v625}",
+        "type": "color",
+        "description": "Subtle border on dark surfaces. Used by dark theme menus, side nav."
+      },
+      "--gutter-color": {
+        "value": "{Brand.Neutral.--neutral-v250}",
+        "type": "color",
+        "description": "Divider / gutter color between layout sections."
+      }
     },
-    "--action-text-hover-color": {
-      "value": "{Brand.Neutral.--neutral-v600}",
-      "type": "color",
-      "description": "Hover color for interactive text elements."
+    "Status": {
+      "--color-status-focus": {
+        "value": "{Palette.Blue.--palette-blue-v200}",
+        "type": "color",
+        "description": "Focus ring color. Used by form inputs and autocomplete."
+      },
+      "--color-status-error": {
+        "value": "{Palette.Red.--palette-red-v200}",
+        "type": "color",
+        "description": "Error state color. Renamed from --semantic-error-color to match the --color-status-* convention."
+      }
     },
-    "--action-text-active-color": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Active/selected color for interactive text elements."
+    "Action": {
+      "--action-text-default-color": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color",
+        "description": "Default color for interactive text elements (nav items, links)."
+      },
+      "--action-text-hover-color": {
+        "value": "{Brand.Neutral.--neutral-v600}",
+        "type": "color",
+        "description": "Hover color for interactive text elements."
+      },
+      "--action-text-active-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Active/selected color for interactive text elements."
+      },
+      "--action-indicator-hover-color": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color",
+        "description": "Hover color for interactive indicator elements (underlines, dots)."
+      },
+      "--action-indicator-active-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Active color for interactive indicator elements."
+      },
+      "--action-indicator-hover-opacity": {
+        "value": "0.6",
+        "type": "opacity",
+        "description": "Opacity for hover state indicator elements."
+      }
     },
-    "--action-indicator-hover-color": {
-      "value": "{Brand.Neutral.--neutral-v500}",
-      "type": "color",
-      "description": "Hover color for interactive indicator elements (underlines, dots)."
-    },
-    "--action-indicator-active-color": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Active color for interactive indicator elements."
-    },
-    "--gutter-color": {
-      "value": "{Brand.Neutral.--neutral-v250}",
-      "type": "color",
-      "description": "Divider / gutter color between layout sections."
-    },
-    "--action-indicator-hover-opacity": {
-      "value": "0.6",
-      "type": "opacity",
-      "description": "Opacity for hover state indicator elements."
-    },
-    "--color-bg-surface": {
-      "value": "{Brand.Neutral.--neutral-v0}",
-      "type": "color",
-      "description": "Default white surface background. Used by cards, menus, modals, forms."
-    },
-    "--color-bg-subtle": {
-      "value": "{Brand.Neutral.--neutral-v150}",
-      "type": "color",
-      "description": "Tinted/inset surface background. Used by featured items, table headers, banners."
-    },
-    "--color-bg-subtle-hover": {
-      "value": "{Brand.Neutral.--neutral-v200}",
-      "type": "color",
-      "description": "Hover state for tinted surfaces."
-    },
-    "--color-bg-subtle-active": {
-      "value": "{Brand.Neutral.--neutral-v250}",
-      "type": "color",
-      "description": "Active/selected state for tinted surfaces. Used by tabs, progress bars, forms."
-    },
-    "--color-bg-inverse": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Dark/inverse background. Used by primary buttons, dark sections, overlays."
-    },
-    "--color-bg-overlay": {
-      "value": "{Brand.Neutral.--neutral-v650}",
-      "type": "color",
-      "description": "Semi-dark overlay background. Used by nav screens, side nav mobile."
-    },
-    "--color-bg-recessed": {
-      "value": "{Brand.Neutral.--neutral-v100}",
-      "type": "color",
-      "description": "Deeply recessed background. Used by chart skeletons, AI banner, side overlays."
-    },
-    "--color-bg-brand": {
-      "value": "{Brand.Primary.--primary-v100}",
-      "type": "color",
-      "description": "Brand accent background. Used by active indicators, progress, chart toggles."
-    },
-    "--color-bg-brand-emphasis": {
-      "value": "{Brand.Primary.--primary-v150}",
-      "type": "color",
-      "description": "Emphasized brand background. Used by icon buttons, definition active states."
-    },
-    "--color-fg-default": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Primary text and icon color on light surfaces."
-    },
-    "--color-fg-subtle": {
-      "value": "{Brand.Neutral.--neutral-v600}",
-      "type": "color",
-      "description": "Secondary/subdued text. Used for descriptions, meta text."
-    },
-    "--color-fg-muted": {
-      "value": "{Brand.Neutral.--neutral-v500}",
-      "type": "color",
-      "description": "Muted/tertiary text. Used for placeholders, icons, helper text."
-    },
-    "--color-fg-faint": {
-      "value": "{Brand.Neutral.--neutral-v400}",
-      "type": "color",
-      "description": "Faint text and icon color. Used for disabled-adjacent states."
-    },
-    "--color-fg-inverse": {
-      "value": "{Brand.Neutral.--neutral-v0}",
-      "type": "color",
-      "description": "White foreground for use on dark/inverse backgrounds."
-    },
-    "--color-fg-inverse-subtle": {
-      "value": "{Brand.Neutral.--neutral-v300}",
-      "type": "color",
-      "description": "Muted foreground on dark backgrounds. Used in secondary/dark themes."
-    },
-    "--color-fg-on-brand": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Text/icon color on brand-colored backgrounds (yellow). Must stay dark for contrast."
-    },
-    "--color-fg-brand": {
-      "value": "{Brand.Primary.--primary-v100}",
-      "type": "color",
-      "description": "Brand-colored text or icon. Used for emphasized text, stats, animated accordion."
-    },
-    "--color-fg-brand-dark": {
-      "value": "{Brand.Primary.--primary-v250}",
-      "type": "color",
-      "description": "Dark brand accent for de-emphasized text on light backgrounds."
-    },
-    "--color-fg-dark-subtle": {
-      "value": "{Brand.Neutral.--neutral-v625}",
-      "type": "color",
-      "description": "Subtle dark foreground. Used on very dark backgrounds."
-    },
-    "--color-fg-dark-muted": {
-      "value": "{Brand.Neutral.--neutral-v650}",
-      "type": "color",
-      "description": "Muted foreground on dark surfaces. Used for featured item text, nav."
-    },
-    "--color-border-default": {
-      "value": "{Brand.Neutral.--neutral-v700}",
-      "type": "color",
-      "description": "Default strong border. Used by primary buttons, dark outline components."
-    },
-    "--color-border-subtle": {
-      "value": "{Brand.Neutral.--neutral-v150}",
-      "type": "color",
-      "description": "Subtle divider/border. Used by header menus, tables, footnotes."
-    },
-    "--color-border-moderate": {
-      "value": "{Brand.Neutral.--neutral-v250}",
-      "type": "color",
-      "description": "Moderate border weight. Used by tabs, form inputs, accordions."
-    },
-    "--color-border-muted": {
-      "value": "{Brand.Neutral.--neutral-v300}",
-      "type": "color",
-      "description": "Muted border. Used by footnotes, icon buttons, side overlays."
-    },
-    "--color-border-brand": {
-      "value": "{Brand.Primary.--primary-v100}",
-      "type": "color",
-      "description": "Brand-colored border. Used for active states: chart toggles, block nav."
-    },
-    "--color-border-brand-emphasis": {
-      "value": "{Brand.Primary.--primary-v150}",
-      "type": "color",
-      "description": "Emphasized brand border. Used by topic hover, definition active."
-    },
-    "--color-border-dark-subtle": {
-      "value": "{Brand.Neutral.--neutral-v625}",
-      "type": "color",
-      "description": "Subtle border on dark surfaces. Used by dark theme menus, side nav."
-    },
-    "--color-bg-brand-hover": {
-      "value": "{Brand.Primary.--primary-v200}",
-      "type": "color",
-      "description": "Hover/strong variant of brand background. Used by Definition component hover states."
+    "FigmaOnly": {
+      "gradient-transparency": {
+        "value": "linear-gradient(270deg, {Root.Background.--bg-color} 0%, {Root.FigmaOnly.bg-gradient-transparent} 100%)",
+        "type": "color",
+        "description": "Figma only token - Made for gradient overlays with transparency used on Carousel, Tabs, SubNav."
+      },
+      "bg-gradient-transparent": {
+        "value": "rgba( {Root.Background.--bg-color}, 0)",
+        "type": "color",
+        "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
+      }
     },
     "--font-family-body": {
       "value": "{Brand.--brand-font-family-primary}",
@@ -341,26 +373,6 @@
         "color": "rgba(0, 0, 0, 0.12)"
       },
       "type": "boxShadow"
-    },
-    "gradient-transparency": {
-      "value": "linear-gradient(270deg, {Root.--bg-color} 0%, {Root.bg-gradient-transparent} 100%)",
-      "type": "color",
-      "description": "Figma only token - Made for gradient overlays with transparency used on Carousel, Tabs, SubNav."
-    },
-    "bg-gradient-transparent": {
-      "value": "rgba( {Root.--bg-color}, 0)",
-      "type": "color",
-      "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
-    },
-    "--semantic-error-color": {
-      "value": "{Palette.Red.--palette-red-v200}",
-      "type": "color",
-      "description": "Error color"
-    },
-    "--color-status-focus": {
-      "value": "{Palette.Blue.--palette-blue-v200}",
-      "type": "color",
-      "description": "Focus ring color. Used by form inputs and autocomplete."
     }
   }
 }
