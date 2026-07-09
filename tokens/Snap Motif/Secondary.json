@@ -689,6 +689,10 @@
     "--animated-accordion-progress-indicator-color": {
       "value": "{Primary.--primary-v100}",
       "type": "color"
+    },
+    "--animated-accordion-progress-indicator-bar-desktop-color": {
+      "type": "color",
+      "value": "{Primary.--primary-v100}"
     }
   },
   "Cookie Modal Settings": {
