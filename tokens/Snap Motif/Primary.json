@@ -865,6 +865,14 @@
     "--dropdown-button-shadow": {
       "type": "boxShadow",
       "value": "{Root.--box-shadow-s}"
+    },
+    "--dropdown-menu-divider-border-color": {
+      "type": "color",
+      "value": "transparent"
+    },
+    "--dropdown-menu-divider-border-width": {
+      "type": "borderWidth",
+      "value": "0"
     }
   },
   "Toggle Slider": {
@@ -1920,6 +1928,38 @@
     "--topic-hover-bg-color": {
       "value": "{Primary.--primary-v150}",
       "type": "color"
+    },
+    "--topic-font-size": {
+      "type": "fontSizes",
+      "value": "14px"
+    },
+    "--topic-font-weight": {
+      "type": "fontWeights",
+      "value": "500"
+    },
+    "--topic-line-height": {
+      "type": "sizing",
+      "value": "88%"
+    },
+    "--topic-padding": {
+      "type": "spacing",
+      "value": "{Root.--spacing-xs}"
+    },
+    "--topic-bg-color": {
+      "type": "color",
+      "value": "transparent"
+    },
+    "--topic-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-s}"
+    },
+    "--topic-border-width": {
+      "type": "borderWidth",
+      "value": "{Root.--border-width-xs}"
+    },
+    "--topic-border-color": {
+      "type": "color",
+      "value": "{Root.--action-text-default-color}"
     }
   },
   "Emphasized Text": {
@@ -1968,6 +2008,130 @@
     "--animated-accordion-progress-indicator-color": {
       "value": "{Root.--fg-color}",
       "type": "color"
+    },
+    "--animated-accordion-body-desktop-font-letter-spacing": {
+      "type": "letterSpacing",
+      "value": "0.01em"
+    },
+    "--animated-accordion-body-desktop-font-line-height": {
+      "type": "lineHeights",
+      "value": "26px"
+    },
+    "--animated-accordion-body-desktop-font-size": {
+      "type": "fontSizes",
+      "value": "16px"
+    },
+    "--animated-accordion-body-desktop-font-weight": {
+      "type": "fontWeights",
+      "value": "400"
+    },
+    "--animated-accordion-body-mobile-font-letter-spacing": {
+      "type": "letterSpacing",
+      "value": "normal"
+    },
+    "--animated-accordion-body-mobile-font-line-height": {
+      "type": "lineHeights",
+      "value": "{Root.--text-mobile-font-line-height}"
+    },
+    "--animated-accordion-body-mobile-font-size": {
+      "type": "fontSizes",
+      "value": "{Root.--p2-mobile-font-size}"
+    },
+    "--animated-accordion-body-mobile-font-weight": {
+      "type": "fontWeights",
+      "value": "{Root.--p2-mobile-font-weight}"
+    },
+    "--animated-accordion-title-desktop-font-letter-spacing": {
+      "type": "letterSpacing",
+      "value": "normal"
+    },
+    "--animated-accordion-title-desktop-font-line-height": {
+      "type": "lineHeights",
+      "value": "28px"
+    },
+    "--animated-accordion-title-desktop-font-size": {
+      "type": "fontSizes",
+      "value": "18px"
+    },
+    "--animated-accordion-title-desktop-font-weight": {
+      "type": "fontWeights",
+      "value": "500"
+    },
+    "--animated-accordion-title-mobile-font-letter-spacing": {
+      "type": "letterSpacing",
+      "value": "{Root.--h6-mobile-font-letter-spacing}"
+    },
+    "--animated-accordion-title-mobile-font-line-height": {
+      "type": "lineHeights",
+      "value": "120%"
+    },
+    "--animated-accordion-title-mobile-font-size": {
+      "type": "fontSizes",
+      "value": "{Root.--h6-mobile-font-size}"
+    },
+    "--animated-accordion-title-mobile-font-weight": {
+      "type": "fontWeights",
+      "value": "{Root.--h6-mobile-font-weight}"
+    },
+    "--animated-accordion-body-color": {
+      "type": "color",
+      "value": "{Root.--fg-color}"
+    },
+    "--animated-accordion-nav-button-bg-color": {
+      "type": "color",
+      "value": "{Palette.Gray.--palette-gray-v200}"
+    },
+    "--animated-accordion-nav-button-hover-bg-color": {
+      "type": "color",
+      "value": "{Palette.Gray.--palette-gray-v250}"
+    },
+    "--animated-accordion-progress-indicator-bar-mobile-color": {
+      "type": "color",
+      "value": "{Root.--fg-color}"
+    },
+    "--animated-accordion-progress-indicator-track-desktop-color": {
+      "type": "color",
+      "value": "#858D9480"
+    },
+    "--animated-accordion-progress-indicator-track-mobile-color": {
+      "type": "color",
+      "value": "{Palette.Gray.--palette-gray-v250}"
+    },
+    "--animated-accordion-progress-indicator-desktop-border-radius": {
+      "type": "borderRadius",
+      "value": "4px"
+    },
+    "--animated-accordion-progress-indicator-desktop-width": {
+      "type": "sizing",
+      "value": "4px"
+    },
+    "--animated-accordion-dot-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--spacing-xxs}"
+    },
+    "--animated-accordion-dot-height": {
+      "type": "sizing",
+      "value": "{Root.--spacing-xs}"
+    },
+    "--animated-accordion-dot-width": {
+      "type": "sizing",
+      "value": "{Root.--spacing-xs}"
+    },
+    "--animated-accordion-progress-indicator-mobile-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--spacing-xxs}"
+    },
+    "--animated-accordion-progress-indicator-mobile-height": {
+      "type": "sizing",
+      "value": "{Root.--spacing-xs}"
+    },
+    "--animated-accordion-nav-button-border-radius": {
+      "type": "borderRadius",
+      "value": "80px"
+    },
+    "--animated-accordion-progress-indicator-bar-desktop-color": {
+      "type": "color",
+      "value": "{Root.--fg-color}"
     }
   },
   "Cookie Modal Settings": {
@@ -2170,6 +2334,34 @@
     "--editorial-gallery-card-hover-background-color": {
       "value": "{Neutral.--neutral-v150}",
       "type": "color"
+    }
+  },
+  "Breadcrumbs": {
+    "--breadcrumbs-item-active-color": {
+      "type": "color",
+      "value": "{Root.--action-text-active-color}"
+    },
+    "--breadcrumbs-item-color": {
+      "type": "color",
+      "value": "{Root.--action-text-default-color}"
+    },
+    "--breadcrumbs-item-hover-color": {
+      "type": "color",
+      "value": "{Root.--action-text-hover-color}"
+    },
+    "--breadcrumbs-item-hover-font-text-decoration": {
+      "type": "textDecoration",
+      "value": "none"
+    }
+  },
+  "Split Block": {
+    "--split-block-media-caption-bg-color": {
+      "type": "color",
+      "value": "rgba(0, 0, 0, 0.8)"
+    },
+    "--split-block-media-caption-gradient-color": {
+      "type": "color",
+      "value": "transparent"
     }
   }
 }
