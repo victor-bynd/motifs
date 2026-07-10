@@ -716,5 +716,15 @@
       "value": "{Neutral.--neutral-v625}",
       "type": "color"
     }
+  },
+  "Tooltip": {
+    "--tooltip-fg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v700}"
+    },
+    "--tooltip-bg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v0}"
+    }
   }
 }

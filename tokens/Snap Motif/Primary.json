@@ -497,6 +497,10 @@
     "--tabs-indicator-active-color": {
       "value": "{Root.--action-indicator-active-color}",
       "type": "color"
+    },
+    "--tabs-indicator-transform-size": {
+      "type": "sizing",
+      "value": "-4px"
     }
   },
   "Hero": {
@@ -1960,6 +1964,10 @@
     "--topic-border-color": {
       "type": "color",
       "value": "{Root.--action-text-default-color}"
+    },
+    "--topic-font-line-height": {
+      "type": "lineHeights",
+      "value": "88%"
     }
   },
   "Emphasized Text": {
@@ -2362,6 +2370,32 @@
     "--split-block-media-caption-gradient-color": {
       "type": "color",
       "value": "transparent"
+    }
+  },
+  "Tooltip": {
+    "--tooltip-font-size": {
+      "type": "fontSizes",
+      "value": "14px"
+    },
+    "--tooltip-line-height": {
+      "type": "sizing",
+      "value": "22px"
+    },
+    "--tooltip-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-s}"
+    },
+    "--tooltip-padding": {
+      "type": "spacing",
+      "value": "7px 21px"
+    },
+    "--tooltip-fg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v0}"
+    },
+    "--tooltip-bg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v625}"
     }
   }
 }
