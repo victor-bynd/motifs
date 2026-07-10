@@ -150,6 +150,8 @@
       "Multi Select.--multi-select-fg-color": "ef273762322771aa163f1ef0784ed257ebdc8740",
       "Multi Select.--multi-select-chip-bg-color": "2b78195fef04b55cf2623c19df7b433df02df4dc",
       "Editorial Gallery Card.--editorial-gallery-card-hover-background-color": "e45f4ffb301bd7f9d87efeae76ee74c2e152e668",
+      "Tooltip.--tooltip-fg-color": "5ab12a059c0c3cfe5ffbd181029fae33aaa26d0d",
+      "Tooltip.--tooltip-bg-color": "4516ab22f4c571666082d44257ede02bee22a9bf",
       "Button.--button-secondary-bg-color": "a4987d9f06072ccfd9c46fa0e16c52e1cd4aec24",
       "Button.--button-secondary-hover-bg-color": "9356b640e25d78f3b7fb19213ebce50fad449937",
       "Button.--button-secondary-border-color": "b1365c46668b39cd3c07d962122bc479746e3504",
@@ -212,6 +214,7 @@
       "Tabs.--tabs-item-active-color": "81efac5ee1b778d41e7bd2c3d400788e92231835",
       "Tabs.--tabs-indicator-hover-color": "ad07751e41ab4784efac51cac3f52f54ca3835ed",
       "Tabs.--tabs-indicator-active-color": "e7c997115407bb00d2501092e2da8f1a27c8f8a0",
+      "Tabs.--tabs-indicator-transform-size": "643580942e85ddef16c278029cee997675e9d860",
       "Hero.--hero-subtitle-color": "9001c429c0353d9055e895d607941c671fc76860",
       "Hero.--hero-text-color-curtain-active": "3c518a283dcba7d90a0da79557c0711ba43c560a",
       "Hero.--hero-title-color": "e1fdb8ec4594d2d3eb37f626b1c655eff2be6309",
@@ -496,7 +499,10 @@
       "Breadcrumbs.--breadcrumbs-item-color": "ac64e88f82e4f055588556090b820c9b6165d72c",
       "Breadcrumbs.--breadcrumbs-item-hover-color": "ad847829c35ef6642beafb7298af1b65bb045ba8",
       "Split Block.--split-block-media-caption-bg-color": "9441f3440ac7cd10beae749c210eeede9d8e206a",
-      "Split Block.--split-block-media-caption-gradient-color": "148979ac90434e4beb1755ec6b482398948ba3c4"
+      "Split Block.--split-block-media-caption-gradient-color": "148979ac90434e4beb1755ec6b482398948ba3c4",
+      "Tooltip.--tooltip-font-size": "4e48293fd910c20398660356bd661dbbf41b866f",
+      "Tooltip.--tooltip-border-radius": "9875a0d9b85aee728b8099d047fc4e0f2d379f10",
+      "Tooltip.--tooltip-font-line-height": "ccd005727ae4f3d1ba3bfaf0b349a638afb68abb"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:1"
@@ -781,6 +787,7 @@
       "Tabs.--tabs-item-active-color": "81efac5ee1b778d41e7bd2c3d400788e92231835",
       "Tabs.--tabs-indicator-hover-color": "ad07751e41ab4784efac51cac3f52f54ca3835ed",
       "Tabs.--tabs-indicator-active-color": "e7c997115407bb00d2501092e2da8f1a27c8f8a0",
+      "Tabs.--tabs-indicator-transform-size": "643580942e85ddef16c278029cee997675e9d860",
       "Hero.--hero-subtitle-color": "9001c429c0353d9055e895d607941c671fc76860",
       "Hero.--hero-text-color-curtain-active": "3c518a283dcba7d90a0da79557c0711ba43c560a",
       "Hero.--hero-title-color": "e1fdb8ec4594d2d3eb37f626b1c655eff2be6309",
@@ -1139,7 +1146,12 @@
       "Breadcrumbs.--breadcrumbs-item-color": "ac64e88f82e4f055588556090b820c9b6165d72c",
       "Breadcrumbs.--breadcrumbs-item-hover-color": "ad847829c35ef6642beafb7298af1b65bb045ba8",
       "Split Block.--split-block-media-caption-bg-color": "9441f3440ac7cd10beae749c210eeede9d8e206a",
-      "Split Block.--split-block-media-caption-gradient-color": "148979ac90434e4beb1755ec6b482398948ba3c4"
+      "Split Block.--split-block-media-caption-gradient-color": "148979ac90434e4beb1755ec6b482398948ba3c4",
+      "Tooltip.--tooltip-font-size": "4e48293fd910c20398660356bd661dbbf41b866f",
+      "Tooltip.--tooltip-border-radius": "9875a0d9b85aee728b8099d047fc4e0f2d379f10",
+      "Tooltip.--tooltip-fg-color": "5ab12a059c0c3cfe5ffbd181029fae33aaa26d0d",
+      "Tooltip.--tooltip-bg-color": "4516ab22f4c571666082d44257ede02bee22a9bf",
+      "Tooltip.--tooltip-font-line-height": "ccd005727ae4f3d1ba3bfaf0b349a638afb68abb"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:2"
@@ -1345,6 +1357,8 @@
       "Multi Select.--multi-select-fg-color": "ef273762322771aa163f1ef0784ed257ebdc8740",
       "Multi Select.--multi-select-chip-bg-color": "2b78195fef04b55cf2623c19df7b433df02df4dc",
       "Editorial Gallery Card.--editorial-gallery-card-hover-background-color": "e45f4ffb301bd7f9d87efeae76ee74c2e152e668",
+      "Tooltip.--tooltip-fg-color": "5ab12a059c0c3cfe5ffbd181029fae33aaa26d0d",
+      "Tooltip.--tooltip-bg-color": "4516ab22f4c571666082d44257ede02bee22a9bf",
       "Footer.--footer-border-color": "9dc72d904e7ee1f0bd3019d5e7bf9a1ca7581e60",
       "Footer.--footer-divider-border-color": "786b2dbd6a51a1e034e4a861511f32fe42a3c9dd",
       "Footer.--footer-bar-divider-border-color": "e3d079b09f272ffefca00addd86c23c6e26a581b",
@@ -1407,6 +1421,7 @@
       "Tabs.--tabs-item-active-color": "81efac5ee1b778d41e7bd2c3d400788e92231835",
       "Tabs.--tabs-indicator-hover-color": "ad07751e41ab4784efac51cac3f52f54ca3835ed",
       "Tabs.--tabs-indicator-active-color": "e7c997115407bb00d2501092e2da8f1a27c8f8a0",
+      "Tabs.--tabs-indicator-transform-size": "643580942e85ddef16c278029cee997675e9d860",
       "Hero.--hero-subtitle-color": "9001c429c0353d9055e895d607941c671fc76860",
       "Hero.--hero-text-color-curtain-active": "3c518a283dcba7d90a0da79557c0711ba43c560a",
       "Hero.--hero-title-color": "e1fdb8ec4594d2d3eb37f626b1c655eff2be6309",
@@ -1691,7 +1706,10 @@
       "Breadcrumbs.--breadcrumbs-item-color": "ac64e88f82e4f055588556090b820c9b6165d72c",
       "Breadcrumbs.--breadcrumbs-item-hover-color": "ad847829c35ef6642beafb7298af1b65bb045ba8",
       "Split Block.--split-block-media-caption-bg-color": "9441f3440ac7cd10beae749c210eeede9d8e206a",
-      "Split Block.--split-block-media-caption-gradient-color": "148979ac90434e4beb1755ec6b482398948ba3c4"
+      "Split Block.--split-block-media-caption-gradient-color": "148979ac90434e4beb1755ec6b482398948ba3c4",
+      "Tooltip.--tooltip-font-size": "4e48293fd910c20398660356bd661dbbf41b866f",
+      "Tooltip.--tooltip-border-radius": "9875a0d9b85aee728b8099d047fc4e0f2d379f10",
+      "Tooltip.--tooltip-font-line-height": "ccd005727ae4f3d1ba3bfaf0b349a638afb68abb"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3"
@@ -2109,6 +2127,8 @@
       "Multi Select.--multi-select-fg-color": "ef273762322771aa163f1ef0784ed257ebdc8740",
       "Multi Select.--multi-select-chip-bg-color": "2b78195fef04b55cf2623c19df7b433df02df4dc",
       "Editorial Gallery Card.--editorial-gallery-card-hover-background-color": "e45f4ffb301bd7f9d87efeae76ee74c2e152e668",
+      "Tooltip.--tooltip-fg-color": "5ab12a059c0c3cfe5ffbd181029fae33aaa26d0d",
+      "Tooltip.--tooltip-bg-color": "4516ab22f4c571666082d44257ede02bee22a9bf",
       "Button.--button-secondary-bg-color": "a4987d9f06072ccfd9c46fa0e16c52e1cd4aec24",
       "Button.--button-secondary-hover-bg-color": "9356b640e25d78f3b7fb19213ebce50fad449937",
       "Button.--button-secondary-border-color": "b1365c46668b39cd3c07d962122bc479746e3504",
@@ -2171,6 +2191,7 @@
       "Tabs.--tabs-item-active-color": "81efac5ee1b778d41e7bd2c3d400788e92231835",
       "Tabs.--tabs-indicator-hover-color": "ad07751e41ab4784efac51cac3f52f54ca3835ed",
       "Tabs.--tabs-indicator-active-color": "e7c997115407bb00d2501092e2da8f1a27c8f8a0",
+      "Tabs.--tabs-indicator-transform-size": "643580942e85ddef16c278029cee997675e9d860",
       "Hero.--hero-subtitle-color": "9001c429c0353d9055e895d607941c671fc76860",
       "Hero.--hero-text-color-curtain-active": "3c518a283dcba7d90a0da79557c0711ba43c560a",
       "Hero.--hero-title-color": "e1fdb8ec4594d2d3eb37f626b1c655eff2be6309",
@@ -2455,7 +2476,10 @@
       "Breadcrumbs.--breadcrumbs-item-color": "ac64e88f82e4f055588556090b820c9b6165d72c",
       "Breadcrumbs.--breadcrumbs-item-hover-color": "ad847829c35ef6642beafb7298af1b65bb045ba8",
       "Split Block.--split-block-media-caption-bg-color": "9441f3440ac7cd10beae749c210eeede9d8e206a",
-      "Split Block.--split-block-media-caption-gradient-color": "148979ac90434e4beb1755ec6b482398948ba3c4"
+      "Split Block.--split-block-media-caption-gradient-color": "148979ac90434e4beb1755ec6b482398948ba3c4",
+      "Tooltip.--tooltip-font-size": "4e48293fd910c20398660356bd661dbbf41b866f",
+      "Tooltip.--tooltip-border-radius": "9875a0d9b85aee728b8099d047fc4e0f2d379f10",
+      "Tooltip.--tooltip-font-line-height": "ccd005727ae4f3d1ba3bfaf0b349a638afb68abb"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4"

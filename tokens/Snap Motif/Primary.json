@@ -1941,10 +1941,6 @@
       "type": "fontWeights",
       "value": "500"
     },
-    "--topic-line-height": {
-      "type": "sizing",
-      "value": "88%"
-    },
     "--topic-padding": {
       "type": "spacing",
       "value": "{Root.--spacing-xs}"
@@ -2377,10 +2373,6 @@
       "type": "fontSizes",
       "value": "14px"
     },
-    "--tooltip-line-height": {
-      "type": "sizing",
-      "value": "22px"
-    },
     "--tooltip-border-radius": {
       "type": "borderRadius",
       "value": "{Root.--border-radius-s}"
@@ -2396,6 +2388,10 @@
     "--tooltip-bg-color": {
       "type": "color",
       "value": "{Neutral.--neutral-v625}"
+    },
+    "--tooltip-font-line-height": {
+      "value": "22px",
+      "type": "lineHeights"
     }
   }
 }
