@@ -23,7 +23,7 @@ Writes (same split structure — safe to commit & re-import in Tokens Studio):
 
 Ignore list:
   tokens/sync-ignore.json — token paths to exclude from the changed-values
-  report. The design team value is always kept regardless.
+  report. The design team value/type is always kept regardless.
 
 Usage:
   python scripts/merge_tokens.py \
@@ -127,8 +127,18 @@ def clean_token(token: dict) -> dict:
     return t
 
 
-def values_differ(a: dict, b: dict) -> bool:
-    return str(a.get("value", "")).strip() != str(b.get("value", "")).strip()
+def token_diff_reasons(design_tok: dict, prod_tok: dict) -> list[str]:
+    """
+    Compare a design-side token and a production-side token.
+    Returns a list of field names that differ, e.g. ["value"], ["type"],
+    or ["value", "type"]. Empty list means no relevant difference.
+    """
+    reasons = []
+    if str(design_tok.get("value", "")).strip() != str(prod_tok.get("value", "")).strip():
+        reasons.append("value")
+    if str(design_tok.get("type", "")).strip() != str(prod_tok.get("type", "")).strip():
+        reasons.append("type")
+    return reasons
 
 
 # ─── load design-side split files ───────────────────────────────────────────
@@ -192,14 +202,15 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
         k: v for k, v in prod_flat.items() if k not in design_flat
     }
 
-    # ── 2. Changed: exist in both but value differs ──────────────────────────
+    # ── 2. Changed: exist in both but value and/or type differs ─────────────
     changed: dict[str, dict] = {}
     ignored_changes: list[str] = []
 
     for path, prod_token in prod_flat.items():
         if path not in design_flat:
             continue
-        if not values_differ(design_flat[path], prod_token):
+        reasons = token_diff_reasons(design_flat[path], prod_token)
+        if not reasons:
             continue
         # Strip set prefix for ignore-list lookup
         local_path = path.split(".", 1)[1] if "." in path else path
@@ -209,7 +220,9 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
         changed[path] = {
             "design_value": design_flat[path].get("value"),
             "prod_value":   prod_token.get("value"),
-            "type":         prod_token.get("type", ""),
+            "design_type":  design_flat[path].get("type", ""),
+            "prod_type":    prod_token.get("type", ""),
+            "reasons":      reasons,
         }
 
     # ── 3. Design-only: in design but not in prod ────────────────────────────
@@ -337,8 +350,11 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
     lines += [
         f"## ⚠️ Changed Values — review required ({len(changed)})",
         "",
-        "These tokens exist in both files but the production value differs from the design file.  ",
-        "**The design file value is kept.** Review each one and update manually if needed.",
+        "These tokens exist in both files but the **value and/or type** differs "
+        "between production and design.  ",
+        "**The design file value/type is kept.** Review each one and update manually if needed.",
+        "",
+        "The **Changed** column shows whether it's the `value`, the `type`, or both that differ.",
         "",
     ]
 
@@ -353,17 +369,19 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
         for set_name, tokens in sorted(by_set_c.items()):
             lines.append(f"### `{set_name}`")
             lines.append("")
-            lines.append("| Token | Type | Design value | Production value |")
-            lines.append("|---|---|---|---|")
+            lines.append("| Token | Changed | Design value | Production value | Design type | Production type |")
+            lines.append("|---|---|---|---|---|---|")
             for path, info in sorted(tokens):
                 token_name = path[len(set_name) + 1:]
                 dv  = str(info["design_value"]).replace("|", "\\|").replace("\n", " ")
                 pv  = str(info["prod_value"]).replace("|", "\\|").replace("\n", " ")
-                typ = info["type"] or "—"
-                lines.append(f"| `{token_name}` | {typ} | `{dv}` | `{pv}` |")
+                dt  = info["design_type"] or "—"
+                pt  = info["prod_type"] or "—"
+                changed_label = " + ".join(info["reasons"])
+                lines.append(f"| `{token_name}` | {changed_label} | `{dv}` | `{pv}` | `{dt}` | `{pt}` |")
             lines.append("")
     else:
-        lines += ["_No value changes detected._", ""]
+        lines += ["_No value or type changes detected._", ""]
 
     lines += ["---", ""]
 
@@ -372,7 +390,7 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
         lines += [
             f"## 🚫 Ignored Changes — silenced by sync-ignore.json ({len(ignored_changes)})",
             "",
-            "These value differences are intentional and have been suppressed.  ",
+            "These value/type differences are intentional and have been suppressed.  ",
             "Edit `tokens/sync-ignore.json` to manage this list.",
             "",
             "| Token | Reason |",
@@ -414,13 +432,13 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
     print(f"📄  Diff report        → {report_path}")
     print(f"")
     print(f"   🆕 Missing tokens added : {len(missing)}")
-    print(f"   ⚠️  Changed values found : {len(changed)}")
+    print(f"   ⚠️  Changed (value/type) : {len(changed)}")
     if ignored_changes:
         print(f"   🚫 Changes ignored       : {len(ignored_changes)}")
     print(f"   🔵 Design-only tokens   : {len(design_only)}")
 
     if changed:
-        print(f"\n⚠️  Changed values detected — see {report_path}")
+        print(f"\n⚠️  Changed values/types detected — see {report_path}")
 
     return len(missing), len(changed)
 
