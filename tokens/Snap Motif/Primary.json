@@ -2392,6 +2392,10 @@
     "--tooltip-font-line-height": {
       "value": "22px",
       "type": "lineHeights"
+    },
+    "--tooltip-line-height": {
+      "type": "sizing",
+      "value": "22px"
     }
   }
 }
