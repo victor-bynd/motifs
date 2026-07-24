@@ -47,6 +47,8 @@ jobs:
     permissions:
       contents: write # push new branch + archive commit
       pull-requests: write # open PR
+      repository-projects: write
+      issues: write
 
     steps:
       # ── 1. Checkout ────────────────────────────────────────────────────────
@@ -175,27 +177,62 @@ jobs:
           git commit -m "chore(tokens): sync with production — $(date +'%Y-%m-%d')"
           git push origin "${BRANCH}"
 
-      # ── 8. Open DRAFT PR using gh CLI ──────────────────────────────────────
-      #
-      # Using gh CLI instead of peter-evans/create-pull-request to avoid the
-      # issue where the action commits directly to main instead of opening a PR.
-      # --draft flag means GitHub blocks merging until you click "Ready for review".
-      # ────────────────────────────────────────────────────────────────[...]
-      - name: Open Draft Pull Request
+      # ── 7a. Verify GitHub token (diagnostics) ──────────────────────────────
+      - name: Verify GitHub token & repository access
         if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr create \
-            --base main \
-            --head "${{ steps.branch.outputs.name }}" \
-            --title "${{ steps.pr_content.outputs.title }}" \
-            --body-file /tmp/pr-body.md \
-            --draft
+          echo "=== GitHub Token Status ==="
+          gh auth status
+          echo ""
+          echo "=== Repository Information ==="
+          gh repo view --json nameWithOwner,isPrivate,isArchived,owner
+          echo ""
+          echo "=== API Rate Limit ==="
+          gh api rate_limit --jq '.rate | "\(.remaining) remaining, \(.reset | strftime("%Y-%m-%d %H:%M:%S")) reset time"' || echo "Rate limit check completed"
+
+      # ── 8. Open DRAFT PR using gh CLI (with retry & diagnostics) ──────────
+      - name: Open Draft Pull Request
+        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
+        id: pr_creation
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          MAX_ATTEMPTS=3
+          ATTEMPT=1
+          BACKOFF=5
+          
+          while [ $ATTEMPT -le $MAX_ATTEMPTS ]; do
+            echo "🔄 Attempt $ATTEMPT/$MAX_ATTEMPTS to create PR..."
+            
+            if gh pr create \
+              --base main \
+              --head "${{ steps.branch.outputs.name }}" \
+              --title "${{ steps.pr_content.outputs.title }}" \
+              --body-file /tmp/pr-body.md \
+              --draft 2>&1; then
+              echo "✅ PR created successfully on attempt $ATTEMPT"
+              echo "success=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            
+            if [ $ATTEMPT -lt $MAX_ATTEMPTS ]; then
+              echo "⚠️ Attempt $ATTEMPT failed. Waiting ${BACKOFF}s before retry..."
+              sleep $BACKOFF
+              BACKOFF=$((BACKOFF * 2))
+            fi
+            
+            ATTEMPT=$((ATTEMPT + 1))
+          done
+          
+          echo "❌ Failed to create PR after $MAX_ATTEMPTS attempts"
+          echo "success=false" >> $GITHUB_OUTPUT
+          exit 1
 
       # ── 9. Print PR link to workflow log ───────────────────────────────────
       - name: Print PR link
-        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
+        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true' && steps.pr_creation.outputs.success == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
