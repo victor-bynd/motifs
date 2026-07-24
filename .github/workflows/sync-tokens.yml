@@ -1,5 +1,5 @@
 # .github/workflows/sync-tokens.yml
-# ─────────────────────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────[...]
 # Token Sync Workflow
 #
 # Triggers:
@@ -20,7 +20,7 @@
 # 1. Review tokens/diff-report.md in the Files changed tab
 # 2. Click "Ready for review"
 # 3. Merge manually
-# ─────────────────────────────────────────────────────────────────────────────
+# ──────────────────────────────────────────────────────────────────[...]
 name: 🔄 Sync Tokens
 
 on:
@@ -69,7 +69,7 @@ jobs:
             echo "📄 Found uploaded file: ${FILE}"
           fi
 
-      # ── 3. Python ──────────────────────────────────────────────────────────
+      # ── 3. Python ─────────────────────────────────────────────────────────[...]
       - name: Set up Python
         if: steps.find.outputs.found == 'true'
         uses: actions/setup-python@v5
@@ -166,7 +166,7 @@ jobs:
         if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
         id: branch
         run: |
-          BRANCH="token-sync/$(date +'%Y-%m-%d-%H%M')"
+          BRANCH="token-sync/$(date +'%Y-%m-%d-%H%M')-attempt-${{ github.run_attempt }}"
           echo "name=${BRANCH}" >> $GITHUB_OUTPUT
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -180,7 +180,7 @@ jobs:
       # Using gh CLI instead of peter-evans/create-pull-request to avoid the
       # issue where the action commits directly to main instead of opening a PR.
       # --draft flag means GitHub blocks merging until you click "Ready for review".
-      # ─────────────────────────────────────────────────────────────────────
+      # ────────────────────────────────────────────────────────────────[...]
       - name: Open Draft Pull Request
         if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
         env:
