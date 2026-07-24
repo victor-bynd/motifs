@@ -2037,10 +2037,6 @@
     }
   },
   "Animated Accordion": {
-    "--animated-accordion-progress-indicator-color": {
-      "value": "{Root.--fg-color}",
-      "type": "color"
-    },
     "--animated-accordion-body-desktop-font-letter-spacing": {
       "type": "letterSpacing",
       "value": "0.01em"
@@ -2420,10 +2416,6 @@
     "--tooltip-font-line-height": {
       "value": "22px",
       "type": "lineHeights"
-    },
-    "--tooltip-line-height": {
-      "type": "sizing",
-      "value": "22px"
     }
   },
   "Code": {
