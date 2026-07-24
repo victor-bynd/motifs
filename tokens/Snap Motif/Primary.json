@@ -643,6 +643,10 @@
     "--content-desktop-no-bg-padding": {
       "value": "{Root.--spacing-m} {Root.--spacing-xl}",
       "type": "spacing"
+    },
+    "--content-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-l}"
     }
   },
   "Quote": {
@@ -709,6 +713,14 @@
     "--quote-icon-mobile-margin-bottom": {
       "value": "-32px",
       "type": "spacing"
+    },
+    "--quote-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-l}"
+    },
+    "--quote-media-rotate": {
+      "type": "number",
+      "value": "2"
     }
   },
   "Footer": {
@@ -1524,6 +1536,10 @@
     "--icon-button-disabled-border-color": {
       "value": "{Neutral.--neutral-v300}",
       "type": "color"
+    },
+    "--icon-button-border-radius": {
+      "type": "borderRadius",
+      "value": "50%"
     }
   },
   "Mosaic": {
@@ -1912,6 +1928,10 @@
     "--definition-hover-border-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
+    },
+    "--definition-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-s}"
     }
   },
   "Side Overlay": {
@@ -1926,6 +1946,14 @@
     "--side-overlay-fg-color": {
       "value": "{Neutral.--neutral-v700}",
       "type": "color"
+    },
+    "--side-overlay-desktop-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-l}"
+    },
+    "--side-overlay-mobile-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-l} {Root.--border-radius-l} 0 0"
     }
   },
   "Topic": {
@@ -2396,6 +2424,12 @@
     "--tooltip-line-height": {
       "type": "sizing",
       "value": "22px"
+    }
+  },
+  "Code": {
+    "--code-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-l}"
     }
   }
 }
