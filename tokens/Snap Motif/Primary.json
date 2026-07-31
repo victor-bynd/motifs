@@ -889,6 +889,26 @@
     "--dropdown-menu-divider-border-width": {
       "type": "borderWidth",
       "value": "0"
+    },
+    "--dropdown-button-padding": {
+      "type": "spacing",
+      "value": "{Root.--spacing-s} {Root.--spacing-m}"
+    },
+    "--dropdown-desktop-font-size": {
+      "type": "fontSizes",
+      "value": "{Root.--action-desktop-font-size}"
+    },
+    "--dropdown-mobile-font-size": {
+      "type": "fontSizes",
+      "value": "{Root.--action-mobile-font-size}"
+    },
+    "--dropdown-desktop-font-line-height": {
+      "type": "lineHeights",
+      "value": "{Root.--action-desktop-font-line-height}"
+    },
+    "--dropdown-mobile-font-line-height": {
+      "type": "lineHeights",
+      "value": "{Root.--action-mobile-font-line-height}"
     }
   },
   "Toggle Slider": {
@@ -1075,6 +1095,18 @@
     "--accordion-item-icon-color": {
       "type": "color",
       "value": "{Neutral.--neutral-v700}"
+    },
+    "--accordion-item-body-link-color": {
+      "type": "color",
+      "value": "{Root.--action-text-default-color}"
+    },
+    "--accordion-item-body-link-hover-color": {
+      "type": "color",
+      "value": "{Root.--action-text-hover-color}"
+    },
+    "--accordion-item-body-link-font-weight": {
+      "type": "fontWeights",
+      "value": "{Root.--action-desktop-font-weight}"
     }
   },
   "Carousel": {
@@ -1576,6 +1608,10 @@
     "--modal-close-fg-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
+    },
+    "--modal-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-l}"
     }
   },
   "Icon": {
@@ -1668,6 +1704,18 @@
     "--form-input-checkbox-border-radius": {
       "value": "{Root.--border-radius-s}",
       "type": "borderRadius"
+    },
+    "--form-input-selection-control-border-width": {
+      "type": "borderWidth",
+      "value": "2px"
+    },
+    "--form-input-selection-control-active-color": {
+      "type": "color",
+      "value": "{Palette.Plain.--palette-plain-white}"
+    },
+    "--form-input-height": {
+      "type": "sizing",
+      "value": "52px"
     }
   },
   "Progress Bar": {
