@@ -2223,7 +2223,7 @@
       "Snapchat (main)/Semantic": "enabled",
       "Snapchat (main)/Theme/Primary": "enabled",
       "Snap/Semantic": "enabled",
-      "Snap/Themes/Primary": "enabled"
+      "Snap/Theme/Primary": "enabled"
     },
     "$figmaStyleReferences": {
       "Root.--box-shadow-xs": "S:0747873c89a0c4d03bbba2c33b3279cc745b95bb,",
