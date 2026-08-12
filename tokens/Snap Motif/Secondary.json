@@ -349,6 +349,18 @@
         "color": "rgba(0, 0, 0, 0)"
       },
       "type": "boxShadow"
+    },
+    "--carousel-card-body-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v0}"
+    },
+    "--carousel-text-item-bg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v625}"
+    },
+    "--carousel-text-item-sub-text-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v0}"
     }
   },
   "Banner": {
@@ -661,6 +673,10 @@
     "--stats-stat-color": {
       "value": "{Primary.--primary-v100}",
       "type": "color"
+    },
+    "--stats-color": {
+      "type": "color",
+      "value": "{Primary.--primary-v100}"
     }
   },
   "Footnote": {
@@ -683,6 +699,10 @@
     "--footnote-title-color": {
       "value": "{Neutral.--neutral-v0}",
       "type": "color"
+    },
+    "--footnote-icon-hover-bg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v600}"
     }
   },
   "Animated Accordion": {
@@ -709,6 +729,10 @@
     "--multi-select-chip-bg-color": {
       "value": "{Neutral.--neutral-v500}",
       "type": "color"
+    },
+    "--multi-select-chip-fg-color": {
+      "type": "color",
+      "value": "{Neutral.--neutral-v0}"
     }
   },
   "Editorial Gallery Card": {
