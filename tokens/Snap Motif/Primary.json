@@ -888,7 +888,7 @@
     },
     "--dropdown-item-padding": {
       "type": "spacing",
-      "value": "{Root.--spacing-m}"
+      "value": "{Root.--spacing-xs} {Root.--spacing-m}"
     },
     "--dropdown-item-desktop-font-weight": {
       "type": "fontWeights",
@@ -2138,10 +2138,6 @@
     }
   },
   "Stats": {
-    "--stats-stat-color": {
-      "value": "{Root.--fg-color}",
-      "type": "color"
-    },
     "--stats-stat-font-weight": {
       "value": "{Root.--stats-font-weight}",
       "type": "fontWeights"
