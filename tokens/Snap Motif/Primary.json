@@ -2529,6 +2529,45 @@
     "--editorial-gallery-card-hover-background-color": {
       "value": "{Neutral.--neutral-v150}",
       "type": "color"
+    },
+    "--editorial-gallery-card-title-desktop-font-size": {
+      "type": "fontSizes",
+      "value": "{Root.--h5-desktop-font-size}"
+    },
+    "--editorial-gallery-card-title-desktop-font-line-height": {
+      "type": "lineHeights",
+      "value": "{Root.--h5-desktop-font-line-height}"
+    },
+    "--editorial-gallery-card-title-desktop-font-weight": {
+      "type": "fontWeights",
+      "value": "{Root.--h5-desktop-font-weight}"
+    },
+    "--editorial-gallery-card-title-mobile-font-size": {
+      "type": "fontSizes",
+      "value": "{Root.--h5-mobile-font-size}"
+    },
+    "--editorial-gallery-card-title-mobile-font-line-height": {
+      "type": "lineHeights",
+      "value": "{Root.--h5-mobile-font-line-height}"
+    },
+    "--editorial-gallery-card-title-mobile-font-weight": {
+      "type": "fontWeights",
+      "value": "{Root.--h5-mobile-font-weight}"
+    },
+    "--editorial-gallery-card-media-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-l}"
+    },
+    "--editorial-gallery-card-media-hover-box-shadow": {
+      "type": "boxShadow",
+      "value": {
+        "type": "dropShadow",
+        "x": "0",
+        "y": "4px",
+        "blur": "8px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      }
     }
   },
   "Breadcrumbs": {
@@ -2618,6 +2657,24 @@
         "spread": "0",
         "color": "rgba(83, 87, 91, 1)"
       }
+    }
+  },
+  "Multi Value Prop Block": {
+    "--multi-value-prop-block-stat-desktop-font-size": {
+      "type": "fontSizes",
+      "value": "{Root.--h3-desktop-font-size}"
+    },
+    "--multi-value-prop-block-stat-desktop-font-line-height": {
+      "type": "lineHeights",
+      "value": "{Root.--h3-desktop-font-line-height}"
+    },
+    "--multi-value-prop-block-stat-mobile-font-size": {
+      "type": "fontSizes",
+      "value": "{Root.--h3-mobile-font-size}"
+    },
+    "--multi-value-prop-block-stat-mobile-font-line-height": {
+      "type": "lineHeights",
+      "value": "{Root.--h3-mobile-font-line-height}"
     }
   }
 }
