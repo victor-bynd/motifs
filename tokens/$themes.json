@@ -283,7 +283,6 @@
       "Dropdown Menu.--dropdown-menu-divider-color": "f9570e23a8294735960d1efe1547e932f9500363",
       "Dropdown Menu.--dropdown-menu-divider-width": "9ebb40731decb6fb245193945bc9a47677638a91",
       "Dropdown Menu.--dropdown-item-bg-color": "52406e9c710034a25a73a54c67f939ddbec135a9",
-      "Dropdown Menu.--dropdown-item-padding": "72d3cfff0be931e91381ff29d9a506ad3ffafa32",
       "Dropdown Menu.--dropdown-item-desktop-font-weight": "aad6e7cd39651fc62b73d99d6b1e0f35f0575bd0",
       "Dropdown Menu.--dropdown-item-mobile-font-weight": "c7b1b15cf04e1bf888b0809d3648e6e227d84c95",
       "Dropdown Menu.--dropdown-item-desktop-selected-font-weight": "e08b90bad99a99d5a101ab9b47be3b0a68225878",
@@ -532,6 +531,11 @@
       "Multi Select.--multi-select-chip-margin": "43777be531119c0a34de27748fb162ccf92459e4",
       "Multi Select.--multi-select-min-height": "ad2443e31b2d8cd2da9d56b7bdab66088eebe547",
       "Multi Select.--multi-select-option-border-radius": "c18fa1336a21d88592172d6391279afea617ad87",
+      "Editorial Gallery Card.--editorial-gallery-card-title-desktop-font-size": "0ba11da823e03345d164a42d84f11832df35b374",
+      "Editorial Gallery Card.--editorial-gallery-card-title-desktop-font-weight": "fe28fd8200078679d3b62956112b961395d89a2e",
+      "Editorial Gallery Card.--editorial-gallery-card-title-mobile-font-size": "92a64f4b47e9d5a0cd23d4034ca30ab403e60d48",
+      "Editorial Gallery Card.--editorial-gallery-card-title-mobile-font-weight": "f6e52b0292f6c34a0ee6aa5da66b9dbda11d874d",
+      "Editorial Gallery Card.--editorial-gallery-card-media-border-radius": "b3628494250d3ba2d1a788d76b34d3f7f77a06a8",
       "Breadcrumbs.--breadcrumbs-item-active-color": "0e489f77f494420dfe6f032b52ccde8a676db855",
       "Breadcrumbs.--breadcrumbs-item-color": "ac64e88f82e4f055588556090b820c9b6165d72c",
       "Breadcrumbs.--breadcrumbs-item-hover-color": "ad847829c35ef6642beafb7298af1b65bb045ba8",
@@ -544,7 +548,9 @@
       "Bar Chart.--bar-chart-border-radius": "80e71dbf8895ddc29ce019eb6be211a22d4ebe27",
       "Bar Chart.--bar-chart-filter-border-radius": "cbad147f2ac8a59abf09b986154efa21760bcd5d",
       "Bar Chart.--bar-chart-tooltip-border-radius": "e202545e955604d4dde72852c78d37f7351039e5",
-      "Bar Chart.--bar-chart-tooltip-border-color": "62c63a362c041f81d062e19f673891b840024b12"
+      "Bar Chart.--bar-chart-tooltip-border-color": "62c63a362c041f81d062e19f673891b840024b12",
+      "Multi Value Prop Block.--multi-value-prop-block-stat-desktop-font-size": "aed6d324c076c83cd0935ee496b1a2648388ebf1",
+      "Multi Value Prop Block.--multi-value-prop-block-stat-mobile-font-size": "a8fcd259a7e4684baa7d12431aca06c218535ce4"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:1"
@@ -905,7 +911,6 @@
       "Dropdown Menu.--dropdown-menu-divider-color": "f9570e23a8294735960d1efe1547e932f9500363",
       "Dropdown Menu.--dropdown-menu-divider-width": "9ebb40731decb6fb245193945bc9a47677638a91",
       "Dropdown Menu.--dropdown-item-bg-color": "52406e9c710034a25a73a54c67f939ddbec135a9",
-      "Dropdown Menu.--dropdown-item-padding": "72d3cfff0be931e91381ff29d9a506ad3ffafa32",
       "Dropdown Menu.--dropdown-item-desktop-font-weight": "aad6e7cd39651fc62b73d99d6b1e0f35f0575bd0",
       "Dropdown Menu.--dropdown-item-mobile-font-weight": "c7b1b15cf04e1bf888b0809d3648e6e227d84c95",
       "Dropdown Menu.--dropdown-item-desktop-selected-font-weight": "e08b90bad99a99d5a101ab9b47be3b0a68225878",
@@ -1221,6 +1226,11 @@
       "Multi Select.--multi-select-option-border-radius": "c18fa1336a21d88592172d6391279afea617ad87",
       "Multi Select.--multi-select-chip-fg-color": "f42fcaab5cc5e846aa837f26f54d0042d0c48991",
       "Editorial Gallery Card.--editorial-gallery-card-hover-background-color": "e45f4ffb301bd7f9d87efeae76ee74c2e152e668",
+      "Editorial Gallery Card.--editorial-gallery-card-title-desktop-font-size": "0ba11da823e03345d164a42d84f11832df35b374",
+      "Editorial Gallery Card.--editorial-gallery-card-title-desktop-font-weight": "fe28fd8200078679d3b62956112b961395d89a2e",
+      "Editorial Gallery Card.--editorial-gallery-card-title-mobile-font-size": "92a64f4b47e9d5a0cd23d4034ca30ab403e60d48",
+      "Editorial Gallery Card.--editorial-gallery-card-title-mobile-font-weight": "f6e52b0292f6c34a0ee6aa5da66b9dbda11d874d",
+      "Editorial Gallery Card.--editorial-gallery-card-media-border-radius": "b3628494250d3ba2d1a788d76b34d3f7f77a06a8",
       "Breadcrumbs.--breadcrumbs-item-active-color": "0e489f77f494420dfe6f032b52ccde8a676db855",
       "Breadcrumbs.--breadcrumbs-item-color": "ac64e88f82e4f055588556090b820c9b6165d72c",
       "Breadcrumbs.--breadcrumbs-item-hover-color": "ad847829c35ef6642beafb7298af1b65bb045ba8",
@@ -1236,6 +1246,9 @@
       "Bar Chart.--bar-chart-filter-border-radius": "cbad147f2ac8a59abf09b986154efa21760bcd5d",
       "Bar Chart.--bar-chart-tooltip-border-radius": "e202545e955604d4dde72852c78d37f7351039e5",
       "Bar Chart.--bar-chart-tooltip-border-color": "62c63a362c041f81d062e19f673891b840024b12",
+      "Multi Value Prop Block.--multi-value-prop-block-stat-desktop-font-size": "aed6d324c076c83cd0935ee496b1a2648388ebf1",
+      "Multi Value Prop Block.--multi-value-prop-block-stat-mobile-font-size": "a8fcd259a7e4684baa7d12431aca06c218535ce4",
+      "Stats.--stats-stat-color": "63ddbf8699b1d714fcc4cb27fc0e8cf649d7c64f",
       "Animated Accordion.--animated-accordion-progress-indicator-color": "a9b877e1345db38bfe6c2b99b2c0619c278d495d"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
@@ -1575,7 +1588,6 @@
       "Dropdown Menu.--dropdown-menu-divider-color": "f9570e23a8294735960d1efe1547e932f9500363",
       "Dropdown Menu.--dropdown-menu-divider-width": "9ebb40731decb6fb245193945bc9a47677638a91",
       "Dropdown Menu.--dropdown-item-bg-color": "52406e9c710034a25a73a54c67f939ddbec135a9",
-      "Dropdown Menu.--dropdown-item-padding": "72d3cfff0be931e91381ff29d9a506ad3ffafa32",
       "Dropdown Menu.--dropdown-item-desktop-font-weight": "aad6e7cd39651fc62b73d99d6b1e0f35f0575bd0",
       "Dropdown Menu.--dropdown-item-mobile-font-weight": "c7b1b15cf04e1bf888b0809d3648e6e227d84c95",
       "Dropdown Menu.--dropdown-item-desktop-selected-font-weight": "e08b90bad99a99d5a101ab9b47be3b0a68225878",
@@ -1824,6 +1836,11 @@
       "Multi Select.--multi-select-chip-margin": "43777be531119c0a34de27748fb162ccf92459e4",
       "Multi Select.--multi-select-min-height": "ad2443e31b2d8cd2da9d56b7bdab66088eebe547",
       "Multi Select.--multi-select-option-border-radius": "c18fa1336a21d88592172d6391279afea617ad87",
+      "Editorial Gallery Card.--editorial-gallery-card-title-desktop-font-size": "0ba11da823e03345d164a42d84f11832df35b374",
+      "Editorial Gallery Card.--editorial-gallery-card-title-desktop-font-weight": "fe28fd8200078679d3b62956112b961395d89a2e",
+      "Editorial Gallery Card.--editorial-gallery-card-title-mobile-font-size": "92a64f4b47e9d5a0cd23d4034ca30ab403e60d48",
+      "Editorial Gallery Card.--editorial-gallery-card-title-mobile-font-weight": "f6e52b0292f6c34a0ee6aa5da66b9dbda11d874d",
+      "Editorial Gallery Card.--editorial-gallery-card-media-border-radius": "b3628494250d3ba2d1a788d76b34d3f7f77a06a8",
       "Breadcrumbs.--breadcrumbs-item-active-color": "0e489f77f494420dfe6f032b52ccde8a676db855",
       "Breadcrumbs.--breadcrumbs-item-color": "ac64e88f82e4f055588556090b820c9b6165d72c",
       "Breadcrumbs.--breadcrumbs-item-hover-color": "ad847829c35ef6642beafb7298af1b65bb045ba8",
@@ -1836,7 +1853,9 @@
       "Bar Chart.--bar-chart-border-radius": "80e71dbf8895ddc29ce019eb6be211a22d4ebe27",
       "Bar Chart.--bar-chart-filter-border-radius": "cbad147f2ac8a59abf09b986154efa21760bcd5d",
       "Bar Chart.--bar-chart-tooltip-border-radius": "e202545e955604d4dde72852c78d37f7351039e5",
-      "Bar Chart.--bar-chart-tooltip-border-color": "62c63a362c041f81d062e19f673891b840024b12"
+      "Bar Chart.--bar-chart-tooltip-border-color": "62c63a362c041f81d062e19f673891b840024b12",
+      "Multi Value Prop Block.--multi-value-prop-block-stat-desktop-font-size": "aed6d324c076c83cd0935ee496b1a2648388ebf1",
+      "Multi Value Prop Block.--multi-value-prop-block-stat-mobile-font-size": "a8fcd259a7e4684baa7d12431aca06c218535ce4"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:3"
@@ -2114,7 +2133,8 @@
       "Carousel.--carousel-text-item-box-shadow": "S:e83f990ec5c2fef2d0c3dabef313fb9b66c35c56,",
       "Icon Button.--icon-button-box-shadow": "S:995b329ad77bc33696647e219fe93366ee44167f,",
       "Multi Select.--multi-select-box-shadow": "S:a8952b3d4a3acb6d1954c422c62ed76098de8ae3,",
-      "Bar Chart.--bar-chart-tooltip-box-shadow": "S:3a938f0f2ba76883e83e1788248961f0b4550caf,"
+      "Bar Chart.--bar-chart-tooltip-box-shadow": "S:3a938f0f2ba76883e83e1788248961f0b4550caf,",
+      "Editorial Gallery Card.--editorial-gallery-card-media-hover-box-shadow": "S:db773cfe32181970148d6ee556ee03dc918f8096,"
     },
     "$figmaVariableReferences": {
       "Root.--bg-color": "660e70aaa7f8241149f0028509d7ce09ac2751cc",
@@ -2391,7 +2411,6 @@
       "Dropdown Menu.--dropdown-menu-divider-color": "f9570e23a8294735960d1efe1547e932f9500363",
       "Dropdown Menu.--dropdown-menu-divider-width": "9ebb40731decb6fb245193945bc9a47677638a91",
       "Dropdown Menu.--dropdown-item-bg-color": "52406e9c710034a25a73a54c67f939ddbec135a9",
-      "Dropdown Menu.--dropdown-item-padding": "72d3cfff0be931e91381ff29d9a506ad3ffafa32",
       "Dropdown Menu.--dropdown-item-desktop-font-weight": "aad6e7cd39651fc62b73d99d6b1e0f35f0575bd0",
       "Dropdown Menu.--dropdown-item-mobile-font-weight": "c7b1b15cf04e1bf888b0809d3648e6e227d84c95",
       "Dropdown Menu.--dropdown-item-desktop-selected-font-weight": "e08b90bad99a99d5a101ab9b47be3b0a68225878",
@@ -2640,6 +2659,11 @@
       "Multi Select.--multi-select-chip-margin": "43777be531119c0a34de27748fb162ccf92459e4",
       "Multi Select.--multi-select-min-height": "ad2443e31b2d8cd2da9d56b7bdab66088eebe547",
       "Multi Select.--multi-select-option-border-radius": "c18fa1336a21d88592172d6391279afea617ad87",
+      "Editorial Gallery Card.--editorial-gallery-card-title-desktop-font-size": "0ba11da823e03345d164a42d84f11832df35b374",
+      "Editorial Gallery Card.--editorial-gallery-card-title-desktop-font-weight": "fe28fd8200078679d3b62956112b961395d89a2e",
+      "Editorial Gallery Card.--editorial-gallery-card-title-mobile-font-size": "92a64f4b47e9d5a0cd23d4034ca30ab403e60d48",
+      "Editorial Gallery Card.--editorial-gallery-card-title-mobile-font-weight": "f6e52b0292f6c34a0ee6aa5da66b9dbda11d874d",
+      "Editorial Gallery Card.--editorial-gallery-card-media-border-radius": "b3628494250d3ba2d1a788d76b34d3f7f77a06a8",
       "Breadcrumbs.--breadcrumbs-item-active-color": "0e489f77f494420dfe6f032b52ccde8a676db855",
       "Breadcrumbs.--breadcrumbs-item-color": "ac64e88f82e4f055588556090b820c9b6165d72c",
       "Breadcrumbs.--breadcrumbs-item-hover-color": "ad847829c35ef6642beafb7298af1b65bb045ba8",
@@ -2652,7 +2676,9 @@
       "Bar Chart.--bar-chart-border-radius": "80e71dbf8895ddc29ce019eb6be211a22d4ebe27",
       "Bar Chart.--bar-chart-filter-border-radius": "cbad147f2ac8a59abf09b986154efa21760bcd5d",
       "Bar Chart.--bar-chart-tooltip-border-radius": "e202545e955604d4dde72852c78d37f7351039e5",
-      "Bar Chart.--bar-chart-tooltip-border-color": "62c63a362c041f81d062e19f673891b840024b12"
+      "Bar Chart.--bar-chart-tooltip-border-color": "62c63a362c041f81d062e19f673891b840024b12",
+      "Multi Value Prop Block.--multi-value-prop-block-stat-desktop-font-size": "aed6d324c076c83cd0935ee496b1a2648388ebf1",
+      "Multi Value Prop Block.--multi-value-prop-block-stat-mobile-font-size": "a8fcd259a7e4684baa7d12431aca06c218535ce4"
     },
     "$figmaCollectionId": "VariableCollectionId:8391:12416",
     "$figmaModeId": "8391:4"
