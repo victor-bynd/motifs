@@ -1,8 +1,8 @@
 # Token Diff Report
 
-**Generated:** 2026-08-14 22:37 UTC  
+**Generated:** 2026-08-27 16:53 UTC  
 **Design dir:** `tokens`  
-**Production file:** `Motifs-Storybook/Figma Tokens - Motif.2026-08-14T22_33_58.141Z.json`
+**Production file:** `Motifs-Storybook/Figma Tokens - Motif.2026-08-27T16_51_46.970Z.json`
 
 ---
 
@@ -10,45 +10,39 @@
 
 | | Count |
 |---|---|
-| 🆕 Missing tokens (added to set files) | **12** |
-| ⚠️ Changed values (review needed) | **4** |
+| 🆕 Missing tokens (added to set files) | **6** |
+| ⚠️ Changed values (review needed) | **13** |
 | 🚫 Ignored changes (sync-ignore.json) | **0** |
-| 🔵 Design-only tokens (not in production) | **23** |
+| 🔵 Design-only tokens (not in production) | **37** |
 
 ---
 
-## 🆕 Missing Tokens — added to set files (12)
+## 🆕 Missing Tokens — added to set files (6)
 
 These tokens exist in the production file but were absent from the design files.  
 They have been automatically added to the corresponding set file.
 
 ### `Snap Motif/Primary`
 
-#### Editorial Gallery Card
+#### Button
 
 | Token | Type | Value |
 |---|---|---|
-| `--editorial-gallery-card-media-border-radius` | borderRadius | `{Root.--border-radius-l}` |
-| `--editorial-gallery-card-media-hover-box-shadow` | boxShadow | `{'type': 'dropShadow', 'x': '0', 'y': '4px', 'blur': '8px', 'spread': '0', 'color': 'rgba(0, 0, 0, 0.12)'}` |
-| `--editorial-gallery-card-title-desktop-font-line-height` | lineHeights | `{Root.--h5-desktop-font-line-height}` |
-| `--editorial-gallery-card-title-desktop-font-size` | fontSizes | `{Root.--h5-desktop-font-size}` |
-| `--editorial-gallery-card-title-desktop-font-weight` | fontWeights | `{Root.--h5-desktop-font-weight}` |
-| `--editorial-gallery-card-title-mobile-font-line-height` | lineHeights | `{Root.--h5-mobile-font-line-height}` |
-| `--editorial-gallery-card-title-mobile-font-size` | fontSizes | `{Root.--h5-mobile-font-size}` |
-| `--editorial-gallery-card-title-mobile-font-weight` | fontWeights | `{Root.--h5-mobile-font-weight}` |
+| `--persistent-cta-button-border-radius` | borderRadius | `{Root.--border-radius-s}` |
 
-#### Multi Value Prop Block
+#### Carousel
 
 | Token | Type | Value |
 |---|---|---|
-| `--multi-value-prop-block-stat-desktop-font-line-height` | lineHeights | `{Root.--h3-desktop-font-line-height}` |
-| `--multi-value-prop-block-stat-desktop-font-size` | fontSizes | `{Root.--h3-desktop-font-size}` |
-| `--multi-value-prop-block-stat-mobile-font-line-height` | lineHeights | `{Root.--h3-mobile-font-line-height}` |
-| `--multi-value-prop-block-stat-mobile-font-size` | fontSizes | `{Root.--h3-mobile-font-size}` |
+| `--carousel-card-single-view-landscape-max-width` | sizing | `480px` |
+| `--carousel-card-single-view-portrait-max-width` | sizing | `256px` |
+| `--carousel-text-item-border-radius` | borderRadius | `16px` |
+| `--carousel-text-item-desktop-max-width` | sizing | `700px` |
+| `--carousel-text-item-mobile-max-width` | sizing | `480px` |
 
 ---
 
-## ⚠️ Changed Values — review required (4)
+## ⚠️ Changed Values — review required (13)
 
 These tokens exist in both files but the **value and/or type** differs between production and design.  
 **The design file value/type is kept.** Review each one and update manually if needed.
@@ -66,6 +60,15 @@ The **Changed** column shows whether it's the `value`, the `type`, or both that 
 
 | Token | Changed | Design value | Production value | Design type | Production type |
 |---|---|---|---|---|---|
+| `Carousel.--carousel-card-bg-color` | value | `{Neutral.--neutral-v0}` | `transparent` | `color` | `color` |
+| `Carousel.--carousel-card-desktop-grid-gap` | value | `64px` | `{Root.--spacing-xl}` | `spacing` | `spacing` |
+| `Carousel.--carousel-card-desktop-text-padding` | value | `{Root.--spacing-m}` | `{Root.--spacing-m} 0` | `spacing` | `spacing` |
+| `Carousel.--carousel-card-hover-bg-color` | value | `{Neutral.--neutral-v0}` | `transparent` | `color` | `color` |
+| `Carousel.--carousel-card-landscape-square-desktop-width` | value | `364px` | `396px` | `sizing` | `sizing` |
+| `Carousel.--carousel-card-mobile-grid-gap` | value | `16px` | `{Root.--spacing-m}` | `spacing` | `spacing` |
+| `Carousel.--carousel-card-mobile-text-padding` | value | `{Root.--spacing-m}` | `{Root.--spacing-m} 0` | `spacing` | `spacing` |
+| `Carousel.--carousel-card-portrait-desktop-width` | value | `257px` | `288px` | `sizing` | `sizing` |
+| `Carousel.--carousel-card-portrait-mobile-width` | value | `257px` | `311px` | `sizing` | `sizing` |
 | `Form.--form-input-desktop-font-line-height` | value | `normal` | `20px` | `lineHeights` | `lineHeights` |
 
 ### `Snap Motif/Secondary`
@@ -76,7 +79,7 @@ The **Changed** column shows whether it's the `value`, the `type`, or both that 
 
 ---
 
-## 🔵 Design-only Tokens — not in production (23)
+## 🔵 Design-only Tokens — not in production (37)
 
 These tokens exist only in the design files (e.g. custom Figma helpers).  
 They are untouched.
@@ -85,6 +88,16 @@ They are untouched.
 |---|---|---|
 | `Snap Motif/Global.Root.--border-radius-none` | borderRadius | `0px` |
 | `Snap Motif/Global.Root.--spacing-none` | spacing | `0px` |
+| `Snap Motif/Primary.Carousel.--carousel-card-border-radius` | borderRadius | `{Root.--border-radius-l}` |
+| `Snap Motif/Primary.Carousel.--carousel-card-box-shadow` | boxShadow | `{Root.--box-shadow-s}` |
+| `Snap Motif/Primary.Carousel.--carousel-card-desktop-text-height` | sizing | `120px` |
+| `Snap Motif/Primary.Carousel.--carousel-card-desktop-text-min-height` | sizing | `120px` |
+| `Snap Motif/Primary.Carousel.--carousel-card-hover-box-shadow` | boxShadow | `{Root.--box-shadow-l}` |
+| `Snap Motif/Primary.Carousel.--carousel-card-landscape-square-small-mobile-width` | sizing | `288px` |
+| `Snap Motif/Primary.Carousel.--carousel-card-mobile-text-height` | sizing | `120px` |
+| `Snap Motif/Primary.Carousel.--carousel-card-mobile-text-min-height` | sizing | `120px` |
+| `Snap Motif/Primary.Carousel.--carousel-card-text-position` | other | `absolute` |
+| `Snap Motif/Primary.Carousel.--carousel-text-item-box-shadow` | boxShadow | `{'type': 'dropShadow', 'x': '0', 'y': '0', 'blur': '32px', 'spread': '0', 'color': 'rgba(0, 0, 0, 0.12)'}` |
 | `Snap Motif/Primary.Dropdown Menu.--dropdown-menu-divider-color` | color | `transparent` |
 | `Snap Motif/Primary.Dropdown Menu.--dropdown-menu-divider-width` | sizing | `0` |
 | `Snap Motif/Primary.Footnote.--footnote-hover-icon-bg-color` | color | `{Neutral.--neutral-v200}` |
@@ -100,6 +113,10 @@ They are untouched.
 | `Snap Motif/Primary.Stats.--stats-stat-supplementary-text-font-size` | fontSizes | `{Root.--stats-supplementary-text-font-size}` |
 | `Snap Motif/Primary.Stats.--stats-stat-supplementary-text-font-weight` | fontWeights | `{Root.--stats-supplementary-text-font-weight}` |
 | `Snap Motif/Secondary.Animated Accordion.--animated-accordion-progress-indicator-color` | color | `{Primary.--primary-v100}` |
+| `Snap Motif/Secondary.Carousel.--carousel-card-bg-color` | color | `{Neutral.--neutral-v625}` |
+| `Snap Motif/Secondary.Carousel.--carousel-card-box-shadow` | boxShadow | `{'type': 'dropShadow', 'x': '0px', 'y': '0px', 'blur': '0px', 'spread': '0', 'color': 'rgba(0, 0, 0, 0)'}` |
+| `Snap Motif/Secondary.Carousel.--carousel-card-hover-bg-color` | color | `{Neutral.--neutral-v625}` |
+| `Snap Motif/Secondary.Carousel.--carousel-card-hover-box-shadow` | boxShadow | `{'type': 'dropShadow', 'x': '0px', 'y': '0px', 'blur': '0px', 'spread': '0', 'color': 'rgba(0, 0, 0, 0)'}` |
 | `Snap Motif/Secondary.Footnote.--footnote-hover-icon-bg-color` | color | `{Neutral.--neutral-v600}` |
 | `Snap Motif/Secondary.Modal.--modal-close-bg-color` | color | `{Neutral.--neutral-v0}` |
 | `Snap Motif/Secondary.Modal.--modal-close-fg-color` | color | `{Neutral.--neutral-v700}` |
