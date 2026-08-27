@@ -247,6 +247,10 @@
     "--button-disabled-opacity": {
       "type": "opacity",
       "value": "0.7"
+    },
+    "--persistent-cta-button-border-radius": {
+      "type": "borderRadius",
+      "value": "{Root.--border-radius-s}"
     }
   },
   "Header": {
@@ -1276,6 +1280,26 @@
     "--carousel-dot-border-radius": {
       "type": "borderRadius",
       "value": "100px"
+    },
+    "--carousel-card-single-view-landscape-max-width": {
+      "type": "sizing",
+      "value": "480px"
+    },
+    "--carousel-card-single-view-portrait-max-width": {
+      "type": "sizing",
+      "value": "256px"
+    },
+    "--carousel-text-item-border-radius": {
+      "type": "borderRadius",
+      "value": "16px"
+    },
+    "--carousel-text-item-desktop-max-width": {
+      "type": "sizing",
+      "value": "700px"
+    },
+    "--carousel-text-item-mobile-max-width": {
+      "type": "sizing",
+      "value": "480px"
     }
   },
   "Footnote": {
