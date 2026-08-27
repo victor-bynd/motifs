@@ -2101,8 +2101,7 @@
       "Icon Button.--icon-button-box-shadow": "S:995b329ad77bc33696647e219fe93366ee44167f,",
       "Multi Select.--multi-select-box-shadow": "S:a8952b3d4a3acb6d1954c422c62ed76098de8ae3,",
       "Bar Chart.--bar-chart-tooltip-box-shadow": "S:3a938f0f2ba76883e83e1788248961f0b4550caf,",
-      "Editorial Gallery Card.--editorial-gallery-card-media-hover-box-shadow": "S:db773cfe32181970148d6ee556ee03dc918f8096,",
-      "Carousel.--carousel-card-hover-box-shadow": "S:02c5f3ce973273a247f225648fe9a1d513d834cf,"
+      "Editorial Gallery Card.--editorial-gallery-card-media-hover-box-shadow": "S:db773cfe32181970148d6ee556ee03dc918f8096,"
     },
     "$figmaVariableReferences": {
       "Root.--bg-color": "660e70aaa7f8241149f0028509d7ce09ac2751cc",

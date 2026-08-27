@@ -1166,10 +1166,6 @@
       "value": "0",
       "type": "borderWidth"
     },
-    "--carousel-card-hover-box-shadow": {
-      "value": "{Root.--box-shadow-l}",
-      "type": "boxShadow"
-    },
     "--carousel-card-landscape-square-desktop-width": {
       "value": "396px",
       "type": "sizing"
