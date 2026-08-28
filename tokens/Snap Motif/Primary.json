@@ -1147,11 +1147,11 @@
       "type": "color"
     },
     "--carousel-card-bg-color": {
-      "value": "{Palette.Plain.--palette-plain-transparent}",
+      "value": "transparent",
       "type": "color"
     },
     "--carousel-card-hover-bg-color": {
-      "value": "{Palette.Plain.--palette-plain-transparent}",
+      "value": "transparent",
       "type": "color"
     },
     "--carousel-card-fg-color": {
@@ -1199,11 +1199,11 @@
       "type": "textAlign"
     },
     "--carousel-card-desktop-text-padding": {
-      "value": "{Root.--spacing-m} 0px",
+      "value": "{Root.--spacing-m} 0",
       "type": "spacing"
     },
     "--carousel-card-mobile-text-padding": {
-      "value": "{Root.--spacing-m} 0px",
+      "value": "{Root.--spacing-m} 0",
       "type": "spacing"
     },
     "--carousel-card-related-content-body-line-clamp": {
@@ -1690,7 +1690,7 @@
       "type": "fontSizes"
     },
     "--form-input-desktop-font-line-height": {
-      "value": "normal",
+      "value": "20px",
       "type": "lineHeights"
     },
     "--form-input-desktop-font-weight": {
@@ -1955,7 +1955,7 @@
     },
     "--autocomplete-list-border-radius": {
       "type": "borderRadius",
-      "value": "{Root.--spacing-s}"
+      "value": "{Root.--border-radius-s}"
     },
     "--autocomplete-input-height": {
       "type": "sizing",
