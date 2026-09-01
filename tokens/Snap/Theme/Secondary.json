@@ -1,0 +1,160 @@
+{
+  "Root": {
+    "--bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--action-text-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--action-text-active-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--curtain-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--curtain-opacity": {
+      "value": "0.75",
+      "type": "opacity"
+    }
+  },
+  "Button": {
+    "--button-primary-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--button-primary-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color"
+    },
+    "--button-primary-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--button-primary-hover-border-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color"
+    },
+    "--button-secondary-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--button-secondary-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v650}",
+      "type": "color"
+    },
+    "--button-secondary-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--button-secondary-hover-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--button-secondary-hover-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--button-secondary-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--button-flat-hover-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color"
+    }
+  },
+  "Header": {
+    "--global-header-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Block": {
+    "--block-title-de-emphasized-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    }
+  },
+  "Hero": {
+    "--hero-text-color-curtain-active": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--hero-title-de-emphasized-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    }
+  },
+  "Footer": {
+    "--footer-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--footer-divider-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--footer-bar-divider-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Dropdown Menu": {
+    "--dropdown-button-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--dropdown-button-hover-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Toggle Slider": {
+    "--toggle-slider-active-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color"
+    }
+  },
+  "Carousel": {
+    "--carousel-card-related-content-body-line-clamp": {
+      "value": "4",
+      "type": "number"
+    }
+  },
+  "Footnote": {
+    "--footnote-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--footnote-hover-icon-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color"
+    }
+  },
+  "Side Navigation": {
+    "--side-navigation-desktop-bar-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--side-navigation-desktop-border-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Form": {
+    "--form-input-hover-border-color": {
+      "value": "{Brand.Neutral.--neutral-v400}",
+      "type": "color"
+    }
+  },
+  "Stats": {
+    "--stats-stat-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color"
+    }
+  }
+}

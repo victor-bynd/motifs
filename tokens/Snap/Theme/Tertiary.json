@@ -1,0 +1,106 @@
+{
+  "Root": {
+    "--bg-color": {
+      "value": "{Brand.Neutral.--neutral-v100}",
+      "type": "color"
+    }
+  },
+  "Toggle Button": {
+    "--toggle-button-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Accordion": {
+    "--accordion-divider-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color"
+    },
+    "--accordion-header-divider-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color"
+    }
+  },
+  "Banner": {
+    "--banner-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v150}",
+      "type": "color"
+    }
+  },
+  "Side Navigation": {
+    "--side-navigation-desktop-bar-bg-color": {
+      "value": "{Root.--bg-color}",
+      "type": "color"
+    },
+    "--side-navigation-mobile-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color"
+    }
+  },
+  "Progress Bar": {
+    "--progress-bar-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Chart Toggle": {
+    "--chart-toggle-buttons-active-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--chart-toggle-buttons-active-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--chart-toggle-buttons-active-border-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    }
+  },
+  "Block Navigation": {
+    "--block-navigation-buttons-active-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--block-navigation-buttons-active-border-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--block-navigation-buttons-active-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    }
+  },
+  "Primitive Table": {
+    "--table-border-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    },
+    "--table-cell-body-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v150}",
+      "type": "color"
+    },
+    "--table-cell-header-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    }
+  },
+  "Autocomplete": {
+    "--autocomplete-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color"
+    }
+  },
+  "Side Overlay": {
+    "--side-overlay-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color"
+    }
+  },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    }
+  }
+}

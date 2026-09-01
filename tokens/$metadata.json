@@ -1,9 +1,17 @@
 {
   "tokenSetOrder": [
-    "Snap Motif/Global",
-    "Snap Motif/Primary",
-    "Snap Motif/Secondary",
-    "Snap Motif/Tertiary",
-    "Snap Motif/Quaternary"
+    "Global",
+    "Default Motif/Semantic",
+    "Default Motif/Theme/Primary",
+    "Default Motif/Theme/Secondary",
+    "Default Motif/Theme/Tertiary",
+    "Default Motif/Theme/Quaternary",
+    "Snap/Semantic",
+    "Snap/Theme/Primary",
+    "Snap/Theme/Secondary",
+    "Snap/Theme/Tertiary",
+    "Stinson/Semantic",
+    "Stinson/Theme/Primary",
+    "Stinson/Theme/Secondary"
   ]
 }

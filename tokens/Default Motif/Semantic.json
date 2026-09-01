@@ -1,0 +1,193 @@
+{
+  "Brand": {
+    "Primary": {
+      "--primary-v50": {
+        "value": "{Palette.Yellow.--palette-yellow-v50}",
+        "type": "color"
+      },
+      "--primary-v100": {
+        "value": "{Palette.Yellow.--palette-yellow-v100}",
+        "type": "color"
+      },
+      "--primary-v150": {
+        "value": "{Palette.Yellow.--palette-yellow-v150}",
+        "type": "color"
+      },
+      "--primary-v200": {
+        "value": "{Palette.Yellow.--palette-yellow-v200}",
+        "type": "color"
+      },
+      "--primary-v250": {
+        "value": "{Palette.Yellow.--palette-yellow-v250}",
+        "type": "color"
+      }
+    },
+    "Neutral": {
+      "--neutral-v0": {
+        "value": "{Palette.Black.--palette-plain-white}",
+        "type": "color"
+      },
+      "--neutral-v100": {
+        "value": "{Palette.Black.--palette-gray-v50}",
+        "type": "color"
+      },
+      "--neutral-v150": {
+        "value": "{Palette.Black.--palette-gray-v100}",
+        "type": "color"
+      },
+      "--neutral-v200": {
+        "value": "{Palette.Black.--palette-gray-v150}",
+        "type": "color"
+      },
+      "--neutral-v250": {
+        "value": "{Palette.Black.--palette-gray-v200}",
+        "type": "color"
+      },
+      "--neutral-v300": {
+        "value": "{Palette.Black.--palette-gray-v250}",
+        "type": "color"
+      },
+      "--neutral-v400": {
+        "value": "{Palette.Black.--palette-gray-v300}",
+        "type": "color"
+      },
+      "--neutral-v500": {
+        "value": "{Palette.Black.--palette-black-v50}",
+        "type": "color"
+      },
+      "--neutral-v600": {
+        "value": "{Palette.Black.--palette-black-v100}",
+        "type": "color"
+      },
+      "--neutral-v625": {
+        "value": "{Palette.Black.--palette-black-v125}",
+        "type": "color"
+      },
+      "--neutral-v650": {
+        "value": "{Palette.Black.--palette-black-v150}",
+        "type": "color"
+      },
+      "--neutral-v700": {
+        "value": "{Palette.Black.--palette-black-v200}",
+        "type": "color"
+      }
+    },
+    "--semantic-error-color": {
+      "value": "{Palette.Red.--palette-red-v200}",
+      "type": "color"
+    },
+    "--semantic-focus-color": {
+      "value": "#275Dc5",
+      "type": "color"
+    }
+  },
+  "Root": {
+    "--box-shadow-xs": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "2px",
+        "blur": "4px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "--box-shadow-s": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "4px",
+        "blur": "8px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "--box-shadow-m": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "8px",
+        "blur": "16px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "--box-shadow-l": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "12px",
+        "blur": "20px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "--box-shadow-xl": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "16px",
+        "blur": "32px",
+        "spread": "0",
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      "type": "boxShadow"
+    },
+    "--bg-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color"
+    },
+    "--gutter-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    },
+    "--curtain-backdrop-filter": {
+      "value": "none",
+      "type": "backgroundFilter"
+    },
+    "--curtain-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--curtain-opacity": {
+      "value": "0.75",
+      "type": "opacity"
+    },
+    "--fg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--action-text-default-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    },
+    "--action-text-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color"
+    },
+    "--action-text-active-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--action-indicator-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    },
+    "--action-indicator-hover-opacity": {
+      "value": "0.6",
+      "type": "opacity"
+    },
+    "--action-indicator-active-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color"
+    },
+    "--action-indicator-border-radius": {
+      "value": "{Root.--border-radius-s}",
+      "type": "borderRadius"
+    }
+  }
+}
