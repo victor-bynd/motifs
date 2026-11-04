@@ -1,0 +1,236 @@
+{
+  "Brand": {
+    "Neutral": {
+      "--neutral-v0": {
+        "value": "{Palette.Black.--palette-plain-white}",
+        "type": "color"
+      },
+      "--neutral-v100": {
+        "value": "#FAFAFA",
+        "type": "color"
+      },
+      "--neutral-v150": {
+        "value": "#F3F3F3",
+        "type": "color"
+      },
+      "--neutral-v200": {
+        "value": "#EBEBEB",
+        "type": "color"
+      },
+      "--neutral-v250": {
+        "value": "#E5E5E5",
+        "type": "color"
+      },
+      "--neutral-v300": {
+        "value": "#D9D9D9",
+        "type": "color"
+      },
+      "--neutral-v400": {
+        "value": "#B2B2B2",
+        "type": "color"
+      },
+      "--neutral-v500": {
+        "value": "#858585",
+        "type": "color"
+      },
+      "--neutral-v600": {
+        "value": "#595959",
+        "type": "color"
+      },
+      "--neutral-v625": {
+        "value": "#292929",
+        "type": "color"
+      },
+      "--neutral-v650": {
+        "value": "#1F1F1F",
+        "type": "color"
+      },
+      "--neutral-v700": {
+        "value": "{Palette.Black.--palette-plain-black}",
+        "type": "color"
+      }
+    },
+    "Primary": {
+      "--primary-v50": {
+        "value": "{Brand.Neutral.--neutral-v150}",
+        "type": "color"
+      },
+      "--primary-v100": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color"
+      },
+      "--primary-v150": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color"
+      },
+      "--primary-v200": {
+        "value": "{Brand.Neutral.--neutral-v600}",
+        "type": "color"
+      },
+      "--primary-v250": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color"
+      }
+    }
+  },
+  "Root": {
+    "Background": {
+      "--bg-container-color": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "Default container surface background."
+      },
+      "--bg-container-high-color": {
+        "value": "{Brand.Neutral.--neutral-v250}",
+        "type": "color",
+        "description": "Strong-emphasis / active container background."
+      },
+      "--bg-container-highest-color": {
+        "value": "{Brand.Neutral.--neutral-v625}",
+        "type": "color",
+        "description": "Strongest-emphasis container background."
+      },
+      "--bg-container-inverse-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Inverse (dark) container background."
+      },
+      "--bg-container-low-color": {
+        "value": "{Brand.Neutral.--neutral-v150}",
+        "type": "color",
+        "description": "Low-emphasis container background."
+      },
+      "--bg-container-lowest-color": {
+        "value": "{Brand.Neutral.--neutral-v100}",
+        "type": "color",
+        "description": "Lowest-emphasis container background."
+      },
+      "--bg-container-medium-color": {
+        "value": "{Brand.Neutral.--neutral-v200}",
+        "type": "color",
+        "description": "Medium-emphasis container background."
+      },
+      "--bg-default-color": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "Page-chrome default background (Header, Footer, Side Nav bar, Banner) — the broadly-used --bg-color in production. Defaults to the brand primitive, independently overridable per theme/brand."
+      }
+    },
+    "Foreground": {
+      "--fg-default-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Default foreground / text color."
+      },
+      "--fg-high-color": {
+        "value": "{Brand.Neutral.--neutral-v600}",
+        "type": "color",
+        "description": "High-emphasis foreground."
+      },
+      "--fg-highest-color": {
+        "value": "{Brand.Neutral.--neutral-v650}",
+        "type": "color",
+        "description": "Highest-emphasis foreground."
+      },
+      "--fg-inverse-color": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "Lowest-emphasis foreground (on dark/inverse surfaces)."
+      },
+      "--fg-low-color": {
+        "value": "{Brand.Neutral.--neutral-v400}",
+        "type": "color",
+        "description": "Low-emphasis / placeholder foreground."
+      },
+      "--fg-medium-color": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color",
+        "description": "Medium-emphasis foreground."
+      },
+      "--fg-brand-color": {
+        "value": "{Brand.Primary.--primary-v100}",
+        "type": "color",
+        "description": "Brand-colored foreground."
+      }
+    },
+    "Border": {
+      "--border-brand-color": {
+        "value": "{Brand.Primary.--primary-v100}",
+        "type": "color",
+        "description": "Brand-colored border."
+      },
+      "--border-brand-strong-color": {
+        "value": "{Brand.Primary.--primary-v200}",
+        "type": "color",
+        "description": "Strong brand-colored border."
+      },
+      "--border-default-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Default strong border."
+      },
+      "--border-high-color": {
+        "value": "{Brand.Neutral.--neutral-v400}",
+        "type": "color",
+        "description": "High-emphasis border."
+      },
+      "--border-highest-color": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color",
+        "description": "Highest-emphasis border/divider."
+      },
+      "--border-inverse-color": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color",
+        "description": "Inverse (light) border."
+      },
+      "--border-low-color": {
+        "value": "{Brand.Neutral.--neutral-v250}",
+        "type": "color",
+        "description": "Low-emphasis border."
+      },
+      "--border-lowest-color": {
+        "value": "{Brand.Neutral.--neutral-v150}",
+        "type": "color",
+        "description": "Lowest-emphasis border/divider."
+      },
+      "--border-medium-color": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color",
+        "description": "Medium-emphasis border."
+      }
+    },
+    "Status": {
+      "--status-error-color": {
+        "value": "#B30000",
+        "type": "color"
+      },
+      "--status-focus-color": {
+        "value": "#275Dc5",
+        "type": "color"
+      }
+    },
+    "Action": {
+      "--action-text-default-color": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color"
+      },
+      "--action-text-hover-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color"
+      },
+      "--action-text-active-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color"
+      },
+      "--action-indicator-hover-color": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color"
+      },
+      "--action-indicator-active-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color"
+      }
+    }
+  }
+}

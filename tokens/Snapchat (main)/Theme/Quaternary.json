@@ -1,0 +1,312 @@
+{
+  "Root": {
+    "Background": {
+      "--bg-brand-strong-color": {
+        "value": "{Brand.Neutral.--neutral-v250}",
+        "type": "color",
+        "description": "Divider / gutter color between layout sections."
+      },
+      "--bg-container-high-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color"
+      },
+      "--bg-container-medium-color": {
+        "value": "{Brand.Neutral.--neutral-v0}",
+        "type": "color"
+      },
+      "--bg-default-color": {
+        "value": "{Brand.Neutral.--neutral-v150}",
+        "type": "color"
+      }
+    },
+    "Foreground": {
+      "--fg-brand-strongest-color": {
+        "value": "{Brand.Neutral.--neutral-v500}",
+        "type": "color",
+        "description": "Default color for interactive text elements (nav items, links)."
+      },
+      "--fg-default-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Page/section background color. Driven by brand primary in light theme."
+      },
+      "--fg-medium-color": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color"
+      }
+    },
+    "Border": {
+      "--border-default-color": {
+        "value": "{Brand.Neutral.--neutral-v700}",
+        "type": "color",
+        "description": "Hover/strong variant of brand background. Used by Definition component hover states."
+      },
+      "--border-low-color": {
+        "value": "{Brand.Neutral.--neutral-v300}",
+        "type": "color"
+      },
+      "--border-medium-color": {
+        "value": "{Brand.Neutral.--neutral-v250}",
+        "type": "color"
+      }
+    },
+    "FigmaOnly": {
+      "gradient-transparency": {
+        "value": "linear-gradient(270deg, {Root.Background.--bg-color} 0%, {Root.FigmaOnly.bg-gradient-transparent} 100%)",
+        "type": "color",
+        "description": "Figma only token - Made for gradient overlays with transparency used on Carousel, Tabs, SubNav."
+      },
+      "bg-gradient-transparent": {
+        "value": "rgba( {Root.Background.--bg-color}, 0)",
+        "type": "color",
+        "description": "Figma only token - Made for making to work the gradient overlays with transparency used on Carousel, Tabs, SubNav."
+      }
+    }
+  },
+  "Header": {
+    "--global-header-bg-color": {
+      "value": "{Root.Background.--bg-container-color}",
+      "type": "color"
+    },
+    "--global-header-menu-item-icon-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    },
+    "--global-header-menu-item-bg-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color"
+    },
+    "--global-header-menu-featured-item-bg-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color"
+    },
+    "--global-header-menu-featured-item-icon-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    }
+  },
+  "Block": {
+    "--block-title-de-emphasized-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    }
+  },
+  "Hero": {
+    "--hero-title-de-emphasized-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    },
+    "--hero-scroll-button-curtain-active-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    }
+  },
+  "Footer": {
+    "--footer-bg-color": {
+      "value": "{Root.Background.--bg-container-low-color}",
+      "type": "color"
+    },
+    "--footer-border-color": {
+      "value": "{Root.Border.--border-low-color}",
+      "type": "color"
+    },
+    "--footer-divider-border-color": {
+      "value": "{Root.Border.--border-low-color}",
+      "type": "color"
+    },
+    "--footer-bar-bg-color": {
+      "value": "{Root.Background.--bg-container-low-color}",
+      "type": "color"
+    },
+    "--footer-bar-divider-border-color": {
+      "value": "{Root.Border.--border-low-color}",
+      "type": "color"
+    }
+  },
+  "Toggle Slider": {
+    "--toggle-slider-bg-color": {
+      "value": "{Root.Background.--bg-container-high-color}",
+      "type": "color"
+    },
+    "--toggle-slider-active-color": {
+      "value": "{Root.Foreground.--fg-brand-color}",
+      "type": "color"
+    }
+  },
+  "Toggle Button": {
+    "--toggle-button-color": {
+      "value": "{Root.Background.--bg-container-color}",
+      "type": "color"
+    }
+  },
+  "Accordion": {
+    "--accordion-divider-border-color": {
+      "value": "{Root.Border.--border-low-color}",
+      "type": "color"
+    },
+    "--accordion-header-divider-border-color": {
+      "value": "{Root.Border.--border-low-color}",
+      "type": "color"
+    }
+  },
+  "Banner": {
+    "--banner-bg-color": {
+      "value": "{Root.Background.--bg-container-low-color}",
+      "type": "color"
+    }
+  },
+  "Side Navigation": {
+    "--side-navigation-mobile-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color"
+    },
+    "--side-navigation-mobile-bar-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color"
+    }
+  },
+  "Form": {
+    "--form-input-border-color": {
+      "value": "{Root.Border.--border-low-color}",
+      "type": "color"
+    },
+    "--form-description-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    }
+  },
+  "Toggle Panel": {
+    "--toggle-panel-bg-color": {
+      "value": "{Root.Background.--bg-container-high-color}",
+      "type": "color"
+    }
+  },
+  "Primitive Table": {
+    "--table-bg-color": {
+      "value": "transparent",
+      "type": "color"
+    },
+    "--table-border-color": {
+      "value": "{Root.Border.--border-medium-color}",
+      "type": "color"
+    },
+    "--table-cell-body-bg-color": {
+      "value": "{Root.Background.--bg-container-low-color}",
+      "type": "color"
+    },
+    "--table-cell-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    },
+    "--table-cell-header-bg-color": {
+      "value": "{Root.Background.--bg-brand-strong-color}",
+      "type": "color"
+    }
+  },
+  "Autocomplete": {
+    "--autocomplete-border-color": {
+      "value": "{Root.Border.--border-low-color}",
+      "type": "color"
+    }
+  },
+  "Definition": {
+    "--definition-active-bg-color": {
+      "value": "{Brand.Primary.--primary-v150}",
+      "type": "color"
+    },
+    "--definition-active-border-color": {
+      "value": "{Root.Border.--border-brand-strong-color}",
+      "type": "color"
+    },
+    "--definition-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v100}",
+      "type": "color"
+    },
+    "--definition-border-color": {
+      "value": "{Root.Border.--border-brand-strong-color}",
+      "type": "color"
+    },
+    "--definition-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    },
+    "--definition-hover-border-color": {
+      "value": "{Root.Border.--border-brand-strong-color}",
+      "type": "color"
+    }
+  },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    }
+  },
+  "Tabs": {
+    "--tabs-underline-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    }
+  },
+  "Footnote": {
+    "--footnote-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    },
+    "--footnote-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color"
+    },
+    "--footnote-icon-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color"
+    }
+  },
+  "Search": {
+    "--search-subtitle-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    }
+  },
+  "Icon Button": {
+    "--icon-button-disabled-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color"
+    }
+  },
+  "Chart Toggle": {
+    "--chart-toggle-buttons-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    }
+  },
+  "Block Navigation": {
+    "--block-navigation-buttons-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    }
+  },
+  "Side Overlay": {
+    "--side-overlay-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color"
+    }
+  },
+  "Ai Localization Banner": {
+    "--banner-ai-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color"
+    }
+  },
+  "Multi Select": {
+    "--multi-select-chip-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color"
+    }
+  },
+  "Progress Bar": {
+    "--progress-bar-progress-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color"
+    }
+  }
+}

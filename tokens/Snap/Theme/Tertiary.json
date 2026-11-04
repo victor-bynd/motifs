@@ -1,0 +1,184 @@
+{
+  "Root": {
+    "Background": {
+      "--bg-container-color": {
+        "value": "{Brand.Neutral.--neutral-v100}",
+        "type": "color"
+      },
+      "--bg-default-color": {
+        "value": "{Brand.Neutral.--neutral-v100}",
+        "type": "color"
+      }
+    }
+  },
+  "Toggle Button": {
+    "--toggle-button-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Accordion": {
+    "--accordion-divider-border-color": {
+      "value": "{Root.Border.--border-brand-color}",
+      "type": "color"
+    },
+    "--accordion-header-divider-border-color": {
+      "value": "{Root.Border.--border-brand-color}",
+      "type": "color"
+    }
+  },
+  "Banner": {
+    "--banner-bg-color": {
+      "value": "{Root.Background.--bg-container-low-color}",
+      "type": "color"
+    }
+  },
+  "Side Navigation": {
+    "--side-navigation-desktop-bar-bg-color": {
+      "value": "{Root.Background.--bg-container-color}",
+      "type": "color"
+    },
+    "--side-navigation-mobile-bg-color": {
+      "value": "{Root.Background.--bg-container-medium-color}",
+      "type": "color"
+    }
+  },
+  "Progress Bar": {
+    "--progress-bar-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Chart Toggle": {
+    "--chart-toggle-buttons-active-bg-color": {
+      "value": "{Root.Background.--bg-container-inverse-color}",
+      "type": "color"
+    },
+    "--chart-toggle-buttons-active-color": {
+      "value": "{Root.Foreground.--fg-inverse-color}",
+      "type": "color"
+    },
+    "--chart-toggle-buttons-active-border-color": {
+      "value": "{Root.Border.--border-default-color}",
+      "type": "color"
+    },
+    "--chart-toggle-buttons-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Block Navigation": {
+    "--block-navigation-buttons-active-color": {
+      "value": "{Root.Foreground.--fg-inverse-color}",
+      "type": "color"
+    },
+    "--block-navigation-buttons-active-border-color": {
+      "value": "{Root.Border.--border-default-color}",
+      "type": "color"
+    },
+    "--block-navigation-buttons-active-bg-color": {
+      "value": "{Root.Background.--bg-container-inverse-color}",
+      "type": "color"
+    },
+    "--block-navigation-buttons-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Primitive Table": {
+    "--table-border-color": {
+      "value": "{Root.Border.--border-low-color}",
+      "type": "color"
+    },
+    "--table-cell-body-bg-color": {
+      "value": "{Root.Background.--bg-container-low-color}",
+      "type": "color"
+    },
+    "--table-cell-header-bg-color": {
+      "value": "{Root.Background.--bg-container-high-color}",
+      "type": "color"
+    }
+  },
+  "Autocomplete": {
+    "--autocomplete-border-color": {
+      "value": "{Root.Border.--border-brand-color}",
+      "type": "color"
+    },
+    "--autocomplete-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Side Overlay": {
+    "--side-overlay-border-color": {
+      "value": "{Root.Border.--border-brand-color}",
+      "type": "color"
+    }
+  },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Root.Background.--bg-container-high-color}",
+      "type": "color"
+    }
+  },
+  "Button": {
+    "--button-secondary-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Header": {
+    "--global-header-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--global-header-nav-screen-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--global-header-nav-screen-global-links-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    },
+    "--global-header-menu-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Hero": {
+    "--hero-scroll-button-curtain-active-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Dropdown Menu": {
+    "--dropdown-menu-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Tile": {
+    "--tile-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Summary Card": {
+    "--summary-card-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Form": {
+    "--form-input-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  },
+  "Multi Select": {
+    "--multi-select-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color"
+    }
+  }
+}

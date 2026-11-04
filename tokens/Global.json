@@ -1,0 +1,352 @@
+{
+  "Root": {
+    "--spacing-0": {
+      "value": "0px",
+      "type": "spacing"
+    },
+    "--spacing-2": {
+      "value": "2px",
+      "type": "spacing"
+    },
+    "--spacing-4": {
+      "value": "4px",
+      "type": "spacing"
+    },
+    "--spacing-8": {
+      "value": "8px",
+      "type": "spacing"
+    },
+    "--spacing-12": {
+      "value": "12px",
+      "type": "spacing"
+    },
+    "--spacing-16": {
+      "value": "16px",
+      "type": "spacing"
+    },
+    "--spacing-24": {
+      "value": "24px",
+      "type": "spacing"
+    },
+    "--spacing-32": {
+      "value": "32px",
+      "type": "spacing"
+    },
+    "--spacing-40": {
+      "value": "40px",
+      "type": "spacing"
+    },
+    "--spacing-48": {
+      "value": "48px",
+      "type": "spacing"
+    },
+    "--spacing-64": {
+      "value": "64px",
+      "type": "spacing"
+    },
+    "--border-radius-0": {
+      "value": "0px",
+      "type": "borderRadius"
+    },
+    "--border-radius-1": {
+      "value": "1px",
+      "type": "borderRadius",
+      "$extensions": {
+        "com.figma.scopes": [
+          "CORNER_RADIUS"
+        ]
+      }
+    },
+    "--border-radius-4": {
+      "value": "4px",
+      "type": "borderRadius"
+    },
+    "--border-radius-8": {
+      "value": "8px",
+      "type": "borderRadius"
+    },
+    "--border-radius-16": {
+      "value": "16px",
+      "type": "borderRadius"
+    },
+    "--border-radius-24": {
+      "value": "24px",
+      "type": "borderRadius"
+    },
+    "--border-radius-64": {
+      "value": "64px",
+      "type": "borderRadius"
+    },
+    "--border-width-0": {
+      "value": "0px",
+      "type": "borderWidth"
+    },
+    "--border-width-1": {
+      "value": "1px",
+      "type": "borderWidth"
+    },
+    "--border-width-2": {
+      "value": "2px",
+      "type": "borderWidth"
+    },
+    "--border-width-5": {
+      "value": "5px",
+      "type": "borderWidth"
+    },
+    "--border-width-9": {
+      "value": "9px",
+      "type": "borderWidth"
+    },
+    "--breakpoint-xs": {
+      "value": "375",
+      "type": "number",
+      "description": "Mobile portrait"
+    },
+    "--breakpoint-sm": {
+      "value": "768",
+      "type": "number",
+      "description": "Tablet portrait"
+    },
+    "--breakpoint-md": {
+      "value": "1024",
+      "type": "number",
+      "description": "Tablet landscape"
+    },
+    "--breakpoint-lg": {
+      "value": "1240",
+      "type": "number",
+      "description": "Desktop small"
+    },
+    "--breakpoint-xl": {
+      "value": "1440",
+      "type": "number",
+      "description": "Desktop standard"
+    },
+    "--breakpoint-2xl": {
+      "value": "1920",
+      "type": "number",
+      "description": "Desktop large"
+    },
+    "--breakpoint-3xl": {
+      "value": "2560",
+      "type": "number",
+      "description": "Desktop ultra-wide"
+    }
+  },
+  "Palette": {
+    "Black": {
+      "--palette-plain-white": {
+        "value": "#FFF",
+        "type": "color"
+      },
+      "--palette-gray-v50": {
+        "value": "#F7F8F9",
+        "type": "color"
+      },
+      "--palette-gray-v100": {
+        "value": "#F0F1F2",
+        "type": "color"
+      },
+      "--palette-gray-v150": {
+        "value": "#E9EAEB",
+        "type": "color"
+      },
+      "--palette-gray-v200": {
+        "value": "#D4D5D6",
+        "type": "color"
+      },
+      "--palette-gray-v250": {
+        "value": "#C7C7CC",
+        "type": "color"
+      },
+      "--palette-gray-v300": {
+        "value": "#858D94",
+        "type": "color"
+      },
+      "--palette-black-v50": {
+        "value": "#53575B",
+        "type": "color"
+      },
+      "--palette-black-v100": {
+        "value": "#3A3E41",
+        "type": "color"
+      },
+      "--palette-black-v125": {
+        "value": "#222425",
+        "type": "color"
+      },
+      "--palette-black-v150": {
+        "value": "#121314",
+        "type": "color"
+      },
+      "--palette-black-v200": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "--palette-plain-black": {
+        "value": "#000",
+        "type": "color"
+      },
+      "--palette-plain-transparent": {
+        "value": "transparent",
+        "type": "color"
+      }
+    },
+    "Yellow": {
+      "--palette-yellow-v50": {
+        "value": "#FEFF85",
+        "type": "color"
+      },
+      "--palette-yellow-v100": {
+        "value": "#FFFC00",
+        "type": "color"
+      },
+      "--palette-yellow-v150": {
+        "value": "#FCF000",
+        "type": "color"
+      },
+      "--palette-yellow-v200": {
+        "value": "#FFD301",
+        "type": "color"
+      },
+      "--palette-yellow-v250": {
+        "value": "#817C00",
+        "type": "color"
+      },
+      "--palette-yellow-v300": {
+        "value": "#996100",
+        "type": "color"
+      }
+    },
+    "Orange": {
+      "--palette-orange-v50": {
+        "value": "#FFB257",
+        "type": "color"
+      },
+      "--palette-orange-v100": {
+        "value": "#FF8A00",
+        "type": "color"
+      },
+      "--palette-orange-v150": {
+        "value": "#EE7A00",
+        "type": "color"
+      },
+      "--palette-orange-v200": {
+        "value": "#E57200",
+        "type": "color"
+      },
+      "--palette-orange-v250": {
+        "value": "#B85900",
+        "type": "color"
+      },
+      "--palette-orange-v300": {
+        "value": "#8A4000",
+        "type": "color"
+      }
+    },
+    "Red": {
+      "--palette-red-v50": {
+        "value": "#F77F91",
+        "type": "color"
+      },
+      "--palette-red-v100": {
+        "value": "#F23C57",
+        "type": "color"
+      },
+      "--palette-red-v150": {
+        "value": "#E1143D",
+        "type": "color"
+      },
+      "--palette-red-v200": {
+        "value": "#C50A33",
+        "type": "color"
+      },
+      "--palette-red-v250": {
+        "value": "#A0082E",
+        "type": "color"
+      },
+      "--palette-red-v300": {
+        "value": "#790627",
+        "type": "color"
+      }
+    },
+    "Green": {
+      "--palette-green-v50": {
+        "value": "#59D0B6",
+        "type": "color"
+      },
+      "--palette-green-v100": {
+        "value": "#02B790",
+        "type": "color"
+      },
+      "--palette-green-v150": {
+        "value": "#00A881",
+        "type": "color"
+      },
+      "--palette-green-v200": {
+        "value": "#00A179",
+        "type": "color"
+      },
+      "--palette-green-v250": {
+        "value": "#00805D",
+        "type": "color"
+      },
+      "--palette-green-v300": {
+        "value": "#005C42",
+        "type": "color"
+      }
+    },
+    "Purple": {
+      "--palette-purple-v50": {
+        "value": "#C195DE",
+        "type": "color"
+      },
+      "--palette-purple-v100": {
+        "value": "#A05DCD",
+        "type": "color"
+      },
+      "--palette-purple-v150": {
+        "value": "#9043BE",
+        "type": "color"
+      },
+      "--palette-purple-v200": {
+        "value": "#8936B6",
+        "type": "color"
+      },
+      "--palette-purple-v250": {
+        "value": "#6F2A92",
+        "type": "color"
+      },
+      "--palette-purple-v300": {
+        "value": "#56206F",
+        "type": "color"
+      }
+    },
+    "Blue": {
+      "--palette-blue-v50": {
+        "value": "#61C9FF",
+        "type": "color"
+      },
+      "--palette-blue-v100": {
+        "value": "#0EADFF",
+        "type": "color"
+      },
+      "--palette-blue-v150": {
+        "value": "#049EEE",
+        "type": "color"
+      },
+      "--palette-blue-v200": {
+        "value": "#0096E5",
+        "type": "color"
+      },
+      "--palette-blue-v250": {
+        "value": "#0074B8",
+        "type": "color"
+      },
+      "--palette-blue-v300": {
+        "value": "#00558A",
+        "type": "color"
+      }
+    }
+  }
+}
