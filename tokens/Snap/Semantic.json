@@ -71,6 +71,14 @@
         "value": "{Brand.Neutral.--neutral-v700}",
         "type": "color"
       }
+    },
+    "--brand-font-family-primary": {
+      "value": "Inter, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies"
+    },
+    "--brand-font-family-secondary": {
+      "value": "Inter, Helvetica, Tahoma, Arial, sans-serif",
+      "type": "fontFamilies"
     }
   },
   "Root": {
