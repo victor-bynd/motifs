@@ -125,8 +125,7 @@
   },
   {
     "id": "1c45980f52f497a910b99380152f6c1857ff06a1",
-    "name": "Primary",
-    "group": "Theme",
+    "name": "primary",
     "selectedTokenSets": {
       "Global": "source",
       "Snapchat (main)/Semantic": "enabled",
@@ -494,12 +493,12 @@
       "Root.Status.--status-error-subtle-color": "f486dc028c98b7dc71cf6606bdfd4d7613b3ea80"
     },
     "$figmaCollectionId": "VariableCollectionId:26702:114515",
-    "$figmaModeId": "26702:10"
+    "$figmaModeId": "26702:10",
+    "group": "Color Themes"
   },
   {
     "id": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
-    "name": "Secondary",
-    "group": "Theme",
+    "name": "secondary",
     "selectedTokenSets": {
       "Global": "source",
       "Snapchat (main)/Semantic": "enabled",
@@ -991,12 +990,12 @@
       "Root.Status.--status-error-subtle-color": "f486dc028c98b7dc71cf6606bdfd4d7613b3ea80"
     },
     "$figmaCollectionId": "VariableCollectionId:26702:114515",
-    "$figmaModeId": "26702:11"
+    "$figmaModeId": "26702:11",
+    "group": "Color Themes"
   },
   {
     "id": "9d9cc6fcfd48febdb4884c2605572a7c6d647a05",
-    "name": "Tertiary",
-    "group": "Theme",
+    "name": "tertiary",
     "selectedTokenSets": {
       "Global": "source",
       "Snapchat (main)/Semantic": "enabled",
@@ -1394,12 +1393,12 @@
       "Root.Status.--status-error-subtle-color": "f486dc028c98b7dc71cf6606bdfd4d7613b3ea80"
     },
     "$figmaCollectionId": "VariableCollectionId:26702:114515",
-    "$figmaModeId": "26702:12"
+    "$figmaModeId": "26702:12",
+    "group": "Color Themes"
   },
   {
     "id": "a22eb9664fb445a46a938d1277005067ebccc20a",
-    "name": "Quaternary",
-    "group": "Theme",
+    "name": "quaternary",
     "selectedTokenSets": {
       "Global": "source",
       "Snapchat (main)/Semantic": "enabled",
@@ -1996,7 +1995,8 @@
       "Root.Status.--status-error-subtle-color": "f486dc028c98b7dc71cf6606bdfd4d7613b3ea80"
     },
     "$figmaCollectionId": "VariableCollectionId:26702:114515",
-    "$figmaModeId": "26702:13"
+    "$figmaModeId": "26702:13",
+    "group": "Color Themes"
   },
   {
     "id": "df8d38fc391ff9069ab7794f4be8553ae9189ea5",
@@ -2276,8 +2276,7 @@
   },
   {
     "id": "2cdf80fd2767376d0fdfa97a3d33d1a5d8118e9c",
-    "name": "Primary",
-    "group": "Theme-Snap",
+    "name": "primary",
     "selectedTokenSets": {
       "Global": "source",
       "Snapchat (main)/Semantic": "enabled",
@@ -2649,12 +2648,13 @@
     "$figmaCollectionId": "VariableCollectionId:26702:114516",
     "$figmaModeId": "VariableCollectionId:26702:114516/26702:14",
     "$figmaParentThemeId": "1c45980f52f497a910b99380152f6c1857ff06a1",
-    "$figmaMirrorParentSets": false
+    "$figmaMirrorParentSets": false,
+    "group": "Color Themes-Snap",
+    "$figmaIsExtension": true
   },
   {
     "id": "c8ce87ea805d6a7d2d0ba1a911cd970eda4a0889",
-    "name": "Secondary",
-    "group": "Theme-Snap",
+    "name": "secondary",
     "selectedTokenSets": {
       "Global": "source",
       "Snapchat (main)/Semantic": "enabled",
@@ -3008,12 +3008,13 @@
     "$figmaParentThemeId": "c03f74fb9795625c875ffe56aa2ad3a5619f0794",
     "$figmaMirrorParentSets": false,
     "$figmaCollectionId": "VariableCollectionId:26702:114516",
-    "$figmaModeId": "VariableCollectionId:26702:114516/26702:15"
+    "$figmaModeId": "VariableCollectionId:26702:114516/26702:15",
+    "group": "Color Themes-Snap",
+    "$figmaIsExtension": true
   },
   {
     "id": "3d1e95585fe85fcee6e5af6d76665cfdf342c8cd",
-    "name": "Tertiary",
-    "group": "Theme-Snap",
+    "name": "tertiary",
     "selectedTokenSets": {
       "Global": "source",
       "Snapchat (main)/Semantic": "enabled",
@@ -3386,19 +3387,22 @@
     "$figmaParentThemeId": "9d9cc6fcfd48febdb4884c2605572a7c6d647a05",
     "$figmaMirrorParentSets": false,
     "$figmaCollectionId": "VariableCollectionId:26702:114516",
-    "$figmaModeId": "VariableCollectionId:26702:114516/26702:16"
+    "$figmaModeId": "VariableCollectionId:26702:114516/26702:16",
+    "group": "Color Themes-Snap",
+    "$figmaIsExtension": true
   },
   {
     "id": "541e5df20a730abb47877029a0f5b3f6da9becb1",
-    "name": "Quaternary",
-    "group": "Theme-Snap",
+    "name": "quaternary",
     "selectedTokenSets": {
       "Global": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {},
     "$figmaParentThemeId": "a22eb9664fb445a46a938d1277005067ebccc20a",
-    "$figmaMirrorParentSets": false
+    "$figmaMirrorParentSets": false,
+    "group": "Color Themes-Snap",
+    "$figmaIsExtension": true
   },
   {
     "id": "aa499c90f71b08fb091b5163af4c9b987b96a00b",
