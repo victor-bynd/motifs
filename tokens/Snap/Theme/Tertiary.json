@@ -1,0 +1,170 @@
+{
+  "Root": {
+    "--bg-color": {
+      "value": "{Brand.Neutral.--neutral-v100}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Button": {
+    "--button-primary-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-primary-border-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-primary-hover-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-primary-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-secondary-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-secondary-hover-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-secondary-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Toggle Slider": {
+    "--toggle-slider-active-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Toggle Button": {
+    "--toggle-button-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Accordion": {
+    "--accordion-divider-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--accordion-header-divider-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Banner": {
+    "--banner-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v150}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Side Navigation": {
+    "--side-navigation-desktop-bar-bg-color": {
+      "value": "{Root.--bg-color}",
+      "type": "color",
+      "description": ""
+    },
+    "--side-navigation-mobile-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Progress Bar": {
+    "--progress-bar-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Chart Toggle": {
+    "--chart-toggle-buttons-active-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--chart-toggle-buttons-active-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--chart-toggle-buttons-active-border-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Block Navigation": {
+    "--block-navigation-buttons-active-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--block-navigation-buttons-active-border-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--block-navigation-buttons-active-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Primitive Table": {
+    "--table-border-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color",
+      "description": ""
+    },
+    "--table-cell-body-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v150}",
+      "type": "color",
+      "description": ""
+    },
+    "--table-cell-header-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Autocomplete": {
+    "--autocomplete-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Side Overlay": {
+    "--side-overlay-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color",
+      "description": ""
+    }
+  }
+}

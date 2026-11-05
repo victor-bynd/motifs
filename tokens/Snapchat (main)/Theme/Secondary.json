@@ -1,0 +1,855 @@
+{
+  "Root": {
+    "--box-shadow-xs": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "2px",
+        "blur": "4px",
+        "spread": "0",
+        "color": "rgba(255, 255, 255, 0.12)"
+      },
+      "type": "boxShadow",
+      "description": ""
+    },
+    "--box-shadow-s": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "4px",
+        "blur": "8px",
+        "spread": "0",
+        "color": "rgba(255, 255, 255, 0.12)"
+      },
+      "type": "boxShadow",
+      "description": ""
+    },
+    "--box-shadow-m": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "8px",
+        "blur": "16px",
+        "spread": "0",
+        "color": "rgba(255, 255, 255, 0.12)"
+      },
+      "type": "boxShadow",
+      "description": ""
+    },
+    "--box-shadow-l": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "12px",
+        "blur": "20px",
+        "spread": "0",
+        "color": "rgba(255, 255, 255, 0.12)"
+      },
+      "type": "boxShadow",
+      "description": ""
+    },
+    "--box-shadow-xl": {
+      "value": {
+        "type": "dropShadow",
+        "x": "0px",
+        "y": "16px",
+        "blur": "32px",
+        "spread": "0",
+        "color": "rgba(255, 255, 255, 0.12)"
+      },
+      "type": "boxShadow",
+      "description": ""
+    },
+    "--bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--gutter-color": {
+      "value": "{Brand.Neutral.--neutral-v650}",
+      "type": "color",
+      "description": ""
+    },
+    "--fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--action-text-default-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--action-text-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color",
+      "description": ""
+    },
+    "--action-text-active-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    },
+    "--action-indicator-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--action-indicator-active-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Button": {
+    "--button-primary-bg-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-primary-hover-bg-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-primary-border-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-primary-hover-border-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-primary-hover-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-primary-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-flat-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--button-flat-hover-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Header": {
+    "--global-header-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-nav-screen-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-nav-screen-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-nav-screen-global-links-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v650}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-menu-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v650}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-menu-border-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-menu-col-label-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-menu-col-divider-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-menu-item-icon-color": {
+      "value": "{Brand.Primary.--primary-v150}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-menu-item-bg-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-menu-featured-item-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-menu-featured-item-bg-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-menu-featured-item-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--global-header-menu-featured-item-icon-color": {
+      "value": "{Brand.Primary.--primary-v150}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Block": {
+    "--block-title-de-emphasized-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Tabs": {
+    "--tabs-underline-color": {
+      "value": "{Root.--action-indicator-hover-color}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Hero": {
+    "--hero-title-de-emphasized-color": {
+      "value": "{Root.--fg-color}",
+      "type": "color",
+      "description": ""
+    },
+    "--hero-scroll-button-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--hero-scroll-button-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color",
+      "description": ""
+    },
+    "--hero-scroll-button-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--hero-scroll-button-hover-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Quote": {
+    "--quote-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--quote-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Footer": {
+    "--footer-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--footer-bar-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Dropdown Menu": {
+    "--dropdown-menu-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v650}",
+      "type": "color",
+      "description": ""
+    },
+    "--dropdown-item-bg-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    },
+    "--dropdown-item-bg-active-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--dropdown-menu-border-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    },
+    "--dropdown-skeleton-animation-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    },
+    "--dropdown-skeleton-animation-default-color": {
+      "value": "{Brand.Neutral.--neutral-v400}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Toggle Slider": {
+    "--toggle-slider-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v150}",
+      "type": "color",
+      "description": ""
+    },
+    "--toggle-slider-active-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Toggle Button": {
+    "--toggle-button-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--toggle-button-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Accordion": {
+    "--accordion-divider-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--accordion-header-divider-border-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--accordion-header-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--accordion-item-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--accordion-item-icon-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Carousel": {
+    "--carousel-active-dot-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--carousel-card-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--carousel-card-body-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--carousel-text-item-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--carousel-text-item-sub-text-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Footnote": {
+    "--footnote-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--footnote-bg-color": {
+      "value": "{Root.--bg-color}",
+      "type": "color",
+      "description": ""
+    },
+    "--footnote-border-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--footnote-icon-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--footnote-title-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Banner": {
+    "--banner-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--banner-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Spinner": {
+    "--spinner-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Tooltip": {
+    "--tooltip-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--tooltip-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Summary Card": {
+    "--summary-card-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--summary-card-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--summary-card-description-color": {
+      "value": "{Brand.Neutral.--neutral-v150}",
+      "type": "color",
+      "description": ""
+    },
+    "--summary-card-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--summary-card-title-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Side Navigation": {
+    "--side-navigation-mobile-bar-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v650}",
+      "type": "color",
+      "description": ""
+    },
+    "--side-navigation-mobile-bar-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--side-navigation-mobile-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--side-navigation-mobile-toggler-icon-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--side-navigation-desktop-border-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Icon Button": {
+    "--icon-button-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--icon-button-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--icon-button-border-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--icon-button-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--icon-button-disabled-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--icon-button-disabled-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--icon-button-disabled-border-color": {
+      "value": "{Brand.Neutral.--neutral-v650}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Modal": {
+    "--modal-bg-color": {
+      "value": "rgba(0, 0, 0, .7)",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Form": {
+    "--form-description-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color",
+      "description": ""
+    },
+    "--form-input-placeholder-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    },
+    "--form-input-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--form-input-error-color": {
+      "value": "{Palette.Red.--palette-red-v50}",
+      "type": "color",
+      "description": ""
+    },
+    "--form-input-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--form-input-border-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Progress Bar": {
+    "--progress-bar-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v250}",
+      "type": "color",
+      "description": ""
+    },
+    "--progress-bar-progress-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Chart Toggle": {
+    "--chart-toggle-buttons-active-bg-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    },
+    "--chart-toggle-buttons-active-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--chart-toggle-buttons-active-border-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Block Navigation": {
+    "--block-navigation-buttons-active-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--block-navigation-buttons-active-border-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    },
+    "--block-navigation-buttons-active-bg-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Logo": {
+    "--logo-stroke-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--logo-fill-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Primitive Table": {
+    "--table-bg-color": {
+      "value": "transparent",
+      "type": "color",
+      "description": ""
+    },
+    "--table-border-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--table-cell-body-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v700}",
+      "type": "color",
+      "description": ""
+    },
+    "--table-cell-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v200}",
+      "type": "color",
+      "description": ""
+    },
+    "--table-cell-header-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Autocomplete": {
+    "--autocomplete-button-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--autocomplete-button-fg-hover-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--autocomplete-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--autocomplete-border-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    },
+    "--autocomplete-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--autocomplete-placeholder-color": {
+      "value": "{Brand.Neutral.--neutral-v300}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Chart Skeleton": {
+    "--chart-skeleton-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--chart-skeleton-mask-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    },
+    "--chart-skeleton-dark-animation-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    },
+    "--chart-skeleton-light-animation-color": {
+      "value": "{Brand.Neutral.--neutral-v400}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Definition": {
+    "--definition-active-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    },
+    "--definition-active-border-color": {
+      "value": "{Brand.Primary.--primary-v200}",
+      "type": "color",
+      "description": ""
+    },
+    "--definition-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--definition-border-color": {
+      "value": "{Brand.Primary.--primary-v200}",
+      "type": "color",
+      "description": ""
+    },
+    "--definition-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--definition-hover-border-color": {
+      "value": "{Brand.Primary.--primary-v200}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Side Overlay": {
+    "--side-overlay-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--side-overlay-border-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    },
+    "--side-overlay-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Topic": {
+    "--topic-hover-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v600}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Emphasized Text": {
+    "--emphasized-text-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Ai Localization Banner": {
+    "--banner-ai-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    },
+    "--banner-ai-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v100}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Stats": {
+    "--stats-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Animated Accordion": {
+    "--animated-accordion-progress-indicator-bar-desktop-color": {
+      "value": "{Brand.Primary.--primary-v100}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Cookie Modal Settings": {
+    "--cookie-settings-category-border-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Multi Select": {
+    "--multi-select-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    },
+    "--multi-select-chip-bg-color": {
+      "value": "{Brand.Neutral.--neutral-v500}",
+      "type": "color",
+      "description": ""
+    },
+    "--multi-select-chip-fg-color": {
+      "value": "{Brand.Neutral.--neutral-v0}",
+      "type": "color",
+      "description": ""
+    }
+  },
+  "Editorial Gallery Card": {
+    "--editorial-gallery-card-highlight-fg-color": {
+      "value": "{Palette.Black.--palette-plain-black}",
+      "type": "color",
+      "description": ""
+    },
+    "--editorial-gallery-card-highlight-bg-color": {
+      "value": "{Palette.Black.--palette-plain-white}",
+      "type": "color",
+      "description": ""
+    },
+    "--editorial-gallery-card-hover-background-color": {
+      "value": "{Brand.Neutral.--neutral-v625}",
+      "type": "color",
+      "description": ""
+    }
+  }
+}
