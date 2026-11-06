@@ -2003,7 +2003,7 @@
     },
     "--autocomplete-list-border-radius": {
       "type": "borderRadius",
-      "value": "{Root.--border-radius-s}"
+      "value": "{Root.--border-radius-l}"
     },
     "--autocomplete-input-height": {
       "type": "sizing",
@@ -2199,11 +2199,11 @@
     },
     "--animated-accordion-title-desktop-font-line-height": {
       "type": "lineHeights",
-      "value": "28px"
+      "value": "20px"
     },
     "--animated-accordion-title-desktop-font-size": {
       "type": "fontSizes",
-      "value": "18px"
+      "value": "14px"
     },
     "--animated-accordion-title-desktop-font-weight": {
       "type": "fontWeights",
