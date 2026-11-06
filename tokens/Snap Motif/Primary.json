@@ -475,6 +475,54 @@
     "--block-content-dense-layout-desktop-grid-row-gap": {
       "value": "0px",
       "type": "spacing"
+    },
+    "--block-content-desktop-padding-inline": {
+      "type": "spacing",
+      "value": "{Root.--spacing-m}"
+    },
+    "--block-content-mobile-padding-inline": {
+      "type": "spacing",
+      "value": "{Root.--spacing-m}"
+    },
+    "--block-cta-desktop-padding": {
+      "type": "spacing",
+      "value": "{Root.--spacing-m} 0"
+    },
+    "--block-cta-mobile-padding": {
+      "type": "spacing",
+      "value": "{Root.--spacing-m}"
+    },
+    "--block-vertical-padding-none-desktop": {
+      "type": "spacing",
+      "value": "0px"
+    },
+    "--block-vertical-padding-none-mobile": {
+      "type": "spacing",
+      "value": "0px"
+    },
+    "--block-vertical-padding-small-desktop": {
+      "type": "spacing",
+      "value": "16px"
+    },
+    "--block-vertical-padding-small-mobile": {
+      "type": "spacing",
+      "value": "16px"
+    },
+    "--block-vertical-padding-medium-desktop": {
+      "type": "spacing",
+      "value": "32px"
+    },
+    "--block-vertical-padding-medium-mobile": {
+      "type": "spacing",
+      "value": "32px"
+    },
+    "--block-vertical-padding-large-desktop": {
+      "type": "spacing",
+      "value": "64px"
+    },
+    "--block-vertical-padding-large-mobile": {
+      "type": "spacing",
+      "value": "64px"
     }
   },
   "Tabs": {
@@ -2236,6 +2284,18 @@
     "--animated-accordion-progress-indicator-bar-desktop-color": {
       "type": "color",
       "value": "{Root.--fg-color}"
+    },
+    "--animated-accordion-item-active": {
+      "type": "color",
+      "value": "{Root.--fg-color}"
+    },
+    "--animated-accordion-item-inactive": {
+      "type": "color",
+      "value": "{Root.--fg-color}"
+    },
+    "--animated-accordion-play-pause-button-border-radius": {
+      "type": "borderRadius",
+      "value": "50%"
     }
   },
   "Cookie Modal Settings": {
@@ -2517,6 +2577,22 @@
         "spread": "0",
         "color": "rgba(0, 0, 0, 0.12)"
       }
+    },
+    "--editorial-gallery-card-highlight-fg-color": {
+      "type": "color",
+      "value": "{Palette.Plain.--palette-plain-white}"
+    },
+    "--editorial-gallery-card-highlight-bg-color": {
+      "type": "color",
+      "value": "{Palette.Plain.--palette-plain-black}"
+    },
+    "--editorial-gallery-card-highlight-hover-fg-color": {
+      "type": "color",
+      "value": "{Palette.Plain.--palette-plain-black}"
+    },
+    "--editorial-gallery-card-highlight-hover-bg-color": {
+      "type": "color",
+      "value": "{Palette.Plain.--palette-plain-white}"
     }
   },
   "Breadcrumbs": {
