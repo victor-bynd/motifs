@@ -159,6 +159,11 @@
       "value": "108%",
       "type": "lineHeights"
     },
+    "--h2-desktop-font-size": {
+      "value": "64px",
+      "type": "fontSizes",
+      "description": "Block Title"
+    },
     "--h1-mobile-font-weight": {
       "value": "500",
       "type": "fontWeights"
@@ -168,11 +173,6 @@
       "type": "fontFamilies",
       "description": "H2 titles"
     },
-    "--h2-desktop-font-size": {
-      "value": "64px",
-      "type": "fontSizes",
-      "description": "Block Title"
-    },
     "--h2-desktop-font-line-height": {
       "value": "108%",
       "type": "lineHeights"
@@ -181,14 +181,14 @@
       "value": "500",
       "type": "fontWeights"
     },
+    "--h2-mobile-font-line-height": {
+      "value": "108%",
+      "type": "lineHeights"
+    },
     "--h2-mobile-font-size": {
       "value": "48px",
       "type": "fontSizes",
       "description": "Block Title"
-    },
-    "--h2-mobile-font-line-height": {
-      "value": "108%",
-      "type": "lineHeights"
     },
     "--h2-mobile-font-weight": {
       "value": "500",
@@ -524,13 +524,13 @@
       "value": "0.6px",
       "type": "letterSpacing"
     },
-    "--h2-mobile-font-text-transform": {
-      "value": "uppercase",
-      "type": "textCase"
-    },
     "--h2-mobile-font-letter-spacing": {
       "value": "0.48px",
       "type": "letterSpacing"
+    },
+    "--h2-mobile-font-text-transform": {
+      "value": "uppercase",
+      "type": "textCase"
     },
     "--stats-supplementary-text-font-size": {
       "value": "80px",
