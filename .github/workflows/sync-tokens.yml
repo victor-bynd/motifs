@@ -221,6 +221,19 @@ jobs:
           git pull origin main
           mkdir -p Motifs-Storybook/archive
           FILENAME=$(basename "${{ steps.find.outputs.file }}")
-          git mv "${{ steps.find.outputs.file }}" "Motifs-Storybook/archive/${FILENAME}"
-          git commit -m "chore: archive processed token export — ${FILENAME}"
+          DEST="Motifs-Storybook/archive/${FILENAME}"
+
+          # If a file with this exact name is already archived (e.g. the same
+          # export was uploaded twice), don't fail — archive under a
+          # disambiguated name instead so the run always completes cleanly.
+          if [ -e "$DEST" ]; then
+            BASE="${FILENAME%.*}"
+            EXT="${FILENAME##*.}"
+            DEST="Motifs-Storybook/archive/${BASE}__run${{ github.run_id }}.${EXT}"
+            echo "⚠️ Motifs-Storybook/archive/${FILENAME} already exists (likely a duplicate upload)."
+            echo "   Archiving this one as ${DEST} instead so the workflow doesn't fail."
+          fi
+
+          git mv "${{ steps.find.outputs.file }}" "$DEST"
+          git commit -m "chore: archive processed token export — $(basename "$DEST")"
           git push origin main
