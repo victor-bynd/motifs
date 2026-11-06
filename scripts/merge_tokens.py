@@ -21,9 +21,16 @@ Writes (same split structure — safe to commit & re-import in Tokens Studio):
   ... (only files that actually changed)
   tokens/diff-report.md               ← diff report
 
+Behavior:
+  - New tokens found only in production are ADDED to the design files.
+  - Tokens with a different value and/or type are OVERWRITTEN with
+    production's value/type — production always wins. The design file
+    stays in sync with code; nothing is left for manual merging.
+
 Ignore list:
-  tokens/sync-ignore.json — token paths to exclude from the changed-values
-  report. The design team value/type is always kept regardless.
+  tokens/sync-ignore.json — informational only. A path listed here still
+  gets synced from production like everything else; it's just flagged with
+  its reason in the diff report, in case you want to revisit it later.
 
 Usage:
   python scripts/merge_tokens.py \
@@ -69,32 +76,6 @@ def save_json(path: Path, data: dict):
         f.write("\n")   # trailing newline — consistent with Tokens Studio output
 
 
-def load_ignore_list(path: Path) -> set:
-    """
-    Load token paths to ignore from sync-ignore.json.
-    Paths here use the full dot-path WITHOUT the set-name prefix,
-    e.g. "Root.--h1-font-family" (not "Snap Motif/Global.Root.--h1-font-family")
-    because inside each split file there is no set-name prefix.
-    Returns a set of such strings.
-    """
-    if not path or not path.exists():
-        return set()
-    data = load_json(path)
-    entries = data.get("ignore_changes", [])
-    # Strip the set-name prefix if present (support both formats)
-    paths = set()
-    for e in entries:
-        p = e.get("path", "")
-        # If path contains "/" it has a set prefix like "Snap Motif/Global.Root.--h1-..."
-        # Strip everything up to and including the first "."  after the "/"
-        if "/" in p:
-            p = p.split(".", 1)[1] if "." in p else p
-        paths.add(p)
-    if paths:
-        print(f"ℹ️   Ignore list loaded ({len(paths)} entries) from {path}")
-    return paths
-
-
 def flatten_tokens(obj, prefix="", result=None):
     """Flatten a token tree into dot-path → token-object pairs."""
     if result is None:
@@ -138,6 +119,40 @@ def token_diff_reasons(design_tok: dict, prod_tok: dict) -> list[str]:
         reasons.append("value")
     if str(design_tok.get("type", "")).strip() != str(prod_tok.get("type", "")).strip():
         reasons.append("type")
+    return reasons
+
+
+def deep_merge(base: dict, overlay: dict):
+    """Recursively merge overlay into base, in place."""
+    for k, v in overlay.items():
+        if k in base and isinstance(base[k], dict) and isinstance(v, dict):
+            deep_merge(base[k], v)
+        else:
+            base[k] = v
+
+
+def load_ignore_map(path: Path) -> dict:
+    """
+    Load tokens/sync-ignore.json as { path: reason }.
+    Supports both the full "Set/Name.Root.token" format and the
+    local "Root.token" format (set-prefix stripped), same as before.
+    This is informational only — it no longer blocks auto-apply.
+    """
+    if not path or not path.exists():
+        return {}
+    data = load_json(path)
+    entries = data.get("ignore_changes", [])
+    reasons = {}
+    for e in entries:
+        p = e.get("path", "")
+        reason = e.get("reason", "—")
+        if "/" in p:
+            local = p.split(".", 1)[1] if "." in p else p
+            reasons[local] = reason
+        reasons[p] = reason
+    if reasons:
+        print(f"ℹ️   sync-ignore.json loaded ({len(set(reasons.values()))} reasons) from {path} "
+              f"— informational only, does not block auto-apply")
     return reasons
 
 
@@ -195,7 +210,7 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
     design_sets = load_design_sets(design_dir)
     design_flat = flatten_all_sets(design_sets)
     prod_flat   = load_prod_flat(prod_path)
-    ignore_list = load_ignore_list(ignore_path)
+    ignore_map  = load_ignore_map(ignore_path)  # informational only now
 
     # ── 1. Missing: in prod but not in design ────────────────────────────────
     missing: dict[str, dict] = {
@@ -203,8 +218,12 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
     }
 
     # ── 2. Changed: exist in both but value and/or type differs ─────────────
+    # NOTE: production always wins here — these get written back into the
+    # design set files below, even if the path matches sync-ignore.json.
+    # The ignore list is kept purely so the report can flag "this one was on
+    # your ignore list, applied anyway" for visibility.
     changed: dict[str, dict] = {}
-    ignored_changes: list[str] = []
+    ignored_but_applied: list[str] = []
 
     for path, prod_token in prod_flat.items():
         if path not in design_flat:
@@ -212,17 +231,17 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
         reasons = token_diff_reasons(design_flat[path], prod_token)
         if not reasons:
             continue
-        # Strip set prefix for ignore-list lookup
         local_path = path.split(".", 1)[1] if "." in path else path
-        if local_path in ignore_list or path in ignore_list:
-            ignored_changes.append(path)
-            continue
+        ignore_reason = ignore_map.get(path) or ignore_map.get(local_path)
+        if ignore_reason is not None:
+            ignored_but_applied.append(path)
         changed[path] = {
-            "design_value": design_flat[path].get("value"),
-            "prod_value":   prod_token.get("value"),
-            "design_type":  design_flat[path].get("type", ""),
-            "prod_type":    prod_token.get("type", ""),
-            "reasons":      reasons,
+            "design_value":  design_flat[path].get("value"),
+            "prod_value":    prod_token.get("value"),
+            "design_type":   design_flat[path].get("type", ""),
+            "prod_type":     prod_token.get("type", ""),
+            "reasons":       reasons,
+            "ignore_reason": ignore_reason,  # None unless it matched sync-ignore.json
         }
 
     # ── 3. Design-only: in design but not in prod ────────────────────────────
@@ -230,7 +249,7 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
         k: v for k, v in design_flat.items() if k not in prod_flat
     }
 
-    # ── Write merged split files ─────────────────────────────────────────────
+    # ── Apply missing additions + changed overwrites, then write files ───────
     # Group missing tokens by set name
     missing_by_set: dict[str, dict] = {s: {} for s in TOKEN_SETS}
     for full_path, token in missing.items():
@@ -248,24 +267,41 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
         tok_path = full_path[len(set_name) + 1:].split(".")
         set_nested(missing_by_set[set_name], tok_path, clean_token(token))
 
-    files_written = []
+    sets_to_save: set = set()
+
+    # 3a. Merge in brand-new tokens
     for set_name in TOKEN_SETS:
         additions = missing_by_set.get(set_name, {})
-        if not additions:
-            continue   # nothing to add to this file
+        if additions:
+            deep_merge(design_sets[set_name], additions)
+            sets_to_save.add(set_name)
 
-        file_path   = design_dir / f"{set_name}.json"
-        set_data    = copy.deepcopy(design_sets[set_name])
+    # 3b. Overwrite value/type on existing tokens with production's values
+    for full_path, info in changed.items():
+        set_name = next((s for s in TOKEN_SETS if full_path.startswith(s + ".")), None)
+        if set_name is None:
+            print(f"⚠️  Could not match set for changed path: {full_path} — skipping apply")
+            continue
+        local_keys = full_path[len(set_name) + 1:].split(".")
+        try:
+            node = design_sets[set_name]
+            for k in local_keys[:-1]:
+                node = node[k]
+            node[local_keys[-1]]["value"] = info["prod_value"]
+            node[local_keys[-1]]["type"]  = info["prod_type"]
+        except (KeyError, TypeError):
+            print(f"⚠️  Could not apply change for path: {full_path} — structure mismatch, skipping")
+            continue
+        sets_to_save.add(set_name)
 
-        # Deep-merge additions into set_data
-        def deep_merge(base, overlay):
-            for k, v in overlay.items():
-                if k in base and isinstance(base[k], dict) and isinstance(v, dict):
-                    deep_merge(base[k], v)
-                else:
-                    base[k] = v
+    # 3c. Clean + save every touched set file
+    files_written = []
+    for set_name in TOKEN_SETS:
+        if set_name not in sets_to_save:
+            continue
 
-        deep_merge(set_data, additions)
+        file_path = design_dir / f"{set_name}.json"
+        set_data  = design_sets[set_name]
 
         # Clean descriptions across the whole updated set
         flat_updated = {}
@@ -295,8 +331,8 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
         "| | Count |",
         "|---|---|",
         f"| 🆕 Missing tokens (added to set files) | **{len(missing)}** |",
-        f"| ⚠️ Changed values (review needed) | **{len(changed)}** |",
-        f"| 🚫 Ignored changes (sync-ignore.json) | **{len(ignored_changes)}** |",
+        f"| 🔄 Values/types synced from production | **{len(changed)}** |",
+        f"| 🚫 Synced despite matching sync-ignore.json | **{len(ignored_but_applied)}** |",
         f"| 🔵 Design-only tokens (not in production) | **{len(design_only)}** |",
         "",
         "---",
@@ -346,15 +382,17 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
 
     lines += ["---", ""]
 
-    # Section 2 — Changed
+    # Section 2 — Changed (now auto-applied)
     lines += [
-        f"## ⚠️ Changed Values — review required ({len(changed)})",
+        f"## 🔄 Values & Types Synced from Production ({len(changed)})",
         "",
-        "These tokens exist in both files but the **value and/or type** differs "
-        "between production and design.  ",
-        "**The design file value/type is kept.** Review each one and update manually if needed.",
+        "These tokens existed in both files but the **value and/or type** differed.  ",
+        "**Production's value/type has been applied to the design file automatically** — "
+        "no manual action needed. The columns below show what changed, for your records.",
         "",
-        "The **Changed** column shows whether it's the `value`, the `type`, or both that differ.",
+        "The **Changed** column shows whether it was the `value`, the `type`, or both. "
+        "The **Note** column flags entries that matched `sync-ignore.json` — these were "
+        "**still synced**; the ignore list is informational only and no longer blocks syncing.",
         "",
     ]
 
@@ -369,8 +407,8 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
         for set_name, tokens in sorted(by_set_c.items()):
             lines.append(f"### `{set_name}`")
             lines.append("")
-            lines.append("| Token | Changed | Design value | Production value | Design type | Production type |")
-            lines.append("|---|---|---|---|---|---|")
+            lines.append("| Token | Changed | Previous (design) value | New (production) value | Previous (design) type | New (production) type | Note |")
+            lines.append("|---|---|---|---|---|---|---|")
             for path, info in sorted(tokens):
                 token_name = path[len(set_name) + 1:]
                 dv  = str(info["design_value"]).replace("|", "\\|").replace("\n", " ")
@@ -378,31 +416,14 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
                 dt  = info["design_type"] or "—"
                 pt  = info["prod_type"] or "—"
                 changed_label = " + ".join(info["reasons"])
-                lines.append(f"| `{token_name}` | {changed_label} | `{dv}` | `{pv}` | `{dt}` | `{pt}` |")
+                note = f"⚠️ matched sync-ignore.json: {info['ignore_reason']}" if info.get("ignore_reason") else "—"
+                note = note.replace("|", "\\|")
+                lines.append(f"| `{token_name}` | {changed_label} | `{dv}` | `{pv}` | `{dt}` | `{pt}` | {note} |")
             lines.append("")
     else:
         lines += ["_No value or type changes detected._", ""]
 
     lines += ["---", ""]
-
-    # Section 2b — Ignored
-    if ignored_changes:
-        lines += [
-            f"## 🚫 Ignored Changes — silenced by sync-ignore.json ({len(ignored_changes)})",
-            "",
-            "These value/type differences are intentional and have been suppressed.  ",
-            "Edit `tokens/sync-ignore.json` to manage this list.",
-            "",
-            "| Token | Reason |",
-            "|---|---|",
-        ]
-        ignore_data = load_json(ignore_path) if ignore_path and ignore_path.exists() else {}
-        ignore_map  = {e["path"]: e.get("reason", "—") for e in ignore_data.get("ignore_changes", [])}
-        for p in sorted(ignored_changes):
-            local = p.split(".", 1)[1] if "." in p else p
-            reason = (ignore_map.get(p) or ignore_map.get(local) or "—").replace("|", "\\|")
-            lines.append(f"| `{p}` | {reason} |")
-        lines += ["", "---", ""]
 
     # Section 3 — Design-only
     lines += [
@@ -431,14 +452,14 @@ def run(design_dir: Path, prod_path: Path, ignore_path: Path = None):
     print(f"\n✅  Set files updated  : {files_written if files_written else 'none (already in sync)'}")
     print(f"📄  Diff report        → {report_path}")
     print(f"")
-    print(f"   🆕 Missing tokens added : {len(missing)}")
-    print(f"   ⚠️  Changed (value/type) : {len(changed)}")
-    if ignored_changes:
-        print(f"   🚫 Changes ignored       : {len(ignored_changes)}")
-    print(f"   🔵 Design-only tokens   : {len(design_only)}")
+    print(f"   🆕 Missing tokens added      : {len(missing)}")
+    print(f"   🔄 Values/types synced       : {len(changed)}")
+    if ignored_but_applied:
+        print(f"   🚫 (of those) on ignore list : {len(ignored_but_applied)} — synced anyway, see report")
+    print(f"   🔵 Design-only tokens        : {len(design_only)}")
 
     if changed:
-        print(f"\n⚠️  Changed values/types detected — see {report_path}")
+        print(f"\n🔄  Values/types synced from production — see {report_path}")
 
     return len(missing), len(changed)
 
