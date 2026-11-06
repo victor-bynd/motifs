@@ -1,5 +1,5 @@
 # .github/workflows/sync-tokens.yml
-# ─────────────────────────────────────────────────────────────────[...]
+# ─────────────────────────────────────────────────────────────────────────────
 # Token Sync Workflow
 #
 # Triggers:
@@ -20,7 +20,7 @@
 # 1. Review tokens/diff-report.md in the Files changed tab
 # 2. Click "Ready for review"
 # 3. Merge manually
-# ──────────────────────────────────────────────────────────────────[...]
+# ─────────────────────────────────────────────────────────────────────────────
 name: 🔄 Sync Tokens
 
 on:
@@ -47,8 +47,6 @@ jobs:
     permissions:
       contents: write # push new branch + archive commit
       pull-requests: write # open PR
-      repository-projects: write
-      issues: write
 
     steps:
       # ── 1. Checkout ────────────────────────────────────────────────────────
@@ -71,7 +69,7 @@ jobs:
             echo "📄 Found uploaded file: ${FILE}"
           fi
 
-      # ── 3. Python ─────────────────────────────────────────────────────────[...]
+      # ── 3. Python ──────────────────────────────────────────────────────────
       - name: Set up Python
         if: steps.find.outputs.found == 'true'
         uses: actions/setup-python@v5
@@ -108,10 +106,10 @@ jobs:
         if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
         id: pr_content
         run: |
-          # Label based on whether values changed
-          if grep -q "⚠️ Changed Values" tokens/diff-report.md 2>/dev/null; then
-            LABEL="⚠️ value changes detected"
-            BANNER="> ⚠️ **Changed values were detected.** Review carefully — production values differ from your design file."
+          # Label based on whether values/types were synced
+          if grep -q "🔄 Values & Types Synced" tokens/diff-report.md 2>/dev/null; then
+            LABEL="🔄 values synced from production"
+            BANNER="> 🔄 **Token values/types were synced from production automatically.** Production always wins on conflicts — nothing to decide, just confirm nothing looks off before merging."
           else
             LABEL="🆕 new tokens only"
             BANNER="> ✅ Only new/missing tokens were added. No existing values were modified."
@@ -119,7 +117,7 @@ jobs:
 
           # Count summary numbers from diff report
           MISSING=$(grep -oP '(?<=Missing tokens \(added to set files\) \| \*\*)\d+(?=\*\*)' tokens/diff-report.md || echo "?")
-          CHANGED=$(grep -oP '(?<=Changed values \(review needed\) \| \*\*)\d+(?=\*\*)' tokens/diff-report.md || echo "?")
+          CHANGED=$(grep -oP '(?<=Values/types synced from production \| \*\*)\d+(?=\*\*)' tokens/diff-report.md || echo "?")
 
           # Notes from manual trigger (empty string if auto-triggered)
           NOTES="${{ github.event.inputs.notes }}"
@@ -128,7 +126,7 @@ jobs:
 
           # Write PR body to a file (avoids shell escaping issues)
           cat > /tmp/pr-body.md << EOF
-          ## 🔄 Token Sync — Review Required
+          ## 🔄 Token Sync — Auto-applied
 
           > 📋 **This is a DRAFT PR — it cannot be merged until you mark it "Ready for review".**
 
@@ -137,14 +135,14 @@ jobs:
           | | Count |
           |---|---|
           | 🆕 New tokens added | **${MISSING}** |
-          | ⚠️ Changed values (review needed) | **${CHANGED}** |
+          | 🔄 Values/types synced from production | **${CHANGED}** |
 
           ---
 
           ### How to review
           1. Click the **Files changed** tab above
-          2. Open \`tokens/diff-report.md\` — full breakdown of every change
-          3. If there are ⚠️ changed values, decide whether to keep your design value or accept production's
+          2. Open \`tokens/diff-report.md\` — shows exactly what was synced, previous vs. new value/type
+          3. Confirm nothing looks wrong (production values are already applied — no decision needed)
           4. Come back here → click **"Ready for review"** to un-draft
           5. Merge
           6. Pull changes in Tokens Studio and re-import
@@ -168,7 +166,7 @@ jobs:
         if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
         id: branch
         run: |
-          BRANCH="token-sync/$(date +'%Y-%m-%d-%H%M')-attempt-${{ github.run_attempt }}"
+          BRANCH="token-sync/$(date +'%Y-%m-%d-%H%M')"
           echo "name=${BRANCH}" >> $GITHUB_OUTPUT
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -177,62 +175,27 @@ jobs:
           git commit -m "chore(tokens): sync with production — $(date +'%Y-%m-%d')"
           git push origin "${BRANCH}"
 
-      # ── 7a. Verify GitHub token (diagnostics) ──────────────────────────────
-      - name: Verify GitHub token & repository access
-        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "=== GitHub Token Status ==="
-          gh auth status
-          echo ""
-          echo "=== Repository Information ==="
-          gh repo view --json nameWithOwner,isPrivate,isArchived,owner
-          echo ""
-          echo "=== API Rate Limit ==="
-          gh api rate_limit --jq '.rate | "\(.remaining) remaining, \(.reset | strftime("%Y-%m-%d %H:%M:%S")) reset time"' || echo "Rate limit check completed"
-
-      # ── 8. Open DRAFT PR using gh CLI (with retry & diagnostics) ──────────
+      # ── 8. Open DRAFT PR using gh CLI ──────────────────────────────────────
+      #
+      # Using gh CLI instead of peter-evans/create-pull-request to avoid the
+      # issue where the action commits directly to main instead of opening a PR.
+      # --draft flag means GitHub blocks merging until you click "Ready for review".
+      # ─────────────────────────────────────────────────────────────────────
       - name: Open Draft Pull Request
         if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
-        id: pr_creation
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          MAX_ATTEMPTS=3
-          ATTEMPT=1
-          BACKOFF=5
-          
-          while [ $ATTEMPT -le $MAX_ATTEMPTS ]; do
-            echo "🔄 Attempt $ATTEMPT/$MAX_ATTEMPTS to create PR..."
-            
-            if gh pr create \
-              --base main \
-              --head "${{ steps.branch.outputs.name }}" \
-              --title "${{ steps.pr_content.outputs.title }}" \
-              --body-file /tmp/pr-body.md \
-              --draft 2>&1; then
-              echo "✅ PR created successfully on attempt $ATTEMPT"
-              echo "success=true" >> $GITHUB_OUTPUT
-              exit 0
-            fi
-            
-            if [ $ATTEMPT -lt $MAX_ATTEMPTS ]; then
-              echo "⚠️ Attempt $ATTEMPT failed. Waiting ${BACKOFF}s before retry..."
-              sleep $BACKOFF
-              BACKOFF=$((BACKOFF * 2))
-            fi
-            
-            ATTEMPT=$((ATTEMPT + 1))
-          done
-          
-          echo "❌ Failed to create PR after $MAX_ATTEMPTS attempts"
-          echo "success=false" >> $GITHUB_OUTPUT
-          exit 1
+          gh pr create \
+            --base main \
+            --head "${{ steps.branch.outputs.name }}" \
+            --title "${{ steps.pr_content.outputs.title }}" \
+            --body-file /tmp/pr-body.md \
+            --draft
 
       # ── 9. Print PR link to workflow log ───────────────────────────────────
       - name: Print PR link
-        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true' && steps.pr_creation.outputs.success == 'true'
+        if: steps.find.outputs.found == 'true' && steps.check.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
