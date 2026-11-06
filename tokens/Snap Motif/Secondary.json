@@ -693,6 +693,14 @@
     "--editorial-gallery-card-hover-background-color": {
       "value": "{Neutral.--neutral-v625}",
       "type": "color"
+    },
+    "--editorial-gallery-card-highlight-fg-color": {
+      "type": "color",
+      "value": "{Palette.Plain.--palette-plain-black}"
+    },
+    "--editorial-gallery-card-highlight-bg-color": {
+      "type": "color",
+      "value": "{Palette.Plain.--palette-plain-white}"
     }
   },
   "Tooltip": {

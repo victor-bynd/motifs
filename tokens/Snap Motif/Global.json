@@ -560,6 +560,86 @@
       "value": "108%",
       "type": "lineHeights",
       "description": "won't be shown as an applied Figma variable since Figma doesn't support percentages for line-height variables yet"
+    },
+    "--spacing-2": {
+      "type": "spacing",
+      "value": "2px"
+    },
+    "--spacing-4": {
+      "type": "spacing",
+      "value": "4px"
+    },
+    "--spacing-8": {
+      "type": "spacing",
+      "value": "8px"
+    },
+    "--spacing-12": {
+      "type": "spacing",
+      "value": "12px"
+    },
+    "--spacing-16": {
+      "type": "spacing",
+      "value": "16px"
+    },
+    "--spacing-24": {
+      "type": "spacing",
+      "value": "24px"
+    },
+    "--spacing-32": {
+      "type": "spacing",
+      "value": "32px"
+    },
+    "--spacing-40": {
+      "type": "spacing",
+      "value": "40px"
+    },
+    "--spacing-48": {
+      "type": "spacing",
+      "value": "48px"
+    },
+    "--spacing-64": {
+      "type": "spacing",
+      "value": "64px"
+    },
+    "--border-radius-1": {
+      "type": "borderRadius",
+      "value": "1px"
+    },
+    "--border-radius-4": {
+      "type": "borderRadius",
+      "value": "4px"
+    },
+    "--border-radius-8": {
+      "type": "borderRadius",
+      "value": "8px"
+    },
+    "--border-radius-16": {
+      "type": "borderRadius",
+      "value": "16px"
+    },
+    "--border-radius-24": {
+      "type": "borderRadius",
+      "value": "24px"
+    },
+    "--border-width-0": {
+      "type": "borderWidth",
+      "value": "0px"
+    },
+    "--border-width-1": {
+      "type": "borderWidth",
+      "value": "1px"
+    },
+    "--border-width-2": {
+      "type": "borderWidth",
+      "value": "2px"
+    },
+    "--border-width-5": {
+      "type": "borderWidth",
+      "value": "5px"
+    },
+    "--border-width-9": {
+      "type": "borderWidth",
+      "value": "9px"
     }
   },
   "Primary": {
