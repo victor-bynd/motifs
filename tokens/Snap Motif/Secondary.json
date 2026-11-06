@@ -257,7 +257,7 @@
       "type": "color"
     },
     "--dropdown-menu-border-color": {
-      "value": "{Neutral.--neutral-v0}",
+      "value": "{Neutral.--neutral-v500}",
       "type": "color"
     },
     "--dropdown-skeleton-animation-color": {

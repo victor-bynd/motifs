@@ -10,7 +10,7 @@
       }
     },
     "--border-radius-xs": {
-      "value": "1px",
+      "value": "{Root.--border-radius-1}",
       "type": "borderRadius",
       "$extensions": {
         "com.figma.scopes": [
@@ -19,39 +19,39 @@
       }
     },
     "--border-radius-s": {
-      "value": "4px",
+      "value": "{Root.--border-radius-4}",
       "type": "borderRadius"
     },
     "--border-radius-m": {
-      "value": "8px",
+      "value": "{Root.--border-radius-8}",
       "type": "borderRadius"
     },
     "--border-radius-l": {
-      "value": "16px",
+      "value": "{Root.--border-radius-16}",
       "type": "borderRadius"
     },
     "--border-radius-xl": {
-      "value": "24px",
+      "value": "{Root.--border-radius-24}",
       "type": "borderRadius"
     },
     "--border-width-none": {
-      "value": "0px",
+      "value": "{Root.--border-width-0}",
       "type": "borderWidth"
     },
     "--border-width-xs": {
-      "value": "1px",
+      "value": "{Root.--border-width-1}",
       "type": "borderWidth"
     },
     "--border-width-s": {
-      "value": "2px",
+      "value": "{Root.--border-width-2}",
       "type": "borderWidth"
     },
     "--border-width-m": {
-      "value": "5px",
+      "value": "{Root.--border-width-5}",
       "type": "borderWidth"
     },
     "--border-width-l": {
-      "value": "9px",
+      "value": "{Root.--border-width-9}",
       "type": "borderWidth"
     },
     "--spacing-none": {
@@ -59,43 +59,43 @@
       "type": "spacing"
     },
     "--spacing-xxxs": {
-      "value": "2px",
+      "value": "{Root.--spacing-2}",
       "type": "spacing"
     },
     "--spacing-xxs": {
-      "value": "4px",
+      "value": "{Root.--spacing-4}",
       "type": "spacing"
     },
     "--spacing-xs": {
-      "value": "8px",
+      "value": "{Root.--spacing-8}",
       "type": "spacing"
     },
     "--spacing-s": {
-      "value": "12px",
+      "value": "{Root.--spacing-12}",
       "type": "spacing"
     },
     "--spacing-m": {
-      "value": "16px",
+      "value": "{Root.--spacing-16}",
       "type": "spacing"
     },
     "--spacing-l": {
-      "value": "24px",
+      "value": "{Root.--spacing-24}",
       "type": "spacing"
     },
     "--spacing-xl": {
-      "value": "32px",
+      "value": "{Root.--spacing-32}",
       "type": "spacing"
     },
     "--spacing-xxl": {
-      "value": "40px",
+      "value": "{Root.--spacing-40}",
       "type": "spacing"
     },
     "--spacing-xxxl": {
-      "value": "48px",
+      "value": "{Root.--spacing-48}",
       "type": "spacing"
     },
     "--spacing-xxxxl": {
-      "value": "64px",
+      "value": "{Root.--spacing-64}",
       "type": "spacing"
     },
     "--font-family": {
@@ -128,7 +128,7 @@
       "type": "fontWeights"
     },
     "--h1-font-family": {
-      "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Program OT, Helvetica Heading, Tahoma Heading, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H1 titles"
     },
@@ -164,7 +164,7 @@
       "type": "fontWeights"
     },
     "--h2-font-family": {
-      "value": "Program Nar OT, Helvetica, Tahoma, Arial, sans-serif",
+      "value": "Program OT, Helvetica Heading, Tahoma Heading, Arial, sans-serif",
       "type": "fontFamilies",
       "description": "H2 titles"
     },
