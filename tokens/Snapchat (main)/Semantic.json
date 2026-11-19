@@ -165,6 +165,10 @@
       "type": "lineHeights",
       "description": ""
     },
+    "--TEST-h1-desktop-font-line-height-unitless": {
+      "value": "1.08",
+      "type": "lineHeights"
+    },
     "--h1-desktop-font-line-height-compact": {
       "value": "108%",
       "type": "lineHeights",
@@ -732,20 +736,14 @@
       }
     }
   },
-  "TEST-h1-d-composite": {
-    "value": {
-      "fontFamily": "{Root.--h1-font-family}",
-      "fontWeight": "{Root.--h1-desktop-font-weight}",
-      "fontSize": "{Root.--h1-desktop-font-size}",
-      "textCase": "{Root.--h1-desktop-font-text-transform}",
-      "lineHeight": "{TEST-h1-d-lineheight-unitless} * 100%"
-    },
-    "type": "typography",
-    "description": "testing typography composite token with unitless lineheight for converting the value to px equivalence"
-  },
-  "TEST-h1-d-lineheight-unitless": {
-    "value": "1.08",
+  "TEST-h1-d-lineheight-basedd-on-fontSize-toUse": {
+    "value": "{test-h1-d-lineHeight-math}",
     "type": "lineHeights",
     "description": "test"
+  },
+  "test-h1-d-lineHeight-math": {
+    "value": "{Root.--h1-desktop-font-size} * {Root.--TEST-h1-desktop-font-line-height-unitless}",
+    "type": "number",
+    "description": "this is only needed in Figma so we can get the final value in px"
   }
 }
