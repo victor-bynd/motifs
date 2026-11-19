@@ -286,5 +286,10 @@
       "type": "fontWeights",
       "description": ""
     }
+  },
+  "TEST-h1-d-lineheight-unitless": {
+    "value": "1.2",
+    "type": "lineHeights",
+    "description": "test"
   }
 }
