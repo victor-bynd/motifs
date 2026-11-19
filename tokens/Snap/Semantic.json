@@ -291,5 +291,16 @@
     "value": "1.2",
     "type": "lineHeights",
     "description": "test"
+  },
+  "TEST-h1-d-composite": {
+    "value": {
+      "fontFamily": "{Root.--h1-font-family}",
+      "fontWeight": "{Root.--h1-desktop-font-weight}",
+      "fontSize": "{Root.--h1-desktop-font-size}",
+      "textCase": "{Root.--h1-desktop-font-text-transform}",
+      "lineHeight": "{TEST-h1-d-lineheight-unitless} * 100%"
+    },
+    "type": "typography",
+    "description": "testing typography composite token with unitless lineheight for converting the value to px equivalence"
   }
 }
