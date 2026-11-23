@@ -286,14 +286,23 @@
       "type": "fontWeights",
       "description": ""
     },
-    "--TEST-h1-desktop-font-line-height-unitless": {
+    "--TEST-h1-desktop-font-line-height-relative": {
       "value": "1.2",
       "type": "lineHeights"
     }
   },
-  "TEST-h1-d-lineheight-basedd-on-fontSize-toUse": {
+  "TEST-h1-d-lineheight-basedOnMath": {
     "value": "{test-h1-d-lineHeight-math}",
     "type": "lineHeights",
     "description": "test"
+  },
+  "h1-d-TEST-typography-composite": {
+    "value": {
+      "fontFamily": "{Root.--h1-font-family}",
+      "fontWeight": "{Root.--h1-desktop-font-weight}",
+      "fontSize": "{Root.--h1-desktop-font-size}",
+      "lineHeight": "{Root.--TEST-h1-desktop-font-line-height-relative} * 100%"
+    },
+    "type": "typography"
   }
 }
