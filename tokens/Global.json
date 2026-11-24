@@ -85,6 +85,11 @@
       "type": "borderRadius",
       "description": ""
     },
+    "--border-radius-999": {
+      "value": "999px",
+      "type": "borderRadius",
+      "description": ""
+    },
     "--border-width-0": {
       "value": "0px",
       "type": "borderWidth",

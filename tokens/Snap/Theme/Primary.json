@@ -751,7 +751,7 @@
   },
   "Animated Accordion": {
     "--animated-accordion-title-mobile-font-line-height": {
-      "value": "19.2px",
+      "value": "{Root.--h6-mobile-font-line-height}",
       "type": "lineHeights",
       "description": ""
     }

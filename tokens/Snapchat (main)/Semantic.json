@@ -85,6 +85,11 @@
       "type": "borderRadius",
       "description": ""
     },
+    "--border-radius-full": {
+      "value": "{Root.--border-radius-999}",
+      "type": "borderRadius",
+      "description": ""
+    },
     "--border-width-none": {
       "value": "{Root.--border-width-0}",
       "type": "borderWidth",

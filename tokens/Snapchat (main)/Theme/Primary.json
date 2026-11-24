@@ -2330,7 +2330,7 @@
       "description": ""
     },
     "--icon-button-border-radius": {
-      "value": "999px",
+      "value": "{Root.--border-radius-full}",
       "type": "borderRadius",
       "description": ""
     },
@@ -3275,7 +3275,7 @@
       "description": ""
     },
     "--animated-accordion-play-pause-button-border-radius": {
-      "value": "999px",
+      "value": "{Root.--border-radius-full}",
       "type": "borderRadius",
       "description": ""
     },
