@@ -136,7 +136,7 @@
       "description": ""
     },
     "--text-mobile-font-line-height": {
-      "value": "120%",
+      "value": "19.2px",
       "type": "lineHeights",
       "description": ""
     },
@@ -161,12 +161,12 @@
       "description": ""
     },
     "--h1-desktop-font-line-height": {
-      "value": "108%",
+      "value": "112.32px",
       "type": "lineHeights",
       "description": ""
     },
     "--h1-desktop-font-line-height-compact": {
-      "value": "108%",
+      "value": "95.04px",
       "type": "lineHeights",
       "description": ""
     },
@@ -186,7 +186,7 @@
       "description": ""
     },
     "--h1-mobile-font-line-height": {
-      "value": "108%",
+      "value": "60.48px",
       "type": "lineHeights",
       "description": ""
     },
@@ -211,7 +211,7 @@
       "description": ""
     },
     "--h2-desktop-font-line-height": {
-      "value": "108%",
+      "value": "69.12px",
       "type": "lineHeights",
       "description": ""
     },
@@ -236,7 +236,7 @@
       "description": ""
     },
     "--h2-mobile-font-line-height": {
-      "value": "108%",
+      "value": "51.84px",
       "type": "lineHeights",
       "description": ""
     },
@@ -266,7 +266,7 @@
       "description": ""
     },
     "--h3-desktop-font-line-height": {
-      "value": "120%",
+      "value": "38.4px",
       "type": "lineHeights",
       "description": ""
     },
@@ -281,7 +281,7 @@
       "description": ""
     },
     "--h3-mobile-font-line-height": {
-      "value": "120%",
+      "value": "28.8px",
       "type": "lineHeights",
       "description": ""
     },
@@ -301,7 +301,7 @@
       "description": ""
     },
     "--h4-desktop-font-line-height": {
-      "value": "120%",
+      "value": "33.6px",
       "type": "lineHeights",
       "description": ""
     },
@@ -316,7 +316,7 @@
       "description": ""
     },
     "--h4-mobile-font-line-height": {
-      "value": "120%",
+      "value": "26.4px",
       "type": "lineHeights",
       "description": ""
     },
@@ -336,7 +336,7 @@
       "description": ""
     },
     "--h5-desktop-font-line-height": {
-      "value": "120%",
+      "value": "26.4px",
       "type": "lineHeights",
       "description": ""
     },
@@ -356,7 +356,7 @@
       "description": ""
     },
     "--h5-mobile-font-line-height": {
-      "value": "120%",
+      "value": "24px",
       "type": "lineHeights",
       "description": ""
     },
@@ -381,7 +381,7 @@
       "description": ""
     },
     "--h6-desktop-font-line-height": {
-      "value": "120%",
+      "value": "21.6px",
       "type": "lineHeights",
       "description": ""
     },
@@ -401,7 +401,7 @@
       "description": ""
     },
     "--h6-mobile-font-line-height": {
-      "value": "120%",
+      "value": "21.6px",
       "type": "lineHeights",
       "description": ""
     },
@@ -421,7 +421,7 @@
       "description": ""
     },
     "--p1-desktop-font-line-height": {
-      "value": "160%",
+      "value": "32px",
       "type": "lineHeights",
       "description": ""
     },
@@ -436,7 +436,7 @@
       "description": ""
     },
     "--p1-mobile-font-line-height": {
-      "value": "160%",
+      "value": "28.8px",
       "type": "lineHeights",
       "description": ""
     },
@@ -451,7 +451,7 @@
       "description": ""
     },
     "--p2-desktop-font-line-height": {
-      "value": "160%",
+      "value": "25.6px",
       "type": "lineHeights",
       "description": ""
     },
@@ -466,7 +466,7 @@
       "description": ""
     },
     "--p2-mobile-font-line-height": {
-      "value": "160%",
+      "value": "25.6px",
       "type": "lineHeights",
       "description": ""
     },
@@ -481,7 +481,7 @@
       "description": ""
     },
     "--p3-desktop-font-line-height": {
-      "value": "160%",
+      "value": "22.4px",
       "type": "lineHeights",
       "description": ""
     },
@@ -496,7 +496,7 @@
       "description": ""
     },
     "--p3-mobile-font-line-height": {
-      "value": "160%",
+      "value": "22.4px",
       "type": "lineHeights",
       "description": ""
     },
@@ -511,7 +511,7 @@
       "description": ""
     },
     "--p4-desktop-font-line-height": {
-      "value": "160%",
+      "value": "19.2px",
       "type": "lineHeights",
       "description": ""
     },
@@ -521,12 +521,12 @@
       "description": ""
     },
     "--p4-mobile-font-size": {
-      "value": "12x",
+      "value": "12px",
       "type": "fontSizes",
       "description": ""
     },
     "--p4-mobile-font-line-height": {
-      "value": "160%",
+      "value": "19.2px",
       "type": "lineHeights",
       "description": ""
     },
@@ -561,7 +561,7 @@
       "description": ""
     },
     "--action-mobile-font-line-height": {
-      "value": "120%",
+      "value": "19.2px",
       "type": "lineHeights",
       "description": ""
     },
@@ -626,13 +626,18 @@
       "description": ""
     },
     "--stats-font-line-height": {
-      "value": "70%",
+      "value": "84px",
       "type": "lineHeights",
       "description": ""
     },
     "--stats-supplementary-text-font-size": {
       "value": "80px",
       "type": "fontSizes",
+      "description": ""
+    },
+    "--stats-supplementary-text-font-line-height": {
+      "value": "56px",
+      "type": "lineHeights",
       "description": ""
     },
     "--stats-supplementary-text-font-weight": {

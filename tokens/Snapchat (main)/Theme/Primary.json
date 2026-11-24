@@ -943,7 +943,7 @@
       "description": ""
     },
     "--hero-title-increased-font-line-height": {
-      "value": "{Root.--h1-desktop-font-line-height}",
+      "value": "174.96px",
       "type": "lineHeights",
       "description": ""
     },
@@ -2330,7 +2330,7 @@
       "description": ""
     },
     "--icon-button-border-radius": {
-      "value": "50%",
+      "value": "999px",
       "type": "borderRadius",
       "description": ""
     },
@@ -3047,7 +3047,7 @@
       "description": ""
     },
     "--topic-font-line-height": {
-      "value": "88%",
+      "value": "12.32px",
       "type": "lineHeights",
       "description": ""
     },
@@ -3180,7 +3180,7 @@
       "description": ""
     },
     "--animated-accordion-title-mobile-font-line-height": {
-      "value": "120%",
+      "value": "21.6px",
       "type": "lineHeights",
       "description": ""
     },
@@ -3275,7 +3275,7 @@
       "description": ""
     },
     "--animated-accordion-play-pause-button-border-radius": {
-      "value": "50%",
+      "value": "999px",
       "type": "borderRadius",
       "description": ""
     },
@@ -3347,7 +3347,7 @@
       "description": ""
     },
     "--cookie-modal-rich-text-title-desktop-font-line-height": {
-      "value": "{Root.--h3-desktop-font-line-height}",
+      "value": "25.27px",
       "type": "lineHeights",
       "description": ""
     },
@@ -3362,7 +3362,7 @@
       "description": ""
     },
     "--cookie-modal-rich-text-title-mobile-font-line-height": {
-      "value": "{Root.--h3-mobile-font-line-height}",
+      "value": "22.46px",
       "type": "lineHeights",
       "description": ""
     },

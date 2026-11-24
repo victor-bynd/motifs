@@ -202,6 +202,11 @@
       "type": "color",
       "description": ""
     },
+    "--hero-title-increased-font-line-height": {
+      "value": "194.4px",
+      "type": "lineHeights",
+      "description": ""
+    },
     "--hero-title-de-emphasized-color": {
       "value": "{Brand.Neutral.--neutral-v500}",
       "type": "color",
@@ -741,6 +746,13 @@
     "--topic-hover-bg-color": {
       "value": "{Brand.Neutral.--neutral-v150}",
       "type": "color",
+      "description": ""
+    }
+  },
+  "Animated Accordion": {
+    "--animated-accordion-title-mobile-font-line-height": {
+      "value": "19.2px",
+      "type": "lineHeights",
       "description": ""
     }
   },

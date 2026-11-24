@@ -102,12 +102,12 @@
       "description": ""
     },
     "--h1-desktop-font-line-height": {
-      "value": "120%",
+      "value": "67.2px",
       "type": "lineHeights",
       "description": ""
     },
     "--h1-desktop-font-line-height-compact": {
-      "value": "120%",
+      "value": "57.6px",
       "type": "lineHeights",
       "description": ""
     },
@@ -122,7 +122,7 @@
       "description": ""
     },
     "--h1-mobile-font-line-height": {
-      "value": "120%",
+      "value": "38.4px",
       "type": "lineHeights",
       "description": ""
     },
@@ -142,7 +142,7 @@
       "description": ""
     },
     "--h2-desktop-font-line-height": {
-      "value": "120%",
+      "value": "43.2px",
       "type": "lineHeights",
       "description": ""
     },
@@ -162,7 +162,7 @@
       "description": ""
     },
     "--h2-mobile-font-line-height": {
-      "value": "120%",
+      "value": "33.6px",
       "type": "lineHeights",
       "description": ""
     },
@@ -186,6 +186,11 @@
       "type": "fontSizes",
       "description": ""
     },
+    "--h3-desktop-font-line-height": {
+      "value": "33.6px",
+      "type": "lineHeights",
+      "description": ""
+    },
     "--h3-desktop-font-weight": {
       "value": "500",
       "type": "fontWeights",
@@ -204,6 +209,11 @@
     "--h4-desktop-font-size": {
       "value": "22px",
       "type": "fontSizes",
+      "description": ""
+    },
+    "--h4-desktop-font-line-height": {
+      "value": "26.4px",
+      "type": "lineHeights",
       "description": ""
     },
     "--h4-desktop-font-weight": {
@@ -226,6 +236,11 @@
       "type": "fontSizes",
       "description": ""
     },
+    "--h5-desktop-font-line-height": {
+      "value": "24px",
+      "type": "lineHeights",
+      "description": ""
+    },
     "--h5-desktop-font-weight": {
       "value": "500",
       "type": "fontWeights",
@@ -234,6 +249,11 @@
     "--h5-mobile-font-size": {
       "value": "18px",
       "type": "fontSizes",
+      "description": ""
+    },
+    "--h5-mobile-font-line-height": {
+      "value": "21.6px",
+      "type": "lineHeights",
       "description": ""
     },
     "--h5-mobile-font-weight": {
@@ -256,14 +276,14 @@
       "type": "fontSizes",
       "description": ""
     },
+    "--h6-mobile-font-line-height": {
+      "value": "19.2px",
+      "type": "lineHeights",
+      "description": ""
+    },
     "--h6-mobile-font-weight": {
       "value": "500",
       "type": "fontWeights",
-      "description": ""
-    },
-    "--p4-mobile-font-size": {
-      "value": "12px",
-      "type": "fontSizes",
       "description": ""
     },
     "--stats-font-weight": {
@@ -276,33 +296,25 @@
       "type": "fontSizes",
       "description": ""
     },
+    "--stats-font-line-height": {
+      "value": "44.8px",
+      "type": "lineHeights",
+      "description": ""
+    },
     "--stats-supplementary-text-font-size": {
       "value": "40px",
       "type": "fontSizes",
+      "description": ""
+    },
+    "--stats-supplementary-text-font-line-height": {
+      "value": "28px",
+      "type": "lineHeights",
       "description": ""
     },
     "--stats-supplementary-text-font-weight": {
       "value": "600",
       "type": "fontWeights",
       "description": ""
-    },
-    "--TEST-h1-desktop-font-line-height-relative": {
-      "value": "1.2",
-      "type": "lineHeights"
     }
-  },
-  "TEST-h1-d-lineheight-basedOnMath": {
-    "value": "{test-h1-d-lineHeight-math}",
-    "type": "lineHeights",
-    "description": "test"
-  },
-  "h1-d-TEST-typography-composite": {
-    "value": {
-      "fontFamily": "{Root.--h1-font-family}",
-      "fontWeight": "{Root.--h1-desktop-font-weight}",
-      "fontSize": "{Root.--h1-desktop-font-size}",
-      "lineHeight": "{Root.--TEST-h1-desktop-font-line-height-relative} * 100%"
-    },
-    "type": "typography"
   }
 }
